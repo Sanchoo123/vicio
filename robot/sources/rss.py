@@ -10,20 +10,23 @@ from ..text import clean_title, detect_brand, find_date, find_time, slugify, str
 CONTENT = "{http://purl.org/rss/1.0/modules/content/}encoded"
 MEDIA = "{http://search.yahoo.com/mrss/}content"
 IMG_RE = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']", re.I)
+BAD_IMG = re.compile(r"\.svg(?:$|\?)|logo|icon|avatar|gravatar|emoji|pixel|spacer|1x1", re.I)
 DROPLIST_RE = re.compile(r"\bdrop\s?list\b|\bweek\s+\d{1,2}\b|\bthis week'?s drop\b", re.I)
 
 
 def _image(it, *htmls):
+    cands = []
     m = it.find(MEDIA)
     if m is not None and m.get("url"):
-        return m.get("url")
+        cands.append(m.get("url"))
     enc = it.find("enclosure")
     if enc is not None and (enc.get("type") or "").startswith("image") and enc.get("url"):
-        return enc.get("url")
+        cands.append(enc.get("url"))
     for h in htmls:
-        mm = IMG_RE.search(h or "")
-        if mm:
-            return mm.group(1)
+        cands += IMG_RE.findall(h or "")
+    for u in cands:  # primeira foto a sério (sem logótipos nem ícones)
+        if u.startswith("http") and not BAD_IMG.search(u.split("/")[-1]):
+            return u
     return None
 
 

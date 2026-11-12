@@ -48,7 +48,7 @@ class Brands(unittest.TestCase):
 FEED = b"""<?xml version="1.0"?><rss><channel>
 <item><title>Air Jordan 11 "Gamma" Releases December 12th</title><link>https://ex.com/aj11</link>
 <guid>g1</guid><pubDate>Thu, 12 Nov 2026 10:00:00 +0000</pubDate><category>Release Dates</category>
-<description>&lt;p&gt;&lt;img src="https://img.ex/aj11.jpg"/&gt;Out at 10 a.m. ET.&lt;/p&gt;</description></item>
+<description>&lt;p&gt;&lt;img src="https://ex.com/images/kicksfinder-logo.svg"/&gt;&lt;img src="https://img.ex/aj11.jpg"/&gt;Out at 10 a.m. ET.&lt;/p&gt;</description></item>
 <item><title>Where To Buy The Nike Air Bakin</title><link>https://ex.com/bakin</link><guid>g2</guid></item>
 <item><title>Supreme Fall/Winter 2026 Week 13 Droplist</title><link>https://ex.com/sup</link><guid>g3</guid>
 <pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate><description>&lt;img src="https://img.ex/sup.jpg"&gt;</description></item>
