@@ -1,0 +1,42 @@
+name: Robô de drops
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"   # de 30 em 30 minutos (o GitHub pode atrasar alguns minutos)
+  workflow_dispatch: {}       # botão "Run workflow" para correr à mão
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robo
+  cancel-in-progress: false
+
+jobs:
+  correr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Testes
+        run: python -m unittest -q tests.test_robot
+
+      - name: Correr o robô
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python -m robot.run
+
+      - name: Guardar dados novos
+        run: |
+          git config user.name "vicio-robo"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "Sem mudanças"; exit 0; fi
+          git commit -m "robô: atualizar drops"
+          git pull --rebase --autostash
+          git push

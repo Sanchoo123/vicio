@@ -1,0 +1,18 @@
+{
+ "_ajuda": "As tuas escolhas. Na fase 3 o site passa a escrever isto sozinho; para já podes editar aqui no GitHub.",
+ "_niveis": "tudo = notícias + drops + peças novas na loja · drops = só drops com data e peças novas · meus = só lembretes dos drops onde vais entrar · nada = sem avisos",
+ "avisos_por_marca": {
+  "supreme": "tudo",
+  "palace": "tudo",
+  "stussy": "drops",
+  "corteiz": "tudo",
+  "brokenplanet": "tudo",
+  "nike": "meus",
+  "bape": "drops",
+  "represent": "drops"
+ },
+ "_exemplo_vou_entrar": {"palace-2026-11-20": {"pecas": ["Tri-Ferg Puffer", "Tri-Ferg Hood"]}},
+ "vou_entrar": {},
+ "_exemplo_seguir_restock": [{"loja": "represent", "handle": "initial-oversized-hoodie-black"}],
+ "seguir_restock": []
+}

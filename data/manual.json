@@ -1,0 +1,15 @@
+{
+ "_ajuda": "Drops que vês no Instagram ou noutro sítio. Copia o exemplo para dentro de \"drops\" e muda os valores. Data AAAA-MM-DD, hora de Lisboa HH:MM (ou null se for surpresa). estado: confirmado, rumor ou surpresa.",
+ "_exemplo": {
+  "marca": "corteiz",
+  "data": "2026-11-15",
+  "hora": null,
+  "nome": "Alcatraz Drop",
+  "estado": "surpresa",
+  "link": "https://www.instagram.com/corteiz/",
+  "pecas": [
+   {"nome": "Alcatraz Bomber", "preco": 160, "moeda": "GBP", "imagem": null, "link": null}
+  ]
+ },
+ "drops": []
+}

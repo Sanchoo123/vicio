@@ -1,0 +1,848 @@
+<title>Vício Drops</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=Big+Shoulders+Display:wght@700;800;900&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+/* Layout: poster de rua — papel fotocopiado, tinta grossa, um único bloco cobalto para o próximo drop; o teu mês, calendário, cards tipo etiqueta e histórico por baixo */
+:root{
+  --paper:#e8e6e0; --card:#f5f4f0; --muted:#d8d5cc; --ink:#121212; --ink-2:#57554f; --line:#121212;
+  --cobalt:#2340ff; --on-cobalt:#ffffff; --hazard:#ffd60a; --on-hazard:#121212;
+  --display:'Big Shoulders Display','Arial Narrow',Impact,sans-serif;
+  --body:'Archivo',system-ui,-apple-system,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0f0f10; --card:#18181a; --muted:#26262a; --ink:#ece9e2; --ink-2:#a19e96; --line:#ece9e2;
+    --cobalt:#3a55ff; --on-cobalt:#ffffff; --hazard:#ffd60a; --on-hazard:#121212; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0f0f10; --card:#18181a; --muted:#26262a; --ink:#ece9e2; --ink-2:#a19e96; --line:#ece9e2;
+  --cobalt:#3a55ff; --on-cobalt:#ffffff; --hazard:#ffd60a; --on-hazard:#121212; color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--paper); color:var(--ink); font-family:var(--body); font-size:15px; line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px)); padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:0 56px;
+}
+body::after{
+  content:""; position:fixed; inset:0; pointer-events:none; z-index:40; opacity:.07;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+.wrap{max-width:1240px; margin:0 auto; display:flex; flex-direction:column; gap:44px}
+.mono{font-family:var(--mono); text-transform:uppercase; letter-spacing:.06em; font-size:12px}
+button{font:inherit; color:inherit; cursor:pointer}
+:focus-visible{outline:3px solid var(--cobalt); outline-offset:2px}
+h1,h2,h3{margin:0; font-family:var(--display); text-transform:uppercase; text-wrap:balance}
+.grow{flex:1}
+
+/* header */
+.top{display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:12px 24px; padding-block:24px 14px; border-bottom:4px solid var(--line)}
+.logo{font-size:clamp(64px,13vw,148px); font-weight:900; line-height:.8; letter-spacing:-.01em}
+.logo sup{font-family:var(--mono); font-size:14px; font-weight:700; vertical-align:top; margin-left:4px}
+.top-meta{display:flex; flex-direction:column; gap:6px; align-items:flex-end; text-align:right}
+.top-meta b{font-variant-numeric:tabular-nums}
+.sticker{display:inline-block; background:var(--hazard); color:var(--on-hazard); border:2px solid var(--line); padding:3px 8px; transform:rotate(-2deg); font-weight:700}
+
+/* hero */
+.hero{
+  background:var(--cobalt); color:var(--on-cobalt); border:3px solid var(--line); box-shadow:10px 10px 0 var(--line);
+  display:grid; grid-template-columns:minmax(0,1.15fr) minmax(0,1fr); gap:28px; padding:28px; margin-top:-8px;
+}
+.hero-l{display:flex; flex-direction:column; gap:14px; min-width:0}
+.hero-row{display:flex; flex-wrap:wrap; gap:10px; align-items:center}
+.hero-brand{font-size:clamp(56px,10vw,128px); font-weight:900; line-height:.82}
+.hero-name{font-family:var(--display); font-weight:700; font-size:clamp(22px,3vw,32px); text-transform:uppercase; line-height:1; margin:0}
+.count{display:flex; flex-wrap:wrap; gap:4px 18px; font-family:var(--display); font-weight:900; font-size:clamp(48px,8vw,100px); line-height:.9; font-variant-numeric:tabular-nums}
+.count span{display:inline-flex; align-items:baseline; gap:4px}
+.count small{font-family:var(--mono); font-size:14px; font-weight:700}
+.hero-btn{background:var(--paper); color:var(--ink); border:3px solid var(--line); padding:12px 18px; font-family:var(--mono); font-weight:700; text-transform:uppercase; letter-spacing:.06em; box-shadow:4px 4px 0 var(--line); transition:transform .12s, box-shadow .12s}
+.hero-btn:hover{transform:translate(-2px,-2px); box-shadow:6px 6px 0 var(--line)}
+.hero-btn.alt{background:var(--hazard); color:var(--on-hazard)}
+.hero-r{display:grid; grid-template-columns:1fr 1fr; gap:12px; align-content:start}
+.hero-r .tile{background:var(--paper); border:3px solid var(--line)}
+.hero .badge{background:var(--paper); color:var(--ink); border-color:var(--line)}
+
+/* badges */
+.badge{font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; padding:3px 7px; border:2px solid var(--line); white-space:nowrap}
+.st-confirmado{background:var(--ink); color:var(--paper)}
+.st-rumor{border-style:dashed; background:transparent}
+.st-surpresa{background:var(--hazard); color:var(--on-hazard); transform:rotate(-2deg)}
+.hero .st-surpresa{background:var(--hazard); color:var(--on-hazard)}
+.r-got{background:var(--cobalt); color:var(--on-cobalt); border-color:var(--cobalt)}
+.r-sold{background:var(--hazard); color:var(--on-hazard)}
+.r-skip{border-style:dashed; color:var(--ink-2); border-color:var(--ink-2)}
+.m-tag{font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:.06em}
+
+/* product art */
+.tile{position:relative; aspect-ratio:1; max-width:100%; background:var(--muted); display:grid; place-items:center; overflow:hidden}
+.tile svg{width:86%; height:86%}
+.tile .o{stroke:var(--line); stroke-width:2.2; stroke-linejoin:round; stroke-linecap:round}
+.tile .q{fill:var(--ink); font-family:var(--display); font-weight:900}
+
+/* section heads */
+.sec-head{display:flex; flex-wrap:wrap; align-items:center; gap:12px 16px; margin-bottom:16px}
+.sec-head h2{font-size:clamp(36px,6vw,64px); font-weight:900; line-height:.85}
+.sq{width:44px; height:44px; border:2px solid var(--line); background:var(--card); font-family:var(--mono); font-weight:700; font-size:18px}
+.sq:hover{background:var(--ink); color:var(--paper)}
+.ghost{border:2px solid var(--line); background:transparent; padding:8px 12px}
+.ghost:hover{background:var(--muted)}
+.linkish{border:0; background:none; padding:0; color:var(--cobalt); text-decoration:underline; font:inherit; letter-spacing:inherit; text-transform:inherit}
+
+/* o teu mês */
+.panel{border:2px solid var(--line); background:var(--card); padding:16px; display:flex; flex-direction:column; gap:14px}
+.bar{position:relative; height:28px; border:2px solid var(--line); display:flex; background:repeating-linear-gradient(-45deg,var(--muted) 0 6px,transparent 6px 12px)}
+.bar .spent{background:var(--ink)}
+.bar .mira{background:var(--cobalt)}
+.bar .mark{position:absolute; top:-6px; bottom:-6px; width:4px; margin-left:-2px; background:var(--hazard); box-shadow:0 0 0 2px var(--line)}
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:14px}
+.stat{display:flex; flex-direction:column; gap:4px; min-width:0}
+.stat b{font-family:var(--display); font-weight:900; font-size:clamp(32px,4.4vw,48px); line-height:1; font-variant-numeric:tabular-nums}
+.stat.warn b{background:var(--hazard); color:var(--on-hazard); align-self:flex-start; padding:0 6px}
+.key{display:inline-block; width:10px; height:10px; border:1.5px solid var(--line); margin-right:6px; vertical-align:-1px}
+.key.spent{background:var(--ink)} .key.mira{background:var(--cobalt)}
+
+/* filters */
+.filters{display:flex; flex-wrap:wrap; gap:8px}
+.f{display:inline-flex; align-items:center; gap:8px; border:2px solid var(--line); background:transparent; padding:8px 12px; font-family:var(--mono); font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.06em}
+.f i{width:10px; height:10px; background:var(--b); border:1.5px solid var(--line)}
+.f[aria-pressed="true"]{background:var(--ink); color:var(--paper)}
+.f:hover{box-shadow:3px 3px 0 var(--line)}
+.f.mine{border-style:dashed}
+.f.mine[aria-pressed="true"]{background:var(--cobalt); color:var(--on-cobalt); border-style:solid}
+
+/* calendar */
+.cal{display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); border-top:2px solid var(--line); border-left:2px solid var(--line)}
+.wd{background:var(--ink); color:var(--paper); padding:6px 8px; border-right:2px solid var(--line); border-bottom:2px solid var(--line)}
+.day{min-height:122px; padding:6px; border:0; border-right:2px solid var(--line); border-bottom:2px solid var(--line); background:var(--card); text-align:left; display:flex; flex-direction:column; gap:5px; min-width:0}
+.day:disabled{cursor:default}
+.day.blank{background:repeating-linear-gradient(-45deg,var(--muted) 0 6px,transparent 6px 14px)}
+.day.has:hover{background:var(--muted)}
+.day.today{background:var(--hazard); color:var(--on-hazard)}
+.day.sel{box-shadow:inset 0 0 0 3px var(--cobalt)}
+.dn{font-family:var(--display); font-weight:800; font-size:24px; line-height:1}
+.today .dn::after{content:" HOJE"; font-family:var(--mono); font-size:10px; font-weight:700; letter-spacing:.06em; vertical-align:middle}
+.chip{display:flex; align-items:center; gap:6px; border:2px solid var(--line); background:var(--paper); color:var(--ink); padding:2px 6px 2px 2px; font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:.04em; min-width:0}
+.chip .tile{width:30px; flex:none}
+.chip span:last-child{overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.chip.past{opacity:.45}
+.chip.in{background:var(--cobalt); color:var(--on-cobalt)}
+.chip.out{opacity:.35}
+.more{font-family:var(--mono); font-size:11px; font-weight:700}
+.dots{display:none; gap:3px; flex-wrap:wrap}
+.dots i{width:9px; height:9px; background:var(--b); border:1.5px solid var(--line)}
+.dots i.in{outline:2px solid var(--cobalt); outline-offset:1px}
+
+/* cards */
+.cards{display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:18px}
+.card{position:relative; background:var(--card); border:2px solid var(--line); padding:22px 14px 14px; display:flex; flex-direction:column; gap:12px; cursor:pointer; transition:transform .12s, box-shadow .12s; min-width:0}
+.card::before{content:""; position:absolute; top:7px; left:50%; width:10px; height:10px; margin-left:-5px; border:2px solid var(--line); border-radius:50%; background:var(--paper)}
+.card:hover{transform:translate(-3px,-3px); box-shadow:6px 6px 0 var(--line)}
+.card.past{opacity:.55}
+.card.out{opacity:.45}
+.card-top{display:flex; justify-content:space-between; align-items:center; gap:8px}
+.brand{display:inline-flex; align-items:center; gap:7px; font-family:var(--mono); font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.06em}
+.brand i{width:12px; height:12px; background:var(--b); border:1.5px solid var(--line); flex:none}
+.strip{position:relative; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px}
+.stamp{position:absolute; right:6px; bottom:-10px; transform:rotate(-7deg); border:3px solid currentColor; background:var(--card); padding:1px 8px; font-family:var(--display); font-weight:900; font-size:22px; line-height:1.1; text-transform:uppercase; pointer-events:none}
+.stamp.in{color:var(--cobalt)} .stamp.maybe{color:var(--ink); border-style:dashed} .stamp.out{color:var(--ink-2)}
+.card h3{font-size:28px; font-weight:800; line-height:.92}
+.meta{display:flex; justify-content:space-between; gap:8px; color:var(--ink-2)}
+.foot{border-top:2px dashed var(--line); padding-top:9px; display:flex; justify-content:space-between; gap:8px; font-weight:700}
+.foot.live{background:var(--hazard); color:var(--on-hazard); border:2px solid var(--line); padding:6px 8px}
+.foot .in{color:var(--cobalt)}
+.ask{background:var(--hazard); color:var(--on-hazard); padding:0 6px}
+.empty{border:2px dashed var(--line); padding:24px; text-align:center}
+
+/* histórico */
+.pending{display:flex; flex-wrap:wrap; gap:8px}
+.ask-btn{background:var(--hazard); color:var(--on-hazard); border:2px solid var(--line); padding:8px 12px; font-weight:700}
+.hlist{display:flex; flex-direction:column}
+.hrow{display:grid; grid-template-columns:110px minmax(0,1fr) auto 72px; gap:12px; align-items:center; padding:12px 0; border:0; border-bottom:2px dashed var(--line); background:transparent; text-align:left; width:100%}
+.hrow:hover{background:var(--muted)}
+.hname{display:flex; flex-wrap:wrap; gap:4px 12px; align-items:center; min-width:0}
+.hval{font-family:var(--display); font-weight:800; font-size:24px; text-align:right; font-variant-numeric:tabular-nums}
+
+/* sheet */
+.sheet-bg{position:fixed; inset:0; z-index:50; background:rgba(0,0,0,.6); display:flex; align-items:center; justify-content:center; padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.sheet{background:var(--paper); color:var(--ink); border:3px solid var(--line); box-shadow:10px 10px 0 var(--cobalt); width:min(900px,100%); max-height:100%; overflow:auto; padding:22px; display:flex; flex-direction:column; gap:16px}
+.sheet-top{display:flex; justify-content:space-between; align-items:center; gap:12px}
+.sheet h2{font-size:clamp(40px,7vw,76px); font-weight:900; line-height:.85}
+.sheet-info{display:flex; flex-wrap:wrap; gap:8px; align-items:center}
+.sheet-cd{font-family:var(--display); font-weight:900; font-size:clamp(30px,5vw,46px); line-height:1; font-variant-numeric:tabular-nums}
+.decide{display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center; border:2px solid var(--line); background:var(--card); padding:12px}
+.seg{display:inline-flex; border:2px solid var(--line); max-width:100%}
+.seg button{border:0; border-right:2px solid var(--line); background:var(--card); color:var(--ink); padding:10px 12px; font-family:var(--mono); font-weight:700; font-size:12px; text-transform:uppercase; letter-spacing:.06em}
+.seg button:last-child{border-right:0}
+.seg button:hover{background:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--ink); color:var(--paper)}
+.seg button.in[aria-pressed="true"]{background:var(--cobalt); color:var(--on-cobalt)}
+.hero .seg button.in[aria-pressed="true"]{background:var(--hazard); color:var(--on-hazard)}
+.prods{display:grid; grid-template-columns:repeat(auto-fill,minmax(170px,1fr)); gap:16px}
+.prod{margin:0; display:flex; flex-direction:column; gap:8px; min-width:0}
+.prod .tile{border:2px solid var(--line)}
+.prod.wanted .tile{box-shadow:inset 0 0 0 3px var(--cobalt)}
+.prio{position:absolute; top:6px; left:6px; background:var(--cobalt); color:var(--on-cobalt); border:2px solid var(--line); font-family:var(--display); font-weight:900; font-size:20px; line-height:1.1; padding:0 7px}
+.prod figcaption{display:flex; flex-direction:column; gap:2px}
+.prod b{font-weight:800; line-height:1.15}
+.prod .c{color:var(--ink-2); font-size:13px}
+.prod .p{font-family:var(--display); font-weight:800; font-size:26px; line-height:1.1; font-variant-numeric:tabular-nums}
+.landed{font-family:var(--mono); font-size:11px; font-weight:700; color:var(--ink-2)}
+.size{font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.04em}
+.prod-btns{display:flex; flex-wrap:wrap; gap:6px}
+.want{border:2px solid var(--line); background:transparent; color:var(--ink); padding:6px 10px; font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.06em}
+.want:hover{background:var(--muted)}
+.want[aria-pressed="true"]{background:var(--cobalt); color:var(--on-cobalt); border-color:var(--cobalt)}
+.tot{border-top:2px dashed var(--line); padding-top:10px}
+.breakdown{display:grid; grid-template-columns:auto auto; justify-content:start; gap:2px 18px; color:var(--ink-2); font-variant-numeric:tabular-nums}
+.breakdown span:nth-child(even){text-align:right}
+.breakdown .sum{color:var(--ink); font-weight:700; border-top:2px solid var(--line); padding-top:2px}
+.warn-line{background:var(--hazard); color:var(--on-hazard); padding:4px 8px; font-weight:700}
+.actions{display:flex; flex-wrap:wrap; gap:10px}
+.btn{border:3px solid var(--line); padding:12px 16px; font-family:var(--mono); font-weight:700; font-size:13px; text-transform:uppercase; letter-spacing:.06em; background:var(--card); color:var(--ink); text-decoration:none; display:inline-flex; align-items:center; gap:8px}
+.btn.on{background:var(--cobalt); color:var(--on-cobalt)}
+.btn:hover{box-shadow:4px 4px 0 var(--line)}
+.note{color:var(--ink-2); font-size:13px; margin:0; max-width:65ch}
+
+/* definições */
+fieldset{border:2px solid var(--line); padding:14px; margin:0; display:flex; flex-direction:column; gap:10px; min-width:0}
+legend{font-family:var(--mono); font-weight:700; text-transform:uppercase; letter-spacing:.06em; font-size:12px; padding:0 6px}
+.srow{display:grid; grid-template-columns:minmax(0,1fr) 100px auto; gap:10px; align-items:center}
+.nrow{display:grid; grid-template-columns:minmax(0,1fr) 110px; gap:10px; align-items:center}
+input[type="text"],input[type="number"]{font-family:var(--mono); font-size:14px; padding:8px; border:2px solid var(--line); background:var(--card); color:var(--ink); width:100%; border-radius:0}
+.chk{display:flex; gap:6px; align-items:center; font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.04em; white-space:nowrap}
+.chk input{width:18px; height:18px; accent-color:var(--cobalt)}
+
+/* modo drop: sempre preto, igual nos dois temas */
+.mode{
+  --paper:#0b0b0c; --card:#161618; --muted:#26262a; --ink:#f1eee7; --ink-2:#a19e96; --line:#f1eee7;
+  position:fixed; inset:0; z-index:60; overflow:auto; background:var(--paper); color:var(--ink); color-scheme:dark;
+  padding:max(20px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(28px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));
+}
+.mode-in{max-width:1100px; margin:0 auto; display:flex; flex-direction:column; gap:18px}
+.mode h2{font-size:clamp(40px,8vw,96px); font-weight:900; line-height:.85}
+.mode .count{font-size:clamp(56px,14vw,170px); color:var(--hazard)}
+.mode-grid{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.4fr); gap:28px}
+.col{display:flex; flex-direction:column; gap:10px; min-width:0}
+.col-head{display:flex; justify-content:space-between; gap:8px; border-bottom:2px solid var(--line); padding-bottom:6px}
+.ck{display:flex; align-items:center; gap:12px; width:100%; text-align:left; border:2px solid var(--line); background:transparent; color:var(--ink); padding:12px; font-weight:600}
+.ck::before{content:""; width:22px; height:22px; flex:none; border:2px solid var(--line); display:grid; place-items:center; font-family:var(--mono); font-weight:700; font-size:14px}
+.ck[aria-pressed="true"]{color:var(--ink-2)}
+.ck[aria-pressed="true"]::before{content:"✓"; background:var(--hazard); color:var(--on-hazard); border-color:var(--hazard)}
+.pick{display:grid; grid-template-columns:auto 64px minmax(0,1fr) auto; gap:12px; align-items:center; border:2px solid var(--line); padding:10px; background:var(--card)}
+.pick .n{font-family:var(--display); font-weight:900; font-size:40px; line-height:1; color:var(--hazard); min-width:26px}
+.pinfo{display:flex; flex-direction:column; min-width:0}
+.pinfo .c{color:var(--ink-2); font-size:13px}
+.go{background:var(--hazard); color:var(--on-hazard); border:2px solid var(--hazard); padding:10px 12px; font-family:var(--mono); font-weight:700; font-size:12px; text-transform:uppercase; letter-spacing:.06em; text-decoration:none; white-space:nowrap; text-align:center}
+
+footer{border-top:4px solid var(--line); padding-top:16px; display:flex; flex-wrap:wrap; gap:10px 24px; justify-content:space-between; color:var(--ink-2)}
+footer b{color:var(--ink)}
+
+@media (max-width:760px){
+  .hero{grid-template-columns:1fr; padding:20px; box-shadow:6px 6px 0 var(--line)}
+  .top-meta{align-items:flex-start; text-align:left}
+  .day{min-height:58px; padding:4px; gap:4px}
+  .dn{font-size:18px}
+  .today .dn::after{content:""}
+  .chip,.more{display:none}
+  .dots{display:flex}
+  .wd{padding:4px; font-size:10px; letter-spacing:.02em}
+  .sheet-bg{align-items:flex-end; padding-inline:0; padding-bottom:0}
+  .sheet{box-shadow:none; border-width:3px 0 0; max-height:92%}
+  .prods{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hrow{grid-template-columns:minmax(0,1fr) auto; gap:6px 12px}
+  .hrow .hval{grid-column:2; grid-row:2}
+  .mode-grid{grid-template-columns:1fr}
+  .pick{grid-template-columns:auto 56px minmax(0,1fr)}
+  .go{grid-column:1/-1}
+  .srow{grid-template-columns:minmax(0,1fr) 80px}
+  .srow .chk{grid-column:1/-1}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important; scroll-behavior:auto!important}}
+</style>
+
+<main class="wrap">
+  <header class="top">
+    <h1 class="logo">Vício<sup>®</sup></h1>
+    <div class="top-meta mono">
+      <span>Calendário de drops · streetwear</span>
+      <span>Lisboa <b id="clock">--:--:--</b></span>
+      <span>Na mira <b id="mineCount">0 drops</b></span>
+      <span class="sticker">Avisos no iPhone · fase 2</span>
+    </div>
+  </header>
+
+  <section class="hero" id="hero" aria-live="polite"></section>
+
+  <section aria-labelledby="mTitle">
+    <div class="sec-head"><h2 id="mTitle">O teu mês</h2><span class="grow"></span><button class="ghost mono" data-cfg>Definições</button></div>
+    <div class="panel" id="budget"></div>
+  </section>
+
+  <section aria-labelledby="fTitle">
+    <div class="sec-head"><h2 id="fTitle">Marcas</h2><span class="mono" style="color:var(--ink-2)">Toca para filtrar</span></div>
+    <div class="filters" id="filters"></div>
+  </section>
+
+  <section aria-labelledby="monthTitle">
+    <div class="sec-head">
+      <h2 id="monthTitle">Novembro 2026</h2>
+      <span class="mono grow" id="monthCount"></span>
+      <button class="sq" id="prev" aria-label="Mês anterior">←</button>
+      <button class="sq" id="next" aria-label="Mês seguinte">→</button>
+    </div>
+    <div class="cal" id="cal"></div>
+  </section>
+
+  <section aria-labelledby="listTitle" id="list">
+    <div class="sec-head">
+      <h2 id="listTitle">Drops</h2>
+      <span class="grow"></span>
+      <button class="ghost mono" id="clearDay" hidden>× Ver o mês todo</button>
+    </div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section aria-labelledby="hTitle">
+    <div class="sec-head"><h2 id="hTitle">Histórico</h2></div>
+    <div class="panel" id="hist"></div>
+  </section>
+
+  <footer class="mono">
+    <span><b>Dados de exemplo.</b> Os drops e produtos aqui são fictícios, para mostrar o visual.</span>
+    <span>Fase 1 visual · Fase 2 robô + avisos · Fase 3 online no GitHub</span>
+  </footer>
+</main>
+
+<div class="sheet-bg" id="sheet" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" id="sheetBody"></div>
+</div>
+<div class="mode" id="mode" hidden>
+  <div class="mode-in" role="dialog" aria-modal="true" aria-labelledby="modeTitle" id="modeBody"></div>
+</div>
+
+<script>
+const BRANDS = {
+  supreme:      {name:'Supreme',       short:'SUPREME', b:'#d7262e', site:'https://eu.supreme.com'},
+  palace:       {name:'Palace',        short:'PALACE',  b:'#3b7be0', site:'https://www.palaceskateboards.com'},
+  stussy:       {name:'Stüssy',        short:'STÜSSY',  b:'#2fa36f', site:'https://eu.stussy.com'},
+  corteiz:      {name:'Corteiz',       short:'CRTZ',    b:'#9a9a9a', site:'https://www.crtz.xyz'},
+  brokenplanet: {name:'Broken Planet', short:'BPM',     b:'#9d5cd6', site:'https://www.brokenplanet.com'},
+  nike:         {name:'Nike',          short:'NIKE',    b:'#f08a24', site:'https://www.nike.com/pt/launch'},
+  bape:         {name:'BAPE',          short:'BAPE',    b:'#62ad3d', site:'https://eu.bape.com'},
+  represent:    {name:'Represent',     short:'REP',     b:'#c9a95c', site:'https://representclo.com'},
+};
+const P = (t,n,c,p,c1,c2) => ({t,n,c,p,c1,c2});
+// Dados de exemplo. Horas em hora de Lisboa (Out–Dez = UTC+0 a partir de 25 Out; antes disso os exemplos usam a mesma conta).
+const DROPS = [
+  {id:'sup-w8', b:'supreme', name:'FW26 · Semana 8', d:'2026-10-15', t:'10:00', st:'confirmado', m:'FCFS', pr:[
+    P('hoodie','Satin Applique Hooded Sweatshirt','Black',178,'#1a1a1a','#d7262e'), P('cap','Kevlar Camp Cap','Olive',58,'#5d6b3a','#f2f2f2'), P('tee','Motion Tee','White',48,'#f6f6f2','#d7262e')]},
+  {id:'pal-1016', b:'palace', name:'Inverno 26 · Semana 2', d:'2026-10-16', t:'11:00', st:'confirmado', m:'FCFS', pr:[
+    P('jacket','Gore-Tex Paclite Jacket','Orange',290,'#e0661f','#1a1a1a'), P('hoodie','Pal Hood','Black',130,'#1a1a1a','#3b7be0'), P('cap','Shell 6-Panel','Navy',52,'#1f2c52','#f2f2f2')]},
+  {id:'crtz-1025', b:'corteiz', name:'Da Rules Drop', d:'2026-10-25', t:null, st:'surpresa', m:'FCFS', pr:[
+    P('pants','Da Rules Cargo','Black',110,'#1a1a1a','#d8d8d8'), P('tee','Alcatraz Tee','White',45,'#f6f6f2','#1a1a1a')]},
+  {id:'nike-1031', b:'nike', name:'Air Max 95 OG', d:'2026-10-31', t:'08:00', st:'confirmado', m:'SORTEIO SNKRS', pr:[
+    P('sneaker','Air Max 95 OG','Neon Yellow',190,'#5a5d61','#d4e01a')]},
+  {id:'sup-w12', b:'supreme', name:'FW26 · Semana 12', d:'2026-11-12', t:'10:00', st:'confirmado', m:'FCFS', pr:[
+    P('hoodie','Arc Hooded Sweatshirt','Heather Grey',178,'#b9b7b2','#d7262e'), P('jacket','GORE-TEX Shell Jacket','Black',398,'#1a1a1a','#d7262e'),
+    P('cap','Washed Camp Cap','Royal',58,'#2547b8','#f2f2f2'), P('tee','Photo Tee','White',48,'#f6f6f2','#1a1a1a'), P('beanie','Overdyed Beanie','Red',44,'#d7262e','#f2f2f2')]},
+  {id:'pal-1113', b:'palace', name:'Inverno 26 · Semana 6', d:'2026-11-13', t:'11:00', st:'confirmado', m:'FCFS', pr:[
+    P('jacket','Tri-Ferg Puffer','Black',360,'#1a1a1a','#e9e9e9'), P('hoodie','Tri-Ferg Hood','Navy',140,'#1f2c52','#f2f2f2'),
+    P('pants','Shell Track Pant','Forest',130,'#2e5a3a','#f2f2f2'), P('tee','Basically A Tee','White',50,'#f6f6f2','#1a1a1a')]},
+  {id:'bape-1114', b:'bape', name:'ABC Camo Inverno', d:'2026-11-14', t:'10:00', st:'confirmado', m:'FCFS', pr:[
+    P('hoodie','Shark Full Zip Hoodie','Green Camo',395,'#6f8f4a','#2c3b22'), P('tee','College Tee','Black',99,'#1a1a1a','#6f8f4a'), P('cap','Ape Head Cap','Navy',89,'#1f2c52','#6f8f4a')]},
+  {id:'crtz-1115', b:'corteiz', name:'Alcatraz Drop', d:'2026-11-15', t:null, st:'surpresa', m:'FCFS', pr:[
+    P('jacket','Alcatraz Bomber','Black',160,'#1a1a1a','#d8d8d8'), P('pants','Guerillaz Cargo','Khaki',110,'#a69468','#1a1a1a'), P('mystery','Por revelar','Revelado no dia',null)]},
+  {id:'rep-1118', b:'represent', name:'Owners Club Inverno', d:'2026-11-18', t:'18:00', st:'confirmado', m:'FCFS', pr:[
+    P('hoodie','Owners Club Hoodie','Jet Black',175,'#1a1a1a','#c9b98f'), P('pants','Owners Club Sweatpant','Ash Grey',150,'#8e8c88','#1a1a1a'), P('tee','Owners Club Tee','Flat White',75,'#ece7db','#1a1a1a')]},
+  {id:'sup-w13', b:'supreme', name:'FW26 · Semana 13', d:'2026-11-19', t:'10:00', st:'confirmado', m:'FCFS', pr:[
+    P('jacket','Leather Varsity Jacket','Brown',698,'#5a3a24','#efe6d2'), P('bag','Waist Bag','Black',98,'#1a1a1a','#d7262e'),
+    P('tee','Tag Tee','Heather Grey',48,'#b9b7b2','#d7262e'), P('beanie','Cuff Beanie','Orange',48,'#e0661f','#1a1a1a')]},
+  {id:'pal-1120', b:'palace', name:'Inverno 26 · Semana 7', d:'2026-11-20', t:'11:00', st:'confirmado', m:'FCFS', pr:[
+    P('hoodie','P-Lab Hood','Grey Marl',140,'#a9a7a2','#1a1a1a'), P('cap','6-Panel','Black',52,'#1a1a1a','#e9e9e9'), P('pants','Denim Baggy','Stonewash',150,'#6f87a8','#3b4a63')]},
+  {id:'stu-1120', b:'stussy', name:'Holiday 26', d:'2026-11-20', t:'17:00', st:'confirmado', m:'FCFS', pr:[
+    P('jacket','Sherpa Work Jacket','Natural',260,'#d9cdb0','#5a3a24'), P('beanie','Basic Cuff Beanie','Black',45,'#1a1a1a','#d9cdb0'),
+    P('tee','Holiday Dice Tee','Pigment Black',55,'#2a2a2a','#e8e1cf'), P('hoodie','Stock Logo Hood','Ash',150,'#c4c2bd','#1a1a1a')]},
+  {id:'nike-1121', b:'nike', name:"Air Max 1 '86 OG", d:'2026-11-21', t:'08:00', st:'confirmado', m:'SORTEIO SNKRS', pr:[
+    P('sneaker',"Air Max 1 '86 OG",'Sail / University Red',160,'#efe8d8','#d7262e'), P('sneaker',"Air Max 1 '86 OG",'Sail / Royal',160,'#efe8d8','#2547b8')]},
+  {id:'sup-w14', b:'supreme', name:'FW26 · Semana 14', d:'2026-11-26', t:'10:00', st:'confirmado', m:'FCFS', pr:[
+    P('jacket','Down Puffer Jacket','Silver',498,'#c7c9cc','#1a1a1a'), P('hoodie','Small Logo Zip Up','Black',168,'#1a1a1a','#d7262e'), P('cap','S Logo New Era','Navy',58,'#1f2c52','#d7262e')]},
+  {id:'pal-1127', b:'palace', name:'Inverno 26 · Semana 8', d:'2026-11-27', t:'11:00', st:'rumor', m:'FCFS', pr:[
+    P('jacket','Quilted Work Jacket','Tan',220,'#b48a55','#1a1a1a'), P('beanie','Pom Beanie','Black',48,'#1a1a1a','#3b7be0')]},
+  {id:'bp-1127', b:'brokenplanet', name:'Black Friday Capsule', d:'2026-11-27', t:'18:00', st:'rumor', m:'FCFS', pr:[
+    P('hoodie','Basics Hoodie','Midnight Navy',130,'#1f2c52','#e9e3ff'), P('pants','Basics Sweatpants','Midnight Navy',110,'#1f2c52','#e9e3ff'), P('mystery','Por revelar','Revelado no dia',null)]},
+  {id:'nike-1128', b:'nike', name:'Air Jordan 4 Retro', d:'2026-11-28', t:'08:00', st:'rumor', m:'SORTEIO SNKRS', pr:[
+    P('sneaker','Air Jordan 4 Retro','White / Cement',210,'#f2f2f0','#8e8c88')]},
+  {id:'sup-w15', b:'supreme', name:'FW26 · Semana 15', d:'2026-12-03', t:'10:00', st:'rumor', m:'FCFS', pr:[P('mystery','Por revelar','Lista sai na véspera',null)]},
+  {id:'bape-1205', b:'bape', name:'Xmas Capsule', d:'2026-12-05', t:'10:00', st:'rumor', m:'FCFS', pr:[P('tee','Xmas Ape Tee','Red',99,'#c0262e','#f2f2f2'), P('mystery','Por revelar','Revelado no dia',null)]},
+  {id:'crtz-1206', b:'corteiz', name:'Bolo Drop', d:'2026-12-06', t:null, st:'surpresa', m:'FCFS', pr:[P('mystery','Por revelar','Revelado no dia',null)]},
+  {id:'rep-1210', b:'represent', name:'247 Training', d:'2026-12-10', t:'18:00', st:'rumor', m:'FCFS', pr:[P('pants','247 Track Pant','Black',140,'#1a1a1a','#c9b98f'), P('tee','247 Oversized Tee','Black',70,'#1a1a1a','#c9b98f')]},
+  {id:'nike-1212', b:'nike', name:'Air Jordan 11 Retro', d:'2026-12-12', t:'08:00', st:'rumor', m:'SORTEIO SNKRS', pr:[P('sneaker','Air Jordan 11 Retro','Black / Gamma',230,'#1a1a1a','#3d6bd1')]},
+];
+
+const WD = ['DOM','SEG','TER','QUA','QUI','SEX','SÁB'];
+const MO = ['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ'];
+const MONTHS = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+const STLABEL = {confirmado:'Confirmado', rumor:'Rumor', surpresa:'Drop surpresa'};
+const INT = {in:'Vou entrar', maybe:'Talvez', out:'Passo'};
+const RES = {got:'Consegui', sold:'Esgotou', skip:'Não tentei'};
+const RES_STAMP = {got:'in', sold:'maybe', skip:'out'};
+const CHECK_FCFS = ['Sessão iniciada na loja','Morada e cartão guardados','Apple Pay pronto','Tamanhos confirmados','Rede estável (Wi-Fi ou 4G)'];
+const CHECK_DRAW = ['Inscrição no sorteio feita','Tamanho escolhido na inscrição','Cartão válido na conta','Notificações da app ligadas'];
+const LIVE_MS = 2*3600e3;
+const $ = s => document.querySelector(s);
+const pad = n => String(n).padStart(2,'0');
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const eur = n => '€' + Math.round(n);
+
+DROPS.forEach(x => x.ts = Date.parse(`${x.d}T${x.t || '00:00'}:00Z`));
+DROPS.sort((a,b) => a.ts - b.ts);
+const byId = id => DROPS.find(d => d.id === id);
+
+const keyFmt = new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Lisbon',year:'numeric',month:'2-digit',day:'2-digit'});
+const clockFmt = new Intl.DateTimeFormat('pt-PT',{timeZone:'Europe/Lisbon',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false});
+const todayKey = () => keyFmt.format(new Date());
+
+function load(k, d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } }
+function save(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+
+/* estado do utilizador (guardado neste browser) */
+const DEF_UK = {palace:true, corteiz:true, brokenplanet:true, represent:true};
+const cfg = Object.assign({budget:400, ship:15, fee:5, duty:12, sizes:{}, uk:{...DEF_UK}}, load('vicio.cfg', {}));
+const active = new Set(load('vicio.brands', []));
+const interest = load('vicio.int', {});            // id -> in | maybe | out
+const results = load('vicio.res', {});             // id -> {r: got|sold|skip, bought:[i]}
+const checks = load('vicio.chk', {});              // id -> [bool]
+let onlyMine = load('vicio.mine', false);
+let wants = load('vicio.want2', null);             // id -> [índices por prioridade]
+if(!wants){ wants = {}; const old = load('vicio.want', []); if(Array.isArray(old)) old.forEach(k => { const [id,i] = k.split(':'); (wants[id] = wants[id] || []).push(+i); }); }
+const persist = () => { save('vicio.cfg', cfg); save('vicio.int', interest); save('vicio.res', results); save('vicio.chk', checks); save('vicio.want2', wants); save('vicio.mine', onlyMine); save('vicio.brands', [...active]); };
+
+let selDay = null, view;
+
+function parts(d){ const [y,m,dd] = d.split('-').map(Number); return {y, m:m-1, dd, dow:new Date(Date.UTC(y,m-1,dd)).getUTCDay()}; }
+function dayTxt(d){ const p = parts(d); return `${WD[p.dow]} ${p.dd} ${MO[p.m]}`; }
+function whenTxt(x){ return `${dayTxt(x.d)} · ${x.t ? x.t + ' Lisboa' : 'hora surpresa'}`; }
+function state(x){
+  const now = Date.now(), tk = todayKey();
+  if(!x.t) return x.d < tk ? 'past' : x.d === tk ? 'live' : 'soon';
+  return now >= x.ts + LIVE_MS ? 'past' : now >= x.ts ? 'live' : 'soon';
+}
+function rel(x){
+  const s = state(x);
+  if(s === 'past') return 'Dropou';
+  if(s === 'live') return x.t ? 'A dropar agora' : 'Hoje · hora surpresa';
+  const ms = x.ts - Date.now(), d = Math.floor(ms/864e5), h = Math.floor(ms%864e5/36e5), m = Math.floor(ms%36e5/6e4);
+  return 'Faltam ' + (d ? `${d}d ${pad(h)}h` : `${h}h ${pad(m)}m`);
+}
+const visible = () => DROPS.filter(x => (!active.size || active.has(x.b)) && (!onlyMine || interest[x.id] === 'in' || interest[x.id] === 'maybe'));
+const wantList = id => wants[id] || [];
+
+/* custo real: marcas que enviam do Reino Unido */
+function landed(x, idxs){
+  const items = idxs.map(i => x.pr[i]).filter(p => p && p.p);
+  const sub = items.reduce((s,p) => s + p.p, 0);
+  if(!sub || !cfg.uk[x.b]) return {sub, total:sub, uk:false};
+  const ship = +cfg.ship || 0, fee = +cfg.fee || 0, low = sub <= 150;
+  // até €150: €3 por tipo de peça (regra UE desde 1 jul 2026); acima: % de direitos sobre peças + portes
+  const duty = low ? 3 * new Set(items.map(p => p.t)).size : (sub + ship) * (+cfg.duty || 0) / 100;
+  const vat = 0.23 * (sub + ship + duty);
+  return {sub, ship, duty, vat, fee, low, total: sub + ship + duty + vat + fee, uk:true};
+}
+function monthFigures(prefix){
+  let spent = 0, mira = 0;
+  DROPS.filter(x => x.d.startsWith(prefix)).forEach(x => {
+    const r = results[x.id];
+    if(r && r.r === 'got') spent += landed(x, r.bought || []).total;
+    else if(!r && state(x) !== 'past' && interest[x.id] !== 'out') mira += landed(x, wantList(x.id)).total;
+  });
+  return {spent, mira};
+}
+
+function art(p){
+  const {t, c1, c2} = p;
+  let g = '';
+  switch(t){
+    case 'tee': g = `<path class="o" fill="${c1}" d="M32 20 L43 15 Q50 22 57 15 L68 20 L85 33 L77 43 L70 38 L70 86 L30 86 L30 38 L23 43 L15 33 Z"/><rect fill="${c2}" x="40" y="38" width="20" height="10"/>`; break;
+    case 'hoodie': g = `<path class="o" fill="${c1}" d="M34 22 Q50 6 66 22 L83 31 L88 80 L77 81 L72 46 L72 88 L28 88 L28 46 L23 81 L12 80 L17 31 Z"/><path class="o" fill="${c2}" d="M41 22 Q50 31 59 22 Q50 13 41 22 Z"/><path class="o" fill="${c1}" d="M37 64 L63 64 L66 77 L34 77 Z"/><rect fill="${c2}" x="42" y="40" width="16" height="9"/>`; break;
+    case 'jacket': g = `<path class="o" fill="${c1}" d="M33 16 L44 12 L50 18 L56 12 L67 16 L84 30 L88 82 L76 83 L72 46 L72 88 L28 88 L28 46 L24 83 L12 82 L16 30 Z"/><path class="o" fill="none" d="M50 18 L50 88 M28 50 L72 50 M28 69 L72 69 M18 52 L25 52 M75 52 L82 52"/><rect fill="${c2}" x="55" y="30" width="10" height="6"/>`; break;
+    case 'pants': g = `<path class="o" fill="${c1}" d="M30 10 L70 10 L76 90 L56 90 L50 38 L44 90 L24 90 Z"/><path class="o" fill="none" d="M30 18 L70 18"/><path fill="${c2}" d="M32 20 L36 20 L29 88 L25.5 88 Z"/>`; break;
+    case 'cap': g = `<path class="o" fill="${c1}" d="M18 66 Q18 30 48 28 Q76 30 76 66 Z"/><path class="o" fill="${c1}" d="M62 66 L94 64 Q96 73 86 74 L60 74 Z"/><circle class="o" fill="${c2}" cx="48" cy="28" r="3"/><rect fill="${c2}" x="34" y="44" width="20" height="9"/>`; break;
+    case 'beanie': g = `<path class="o" fill="${c1}" d="M26 64 Q26 26 50 26 Q74 26 74 64 Z"/><rect class="o" fill="${c1}" x="23" y="60" width="54" height="18"/><circle class="o" fill="${c2}" cx="50" cy="22" r="7"/><rect fill="${c2}" x="42" y="65" width="16" height="8"/>`; break;
+    case 'sneaker': g = `<path class="o" fill="${c1}" d="M8 64 Q9 46 22 45 L36 39 Q46 54 62 54 L84 58 Q95 62 92 70 L10 70 Z"/><path class="o" fill="${c2}" d="M22 59 Q48 63 74 57 L76 64 Q48 69 21 66 Z"/><path class="o" fill="none" d="M38 45 L42 53 M44 43 L48 53 M50 44 L53 53"/><path class="o" fill="#f2f2f0" d="M8 70 L92 70 L91 79 L9 79 Z"/>`; break;
+    case 'bag': g = `<path class="o" fill="none" d="M28 42 Q50 4 72 42"/><rect class="o" fill="${c1}" x="14" y="40" width="72" height="34" rx="14"/><path class="o" fill="none" d="M20 53 L80 53"/><rect fill="${c2}" x="43" y="59" width="14" height="8"/>`; break;
+    default: g = `<rect class="o" fill="none" stroke-dasharray="5 5" x="20" y="20" width="60" height="60"/><text class="q" x="50" y="66" text-anchor="middle" font-size="44">?</text>`;
+  }
+  return `<svg viewBox="0 0 100 100" aria-hidden="true">${g}</svg>`;
+}
+
+function brandTag(b){ const B = BRANDS[b]; return `<span class="brand" style="--b:${B.b}"><i></i>${esc(B.name)}</span>`; }
+function badge(st){ return `<span class="badge st-${st}">${STLABEL[st]}</span>`; }
+function interestCtl(id){
+  return `<div class="seg" role="group" aria-label="Interesse neste drop">${Object.entries(INT).map(([k,l]) =>
+    `<button class="${k}" data-int="${k}" data-for="${id}" aria-pressed="${interest[id] === k}">${l}</button>`).join('')}</div>`;
+}
+function countHTML(x){
+  if(state(x) === 'live') return x.t ? '<span>LIVE</span>' : '<span>HOJE</span>';
+  if(state(x) === 'past') return '<span>DROPOU</span>';
+  const ms = Math.max(0, x.ts - Date.now());
+  const d = Math.floor(ms/864e5), h = Math.floor(ms%864e5/36e5), m = Math.floor(ms%36e5/6e4), s = Math.floor(ms%6e4/1e3);
+  return `<span>${pad(d)}<small>D</small></span><span>${pad(h)}<small>H</small></span><span>${pad(m)}<small>M</small></span><span>${pad(s)}<small>S</small></span>`;
+}
+
+/* hero */
+let heroDrop = null;
+function renderHero(){
+  heroDrop = visible().find(x => state(x) !== 'past') || null;
+  const h = $('#hero');
+  if(!heroDrop){ h.innerHTML = `<div class="hero-l"><span class="mono">Próximo drop</span><h2 class="hero-brand">Sem drops</h2><p class="hero-name">Nada agendado para as marcas escolhidas.</p></div>`; return; }
+  const x = heroDrop, B = BRANDS[x.b], live = state(x) === 'live';
+  h.innerHTML = `
+    <div class="hero-l">
+      <div class="hero-row"><span class="mono">${live ? 'A dropar agora' : onlyMine ? 'O teu próximo drop' : 'Próximo drop'}</span>${badge(x.st)}<span class="m-tag">${esc(x.m)}</span></div>
+      <h2 class="hero-brand">${esc(B.name)}</h2>
+      <p class="hero-name">${esc(x.name)}</p>
+      <div class="count" id="count"></div>
+      <span class="mono">${whenTxt(x)}</span>
+      <div class="hero-row">
+        <button class="hero-btn" data-open="${x.id}">Ver ${x.pr.length} ${x.pr.length === 1 ? 'produto' : 'produtos'} →</button>
+        ${interest[x.id] === 'in' ? `<button class="hero-btn alt" data-mode="${x.id}">Modo drop</button>` : ''}
+        ${interestCtl(x.id)}
+      </div>
+    </div>
+    <div class="hero-r">${x.pr.slice(0,4).map(p => `<span class="tile">${art(p)}</span>`).join('')}</div>`;
+  tickHero();
+}
+function tickHero(){ const c = $('#count'); if(c && heroDrop) c.innerHTML = countHTML(heroDrop); }
+
+/* o teu mês */
+function renderBudget(){
+  const tk = todayKey(), prefix = tk.slice(0,7), m = +tk.slice(5,7) - 1;
+  const {spent, mira} = monthFigures(prefix), B = +cfg.budget || 0;
+  const used = spent + mira, free = B - used, scale = Math.max(B, used, 1);
+  $('#mTitle').textContent = `O teu mês · ${MONTHS[m]}`;
+  $('#budget').innerHTML = `
+    <div class="bar" role="img" aria-label="${eur(spent)} gasto e ${eur(mira)} na mira, orçamento de ${eur(B)}">
+      <span class="spent" style="width:${spent/scale*100}%"></span><span class="mira" style="width:${mira/scale*100}%"></span>
+      ${B && used > B ? `<span class="mark" style="left:${B/scale*100}%"></span>` : ''}
+    </div>
+    <div class="stats">
+      <div class="stat"><span class="mono"><i class="key spent"></i>Gasto</span><b>${eur(spent)}</b></div>
+      <div class="stat"><span class="mono"><i class="key mira"></i>Na mira</span><b>${eur(mira)}</b></div>
+      <div class="stat ${free < 0 ? 'warn' : ''}"><span class="mono">${free < 0 ? 'Acima do orçamento' : 'Livre'}</span><b>${eur(Math.abs(free))}</b></div>
+      <div class="stat"><span class="mono">Orçamento</span><b>${eur(B)}</b></div>
+    </div>
+    <p class="note">Nas marcas do Reino Unido os valores já incluem portes, direitos e IVA estimados. "Na mira" soma as peças marcadas nos drops que ainda não aconteceram.</p>`;
+}
+
+/* filtros */
+function renderFilters(){
+  $('#filters').innerHTML = `<button class="f" data-f="" aria-pressed="${!active.size}">Todas</button>` +
+    Object.entries(BRANDS).map(([k,B]) => `<button class="f" data-f="${k}" style="--b:${B.b}" aria-pressed="${active.has(k)}"><i></i>${esc(B.name)}</button>`).join('') +
+    `<button class="f mine" data-mine aria-pressed="${onlyMine}">Só os meus drops</button>`;
+}
+
+/* calendário */
+function renderCal(){
+  const {y, m} = view;
+  $('#monthTitle').textContent = `${MONTHS[m]} ${y}`;
+  const prefix = `${y}-${pad(m+1)}`, tk = todayKey();
+  const list = visible().filter(x => x.d.startsWith(prefix));
+  $('#monthCount').textContent = `${list.length} ${list.length === 1 ? 'drop' : 'drops'}`;
+  const offset = (new Date(Date.UTC(y,m,1)).getUTCDay() + 6) % 7;
+  const days = new Date(Date.UTC(y,m+1,0)).getUTCDate();
+  let html = ['SEG','TER','QUA','QUI','SEX','SÁB','DOM'].map(w => `<div class="wd mono">${w}</div>`).join('');
+  for(let i = 0; i < offset; i++) html += `<div class="day blank"></div>`;
+  for(let dd = 1; dd <= days; dd++){
+    const key = `${prefix}-${pad(dd)}`, ds = list.filter(x => x.d === key);
+    const cls = ['day', ds.length ? 'has' : '', key === tk ? 'today' : '', key === selDay ? 'sel' : ''].join(' ');
+    const chips = ds.slice(0,2).map(x => `<span class="chip ${state(x) === 'past' ? 'past' : ''} ${interest[x.id] || ''}"><span class="tile">${art(x.pr[0])}</span><span>${BRANDS[x.b].short}</span></span>`).join('');
+    const more = ds.length > 2 ? `<span class="more">+${ds.length - 2}</span>` : '';
+    const dots = ds.length ? `<span class="dots">${ds.map(x => `<i class="${interest[x.id] || ''}" style="--b:${BRANDS[x.b].b}"></i>`).join('')}</span>` : '';
+    const label = ds.length ? `${dd}: ${ds.map(x => BRANDS[x.b].name).join(', ')}` : `${dd}: sem drops`;
+    html += `<button class="${cls}" data-day="${key}" ${ds.length ? '' : 'disabled'} aria-label="${esc(label)}"><span class="dn">${dd}</span>${chips}${more}${dots}</button>`;
+  }
+  const trail = (7 - (offset + days) % 7) % 7;
+  for(let i = 0; i < trail; i++) html += `<div class="day blank"></div>`;
+  $('#cal').innerHTML = html;
+}
+
+/* lista */
+function renderCards(){
+  const {y, m} = view, prefix = `${y}-${pad(m+1)}`;
+  const list = visible().filter(x => selDay ? x.d === selDay : x.d.startsWith(prefix));
+  $('#listTitle').textContent = selDay ? dayTxt(selDay) : `Drops de ${MONTHS[m]}`;
+  $('#clearDay').hidden = !selDay;
+  if(!list.length){ $('#cards').innerHTML = `<div class="empty mono">Sem drops conhecidos para este período.</div>`; return; }
+  $('#cards').innerHTML = list.map(x => {
+    const s = state(x), it = interest[x.id], wc = wantList(x.id).length, r = results[x.id];
+    const stamp = r ? `<span class="stamp ${RES_STAMP[r.r]}">${RES[r.r]}</span>` : it ? `<span class="stamp ${it}">${INT[it]}</span>` : '';
+    let right;
+    if(r) right = `<span class="${r.r === 'got' ? 'in' : ''}">${r.r === 'got' ? 'Gastaste ' + eur(landed(x, r.bought || []).total) : RES[r.r]}</span>`;
+    else if(s === 'past' && it === 'in') right = `<span class="ask">Como correu? →</span>`;
+    else if(wc) right = `<span class="in">${wc} na mira</span>`;
+    else right = `<span>${x.pr.length} ${x.pr.length === 1 ? 'peça' : 'peças'}</span>`;
+    return `<article class="card ${s} ${it || ''}" tabindex="0" role="button" data-id="${x.id}" aria-label="${esc(BRANDS[x.b].name + ' ' + x.name)}">
+      <div class="card-top">${brandTag(x.b)}${badge(x.st)}</div>
+      <div class="strip">${[0,1,2].map(i => x.pr[i] ? `<span class="tile">${art(x.pr[i])}</span>` : `<span></span>`).join('')}${stamp}</div>
+      <h3>${esc(x.name)}</h3>
+      <div class="meta mono"><span>${whenTxt(x)}</span><span>${esc(x.m)}</span></div>
+      <div class="foot mono ${s === 'live' ? 'live' : ''}"><span data-rel="${x.id}">${rel(x)}</span>${right}</div>
+    </article>`;
+  }).join('');
+}
+
+/* histórico */
+function renderHist(){
+  const y = todayKey().slice(0,4);
+  const done = DROPS.filter(x => results[x.id]).sort((a,b) => b.ts - a.ts);
+  const pending = DROPS.filter(x => state(x) === 'past' && interest[x.id] === 'in' && !results[x.id]);
+  const got = done.filter(x => results[x.id].r === 'got'), sold = done.filter(x => results[x.id].r === 'sold');
+  const spentY = got.filter(x => x.d.startsWith(y)).reduce((s,x) => s + landed(x, results[x.id].bought || []).total, 0);
+  const pieces = got.reduce((s,x) => s + (results[x.id].bought || []).length, 0);
+  const tried = got.length + sold.length;
+  const rate = tried ? Math.round(got.length / tried * 100) + '%' : '—';
+  let html = `<div class="stats">
+    <div class="stat"><span class="mono">Gasto em ${y}</span><b>${eur(spentY)}</b></div>
+    <div class="stat"><span class="mono">Taxa de sucesso</span><b>${rate}</b></div>
+    <div class="stat"><span class="mono">Drops tentados</span><b>${tried}</b></div>
+    <div class="stat"><span class="mono">Peças compradas</span><b>${pieces}</b></div></div>`;
+  if(pending.length) html += `<div class="pending">${pending.map(x => `<button class="ask-btn mono" data-open="${x.id}">Como correu: ${esc(BRANDS[x.b].name)} · ${esc(x.name)}? →</button>`).join('')}</div>`;
+  html += done.length
+    ? `<div class="hlist">${done.map(x => { const r = results[x.id]; return `<button class="hrow" data-open="${x.id}"><span class="mono">${dayTxt(x.d)}</span><span class="hname">${brandTag(x.b)}<b>${esc(x.name)}</b></span><span class="badge r-${r.r}">${RES[r.r]}</span><span class="hval">${r.r === 'got' ? eur(landed(x, r.bought || []).total) : '—'}</span></button>`; }).join('')}</div>`
+    : `<div class="empty mono">Ainda sem histórico. Abre um drop que já passou (em Outubro há exemplos) e marca como correu: Consegui, Esgotou ou Não tentei.</div>`;
+  $('#hist').innerHTML = html;
+}
+
+function renderMine(){
+  const up = id => { const x = byId(id); return x && state(x) !== 'past'; };
+  const n = Object.keys(interest).filter(id => interest[id] === 'in' && up(id)).length;
+  const w = Object.keys(wants).filter(up).reduce((s,id) => s + wants[id].length, 0);
+  $('#mineCount').textContent = `${n} ${n === 1 ? 'drop' : 'drops'} · ${w} ${w === 1 ? 'peça' : 'peças'}`;
+}
+
+/* folha de detalhe / definições */
+let lastFocus = null, sheetDrop = null, sheetMode = null;
+function fillSheet(x){
+  const B = BRANDS[x.b], past = state(x) === 'past', list = wantList(x.id), r = results[x.id], size = cfg.sizes[x.b];
+  const L = landed(x, list);
+  const prods = x.pr.map((p,i) => {
+    const k = list.indexOf(i), on = k >= 0 && !past, bought = !!(r && r.r === 'got' && (r.bought || []).includes(i));
+    const one = cfg.uk[x.b] && p.p ? landed(x, [i]) : null;
+    let btns = '';
+    if(p.t !== 'mystery'){
+      if(!past) btns = `<button class="want" data-want="${i}" aria-pressed="${on}">${on ? '✓ Na mira' : '+ Quero esta'}</button>${on && k > 0 ? `<button class="want" data-up="${i}" aria-label="Subir prioridade de ${esc(p.n)}">↑ Subir</button>` : ''}`;
+      else if(r && r.r === 'got') btns = `<button class="want" data-bought="${i}" aria-pressed="${bought}">${bought ? '✓ Comprei' : 'Comprei esta?'}</button>`;
+    }
+    return `<figure class="prod ${on || bought ? 'wanted' : ''}"><span class="tile">${art(p)}${on ? `<span class="prio">#${k+1}</span>` : ''}</span>
+      <figcaption><b>${esc(p.n)}</b><span class="c">${esc(p.c)}</span><span class="p">${p.p ? eur(p.p) : '—'}</span>
+        ${one ? `<span class="landed">~${eur(one.total)} em casa</span>` : ''}
+        ${p.t !== 'mystery' ? `<span class="size">${size ? 'O teu tamanho: ' + esc(size) : '<button class="linkish" data-cfg>Definir o teu tamanho</button>'}</span>` : ''}
+      </figcaption>
+      ${btns ? `<div class="prod-btns">${btns}</div>` : ''}</figure>`;
+  }).join('');
+
+  let lower = '';
+  if(past){
+    lower = r && r.r === 'got' ? `<div class="tot mono">Compraste <b>${(r.bought || []).length} ${(r.bought || []).length === 1 ? 'peça' : 'peças'} · ${eur(landed(x, r.bought || []).total)}</b>${cfg.uk[x.b] ? ' (com custos de importação estimados)' : ''}</div>` : '';
+  } else {
+    lower = `<div class="tot mono">${list.length
+      ? `Na mira: <b>${list.length} ${list.length === 1 ? 'peça' : 'peças'} · ${eur(L.sub)} na loja${L.uk ? ` · ~${eur(L.total)} em casa` : ''}</b>`
+      : 'Marca as peças que queres com “+ Quero esta”. A ordem em que marcas é a tua prioridade no modo drop.'}</div>`;
+    if(L.uk && list.length) lower += `<div class="breakdown mono">
+      <span>Peças</span><span>${eur(L.sub)}</span>
+      <span>Portes (estimativa)</span><span>${eur(L.ship)}</span>
+      <span>${L.low ? 'Direitos: €3 por tipo de peça' : `Direitos ${cfg.duty}%`}</span><span>${eur(L.duty)}</span>
+      <span>IVA 23%</span><span>${eur(L.vat)}</span>
+      <span>Taxa de despacho</span><span>${eur(L.fee)}</span>
+      <span class="sum">Total em casa</span><span class="sum">~${eur(L.total)}</span></div>`;
+    if(list.length && cfg.budget){
+      const mo = +x.d.slice(5,7) - 1, {spent, mira} = monthFigures(x.d.slice(0,7)), free = cfg.budget - spent - mira;
+      lower += free >= 0 ? `<div class="mono">Com o que tens na mira ficas com ${eur(free)} livres em ${MONTHS[mo]}.</div>`
+                         : `<div class="mono"><span class="warn-line">Passas ${eur(-free)} do orçamento de ${MONTHS[mo]}.</span></div>`;
+    }
+  }
+
+  const control = past
+    ? `<div class="decide"><span class="mono">Como correu?</span><div class="seg" role="group" aria-label="Resultado do drop">${Object.entries(RES).map(([k,l]) => `<button class="${k === 'got' ? 'in' : ''}" data-res="${k}" aria-pressed="${!!r && r.r === k}">${l}</button>`).join('')}</div></div>`
+    : `<div class="decide"><span class="mono">Vais entrar neste drop?</span>${interestCtl(x.id)}</div>`;
+
+  $('#sheetBody').innerHTML = `
+    <div class="sheet-top">${brandTag(x.b)}<button class="ghost mono" id="closeSheet">Fechar ×</button></div>
+    <h2 id="sheetTitle">${esc(x.name)}</h2>
+    <div class="sheet-info">${badge(x.st)}<span class="mono">${whenTxt(x)}</span><span class="m-tag">· ${esc(x.m)}</span>${cfg.uk[x.b] ? '<span class="m-tag">· Envia do Reino Unido</span>' : ''}</div>
+    <div class="sheet-cd" id="sheetCd">${rel(x)}</div>
+    ${control}
+    <div class="prods">${prods}</div>
+    ${lower}
+    <div class="actions">
+      ${past ? '' : `<button class="btn on" data-mode="${x.id}">Modo drop →</button>`}
+      <a class="btn" href="${B.site}" target="_blank" rel="noopener">Loja ${esc(B.name)} ↗</a>
+    </div>
+    ${past ? '' : '<p class="note">As tuas escolhas ficam guardadas neste browser. Na fase 2 os avisos no iPhone dão prioridade aos drops onde marcaste “Vou entrar”, com lembrete uma hora antes e a lista das peças por ordem.</p>'}`;
+}
+function fillSettings(){
+  $('#sheetBody').innerHTML = `
+    <div class="sheet-top"><span class="mono">Definições</span><button class="ghost mono" id="closeSheet">Fechar ×</button></div>
+    <h2 id="sheetTitle">As tuas definições</h2>
+    <fieldset><legend>Tamanho e origem por marca</legend>
+      ${Object.entries(BRANDS).map(([k]) => `<div class="srow"><label for="size-${k}">${brandTag(k)}</label>
+        <input type="text" id="size-${k}" data-size="${k}" value="${esc(cfg.sizes[k] || '')}" placeholder="${k === 'nike' ? '42.5' : 'M'}" autocomplete="off">
+        <label class="chk" for="uk-${k}"><input type="checkbox" id="uk-${k}" data-uk="${k}" ${cfg.uk[k] ? 'checked' : ''}>Envia do Reino Unido</label></div>`).join('')}
+    </fieldset>
+    <fieldset><legend>Orçamento</legend>
+      <div class="nrow"><label for="cfg-budget">Limite por mês (€)</label><input type="number" min="0" step="10" inputmode="numeric" id="cfg-budget" data-num="budget" value="${cfg.budget}"></div>
+    </fieldset>
+    <fieldset><legend>Encomendas do Reino Unido</legend>
+      <div class="nrow"><label for="cfg-ship">Portes por encomenda (€)</label><input type="number" min="0" inputmode="decimal" id="cfg-ship" data-num="ship" value="${cfg.ship}"></div>
+      <div class="nrow"><label for="cfg-fee">Taxa de despacho da transportadora (€)</label><input type="number" min="0" inputmode="decimal" id="cfg-fee" data-num="fee" value="${cfg.fee}"></div>
+      <div class="nrow"><label for="cfg-duty">Direitos acima de €150 (%)</label><input type="number" min="0" max="30" inputmode="decimal" id="cfg-duty" data-num="duty" value="${cfg.duty}"></div>
+      <p class="note">Até €150 em peças pagas IVA de 23% e €3 de direitos por tipo de peça (regra da UE desde 1 de julho de 2026, válida até 2028). Acima de €150 pagas IVA de 23% e direitos aduaneiros: cerca de 12% em roupa, ou 0% se a peça for feita no Reino Unido. Algumas lojas já cobram o IVA no checkout. É sempre uma estimativa.</p>
+    </fieldset>
+    <p class="note">Tudo fica guardado neste browser. As alterações aplicam-se logo.</p>`;
+}
+function showSheet(){
+  if($('#sheet').hidden){ lastFocus = document.activeElement; $('#sheet').hidden = false; }
+  $('#closeSheet').focus();
+}
+function openSheet(id){ const x = byId(id); if(!x) return; sheetDrop = x; sheetMode = 'drop'; fillSheet(x); showSheet(); }
+function openSettings(){ sheetDrop = null; sheetMode = 'cfg'; fillSettings(); showSheet(); }
+function closeSheet(){ $('#sheet').hidden = true; sheetDrop = null; sheetMode = null; if(lastFocus && document.contains(lastFocus)) lastFocus.focus(); }
+
+/* modo drop */
+let modeDrop = null, modeFocus = null;
+function fillMode(x){
+  const B = BRANDS[x.b], list = wantList(x.id), items = x.m.startsWith('SORTEIO') ? CHECK_DRAW : CHECK_FCFS;
+  const ck = checks[x.id] || [], done = items.filter((_,i) => ck[i]).length, size = cfg.sizes[x.b];
+  $('#modeBody').innerHTML = `
+    <div class="sheet-top">${brandTag(x.b)}<span class="mono grow">Modo drop</span><button class="ghost mono" id="closeMode">Fechar ×</button></div>
+    <h2 id="modeTitle">${esc(B.name)} · ${esc(x.name)}</h2>
+    <div class="count" id="modeCd"></div>
+    <span class="mono">${whenTxt(x)} · ${esc(x.m)}</span>
+    <div class="mode-grid">
+      <div class="col">
+        <div class="col-head mono"><span>Checklist</span><span>${done}/${items.length} pronto</span></div>
+        ${items.map((t,i) => `<button class="ck" data-ck="${i}" aria-pressed="${!!ck[i]}">${t}</button>`).join('')}
+        <p class="note">Na fase 2 recebes um aviso 10 minutos antes: “faz login”.</p>
+      </div>
+      <div class="col">
+        <div class="col-head mono"><span>Por ordem</span><span>${size ? 'Tamanho ' + esc(size) : '<button class="linkish" data-cfg>Definir tamanho</button>'}</span></div>
+        ${list.length ? list.map((i,n) => { const p = x.pr[i], one = landed(x,[i]); return `<div class="pick"><span class="n">${n+1}</span><span class="tile">${art(p)}</span>
+          <span class="pinfo"><b>${esc(p.n)}</b><span class="c">${esc(p.c)} · ${p.p ? eur(p.p) : '—'}${one.uk ? ' · ~' + eur(one.total) + ' em casa' : ''}</span></span>
+          <a class="go" href="${B.site}" target="_blank" rel="noopener">Abrir ↗</a></div>`; }).join('')
+          : `<div class="empty mono">Ainda não marcaste peças. Abre o drop e toca em “+ Quero esta”.</div>`}
+        <p class="note">Por agora “Abrir” leva à loja. Na fase 2 abre diretamente a peça.</p>
+      </div>
+    </div>`;
+  tickMode();
+}
+function tickMode(){ const c = $('#modeCd'); if(c && modeDrop) c.innerHTML = countHTML(modeDrop); }
+function openMode(id){ const x = byId(id); if(!x) return; modeDrop = x; modeFocus = document.activeElement; fillMode(x); $('#mode').hidden = false; $('#closeMode').focus(); }
+function closeMode(){ $('#mode').hidden = true; modeDrop = null; if(modeFocus && document.contains(modeFocus)) modeFocus.focus(); else if(!$('#sheet').hidden) $('#closeSheet').focus(); }
+
+function renderAll(){ renderFilters(); renderHero(); renderBudget(); renderCal(); renderCards(); renderHist(); renderMine(); }
+function refresh(focusSel){
+  persist(); renderAll();
+  if(sheetMode === 'drop' && sheetDrop) fillSheet(sheetDrop);
+  if(modeDrop) fillMode(modeDrop);
+  if(focusSel){ const el = document.querySelector(focusSel); if(el) el.focus(); }
+}
+
+/* eventos */
+document.addEventListener('click', e => {
+  const t = e.target;
+  const ib = t.closest('[data-int]');
+  if(ib){
+    const id = ib.dataset.for, k = ib.dataset.int, host = ib.closest('#sheet') ? '#sheetBody' : '#hero';
+    if(interest[id] === k) delete interest[id]; else interest[id] = k;
+    refresh(`${host} [data-int="${k}"]`); return;
+  }
+  const wb = t.closest('[data-want]');
+  if(wb && sheetDrop){
+    const id = sheetDrop.id, i = +wb.dataset.want, l = wants[id] = wantList(id).slice(), at = l.indexOf(i);
+    if(at >= 0) l.splice(at, 1); else { l.push(i); if(!interest[id]) interest[id] = 'in'; }
+    if(!l.length) delete wants[id];
+    refresh(`#sheetBody [data-want="${i}"]`); return;
+  }
+  const ub = t.closest('[data-up]');
+  if(ub && sheetDrop){
+    const id = sheetDrop.id, i = +ub.dataset.up, l = wantList(id), at = l.indexOf(i);
+    if(at > 0){ [l[at-1], l[at]] = [l[at], l[at-1]]; }
+    refresh(`#sheetBody [data-want="${i}"]`); return;
+  }
+  const rb = t.closest('[data-res]');
+  if(rb && sheetDrop){
+    const id = sheetDrop.id, k = rb.dataset.res, prev = results[id];
+    if(prev && prev.r === k) delete results[id];
+    else { results[id] = {r:k, bought: k === 'got' ? (prev && prev.bought && prev.bought.length ? prev.bought : wantList(id).slice()) : []}; if(k !== 'skip') interest[id] = 'in'; }
+    refresh(`#sheetBody [data-res="${k}"]`); return;
+  }
+  const bb = t.closest('[data-bought]');
+  if(bb && sheetDrop && results[sheetDrop.id]){
+    const r = results[sheetDrop.id], i = +bb.dataset.bought, b = r.bought = (r.bought || []).slice(), at = b.indexOf(i);
+    at >= 0 ? b.splice(at, 1) : b.push(i);
+    refresh(`#sheetBody [data-bought="${i}"]`); return;
+  }
+  const cb = t.closest('[data-ck]');
+  if(cb && modeDrop){
+    const i = +cb.dataset.ck, c = checks[modeDrop.id] = (checks[modeDrop.id] || []).slice(); c[i] = !c[i];
+    refresh(`#modeBody [data-ck="${i}"]`); return;
+  }
+  const mb = t.closest('[data-mode]'); if(mb){ openMode(mb.dataset.mode); return; }
+  if(t.closest('[data-cfg]')){ if(modeDrop) closeMode(); openSettings(); return; }
+  if(t.closest('[data-mine]')){ onlyMine = !onlyMine; selDay = null; refresh(); return; }
+  const f = t.closest('[data-f]');
+  if(f){ const k = f.dataset.f; if(!k) active.clear(); else active.has(k) ? active.delete(k) : active.add(k); refresh(); return; }
+  const o = t.closest('[data-open]'); if(o){ openSheet(o.dataset.open); return; }
+  const day = t.closest('[data-day]');
+  if(day){
+    const key = day.dataset.day, ds = visible().filter(x => x.d === key);
+    if(ds.length === 1){ openSheet(ds[0].id); return; }
+    selDay = selDay === key ? null : key; renderCal(); renderCards();
+    if(selDay) $('#list').scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+    return;
+  }
+  const card = t.closest('[data-id]'); if(card){ openSheet(card.dataset.id); return; }
+  if(t.id === 'closeMode'){ closeMode(); return; }
+  if(t.id === 'closeSheet' || t.id === 'sheet'){ closeSheet(); return; }
+});
+function onCfgInput(e){
+  const t = e.target, d = t.dataset;
+  if(d.size !== undefined) cfg.sizes[d.size] = t.value.trim();
+  else if(d.uk !== undefined) cfg.uk[d.uk] = t.checked;
+  else if(d.num) cfg[d.num] = Math.max(0, parseFloat(t.value) || 0);
+  else return;
+  persist(); renderAll();
+}
+document.addEventListener('input', onCfgInput);
+document.addEventListener('change', e => { if(e.target.dataset.uk !== undefined) onCfgInput(e); });
+document.addEventListener('keydown', e => {
+  if(e.key === 'Escape'){ if(!$('#mode').hidden) closeMode(); else if(!$('#sheet').hidden) closeSheet(); }
+  if((e.key === 'Enter' || e.key === ' ') && e.target.matches('.card[data-id]')){ e.preventDefault(); openSheet(e.target.dataset.id); }
+});
+$('#prev').onclick = () => { view.m--; if(view.m < 0){ view.m = 11; view.y--; } selDay = null; renderCal(); renderCards(); };
+$('#next').onclick = () => { view.m++; if(view.m > 11){ view.m = 0; view.y++; } selDay = null; renderCal(); renderCards(); };
+$('#clearDay').onclick = () => { selDay = null; renderCal(); renderCards(); };
+
+/* arranque */
+(function init(){
+  const tk = todayKey();
+  const target = DROPS.some(x => x.d.startsWith(tk.slice(0,7))) ? tk : (DROPS.find(x => state(x) !== 'past') || DROPS[0]).d;
+  const p = parts(target); view = {y:p.y, m:p.m};
+  renderAll();
+  const tick = () => {
+    $('#clock').textContent = clockFmt.format(new Date());
+    tickHero(); tickMode();
+    if(sheetDrop) { const c = $('#sheetCd'); if(c) c.textContent = rel(sheetDrop); }
+  };
+  tick(); setInterval(tick, 1000);
+  setInterval(() => {
+    document.querySelectorAll('[data-rel]').forEach(el => { const x = byId(el.dataset.rel); if(x) el.textContent = rel(x); });
+    if(heroDrop && state(heroDrop) === 'past') renderAll();
+  }, 30000);
+})();
+</script>
