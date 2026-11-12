@@ -1,0 +1,200 @@
+{
+ "brands": {
+  "bape": {
+   "name": "BAPE",
+   "site": "https://bape.com"
+  },
+  "brokenplanet": {
+   "name": "Broken Planet",
+   "site": "https://www.brokenplanet.com"
+  },
+  "corteiz": {
+   "name": "Corteiz",
+   "site": "https://www.crtz.xyz"
+  },
+  "nike": {
+   "name": "Nike",
+   "site": "https://www.nike.com/pt/launch"
+  },
+  "palace": {
+   "name": "Palace",
+   "site": "https://www.palaceskateboards.com"
+  },
+  "represent": {
+   "name": "Represent",
+   "site": "https://representclo.com"
+  },
+  "stussy": {
+   "name": "Stüssy",
+   "site": "https://eu.stussy.com"
+  },
+  "supreme": {
+   "name": "Supreme",
+   "site": "https://eu.supreme.com"
+  }
+ },
+ "drops": [
+  {
+   "brand": "supreme",
+   "date": "2026-11-12",
+   "id": "supreme-2026-11-12",
+   "image": null,
+   "method": "FCFS",
+   "name": "Drop semanal",
+   "origin": "pattern",
+   "products": [],
+   "sources": [
+    {
+     "name": "Ritmo habitual da marca",
+     "url": "https://eu.supreme.com"
+    }
+   ],
+   "status": "previsto",
+   "time": "11:00"
+  },
+  {
+   "brand": "nike",
+   "date": "2026-11-12",
+   "id": "nike-2026-11-12-nike-air-bakin-varsity-royal",
+   "image": "https://sneakernews.com/wp-content/themes/sneakernews-redesign/images/kicksfinder-logo.svg",
+   "method": "SNKRS",
+   "name": "Nike Air Bakin “Varsity Royal”",
+   "origin": "rss",
+   "products": [],
+   "sources": [
+    {
+     "name": "Sneaker News",
+     "url": "https://sneakernews.com/2026/11/11/nike-air-bakin-royal-store-list/"
+    }
+   ],
+   "status": "rumor",
+   "time": null
+  },
+  {
+   "brand": "palace",
+   "date": "2026-11-13",
+   "id": "palace-2026-11-13",
+   "image": null,
+   "method": "FCFS",
+   "name": "Drop semanal",
+   "origin": "pattern",
+   "products": [],
+   "sources": [
+    {
+     "name": "Ritmo habitual da marca",
+     "url": "https://www.palaceskateboards.com"
+    }
+   ],
+   "status": "previsto",
+   "time": "11:00"
+  },
+  {
+   "brand": "supreme",
+   "date": "2026-11-19",
+   "id": "supreme-2026-11-19",
+   "image": null,
+   "method": "FCFS",
+   "name": "Drop semanal",
+   "origin": "pattern",
+   "products": [],
+   "sources": [
+    {
+     "name": "Ritmo habitual da marca",
+     "url": "https://eu.supreme.com"
+    }
+   ],
+   "status": "previsto",
+   "time": "11:00"
+  },
+  {
+   "brand": "palace",
+   "date": "2026-11-20",
+   "id": "palace-2026-11-20",
+   "image": null,
+   "method": "FCFS",
+   "name": "Drop semanal",
+   "origin": "pattern",
+   "products": [],
+   "sources": [
+    {
+     "name": "Ritmo habitual da marca",
+     "url": "https://www.palaceskateboards.com"
+    }
+   ],
+   "status": "previsto",
+   "time": "11:00"
+  },
+  {
+   "brand": "supreme",
+   "date": "2026-11-26",
+   "id": "supreme-2026-11-26",
+   "image": null,
+   "method": "FCFS",
+   "name": "Drop semanal",
+   "origin": "pattern",
+   "products": [],
+   "sources": [
+    {
+     "name": "Ritmo habitual da marca",
+     "url": "https://eu.supreme.com"
+    }
+   ],
+   "status": "previsto",
+   "time": "11:00"
+  },
+  {
+   "brand": "palace",
+   "date": "2026-11-27",
+   "id": "palace-2026-11-27",
+   "image": null,
+   "method": "FCFS",
+   "name": "Drop semanal",
+   "origin": "pattern",
+   "products": [],
+   "sources": [
+    {
+     "name": "Ritmo habitual da marca",
+     "url": "https://www.palaceskateboards.com"
+    }
+   ],
+   "status": "previsto",
+   "time": "11:00"
+  },
+  {
+   "brand": "supreme",
+   "date": "2026-12-03",
+   "id": "supreme-2026-12-03",
+   "image": null,
+   "method": "FCFS",
+   "name": "Drop semanal",
+   "origin": "pattern",
+   "products": [],
+   "sources": [
+    {
+     "name": "Ritmo habitual da marca",
+     "url": "https://eu.supreme.com"
+    }
+   ],
+   "status": "previsto",
+   "time": "11:00"
+  },
+  {
+   "brand": "nike",
+   "date": "2026-12-05",
+   "id": "nike-2026-12-05-nike-air-foamposite-one-mummy",
+   "image": "https://www.nicekicks.com/files/2026/08/iz1476-001-5-1-e1788192455783.jpg",
+   "method": "SNKRS",
+   "name": "Nike Air Foamposite One “Mummy” December 2026 Release Date & Info",
+   "origin": "rss",
+   "products": [],
+   "sources": [
+    {
+     "name": "Nice Kicks",
+     "url": "https://www.nicekicks.com/nike-air-foamposite-one-mummy-iz1476-001/"
+    }
+   ],
+   "status": "rumor",
+   "time": null
+  }
+ ]
+}

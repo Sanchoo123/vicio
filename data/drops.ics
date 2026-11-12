@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vicio//Drops//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Vício · Drops
+X-WR-TIMEZONE:Europe/Lisbon
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+BEGIN:VEVENT
+UID:supreme-2026-11-12@vicio
+DTSTAMP:20261112T000000Z
+DTSTART:20261112T110000Z
+DTEND:20261112T113000Z
+SUMMARY:Supreme · Drop semanal (previsto)
+DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
+ eu.supreme.com
+URL:https://eu.supreme.com
+END:VEVENT
+BEGIN:VEVENT
+UID:nike-2026-11-12-nike-air-bakin-varsity-royal@vicio
+DTSTAMP:20261112T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Nike · Nike Air Bakin “Varsity Royal” (rumor)
+DESCRIPTION:Nike Air Bakin “Varsity Royal”\nMétodo: SNKRS\nSneaker Ne
+ ws: https://sneakernews.com/2026/11/11/nike-air-bakin-royal-store-list/
+URL:https://sneakernews.com/2026/11/11/nike-air-bakin-royal-store-list/
+END:VEVENT
+BEGIN:VEVENT
+UID:palace-2026-11-13@vicio
+DTSTAMP:20261113T000000Z
+DTSTART:20261113T110000Z
+DTEND:20261113T113000Z
+SUMMARY:Palace · Drop semanal (previsto)
+DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
+ www.palaceskateboards.com
+URL:https://www.palaceskateboards.com
+END:VEVENT
+BEGIN:VEVENT
+UID:supreme-2026-11-19@vicio
+DTSTAMP:20261119T000000Z
+DTSTART:20261119T110000Z
+DTEND:20261119T113000Z
+SUMMARY:Supreme · Drop semanal (previsto)
+DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
+ eu.supreme.com
+URL:https://eu.supreme.com
+END:VEVENT
+BEGIN:VEVENT
+UID:palace-2026-11-20@vicio
+DTSTAMP:20261120T000000Z
+DTSTART:20261120T110000Z
+DTEND:20261120T113000Z
+SUMMARY:Palace · Drop semanal (previsto)
+DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
+ www.palaceskateboards.com
+URL:https://www.palaceskateboards.com
+END:VEVENT
+BEGIN:VEVENT
+UID:supreme-2026-11-26@vicio
+DTSTAMP:20261126T000000Z
+DTSTART:20261126T110000Z
+DTEND:20261126T113000Z
+SUMMARY:Supreme · Drop semanal (previsto)
+DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
+ eu.supreme.com
+URL:https://eu.supreme.com
+END:VEVENT
+BEGIN:VEVENT
+UID:palace-2026-11-27@vicio
+DTSTAMP:20261127T000000Z
+DTSTART:20261127T110000Z
+DTEND:20261127T113000Z
+SUMMARY:Palace · Drop semanal (previsto)
+DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
+ www.palaceskateboards.com
+URL:https://www.palaceskateboards.com
+END:VEVENT
+BEGIN:VEVENT
+UID:supreme-2026-12-03@vicio
+DTSTAMP:20261203T000000Z
+DTSTART:20261203T110000Z
+DTEND:20261203T113000Z
+SUMMARY:Supreme · Drop semanal (previsto)
+DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
+ eu.supreme.com
+URL:https://eu.supreme.com
+END:VEVENT
+BEGIN:VEVENT
+UID:nike-2026-12-05-nike-air-foamposite-one-mummy@vicio
+DTSTAMP:20261205T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Nike · Nike Air Foamposite One “Mummy” December 2026 Release 
+ Date & Info (rumor)
+DESCRIPTION:Nike Air Foamposite One “Mummy” December 2026 Release Date
+  & Info\nMétodo: SNKRS\nNice Kicks: https://www.nicekicks.com/nike-air-f
+ oamposite-one-mummy-iz1476-001/
+URL:https://www.nicekicks.com/nike-air-foamposite-one-mummy-iz1476-001/
+END:VEVENT
+END:VCALENDAR
