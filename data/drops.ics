@@ -7,16 +7,6 @@ X-WR-CALNAME:Vício · Drops
 X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 BEGIN:VEVENT
-UID:supreme-2026-11-12@vicio
-DTSTAMP:20261112T000000Z
-DTSTART:20261112T110000Z
-DTEND:20261112T113000Z
-SUMMARY:Supreme · Drop semanal (previsto)
-DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
- eu.supreme.com
-URL:https://eu.supreme.com
-END:VEVENT
-BEGIN:VEVENT
 UID:nike-2026-11-12-nike-air-bakin-varsity-royal@vicio
 DTSTAMP:20261112T000000Z
 DTSTART;VALUE=DATE:20261112
@@ -37,10 +27,23 @@ DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
 URL:https://www.palaceskateboards.com
 END:VEVENT
 BEGIN:VEVENT
+UID:bape-2026-11-14@vicio
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:BAPE · Billie Eilish Brings a Longtime Streetwear Affinity Full C
+ ircle With BAPE (rumor)
+DESCRIPTION:Billie Eilish Brings a Longtime Streetwear Affinity Full Circl
+ e With BAPE\nMétodo: FCFS\nHypebeast: https://hypebeast.com/2026/11/bill
+ ie-eilish-bape-bathing-ape-collaborative-collection-release-info
+URL:https://hypebeast.com/2026/11/billie-eilish-bape-bathing-ape-collabora
+ tive-collection-release-info
+END:VEVENT
+BEGIN:VEVENT
 UID:supreme-2026-11-19@vicio
 DTSTAMP:20261119T000000Z
-DTSTART:20261119T110000Z
-DTEND:20261119T113000Z
+DTSTART:20261119T160000Z
+DTEND:20261119T163000Z
 SUMMARY:Supreme · Drop semanal (previsto)
 DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
  eu.supreme.com
@@ -57,10 +60,31 @@ DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
 URL:https://www.palaceskateboards.com
 END:VEVENT
 BEGIN:VEVENT
+UID:corteiz-2026-11-20@vicio
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Corteiz · Corteiz x Nike Shox R419 “Metallic Silver”
+DESCRIPTION:Corteiz x Nike Shox R419 “Metallic Silver”\nMétodo: FCFS\
+ nSneaker News: https://news.google.com/rss/articles/CBMijgFBVV95cUxOVDVlc
+ 1NfRkQ1elFWRTFjWEFZZmoxZGNBdjJzRUhEcTZ2M3dxdmZ1NGhlaGg5VFZMY2I0cGNnM3ItSE
+ xZV1FrX0RSV1dIVjVFVlV3QVJlTXRkZER4UDc1aU40cm9ON0JjSG8tM3dKVWlxN2pYd3N6QUd
+ ZLXcwTGVqQ3E0c0ZBOXFnd2g4c0FB0gGOAUFVX3lxTE5UNWVzU19GRDV6UVZFMWNYQVlmajFk
+ Y0F2MnNFSERxNnYzd3F2ZnU0aGVoaDlUVkxjYjRwY2czci1ITFlXUWtfRFJXV0hWNUVWVXdBU
+ mVNdGRkRHhQNzVpTjRyb043QmNIby0zd0pVaXE3alh3c3pBR1ktdzBMZWpDcTRzRkE5cWd3aD
+ hzQUE?oc=5
+URL:https://news.google.com/rss/articles/CBMijgFBVV95cUxOVDVlc1NfRkQ1elFWR
+ TFjWEFZZmoxZGNBdjJzRUhEcTZ2M3dxdmZ1NGhlaGg5VFZMY2I0cGNnM3ItSExZV1FrX0RSV1
+ dIVjVFVlV3QVJlTXRkZER4UDc1aU40cm9ON0JjSG8tM3dKVWlxN2pYd3N6QUdZLXcwTGVqQ3E
+ 0c0ZBOXFnd2g4c0FB0gGOAUFVX3lxTE5UNWVzU19GRDV6UVZFMWNYQVlmajFkY0F2MnNFSERx
+ NnYzd3F2ZnU0aGVoaDlUVkxjYjRwY2czci1ITFlXUWtfRFJXV0hWNUVWVXdBUmVNdGRkRHhQN
+ zVpTjRyb043QmNIby0zd0pVaXE3alh3c3pBR1ktdzBMZWpDcTRzRkE5cWd3aDhzQUE?oc=5
+END:VEVENT
+BEGIN:VEVENT
 UID:supreme-2026-11-26@vicio
 DTSTAMP:20261126T000000Z
-DTSTART:20261126T110000Z
-DTEND:20261126T113000Z
+DTSTART:20261126T160000Z
+DTEND:20261126T163000Z
 SUMMARY:Supreme · Drop semanal (previsto)
 DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
  eu.supreme.com
@@ -79,12 +103,34 @@ END:VEVENT
 BEGIN:VEVENT
 UID:supreme-2026-12-03@vicio
 DTSTAMP:20261203T000000Z
-DTSTART:20261203T110000Z
-DTEND:20261203T113000Z
+DTSTART:20261203T160000Z
+DTEND:20261203T163000Z
 SUMMARY:Supreme · Drop semanal (previsto)
 DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
  eu.supreme.com
 URL:https://eu.supreme.com
+END:VEVENT
+BEGIN:VEVENT
+UID:nike-2026-12-03-nike-air-bakin-sp-black@vicio
+DTSTAMP:20261203T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Nike · The Nike Air Bakin SP “Black/White”
+DESCRIPTION:The Nike Air Bakin SP “Black/White”\nMétodo: SNKRS\nSneak
+ er News: https://sneakernews.com/2026/07/06/nike-air-bakin-black-white-iq
+ 5365-001/
+URL:https://sneakernews.com/2026/07/06/nike-air-bakin-black-white-iq5365-0
+ 01/
+END:VEVENT
+BEGIN:VEVENT
+UID:palace-2026-12-04@vicio
+DTSTAMP:20261204T000000Z
+DTSTART:20261204T110000Z
+DTEND:20261204T113000Z
+SUMMARY:Palace · Drop semanal (previsto)
+DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
+ www.palaceskateboards.com
+URL:https://www.palaceskateboards.com
 END:VEVENT
 BEGIN:VEVENT
 UID:nike-2026-12-05-nike-air-foamposite-one-mummy@vicio
