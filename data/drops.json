@@ -199,7 +199,6 @@
   {
    "brand": "palace",
    "date": "2026-11-13",
-   "droplist": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTWFxcThndm9aZmRmOVYtazJoNzNidjZ2RnJpMGtyV2hKbWREaXBaN1dGbnhiQnBDUXZudVRoR2hOWG82MXJHaHRuekY2SjBLaS15d3Y0TDZmRWhoZngyckxsV2V4bnZuTk90Z2hFZDZnanluNlUxaFliclFzSW5xV1N5NUJvMzg?oc=5",
    "id": "palace-2026-11-13",
    "image": null,
    "method": "FCFS",
@@ -210,13 +209,9 @@
     {
      "name": "Ritmo habitual da marca",
      "url": "https://www.palaceskateboards.com"
-    },
-    {
-     "name": "Hypebeast",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTWFxcThndm9aZmRmOVYtazJoNzNidjZ2RnJpMGtyV2hKbWREaXBaN1dGbnhiQnBDUXZudVRoR2hOWG82MXJHaHRuekY2SjBLaS15d3Y0TDZmRWhoZngyckxsV2V4bnZuTk90Z2hFZDZnanluNlUxaFliclFzSW5xV1N5NUJvMzg?oc=5"
     }
    ],
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   {
@@ -427,7 +422,7 @@
    "id": "nike-2026-11-19-snkrs-0800",
    "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/d79ba8b7-f6af-4293-8f60-3b911b079f63/air%C2%A0max%C2%A095%C2%A0big%C2%A0bubble%C2%A0lux-x-one-block-down-italy-black-im0704-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
    "method": "SNKRS · FCFS",
-   "name": "Air Max 95 Big Bubble LUX x One Block Down \"Italy\" “Black” + 1 lançamento",
+   "name": "Air Max 95 Big Bubble LUX x One Block Down \"Italy\" “Black” + 2 lançamentos",
    "origin": "nike",
    "products": [
     {
@@ -438,6 +433,15 @@
      "price": 199.99,
      "sku": "IM0704-001",
      "url": "https://www.nike.com/pt/launch/t/air-max-95-big-bubble-lux-one-block-down-italy-black"
+    },
+    {
+     "color": "Sundial/Multicolor",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/e3590e4a-c882-409d-925f-829ace652052/nike-tiempo-maestro-elite-x-kids-of-immigrants-metallic-pewter-and-amarillo-iv3429-700-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Nike Tiempo Maestro Elite x Kids Of Immigrants “Metallic Pewter and Amarillo”",
+     "price": 269.99,
+     "sku": "IV3429-700",
+     "url": "https://www.nike.com/pt/launch/t/nike-tiempo-maestro-elite-kids-of-immigrants-metallic-pewter-and-amarillo"
     },
     {
      "color": "Amarillo/Multicolor",
