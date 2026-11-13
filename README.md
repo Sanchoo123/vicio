@@ -30,7 +30,9 @@ Os feeds de notícias só mostram os artigos mais recentes, por isso o calendár
    - Secret: o nome do tópico do passo 1
 4. **Actions → Robô de drops → Run workflow.** Ao fim de um minuto recebes no iPhone "Robô do Vício ligado ✓".
 
-A partir daí corre sozinho de 30 em 30 minutos.
+A partir daí corre sozinho de 30 em 30 minutos (às :07 e :37). O agendamento do GitHub salta muitas rondas, por isso
+cada ronda acaba com o trabalho `seguinte`, que espera pela hora certa e põe a ronda seguinte a correr. O agendamento
+fica como reserva: se a cadeia parar, a próxima ronda agendada recomeça-a.
 
 ## As tuas escolhas: `data/me.json`
 
