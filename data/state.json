@@ -9,6 +9,7 @@
   "3a1718fe1f7a",
   "3fe377a0e23c",
   "4095223d609c",
+  "59b856001753",
   "698af0b5d9f1",
   "6ad4d61cd9c5",
   "7b23821425d1",
@@ -146,10 +147,10 @@
   },
   "palace-2026-11-13": {
    "date": "2026-11-13",
-   "droplist": false,
+   "droplist": true,
    "img": false,
    "n": 0,
-   "status": "previsto",
+   "status": "confirmado",
    "time": "11:00"
   },
   "palace-2026-11-20": {
