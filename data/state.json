@@ -74,6 +74,14 @@
    "status": "confirmado",
    "time": null
   },
+  "gallerydept-2026-11-13": {
+   "date": "2026-11-13",
+   "droplist": false,
+   "img": true,
+   "n": 2,
+   "status": "confirmado",
+   "time": "23:07"
+  },
   "nike-2026-11-12-nike-air-bakin-varsity-royal": {
    "date": "2026-11-12",
    "droplist": false,
@@ -156,10 +164,10 @@
   },
   "palace-2026-11-13": {
    "date": "2026-11-13",
-   "droplist": true,
+   "droplist": false,
    "img": false,
    "n": 0,
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   "palace-2026-11-20": {
@@ -1153,7 +1161,9 @@
     10669555482805,
     10669692813493,
     10669713129653,
+    10670058406069,
     10670082687157,
+    10670087078069,
     10670098514101
    ],
    "url": "https://gallerydept.com",

@@ -199,7 +199,6 @@
   {
    "brand": "palace",
    "date": "2026-11-13",
-   "droplist": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTWFxcThndm9aZmRmOVYtazJoNzNidjZ2RnJpMGtyV2hKbWREaXBaN1dGbnhiQnBDUXZudVRoR2hOWG82MXJHaHRuekY2SjBLaS15d3Y0TDZmRWhoZngyckxsV2V4bnZuTk90Z2hFZDZnanluNlUxaFliclFzSW5xV1N5NUJvMzg?oc=5",
    "id": "palace-2026-11-13",
    "image": null,
    "method": "FCFS",
@@ -210,13 +209,9 @@
     {
      "name": "Ritmo habitual da marca",
      "url": "https://www.palaceskateboards.com"
-    },
-    {
-     "name": "Hypebeast",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTWFxcThndm9aZmRmOVYtazJoNzNidjZ2RnJpMGtyV2hKbWREaXBaN1dGbnhiQnBDUXZudVRoR2hOWG82MXJHaHRuekY2SjBLaS15d3Y0TDZmRWhoZngyckxsV2V4bnZuTk90Z2hFZDZnanluNlUxaFliclFzSW5xV1N5NUJvMzg?oc=5"
     }
    ],
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   {
@@ -349,6 +344,41 @@
    ],
    "status": "confirmado",
    "time": "16:07"
+  },
+  {
+   "brand": "gallerydept",
+   "date": "2026-11-13",
+   "id": "gallerydept-2026-11-13",
+   "image": "https://cdn.shopify.com/s/files/1/0057/7408/2148/files/CAMP_COLLAR_OVERSHIRT_TAN_BROWN_TOP077_FRONT.jpg?v=1794609335",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "USD",
+     "image": "https://cdn.shopify.com/s/files/1/0057/7408/2148/files/CAMP_COLLAR_OVERSHIRT_TAN_BROWN_TOP077_FRONT.jpg?v=1794609335",
+     "name": "CAMP COLLAR OVERSHIRT",
+     "price": 950.0,
+     "url": "https://gallerydept.com/products/camp-collar-overshirt-tan-brown"
+    },
+    {
+     "available": true,
+     "currency": "USD",
+     "image": "https://cdn.shopify.com/s/files/1/0057/7408/2148/files/BANCROFT_FOOTBALL_SHIRT_BLUE_TOP061_FRONT.jpg?v=1794607631",
+     "name": "BANCROFT FOOTBALL SHIRT",
+     "price": 495.0,
+     "url": "https://gallerydept.com/products/bancroft-football-shirt-blue"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja Gallery Dept.",
+     "url": "https://gallerydept.com"
+    }
+   ],
+   "status": "confirmado",
+   "time": "23:07"
   },
   {
    "brand": "nike",
