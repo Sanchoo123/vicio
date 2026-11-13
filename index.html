@@ -609,7 +609,7 @@ function renderCards(){
     const s = state(x), it = app.interest[x.id], wc = wantList(x.id).length, r = app.results[x.id];
     const stamp = r ? `<span class="stamp ${RES_STAMP[r.r]}">${RES[r.r]}</span>` : it ? `<span class="stamp ${it}">${INT[it]}</span>` : '';
     const imgs = x.products.filter(p => p.image).slice(0,3);
-    const strip = imgs.length >= 2 ? imgs.map(p => tileImg(p.image, p.name, '', x.brand)).join('') : tileImg(cover(x), x.name, cover(x) ? 'one cover' : 'band', x.brand);
+    const strip = imgs.length >= 2 ? imgs.map(p => tileImg(p.image, p.name, '', x.brand)).join('') : tileImg(cover(x), x.name, !cover(x) ? 'band' : x.products.length ? 'one' : 'one cover', x.brand);  // foto de produto inteira; foto de notícia preenche
     let right;
     if(r) right = `<span class="${r.r === 'got' ? 'in' : ''}">${r.r === 'got' ? 'Gastaste ' + eur(landed(x, r.bought || []).total) : RES[r.r]}</span>`;
     else if(s === 'past' && it === 'in') right = `<span class="ask">Como correu? →</span>`;
