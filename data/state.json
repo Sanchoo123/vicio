@@ -147,10 +147,10 @@
   },
   "palace-2026-11-13": {
    "date": "2026-11-13",
-   "droplist": true,
+   "droplist": false,
    "img": false,
    "n": 0,
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   "palace-2026-11-20": {
