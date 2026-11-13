@@ -385,10 +385,10 @@ const OWNER = 'Sanchoo123', REPO = 'vicio';
 const API = `https://api.github.com/repos/${OWNER}/${REPO}`;
 const PAGES = `${OWNER.toLowerCase()}.github.io/${REPO}`;
 
-const COLORS = {supreme:'#d7262e', palace:'#3b7be0', stussy:'#2fa36f', corteiz:'#9a9a9a', brokenplanet:'#9d5cd6', nike:'#f08a24', bape:'#62ad3d', represent:'#c9a95c'};
-const LOGOS = new Set(['supreme','palace','stussy','corteiz','brokenplanet','nike','bape','represent']);
-const SHORT = {supreme:'SUPREME', palace:'PALACE', stussy:'STÜSSY', corteiz:'CRTZ', brokenplanet:'BPM', nike:'NIKE', bape:'BAPE', represent:'REP'};
-let BRANDS = {supreme:{name:'Supreme'}, palace:{name:'Palace'}, stussy:{name:'Stüssy'}, corteiz:{name:'Corteiz'}, brokenplanet:{name:'Broken Planet'}, nike:{name:'Nike'}, bape:{name:'BAPE'}, represent:{name:'Represent'}};
+const COLORS = {supreme:'#d7262e', palace:'#3b7be0', stussy:'#2fa36f', corteiz:'#9a9a9a', brokenplanet:'#9d5cd6', nike:'#f08a24', bape:'#62ad3d', represent:'#c9a95c', gallerydept:'#f5a300', fivefourfive:'#1f3a5f'};
+const LOGOS = new Set(['supreme','palace','stussy','corteiz','brokenplanet','nike','bape','represent','gallerydept','fivefourfive']);
+const SHORT = {supreme:'SUPREME', palace:'PALACE', stussy:'STÜSSY', corteiz:'CRTZ', brokenplanet:'BPM', nike:'NIKE', bape:'BAPE', represent:'REP', gallerydept:'GD', fivefourfive:'545'};
+let BRANDS = {supreme:{name:'Supreme'}, palace:{name:'Palace'}, stussy:{name:'Stüssy'}, corteiz:{name:'Corteiz'}, brokenplanet:{name:'Broken Planet'}, nike:{name:'Nike'}, bape:{name:'BAPE'}, represent:{name:'Represent'}, gallerydept:{name:'Gallery Dept.'}, fivefourfive:{name:'FiveFourFive'}};
 const WD = ['DOM','SEG','TER','QUA','QUI','SEX','SÁB'];
 const MO = ['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ'];
 const MONTHS = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
@@ -400,7 +400,7 @@ const LEVELS = {tudo:'Tudo', drops:'Só drops', meus:'Só os meus', nada:'Nada'}
 const CHECK_FCFS = ['Sessão iniciada na loja','Morada e cartão guardados','Apple Pay pronto','Tamanhos confirmados','Rede estável (Wi-Fi ou 4G)'];
 const CHECK_DRAW = ['Inscrição feita (SNKRS ou loja)','Tamanho escolhido na inscrição','Cartão válido na conta','Notificações da app ligadas'];
 const CUR = {EUR:'€', GBP:'£', USD:'$'};
-const DEF_UK = {palace:true, corteiz:true, brokenplanet:true, represent:true};
+const DEF_UK = {palace:true, corteiz:true, brokenplanet:true, represent:true, gallerydept:true};  // compras de fora da UE (IVA + direitos)
 const LIVE_MS = 2*3600e3;
 
 const $ = s => document.querySelector(s);
@@ -725,7 +725,7 @@ function fillSheet(x){
   $('#sheetBody').innerHTML = `
     <div class="sheet-top">${brandTag(x.brand)}<button class="ghost mono" id="closeSheet">Fechar ×</button></div>
     <h2 id="sheetTitle">${esc(x.name)}</h2>
-    <div class="sheet-info">${badge(x.status)}<span class="mono">${whenTxt(x)}</span><span class="m-tag">· ${esc(x.method || '')}</span>${app.cfg.uk[x.brand] ? '<span class="m-tag">· Envia do Reino Unido</span>' : ''}</div>
+    <div class="sheet-info">${badge(x.status)}<span class="mono">${whenTxt(x)}</span><span class="m-tag">· ${esc(x.method || '')}</span>${app.cfg.uk[x.brand] ? '<span class="m-tag">· Envia de fora da UE</span>' : ''}</div>
     <div class="sheet-cd" id="sheetCd">${rel(x)}</div>
     ${control}
     ${x.products.length ? `<div class="prods">${prods}</div>` : ''}
@@ -763,13 +763,13 @@ function fillSettings(){
     <fieldset><legend>Tamanho e origem por marca</legend>
       ${Object.keys(BRANDS).map(k => `<div class="srow"><label for="size-${k}">${brandTag(k)}</label>
         <input type="text" id="size-${k}" data-size="${k}" value="${esc(app.cfg.sizes[k] || '')}" placeholder="${k === 'nike' ? '42.5' : 'M'}" autocomplete="off">
-        <label class="chk" for="uk-${k}"><input type="checkbox" id="uk-${k}" data-uk="${k}" ${app.cfg.uk[k] ? 'checked' : ''}>Reino Unido</label><span></span></div>`).join('')}
+        <label class="chk" for="uk-${k}"><input type="checkbox" id="uk-${k}" data-uk="${k}" ${app.cfg.uk[k] ? 'checked' : ''}>Fora da UE</label><span></span></div>`).join('')}
     </fieldset>
     <fieldset><legend>Orçamento e custos</legend>
       <div class="nrow"><label for="cfg-budget">Limite por mês (€)</label><input type="number" min="0" step="10" inputmode="numeric" id="cfg-budget" data-num="budget" value="${app.cfg.budget}"></div>
       <div class="nrow"><label for="cfg-fx">1 £ em euros</label><input type="number" min="0" step="0.01" inputmode="decimal" id="cfg-fx" data-num="fx" value="${app.cfg.fx}"></div>
       <div class="nrow"><label for="cfg-fxUsd">1 $ em euros</label><input type="number" min="0" step="0.01" inputmode="decimal" id="cfg-fxUsd" data-num="fxUsd" value="${app.cfg.fxUsd}"></div>
-      <div class="nrow"><label for="cfg-ship">Portes do Reino Unido (€)</label><input type="number" min="0" inputmode="decimal" id="cfg-ship" data-num="ship" value="${app.cfg.ship}"></div>
+      <div class="nrow"><label for="cfg-ship">Portes de fora da UE (€)</label><input type="number" min="0" inputmode="decimal" id="cfg-ship" data-num="ship" value="${app.cfg.ship}"></div>
       <div class="nrow"><label for="cfg-fee">Taxa de despacho (€)</label><input type="number" min="0" inputmode="decimal" id="cfg-fee" data-num="fee" value="${app.cfg.fee}"></div>
       <div class="nrow"><label for="cfg-duty">Direitos acima de €150 (%)</label><input type="number" min="0" max="30" inputmode="decimal" id="cfg-duty" data-num="duty" value="${app.cfg.duty}"></div>
       <p class="note">Até €150 em peças: IVA 23% + €3 de direitos por tipo de peça (regra da UE desde 1 jul 2026). Acima: IVA 23% + direitos (~12% em roupa; 0% se for feita no Reino Unido). Câmbios e custos são estimativas.</p>

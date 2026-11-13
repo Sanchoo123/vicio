@@ -32,6 +32,10 @@ BRANDS = {
                  match=[r"\bBAPE\b", r"\bA BATHING APE\b"]),
     "represent": dict(name="Represent", site="https://representclo.com", method="FCFS", case=True,
                       match=[r"\bRepresent\s+(?:Clo|Owners Club|247|[xX])\b", r"\b[xX]\s+Represent\b", r"\bREPRESENT\b"]),
+    "gallerydept": dict(name="Gallery Dept.", site="https://gallerydept.com", method="FCFS", case=False,
+                        match=[r"\bGallery\s+Dept\b", r"\bGallery\s+Department\b"]),
+    "fivefourfive": dict(name="FiveFourFive", site="https://fivefourfive.it", method="FCFS", case=False,
+                         match=[r"\bFive\s?Four\s?Five\b", r"\b545\s?(?:merch|Milano)\b"]),
 }
 
 # Feeds públicos de notícias (RSS), feitos para serem lidos por programas.
@@ -63,6 +67,8 @@ GNEWS = [
     dict(brand="brokenplanet", q='"Broken Planet" when:60d'),
     dict(brand="bape", q='BAPE OR "A Bathing Ape" when:14d'),
     dict(brand="represent", q='"Represent" (clothing OR "Owners Club" OR collection) when:30d'),
+    dict(brand="gallerydept", q='"Gallery Dept" when:30d'),
+    dict(brand="fivefourfive", q='FiveFourFive OR "545 merch" when:60d'),
 ]
 GNEWS_KEEP_UNDATED = 4  # por marca e por ronda, para não encher as novidades com o mesmo assunto
 
@@ -72,6 +78,8 @@ GNEWS_KEEP_UNDATED = 4  # por marca e por ronda, para não encher as novidades c
 STORES = [
     dict(brand="represent", url="https://representclo.com", currency="GBP", every=30),
     dict(brand="bape", url="https://bape.com", currency=None, every=60),
+    dict(brand="gallerydept", url="https://gallerydept.com", currency="USD", every=60),
+    dict(brand="fivefourfive", url="https://fivefourfive.it", currency="EUR", every=60),
 ]
 
 # Ritmo habitual. Gera drops "previstos" até serem confirmados por notícias ou à mão.

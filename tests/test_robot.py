@@ -48,6 +48,9 @@ class Brands(unittest.TestCase):
         self.assertEqual(detect_brand("Corteiz Drops Alcatraz Bomber"), "corteiz")
         self.assertEqual(detect_brand("Air Jordan 4 \"Spotlight\" Releases December 6th"), "nike")
         self.assertIsNone(detect_brand("These colors represent the season"))
+        self.assertEqual(detect_brand("GALLERY DEPT. Drops New Painted Flare Denim"), "gallerydept")
+        self.assertEqual(detect_brand("FiveFourFive Unveils Winter Capsule"), "fivefourfive")
+        self.assertIsNone(detect_brand("Air Max 545 colorway"))
 
 
 FEED = b"""<?xml version="1.0"?><rss><channel>
