@@ -147,6 +147,11 @@ class Notify(unittest.TestCase):
         self.assertIn("1. AJ11", msgs[0]["message"])
         self.assertEqual(reminders([d], self.me, st, now), [])
 
+    def test_news_event(self):
+        n = dict(id="n1", brand="corteiz", title="Corteiz Drops Alcatraz Bomber", url="https://u", image=None)
+        msgs = build_messages([dict(type="news", item=n)], self.me)
+        self.assertEqual(msgs[0]["title"], "Corteiz: novidade")
+
     def test_cap(self):
         d = dict(id="c", brand="corteiz", name="n", date="2026-11-20", time=None, sources=[dict(name="s", url="u")])
         msgs = build_messages([dict(type="new_drop", drop=d)] * 20, self.me)

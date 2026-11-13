@@ -5,6 +5,7 @@ Uso:  python -m robot.run            (manda avisos se NTFY_TOPIC estiver definid
 """
 import json
 import sys
+import traceback
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
@@ -111,8 +112,8 @@ def build_messages(events, me):
     msgs = []
     for e in events:
         k, d = e["type"], e.get("drop")
-        brand = e.get("brand") or (d and d["brand"])
-        bn = BRANDS[brand]["name"]
+        brand = e.get("brand") or (d and d["brand"]) or (e.get("item") or {}).get("brand")
+        bn = BRANDS.get(brand, {}).get("name", brand or "?")
         if not allowed(me, k, brand, bool(d and d["id"] in going)):
             continue
         click = d and d.get("sources") and d["sources"][-1]["url"]
@@ -292,7 +293,13 @@ def run(now=None, dry_run=False):
                      tags=["white_check_mark"])]
         reminders(drops, me, state, now)  # marca como tratados sem repetir avisos antigos
     else:
-        msgs = build_messages(events, me) + reminders(drops, me, state, now) + weekly_summary(drops, me, state, now)
+        try:
+            msgs = build_messages(events, me) + reminders(drops, me, state, now) + weekly_summary(drops, me, state, now)
+            status.pop("Avisos", None)
+        except Exception as e:  # um erro nos avisos não pode impedir que os drops sejam gravados
+            traceback.print_exc()
+            msgs = []
+            status["Avisos"] = dict(ok=False, msg=f"erro: {type(e).__name__}: {e}"[:200])
     sent = notify.send(msgs, dry_run=dry_run)
 
     # gravar
