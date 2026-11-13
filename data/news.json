@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "nike",
+   "date": "2027-01-15",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "698af0b5d9f1",
+   "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F12%2Fair-jordan-4-spotlight-HV0823-002-first-look-release-info-000.jpg?w=800&cbr=1&q=90&fit=max",
+   "published": "2026-11-13T09:44+00:00",
+   "source": "Hypebeast",
+   "title": "Jordan Brand Dresses the Air Jordan 4 \"Spotlight\" in Faux-Crocodile Leather",
+   "url": "https://hypebeast.com/2026/11/air-jordan-4-spotlight-hv0823-002-first-look-release-info"
+  },
+  {
    "brand": "bape",
    "date_in_title": false,
    "droplist": false,

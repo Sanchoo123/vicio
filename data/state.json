@@ -8,6 +8,7 @@
   "3a1718fe1f7a",
   "3fe377a0e23c",
   "4095223d609c",
+  "698af0b5d9f1",
   "6ad4d61cd9c5",
   "7b23821425d1",
   "7db1e3d82ef2",
@@ -32,6 +33,8 @@
   "f6957d93f34a"
  ],
  "nike_ok": true,
+ "push_dead": [],
+ "queue": [],
  "reminders": [],
  "retired": [],
  "seen": {
