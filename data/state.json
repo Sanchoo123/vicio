@@ -10,6 +10,7 @@
   "3fe377a0e23c",
   "4095223d609c",
   "59b856001753",
+  "62637712dd81",
   "698af0b5d9f1",
   "6ad4d61cd9c5",
   "6ebff4726f1e",
@@ -36,7 +37,8 @@
   "f51d8e237bdd",
   "f58cd012573d",
   "f5c16710fe60",
-  "f6957d93f34a"
+  "f6957d93f34a",
+  "ff28ff208d9c"
  ],
  "nike_ok": true,
  "push_dead": [],
@@ -150,10 +152,10 @@
   },
   "palace-2026-11-13": {
    "date": "2026-11-13",
-   "droplist": false,
+   "droplist": true,
    "img": false,
    "n": 0,
-   "status": "previsto",
+   "status": "confirmado",
    "time": "11:00"
   },
   "palace-2026-11-20": {
