@@ -199,6 +199,7 @@
   {
    "brand": "palace",
    "date": "2026-11-13",
+   "droplist": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTWFxcThndm9aZmRmOVYtazJoNzNidjZ2RnJpMGtyV2hKbWREaXBaN1dGbnhiQnBDUXZudVRoR2hOWG82MXJHaHRuekY2SjBLaS15d3Y0TDZmRWhoZngyckxsV2V4bnZuTk90Z2hFZDZnanluNlUxaFliclFzSW5xV1N5NUJvMzg?oc=5",
    "id": "palace-2026-11-13",
    "image": null,
    "method": "FCFS",
@@ -209,9 +210,13 @@
     {
      "name": "Ritmo habitual da marca",
      "url": "https://www.palaceskateboards.com"
+    },
+    {
+     "name": "Hypebeast",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTWFxcThndm9aZmRmOVYtazJoNzNidjZ2RnJpMGtyV2hKbWREaXBaN1dGbnhiQnBDUXZudVRoR2hOWG82MXJHaHRuekY2SjBLaS15d3Y0TDZmRWhoZngyckxsV2V4bnZuTk90Z2hFZDZnanluNlUxaFliclFzSW5xV1N5NUJvMzg?oc=5"
     }
    ],
-   "status": "previsto",
+   "status": "confirmado",
    "time": "11:00"
   },
   {
