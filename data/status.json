@@ -15,6 +15,13 @@
   "Loja BAPE": {
    "ok": true
   },
+  "Loja Corteiz": {
+   "msg": "fechada com palavra-passe",
+   "ok": true
+  },
+  "Loja Ementa": {
+   "ok": true
+  },
   "Loja FiveFourFive": {
    "ok": true
   },
@@ -22,6 +29,10 @@
    "ok": true
   },
   "Loja Represent": {
+   "ok": true
+  },
+  "Loja Vigilance": {
+   "msg": "fechada com palavra-passe · anuncia drop a SÁB 21 NOV",
    "ok": true
   },
   "Nice Kicks": {

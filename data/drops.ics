@@ -7,14 +7,14 @@ X-WR-CALNAME:Vício · Drops
 X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 BEGIN:VEVENT
-UID:nike-2026-11-13-snkrs-0800@vicio
+UID:nike-2026-11-13-snkrs-0805@vicio
 DTSTAMP:20261113T000000Z
-DTSTART:20261113T080000Z
-DTEND:20261113T083000Z
+DTSTART:20261113T080500Z
+DTEND:20261113T083500Z
 SUMMARY:Nike · Dunk Low x Union “Off Noir and University Gold”
 DESCRIPTION:Dunk Low x Union “Off Noir and University Gold”\nMétodo: 
- SNKRS · FCFS\nNike SNKRS Portugal: https://www.nike.com/pt/launch/t/dunk
- -low-union-off-noir-and-university-gold
+ NIKE.COM\nNike SNKRS Portugal: https://www.nike.com/pt/launch/t/dunk-low-
+ union-off-noir-and-university-gold
 URL:https://www.nike.com/pt/launch/t/dunk-low-union-off-noir-and-universit
  y-gold
 END:VEVENT
@@ -138,6 +138,16 @@ URL:https://news.google.com/rss/articles/CBMijgFBVV95cUxOVDVlc1NfRkQ1elFWR
  0c0ZBOXFnd2g4c0FB0gGOAUFVX3lxTE5UNWVzU19GRDV6UVZFMWNYQVlmajFkY0F2MnNFSERx
  NnYzd3F2ZnU0aGVoaDlUVkxjYjRwY2czci1ITFlXUWtfRFJXV0hWNUVWVXdBUmVNdGRkRHhQN
  zVpTjRyb043QmNIby0zd0pVaXE3alh3c3pBR1ktdzBMZWpDcTRzRkE5cWd3aDhzQUE?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:vigilance-2026-11-21@vicio
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Vigilance · Novo drop
+DESCRIPTION:Novo drop\nMétodo: FCFS\nPágina da loja Vigilance: https://v
+ igilancesb.com
+URL:https://vigilancesb.com
 END:VEVENT
 BEGIN:VEVENT
 UID:supreme-2026-11-26@vicio

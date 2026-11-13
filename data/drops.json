@@ -12,6 +12,10 @@
    "name": "Corteiz",
    "site": "https://www.crtz.xyz"
   },
+  "ementa": {
+   "name": "Ementa",
+   "site": "https://ementasb.com"
+  },
   "fivefourfive": {
    "name": "FiveFourFive",
    "site": "https://fivefourfive.it"
@@ -39,15 +43,19 @@
   "supreme": {
    "name": "Supreme",
    "site": "https://eu.supreme.com"
+  },
+  "vigilance": {
+   "name": "Vigilance",
+   "site": "https://vigilancesb.com"
   }
  },
  "drops": [
   {
    "brand": "nike",
    "date": "2026-11-13",
-   "id": "nike-2026-11-13-snkrs-0800",
+   "id": "nike-2026-11-13-snkrs-0805",
    "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/afc17998-ccb1-4899-a78f-6f46a074f028/dunk-low-x-union-off-noir-and-university-gold-if7380-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-   "method": "SNKRS · FCFS",
+   "method": "NIKE.COM",
    "name": "Dunk Low x Union “Off Noir and University Gold”",
    "origin": "nike",
    "products": [
@@ -68,7 +76,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "08:00"
+   "time": "08:05"
   },
   {
    "brand": "nike",
@@ -652,6 +660,24 @@
     {
      "name": "Sneaker News",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVDVlc1NfRkQ1elFWRTFjWEFZZmoxZGNBdjJzRUhEcTZ2M3dxdmZ1NGhlaGg5VFZMY2I0cGNnM3ItSExZV1FrX0RSV1dIVjVFVlV3QVJlTXRkZER4UDc1aU40cm9ON0JjSG8tM3dKVWlxN2pYd3N6QUdZLXcwTGVqQ3E0c0ZBOXFnd2g4c0FB0gGOAUFVX3lxTE5UNWVzU19GRDV6UVZFMWNYQVlmajFkY0F2MnNFSERxNnYzd3F2ZnU0aGVoaDlUVkxjYjRwY2czci1ITFlXUWtfRFJXV0hWNUVWVXdBUmVNdGRkRHhQNzVpTjRyb043QmNIby0zd0pVaXE3alh3c3pBR1ktdzBMZWpDcTRzRkE5cWd3aDhzQUE?oc=5"
+    }
+   ],
+   "status": "confirmado",
+   "time": null
+  },
+  {
+   "brand": "vigilance",
+   "date": "2026-11-21",
+   "id": "vigilance-2026-11-21",
+   "image": null,
+   "method": "FCFS",
+   "name": "Novo drop",
+   "origin": "shopify",
+   "products": [],
+   "sources": [
+    {
+     "name": "Página da loja Vigilance",
+     "url": "https://vigilancesb.com"
     }
    ],
    "status": "confirmado",
