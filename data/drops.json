@@ -199,6 +199,7 @@
   {
    "brand": "palace",
    "date": "2026-11-13",
+   "droplist": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTWFxcThndm9aZmRmOVYtazJoNzNidjZ2RnJpMGtyV2hKbWREaXBaN1dGbnhiQnBDUXZudVRoR2hOWG82MXJHaHRuekY2SjBLaS15d3Y0TDZmRWhoZngyckxsV2V4bnZuTk90Z2hFZDZnanluNlUxaFliclFzSW5xV1N5NUJvMzg?oc=5",
    "id": "palace-2026-11-13",
    "image": null,
    "method": "FCFS",
@@ -209,16 +210,20 @@
     {
      "name": "Ritmo habitual da marca",
      "url": "https://www.palaceskateboards.com"
+    },
+    {
+     "name": "Hypebeast",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTWFxcThndm9aZmRmOVYtazJoNzNidjZ2RnJpMGtyV2hKbWREaXBaN1dGbnhiQnBDUXZudVRoR2hOWG82MXJHaHRuekY2SjBLaS15d3Y0TDZmRWhoZngyckxsV2V4bnZuTk90Z2hFZDZnanluNlUxaFliclFzSW5xV1N5NUJvMzg?oc=5"
     }
    ],
-   "status": "previsto",
+   "status": "confirmado",
    "time": "11:00"
   },
   {
    "brand": "represent",
    "date": "2026-11-13",
    "id": "represent-2026-11-13",
-   "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/hyd5KJ6foKsKLcMUL211-FygB4VrlmOCe4ODs40U7OI.jpg?v=1746026865",
+   "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/a0nPiXTU4BvttTA4TVAJBsrR9TmKhzEWUasZOYtGgLI_70111f69-7c86-43a1-b31e-49b14ed5c689.jpg?v=1794583976",
    "method": "FCFS",
    "name": "Peças novas na loja",
    "origin": "shopify",
@@ -226,130 +231,18 @@
     {
      "available": true,
      "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/hyd5KJ6foKsKLcMUL211-FygB4VrlmOCe4ODs40U7OI.jpg?v=1746026865",
-     "name": "HTN Low - Cowhide",
-     "price": 162.5,
-     "url": "https://representclo.com/products/htn-low-cowhide"
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/a0nPiXTU4BvttTA4TVAJBsrR9TmKhzEWUasZOYtGgLI_70111f69-7c86-43a1-b31e-49b14ed5c689.jpg?v=1794583976",
+     "name": "Aura Sunglasses - Beige",
+     "price": 260.0,
+     "url": "https://representclo.com/products/aura-sunglasses-beige-1"
     },
     {
      "available": true,
      "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/YRKIKPjrtJ4GR3gEu7jHpyvns30hy_ZymhDLvXops3A.jpg?v=1779350970",
-     "name": "247 Run Quarter Zip - Jet Black",
-     "price": 75.0,
-     "url": "https://representclo.com/products/247-run-quarter-zip-jet-black"
-    },
-    {
-     "available": true,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/dlJrzszHQMDXFRQDx50jUJTdGi8ZY-xE12UYLkDiqxg.jpg?v=1739962017",
-     "name": "Storm Runner - Dip Dye Chocolate",
-     "price": 205.0,
-     "url": "https://representclo.com/products/storm-runner-dip-dye-chocolate"
-    },
-    {
-     "available": true,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/BC73ACn-2nPGOKn8cbkAA7G_Obu-9w0632pH8vMB5SQ_a2c24f9e-1f21-45fa-b153-ac392f203d3e.jpg?v=1779350978",
-     "name": "Team 247 Aero Shorts - Pebble",
-     "price": 57.5,
-     "url": "https://representclo.com/products/247-aero-shorts-pebble"
-    },
-    {
-     "available": true,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0045_High-RES_0002s_0003_Layer35.jpg?v=1742403988",
-     "name": "Core Pant - Beige",
-     "price": 125.0,
-     "url": "https://representclo.com/products/core-pant-beige"
-    },
-    {
-     "available": true,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/4IiOlHNA2TEvftk0OildIiZUC8N1NrP2MGPAeY78qQ.jpg?v=1739962017",
-     "name": "Storm Runner - Dip Dye Off Black",
-     "price": 205.0,
-     "url": "https://representclo.com/products/storm-runner-dip-dye-off-black"
-    },
-    {
-     "available": false,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0029_MENSSHIRTS_0001s_0000_F7BG.jpg?v=1742403991",
-     "name": "Cotton Zip Through Shirt - Black",
-     "price": 140.0,
-     "url": "https://representclo.com/products/cotton-zip-through-shirt-black"
-    },
-    {
-     "available": true,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0096__0000s_0001_Hue_Saturation3.jpg?v=1742403995",
-     "name": "Crinkle Trucker Jacket - Black",
-     "price": 217.5,
-     "url": "https://representclo.com/products/crinkle-trucker-jacket-black"
-    },
-    {
-     "available": true,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0014_SHIRTSss25_0000s_0003_F7BG.jpg?v=1742403990",
-     "name": "Embroidered Bowling Shirt - Antique White",
-     "price": 107.5,
-     "url": "https://representclo.com/products/embroidered-bowling-shirt-antique-white"
-    },
-    {
-     "available": false,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0026_MENSSHIRTS_0001s_0003_F7BG.jpg?v=1742403990",
-     "name": "Cotton Zip Through Shirt - Beige",
-     "price": 140.0,
-     "url": "https://representclo.com/products/cotton-zip-through-shirt-blush"
-    },
-    {
-     "available": true,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0001_SS25GRAPHICSflatwhite_0001s_0001_F7BG.jpg?v=1742404000",
-     "name": "Out Of The Shadows T-Shirt - Flat White",
-     "price": 75.0,
-     "url": "https://representclo.com/products/out-of-the-shadows-t-shirt-flat-white"
-    },
-    {
-     "available": true,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0039_High-RES_0002s_0009_Layer29.jpg?v=1742403990",
-     "name": "Cotton Tailored Short - Jet Black",
-     "price": 97.5,
-     "url": "https://representclo.com/products/cotton-tailored-short-jet-black"
-    },
-    {
-     "available": true,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0032_High-RES_0002s_0016_Layer22.jpg?v=1742403994",
-     "name": "R10T Tailored Denim Shorts - Black",
-     "price": 92.5,
-     "url": "https://representclo.com/products/r10t-tailored-denim-shorts-black"
-    },
-    {
-     "available": true,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0054_drop2footwear_0019_F7BG.jpg?v=1742403995",
-     "name": "Storm Runner - Taupe Yellow",
-     "price": 185.0,
-     "url": "https://representclo.com/products/storm-runner-taupe-yellow"
-    },
-    {
-     "available": true,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0117__0000s_0000_Hue_Saturation3copy2.jpg?v=1742403986",
-     "name": "Quarter Zip Jacket - Black",
-     "price": 185.0,
-     "url": "https://representclo.com/products/quarter-zip-jacket-black"
-    },
-    {
-     "available": true,
-     "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0073_drop2footwear_0000_F7BG.jpg?v=1742403982",
-     "name": "Studio Sneaker - Suede Mix - Beige Yellow",
-     "price": 170.0,
-     "url": "https://representclo.com/products/studio-sneaker-suede-mix-beige-yellow"
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0002_F7BG_6af0236a-6cd9-4c68-9307-3f7583564d75.jpg?v=1794583999",
+     "name": "Aura Sunglasses - Jet Black",
+     "price": 260.0,
+     "url": "https://representclo.com/products/aura-sunglasses-jet-black-1"
     }
    ],
    "sources": [
@@ -359,7 +252,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "11:37"
+   "time": "15:37"
   },
   {
    "brand": "nike",
