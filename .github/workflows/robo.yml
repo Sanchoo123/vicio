@@ -2,7 +2,7 @@ name: Robô de drops
 
 on:
   schedule:
-    - cron: "7,37 * * * *"   # de 30 em 30 minutos (o GitHub pode atrasar alguns minutos)
+    - cron: "7,37 * * * *"   # reserva: o GitHub salta muitas destas; quem mantém o ritmo é o trabalho "seguinte"
   workflow_dispatch:          # botão "Run workflow" (e o "Procurar agora" da app)
     inputs:
       teste:
@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write              # para o trabalho "seguinte" marcar a ronda seguinte
 
 jobs:
   correr:
@@ -80,3 +81,33 @@ jobs:
         run: |
           printf '%s' "$TIMED" > "$RUNNER_TEMP/timed.json"
           python -m robot.timed "$RUNNER_TEMP/timed.json"
+
+  # Marca a ronda seguinte: espera pela próxima hora certa (:07 ou :37) e põe o robô a correr outra vez.
+  # Só a ronda mais recente o faz; se entretanto começou outra (agendada ou da app), esta sai sem fazer nada,
+  # para nunca haver duas cadeias de rondas ao mesmo tempo.
+  seguinte:
+    needs: correr
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+    steps:
+      - name: Esperar pela próxima ronda
+        run: |
+          python3 - <<'PY'
+          import datetime as dt, time
+          now = dt.datetime.now(dt.timezone.utc)
+          t = now.replace(second=0, microsecond=0)
+          while not (t.minute % 30 == 7 and t - now > dt.timedelta(minutes=3)):
+              t += dt.timedelta(minutes=1)
+          print("próxima ronda às", t.strftime("%H:%M"), "UTC")
+          time.sleep((t - now).total_seconds())
+          PY
+      - name: Pôr a ronda seguinte a correr
+        run: |
+          newest=$(gh api "repos/$REPO/actions/workflows/robo.yml/runs?per_page=1" --jq '.workflow_runs[0].id')
+          if [ "$newest" != "${{ github.run_id }}" ]; then echo "Já começou outra ronda ($newest): é ela que marca a seguinte."; exit 0; fi
+          gh workflow run robo.yml -R "$REPO"
+          echo "Ronda seguinte marcada."
