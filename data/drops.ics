@@ -7,14 +7,37 @@ X-WR-CALNAME:Vício · Drops
 X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 BEGIN:VEVENT
-UID:nike-2026-11-12-nike-air-bakin-varsity-royal@vicio
-DTSTAMP:20261112T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Nike · Nike Air Bakin “Varsity Royal” (rumor)
-DESCRIPTION:Nike Air Bakin “Varsity Royal”\nMétodo: SNKRS\nSneaker Ne
- ws: https://sneakernews.com/2026/11/11/nike-air-bakin-royal-store-list/
-URL:https://sneakernews.com/2026/11/11/nike-air-bakin-royal-store-list/
+UID:nike-2026-11-13-snkrs-0800@vicio
+DTSTAMP:20261113T000000Z
+DTSTART:20261113T080000Z
+DTEND:20261113T083000Z
+SUMMARY:Nike · Dunk Low x Union “Off Noir and University Gold”
+DESCRIPTION:Dunk Low x Union “Off Noir and University Gold”\nMétodo: 
+ SNKRS · FCFS\nNike SNKRS Portugal: https://www.nike.com/pt/launch/t/dunk
+ -low-union-off-noir-and-university-gold
+URL:https://www.nike.com/pt/launch/t/dunk-low-union-off-noir-and-universit
+ y-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:nike-2026-11-13-snkrs-0813@vicio
+DTSTAMP:20261113T000000Z
+DTSTART:20261113T081300Z
+DTEND:20261113T084300Z
+SUMMARY:Nike · Nike x Union “Coleção de vestuário” + 1 lançamento
+DESCRIPTION:Nike x Union “Coleção de vestuário” + 1 lançamento\nM
+ étodo: NIKE.COM\nNike SNKRS Portugal: https://www.nike.com/pt/launch?s=u
+ pcoming
+URL:https://www.nike.com/pt/launch?s=upcoming
+END:VEVENT
+BEGIN:VEVENT
+UID:bape-2026-11-13@vicio
+DTSTAMP:20261113T000000Z
+DTSTART:20261113T090000Z
+DTEND:20261113T093000Z
+SUMMARY:BAPE · Peças novas na loja
+DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja BAPE: https://bape.c
+ om
+URL:https://bape.com
 END:VEVENT
 BEGIN:VEVENT
 UID:palace-2026-11-13@vicio
@@ -27,6 +50,18 @@ DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
 URL:https://www.palaceskateboards.com
 END:VEVENT
 BEGIN:VEVENT
+UID:nike-2026-11-14-snkrs-0800@vicio
+DTSTAMP:20261114T000000Z
+DTSTART:20261114T080000Z
+DTEND:20261114T083000Z
+SUMMARY:Nike · Air Max Dolce Leather para mulher “Black and Natural” 
+ + 1 lançamento
+DESCRIPTION:Air Max Dolce Leather para mulher “Black and Natural” + 1 
+ lançamento\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.nik
+ e.com/pt/launch?s=upcoming
+URL:https://www.nike.com/pt/launch?s=upcoming
+END:VEVENT
+BEGIN:VEVENT
 UID:bape-2026-11-14@vicio
 DTSTAMP:20261114T000000Z
 DTSTART;VALUE=DATE:20261114
@@ -34,10 +69,22 @@ DTEND;VALUE=DATE:20261115
 SUMMARY:BAPE · Billie Eilish Brings a Longtime Streetwear Affinity Full C
  ircle With BAPE (rumor)
 DESCRIPTION:Billie Eilish Brings a Longtime Streetwear Affinity Full Circl
- e With BAPE\nMétodo: FCFS\nHypebeast: https://hypebeast.com/2026/11/bill
- ie-eilish-bape-bathing-ape-collaborative-collection-release-info
+ e With BAPE\nMétodo: FCFS\nHypebeast Fashion: https://hypebeast.com/2026
+ /11/billie-eilish-bape-bathing-ape-collaborative-collection-release-info
 URL:https://hypebeast.com/2026/11/billie-eilish-bape-bathing-ape-collabora
  tive-collection-release-info
+END:VEVENT
+BEGIN:VEVENT
+UID:nike-2026-11-19-snkrs-0800@vicio
+DTSTAMP:20261119T000000Z
+DTSTART:20261119T080000Z
+DTEND:20261119T083000Z
+SUMMARY:Nike · Air Max 95 Big Bubble LUX x One Block Down "Italy" “Blac
+ k” + 1 lançamento
+DESCRIPTION:Air Max 95 Big Bubble LUX x One Block Down "Italy" “Black”
+  + 1 lançamento\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https://ww
+ w.nike.com/pt/launch?s=upcoming
+URL:https://www.nike.com/pt/launch?s=upcoming
 END:VEVENT
 BEGIN:VEVENT
 UID:supreme-2026-11-19@vicio
@@ -48,6 +95,18 @@ SUMMARY:Supreme · Drop semanal (previsto)
 DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
  eu.supreme.com
 URL:https://eu.supreme.com
+END:VEVENT
+BEGIN:VEVENT
+UID:nike-2026-11-20-snkrs-0800@vicio
+DTSTAMP:20261120T000000Z
+DTSTART:20261120T080000Z
+DTEND:20261120T083000Z
+SUMMARY:Nike · Air Max Goadome Low x Carhartt WIP “Black and Twilight M
+ arsh” + 2 lançamentos
+DESCRIPTION:Air Max Goadome Low x Carhartt WIP “Black and Twilight Marsh
+ ” + 2 lançamentos\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https:
+ //www.nike.com/pt/launch?s=upcoming
+URL:https://www.nike.com/pt/launch?s=upcoming
 END:VEVENT
 BEGIN:VEVENT
 UID:palace-2026-11-20@vicio
@@ -91,6 +150,18 @@ DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
 URL:https://eu.supreme.com
 END:VEVENT
 BEGIN:VEVENT
+UID:nike-2026-11-27-snkrs-0800@vicio
+DTSTAMP:20261127T000000Z
+DTSTART:20261127T080000Z
+DTEND:20261127T083000Z
+SUMMARY:Nike · Rejuven8 Run 4x4 para mulher “Linen and Natural” + 3 l
+ ançamentos
+DESCRIPTION:Rejuven8 Run 4x4 para mulher “Linen and Natural” + 3 lanç
+ amentos\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.nike.co
+ m/pt/launch?s=upcoming
+URL:https://www.nike.com/pt/launch?s=upcoming
+END:VEVENT
+BEGIN:VEVENT
 UID:palace-2026-11-27@vicio
 DTSTAMP:20261127T000000Z
 DTSTART:20261127T110000Z
@@ -111,18 +182,6 @@ DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
 URL:https://eu.supreme.com
 END:VEVENT
 BEGIN:VEVENT
-UID:nike-2026-12-03-nike-air-bakin-sp-black@vicio
-DTSTAMP:20261203T000000Z
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-SUMMARY:Nike · The Nike Air Bakin SP “Black/White”
-DESCRIPTION:The Nike Air Bakin SP “Black/White”\nMétodo: SNKRS\nSneak
- er News: https://sneakernews.com/2026/07/06/nike-air-bakin-black-white-iq
- 5365-001/
-URL:https://sneakernews.com/2026/07/06/nike-air-bakin-black-white-iq5365-0
- 01/
-END:VEVENT
-BEGIN:VEVENT
 UID:palace-2026-12-04@vicio
 DTSTAMP:20261204T000000Z
 DTSTART:20261204T110000Z
@@ -131,17 +190,5 @@ SUMMARY:Palace · Drop semanal (previsto)
 DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
  www.palaceskateboards.com
 URL:https://www.palaceskateboards.com
-END:VEVENT
-BEGIN:VEVENT
-UID:nike-2026-12-05-nike-air-foamposite-one-mummy@vicio
-DTSTAMP:20261205T000000Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Nike · Nike Air Foamposite One “Mummy” December 2026 Release 
- Date & Info (rumor)
-DESCRIPTION:Nike Air Foamposite One “Mummy” December 2026 Release Date
-  & Info\nMétodo: SNKRS\nNice Kicks: https://www.nicekicks.com/nike-air-f
- oamposite-one-mummy-iz1476-001/
-URL:https://www.nicekicks.com/nike-air-foamposite-one-mummy-iz1476-001/
 END:VEVENT
 END:VCALENDAR

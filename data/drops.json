@@ -36,21 +36,408 @@
  "drops": [
   {
    "brand": "nike",
-   "date": "2026-11-12",
-   "id": "nike-2026-11-12-nike-air-bakin-varsity-royal",
-   "image": "https://sneakernews.com/wp-content/uploads/2026/11/nike-air-bakin-royal-store-list-2.jpg",
-   "method": "SNKRS",
-   "name": "Nike Air Bakin “Varsity Royal”",
-   "origin": "rss",
-   "products": [],
-   "sources": [
+   "date": "2026-11-13",
+   "id": "nike-2026-11-13-snkrs-0800",
+   "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/afc17998-ccb1-4899-a78f-6f46a074f028/dunk-low-x-union-off-noir-and-university-gold-if7380-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "method": "SNKRS · FCFS",
+   "name": "Dunk Low x Union “Off Noir and University Gold”",
+   "origin": "nike",
+   "products": [
     {
-     "name": "Sneaker News",
-     "url": "https://sneakernews.com/2026/11/11/nike-air-bakin-royal-store-list/"
+     "color": "Off Noir/Dourado University/Dark Ash/Off Noir",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/afc17998-ccb1-4899-a78f-6f46a074f028/dunk-low-x-union-off-noir-and-university-gold-if7380-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Dunk Low x Union “Off Noir and University Gold”",
+     "price": 139.99,
+     "sku": "IF7380-001",
+     "url": "https://www.nike.com/pt/launch/t/dunk-low-union-off-noir-and-university-gold"
     }
    ],
-   "status": "rumor",
-   "time": null
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch/t/dunk-low-union-off-noir-and-university-gold"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:00"
+  },
+  {
+   "brand": "nike",
+   "date": "2026-11-13",
+   "id": "nike-2026-11-13-snkrs-0813",
+   "image": "https://static.nike.com/a/images/w_1536,c_limit/f8630774-2ca3-4077-b095-a7b82eb0c51a/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike%C2%A0x%C2%A0union-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "method": "NIKE.COM",
+   "name": "Nike x Union “Coleção de vestuário” + 1 lançamento",
+   "origin": "nike",
+   "products": [
+    {
+     "color": "Preto/Branco",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/f8630774-2ca3-4077-b095-a7b82eb0c51a/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike%C2%A0x%C2%A0union-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Camisola de manga curta Nike x Union para homem",
+     "price": 69.99,
+     "sku": "IH0919-010",
+     "url": "https://www.nike.com/pt/launch/t/nike-union-apparel-collection-static-emea"
+    },
+    {
+     "color": "Castanho Baroque/Castanho Velvet",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/f8630774-2ca3-4077-b095-a7b82eb0c51a/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike%C2%A0x%C2%A0union-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Meias de cano médio Nike Everyday Elevated (1 par)",
+     "price": 14.99,
+     "sku": "IH2216-237",
+     "url": "https://www.nike.com/pt/launch/t/nike-union-apparel-collection-static-emea"
+    },
+    {
+     "color": "Preto/Dourado University",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/f8630774-2ca3-4077-b095-a7b82eb0c51a/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike%C2%A0x%C2%A0union-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Casaco Nike x Union para homem",
+     "price": 399.99,
+     "sku": "IH0914-010",
+     "url": "https://www.nike.com/pt/launch/t/nike-union-apparel-collection-static-emea"
+    },
+    {
+     "color": "Preto",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/f8630774-2ca3-4077-b095-a7b82eb0c51a/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike%C2%A0x%C2%A0union-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Calças de lã cardada com efeito lavado Nike x Union",
+     "price": 149.99,
+     "sku": "IO7327-010",
+     "url": "https://www.nike.com/pt/launch/t/nike-union-apparel-collection-static-emea"
+    },
+    {
+     "color": "Caqui Desert/Sail",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/f8630774-2ca3-4077-b095-a7b82eb0c51a/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike%C2%A0x%C2%A0union-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Meias de cano médio Nike Everyday Elevated (1 par)",
+     "price": 14.99,
+     "sku": "IH2216-253",
+     "url": "https://www.nike.com/pt/launch/t/nike-union-apparel-collection-static-emea"
+    },
+    {
+     "color": "Preto/Anthracite",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/f8630774-2ca3-4077-b095-a7b82eb0c51a/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike%C2%A0x%C2%A0union-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Meias de cano médio Nike Everyday Elevated (1 par)",
+     "price": 14.99,
+     "sku": "IH2216-010",
+     "url": "https://www.nike.com/pt/launch/t/nike-union-apparel-collection-static-emea"
+    },
+    {
+     "color": "Preto",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/f8630774-2ca3-4077-b095-a7b82eb0c51a/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike%C2%A0x%C2%A0union-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Hoodie de lã cardada com efeito lavado Nike x Union",
+     "price": 169.99,
+     "sku": "IO7326-010",
+     "url": "https://www.nike.com/pt/launch/t/nike-union-apparel-collection-static-emea"
+    },
+    {
+     "color": "Castanho Baroque/Branco",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/f8630774-2ca3-4077-b095-a7b82eb0c51a/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike%C2%A0x%C2%A0union-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Camisola de manga curta Nike x Union para homem",
+     "price": 69.99,
+     "sku": "IH0919-237",
+     "url": "https://www.nike.com/pt/launch/t/nike-union-apparel-collection-static-emea"
+    },
+    {
+     "color": "Castanho Baroque",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/f8630774-2ca3-4077-b095-a7b82eb0c51a/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike%C2%A0x%C2%A0union-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Hoodie de lã cardada com efeito lavado Nike x Union",
+     "price": 169.99,
+     "sku": "IO7326-237",
+     "url": "https://www.nike.com/pt/launch/t/nike-union-apparel-collection-static-emea"
+    },
+    {
+     "color": "Castanho Baroque",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/f8630774-2ca3-4077-b095-a7b82eb0c51a/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike%C2%A0x%C2%A0union-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Calças de lã cardada com efeito lavado Nike x Union",
+     "price": 149.99,
+     "sku": "IO7327-237",
+     "url": "https://www.nike.com/pt/launch/t/nike-union-apparel-collection-static-emea"
+    },
+    {
+     "color": "Medium Olive/Sequoia/Medium Olive",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/fabd04b8-5819-444c-b085-a3fc40610800/air-max-90-x-medium-olive-and-sequoia-iv4504-201-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Air Max 90 “Medium Olive and Sequoia”",
+     "price": 159.99,
+     "sku": "IV4504-201",
+     "url": "https://www.nike.com/pt/launch/t/air-max-90-medium-olive-and-sequoia"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch?s=upcoming"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:13"
+  },
+  {
+   "brand": "bape",
+   "date": "2026-11-13",
+   "id": "bape-2026-11-13",
+   "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/00AHOM701301_BRW_A.jpg?v=1792719641",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/00AHOM701301_BRW_A.jpg?v=1792719641",
+     "name": "ALL BABY MILO MINI RUBBISH BIN",
+     "price": 4400.0,
+     "url": "https://bape.com/products/am70-192-301"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007DNM701302_GRA_A.jpg?v=1794483068",
+     "name": "V NECK DOWN VEST",
+     "price": 50600.0,
+     "url": "https://bape.com/products/7m70-144-302"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007DNM701301_BLK_A.jpg?v=1794483102",
+     "name": "V NECK DOWN JACKET",
+     "price": 77000.0,
+     "url": "https://bape.com/products/7m70-144-301"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007LJM701301_BLK_A.jpg?v=1794484339",
+     "name": "TRUCKER JACKET",
+     "price": 231000.0,
+     "url": "https://bape.com/products/7m70-140-301"
+    },
+    {
+     "available": false,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/002ZPM802305_MUL_A.jpg?v=1794479723",
+     "name": "STA CAMO METALLIC MILO FACE FULL ZIP HOODIE #2",
+     "price": 52800.0,
+     "url": "https://bape.com/products/2m80-215-305"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/002TEM802007_WHN_A.jpg?v=1794479848",
+     "name": "STA CAMO MILO SHARK FZH TEE",
+     "price": 12100.0,
+     "url": "https://bape.com/products/2m80-210-007"
+    },
+    {
+     "available": false,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/002ZPM802303_PNK_A.jpg?v=1794479760",
+     "name": "STA CAMO METALLIC MILO FACE FULL ZIP HOODIE #1",
+     "price": 52800.0,
+     "url": "https://bape.com/products/2m80-215-303"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001KNM802302_PNK_A.jpg?v=1794479822",
+     "name": "STA CAMO METALLIC BOXY CROPPED SWEATER",
+     "price": 41800.0,
+     "url": "https://bape.com/products/1m80-220-302"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001BAM802304_PNK_A.jpg?v=1794480092",
+     "name": "STA CAMO MEDIUM BOSTON BAG",
+     "price": 44000.0,
+     "url": "https://bape.com/products/1m80-289-304"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001TEM802020_WHG_A.jpg?v=1794479904",
+     "name": "STA CAMO BIG APE HEAD TEE",
+     "price": 12100.0,
+     "url": "https://bape.com/products/1m80-210-020"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007DNM701311_OLD_A.jpg?v=1794484458",
+     "name": "SQUARE BAFFLES DOWN JACKET M",
+     "price": 121000.0,
+     "url": "https://bape.com/products/7m70-144-311"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001PTM801319_WHT_A.jpg?v=1794478442",
+     "name": "SPRAY CAMO RELAXED FIT SWEATPANTS",
+     "price": 36300.0,
+     "url": "https://bape.com/products/1m80-152-319"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001SWM801307_WHT_A.jpg?v=1794478405",
+     "name": "SPRAY CAMO RELAXED FIT CREWNECK SWEATSHIRT",
+     "price": 35200.0,
+     "url": "https://bape.com/products/1m80-113-307"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001ZPM801316_GRN_A.jpg?v=1794478371",
+     "name": "SPRAY CAMO CUSHION CROPPED FIT ZIP HOODIE",
+     "price": 57200.0,
+     "url": "https://bape.com/products/1m80-115-316"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007KNM701308_CHA_A.jpg?v=1794483938",
+     "name": "SHAWL COLLAR RIB KNIT CARDIGAN",
+     "price": 154000.0,
+     "url": "https://bape.com/products/7m70-120-308"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001LTM701005_BLK_A.jpg?v=1794477188",
+     "name": "SHARK GLOW IN THE DARK LS TEE",
+     "price": 16500.0,
+     "url": "https://bape.com/products/1m70-111-005"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007LJM701304_CHA_A_5a7ddf1e-164c-4dd8-88d7-36ee7fae9bf1.jpg?v=1794482584",
+     "name": "REVERSIBLE PADDED ZIP SWEATSHIRT",
+     "price": 88000.0,
+     "url": "https://bape.com/products/7m70-140-304"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001HOM701003_BLK_A.jpg?v=1794477161",
+     "name": "SHARK FLOOR RUG",
+     "price": 17600.0,
+     "url": "https://bape.com/products/1m70-192-003"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007LJM701303_CHA_A.jpg?v=1794483410",
+     "name": "REVERSIBLE PADDED ZIP HOODIE",
+     "price": 88000.0,
+     "url": "https://bape.com/products/7m70-140-303"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007ZPM701301_GRA_A.jpg?v=1794483590",
+     "name": "ONE POINT ZIP HOODIE",
+     "price": 46200.0,
+     "url": "https://bape.com/products/7m70-115-301"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001PTM803004_SAX_A.jpg?v=1794480485",
+     "name": "ONE POINT WIDE SWEAT PANTS",
+     "price": 19800.0,
+     "url": "https://bape.com/products/1m80-352-004"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007SWM701307_BRW_A.jpg?v=1794483676",
+     "name": "ONE POINT HALF ZIP SWEAT POLO",
+     "price": 38500.0,
+     "url": "https://bape.com/products/7m70-113-307"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007SWM701306_GRA_A.jpg?v=1794482496",
+     "name": "NUMBER PRINT CREWNECK SWEATSHIRT #2",
+     "price": 23100.0,
+     "url": "https://bape.com/products/7m70-113-306"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007SWM701305_GRA_A.jpg?v=1794482525",
+     "name": "NUMBER PRINT CREWNECK SWEATSHIRT #1",
+     "price": 23100.0,
+     "url": "https://bape.com/products/7m70-113-305"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001HTM802303_PNK_A.jpg?v=1794480125",
+     "name": "MULTI LOGO CRYSTAL STONE BEANIE",
+     "price": 16500.0,
+     "url": "https://bape.com/products/1m80-281-303"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007LTM701303_GRA_A.jpg?v=1794482283",
+     "name": "MRB COLLEGE PRINT LS TEE",
+     "price": 23100.0,
+     "url": "https://bape.com/products/7m70-111-303"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007GDM701302_GRN_A.jpg?v=1794485282",
+     "name": "MR. BATHING APE TIE #2",
+     "price": 23100.0,
+     "url": "https://bape.com/products/7m70-182-302"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007GDM701301_NVY_A.jpg?v=1794485399",
+     "name": "MR. BATHING APE TIE #1",
+     "price": 23100.0,
+     "url": "https://bape.com/products/7m70-182-301"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007KNM701303_CHA_A.jpg?v=1794484141",
+     "name": "MR. APE HEAD INTARSIA SWEATER CARDIGAN",
+     "price": 77000.0,
+     "url": "https://bape.com/products/7m70-120-303"
+    },
+    {
+     "available": true,
+     "currency": null,
+     "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/007KNM701311_CHA_A.jpg?v=1794482670",
+     "name": "MR. APE HEAD INTARSIA KNIT SWEATER",
+     "price": 50600.0,
+     "url": "https://bape.com/products/7m70-120-311"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja BAPE",
+     "url": "https://bape.com"
+    }
+   ],
+   "status": "confirmado",
+   "time": "09:00"
   },
   {
    "brand": "palace",
@@ -71,6 +458,43 @@
    "time": "11:00"
   },
   {
+   "brand": "nike",
+   "date": "2026-11-14",
+   "id": "nike-2026-11-14-snkrs-0800",
+   "image": "https://static.nike.com/a/images/w_1536,c_limit/4c822c66-c895-430b-96df-6f517a91537d/air-max-dolce-leather-para-mulher-black-and-natural-ir8665-001-%E2%80%93-data-de-lan%C3%A7amento.png",
+   "method": "SNKRS · FCFS",
+   "name": "Air Max Dolce Leather para mulher “Black and Natural” + 1 lançamento",
+   "origin": "nike",
+   "products": [
+    {
+     "color": "Preto/Anthracite/Preto",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/4c822c66-c895-430b-96df-6f517a91537d/air-max-dolce-leather-para-mulher-black-and-natural-ir8665-001-%E2%80%93-data-de-lan%C3%A7amento.png",
+     "name": "Air Max Dolce Leather para mulher “Black and Natural”",
+     "price": 179.99,
+     "sku": "IR8665-001",
+     "url": "https://www.nike.com/pt/launch/t/women-s-air-max-dolce-leather-black-and-natural"
+    },
+    {
+     "color": "Rosa Pearl/Rose Pale/Preto/Rosa Pearl",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/19b74563-ae06-436d-8a95-1df9b7aef34e/air-max-dolce-leather-para-mulher-pearl-pink-and-pale-pink-ir8665-600-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Air Max Dolce Leather para mulher “Pearl Pink and Pale Pink”",
+     "price": 179.99,
+     "sku": "IR8665-600",
+     "url": "https://www.nike.com/pt/launch/t/women-s-air-max-dolce-leather-pearl-pink-and-pale-pink"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch?s=upcoming"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:00"
+  },
+  {
    "brand": "bape",
    "date": "2026-11-14",
    "id": "bape-2026-11-14",
@@ -81,12 +505,49 @@
    "products": [],
    "sources": [
     {
-     "name": "Hypebeast",
+     "name": "Hypebeast Fashion",
      "url": "https://hypebeast.com/2026/11/billie-eilish-bape-bathing-ape-collaborative-collection-release-info"
     }
    ],
    "status": "rumor",
    "time": null
+  },
+  {
+   "brand": "nike",
+   "date": "2026-11-19",
+   "id": "nike-2026-11-19-snkrs-0800",
+   "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/d79ba8b7-f6af-4293-8f60-3b911b079f63/air%C2%A0max%C2%A095%C2%A0big%C2%A0bubble%C2%A0lux-x-one-block-down-italy-black-im0704-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "method": "SNKRS · FCFS",
+   "name": "Air Max 95 Big Bubble LUX x One Block Down \"Italy\" “Black” + 1 lançamento",
+   "origin": "nike",
+   "products": [
+    {
+     "color": "Preto/Preto/Verde Gym/Preto",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/d79ba8b7-f6af-4293-8f60-3b911b079f63/air%C2%A0max%C2%A095%C2%A0big%C2%A0bubble%C2%A0lux-x-one-block-down-italy-black-im0704-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Air Max 95 Big Bubble LUX x One Block Down \"Italy\" “Black”",
+     "price": 199.99,
+     "sku": "IM0704-001",
+     "url": "https://www.nike.com/pt/launch/t/air-max-95-big-bubble-lux-one-block-down-italy-black"
+    },
+    {
+     "color": "Amarillo/Multicolor",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/024d8bd9-8b33-452c-beb4-725d122657be/nike-tiempo-streetgato-x-kids-of-immigrants-black-and-team-orange-iv3430-700-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Nike Tiempo Streetgato x Kids of Immigrants “Black and Team Orange”",
+     "price": 99.99,
+     "sku": "IV3430-700",
+     "url": "https://www.nike.com/pt/launch/t/nike-tiempo-streetgato-x-kids-of-immigrants-1"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch?s=upcoming"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:00"
   },
   {
    "brand": "supreme",
@@ -105,6 +566,52 @@
    ],
    "status": "previsto",
    "time": "16:00"
+  },
+  {
+   "brand": "nike",
+   "date": "2026-11-20",
+   "id": "nike-2026-11-20-snkrs-0800",
+   "image": "https://static.nike.com/a/images/w_1536,c_limit/f008d9ce-8b14-4c02-b4e6-ab8ddf1783bf/air%C2%A0max%C2%A0goadome%C2%A0low-x-carhartt-wip-black-and-twilight-marsh-iw6306-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "method": "SNKRS · FCFS",
+   "name": "Air Max Goadome Low x Carhartt WIP “Black and Twilight Marsh” + 2 lançamentos",
+   "origin": "nike",
+   "products": [
+    {
+     "color": "Preto/Twilight Marsh/Light British Tan/Preto",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/f008d9ce-8b14-4c02-b4e6-ab8ddf1783bf/air%C2%A0max%C2%A0goadome%C2%A0low-x-carhartt-wip-black-and-twilight-marsh-iw6306-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Air Max Goadome Low x Carhartt WIP “Black and Twilight Marsh”",
+     "price": 189.99,
+     "sku": "IW6306-001",
+     "url": "https://www.nike.com/pt/launch/t/air-max-goadome-low-carhartt-wip-black-and-twilight-marsh"
+    },
+    {
+     "color": "Cinzento College/Rosa Glaze/Cinzento College",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/51d13e22-cf2b-43a6-9486-7a3b6bbd8422/air-force-1-01-college-grey-and-pink-glaze-iv6999-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Air Force 1 '01 “College Grey and Pink Glaze”",
+     "price": 139.99,
+     "sku": "IV6999-001",
+     "url": "https://www.nike.com/pt/launch/t/air-force-1-01-college-grey-and-pink-glaze-1"
+    },
+    {
+     "color": "Light British Tan/Twilight Marsh/Preto/Metallic Ochre",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/83c1d0d4-3f90-429d-8c09-d22b2f63d800/air%C2%A0max%C2%A0goadome%C2%A0low-x-carhartt-wip-light-british-tan-and-twilight-marsh-iw6306-200-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Air Max Goadome Low x Carhartt WIP “Light British Tan and Twilight Marsh”",
+     "price": 189.99,
+     "sku": "IW6306-200",
+     "url": "https://www.nike.com/pt/launch/t/air-max-goadome-low-carhartt-wip-light-british-tan-and-twilight-marsh"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch?s=upcoming"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:00"
   },
   {
    "brand": "palace",
@@ -161,6 +668,61 @@
    "time": "16:00"
   },
   {
+   "brand": "nike",
+   "date": "2026-11-27",
+   "id": "nike-2026-11-27-snkrs-0800",
+   "image": "https://static.nike.com/a/images/w_1536,c_limit/c5f3d7ac-e6bb-49eb-837b-7c78b7a31da1/rejuven8%C2%A0run%C2%A04x4-linen-and-natural-para-mulher-iu3143-200-%E2%80%93-data-de-lan%C3%A7amento.png",
+   "method": "SNKRS · FCFS",
+   "name": "Rejuven8 Run 4x4 para mulher “Linen and Natural” + 3 lançamentos",
+   "origin": "nike",
+   "products": [
+    {
+     "color": "Linen/Natural/Off Noir",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/c5f3d7ac-e6bb-49eb-837b-7c78b7a31da1/rejuven8%C2%A0run%C2%A04x4-linen-and-natural-para-mulher-iu3143-200-%E2%80%93-data-de-lan%C3%A7amento.png",
+     "name": "Rejuven8 Run 4x4 para mulher “Linen and Natural”",
+     "price": 139.99,
+     "sku": "IU3143-200",
+     "url": "https://www.nike.com/pt/launch/t/women-s-rejuven8-run-44-linen-and-natural"
+    },
+    {
+     "color": "Cinzento Smoke/Preto/Hyper Royal/Cinzento Smoke escuro",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/a793a46f-04e6-406a-9043-4422d84bebab/rejuven8%C2%A0run%C2%A04x4-smoke-grey-and-black-para-mulher-iu3143-001-%E2%80%93-data-de-lan%C3%A7amento.png",
+     "name": "Rejuven8 Run 4x4 para mulher “Smoke Grey and Black”",
+     "price": 139.99,
+     "sku": "IU3143-001",
+     "url": "https://www.nike.com/pt/launch/t/womens-rejuven8-run-44-smoke-grey-and-black"
+    },
+    {
+     "color": "Carmesim Laser/Obsidian/Prateado",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/f5ff9d49-ba55-440b-830f-08a08ad9cbf4/kobe%C2%A09%C2%A0em%C2%A0low%C2%A0protro-laser-crimson-and-obsidian-io6262-600-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Kobe 9 EM Low Protro “Laser Crimson and Obsidian”",
+     "price": 189.99,
+     "sku": "IO6262-600",
+     "url": "https://www.nike.com/pt/launch/t/kobe-9-em-low-protro-laser-crimson-and-obsidian"
+    },
+    {
+     "color": "Preto Spruce/Preto/Bright Ceramic/Dourado metalizado",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/7c0d8867-20c1-45d7-8db0-65ede993bca7/nike-sb-dunk-low-pro-black-spruce-and-metallic-gold-iq0431-300-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Nike SB Dunk Low Pro “Black Spruce and Metallic Gold”",
+     "price": 119.99,
+     "sku": "IQ0431-300",
+     "url": "https://www.nike.com/pt/launch/t/nike-sb-dunk-low-pro-black-spruce-and-metallic-gold"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch?s=upcoming"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:00"
+  },
+  {
    "brand": "palace",
    "date": "2026-11-27",
    "id": "palace-2026-11-27",
@@ -197,24 +759,6 @@
    "time": "16:00"
   },
   {
-   "brand": "nike",
-   "date": "2026-12-03",
-   "id": "nike-2026-12-03-nike-air-bakin-sp-black",
-   "image": "https://sneakernews.com/wp-content/uploads/2026/07/nike-air-bakin-black-white-IQ5365-001-2.jpg",
-   "method": "SNKRS",
-   "name": "The Nike Air Bakin SP “Black/White”",
-   "origin": "rss",
-   "products": [],
-   "sources": [
-    {
-     "name": "Sneaker News",
-     "url": "https://sneakernews.com/2026/07/06/nike-air-bakin-black-white-iq5365-001/"
-    }
-   ],
-   "status": "confirmado",
-   "time": null
-  },
-  {
    "brand": "palace",
    "date": "2026-12-04",
    "id": "palace-2026-12-04",
@@ -231,24 +775,6 @@
    ],
    "status": "previsto",
    "time": "11:00"
-  },
-  {
-   "brand": "nike",
-   "date": "2026-12-05",
-   "id": "nike-2026-12-05-nike-air-foamposite-one-mummy",
-   "image": "https://www.nicekicks.com/files/2026/08/iz1476-001-5-1-e1788192455783.jpg",
-   "method": "SNKRS",
-   "name": "Nike Air Foamposite One “Mummy” December 2026 Release Date & Info",
-   "origin": "rss",
-   "products": [],
-   "sources": [
-    {
-     "name": "Nice Kicks",
-     "url": "https://www.nicekicks.com/nike-air-foamposite-one-mummy-iz1476-001/"
-    }
-   ],
-   "status": "rumor",
-   "time": null
   }
  ]
 }
