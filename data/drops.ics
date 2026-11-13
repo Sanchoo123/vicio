@@ -30,16 +30,6 @@ DESCRIPTION:Nike x Union “Coleção de vestuário” + 1 lançamento\nM
 URL:https://www.nike.com/pt/launch?s=upcoming
 END:VEVENT
 BEGIN:VEVENT
-UID:bape-2026-11-13@vicio
-DTSTAMP:20261113T000000Z
-DTSTART:20261113T090000Z
-DTEND:20261113T093000Z
-SUMMARY:BAPE · Peças novas na loja
-DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja BAPE: https://bape.c
- om
-URL:https://bape.com
-END:VEVENT
-BEGIN:VEVENT
 UID:palace-2026-11-13@vicio
 DTSTAMP:20261113T000000Z
 DTSTART:20261113T110000Z
