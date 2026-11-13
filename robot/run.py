@@ -9,9 +9,9 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from . import ics, notify
-from .config import BRANDS, FEEDS, KEEP_PAST_DAYS, MAX_PUSH_PER_RUN, NTFY_MAX_DELAY_DAYS, STORES, TZ
+from .config import BRANDS, FEEDS, GNEWS_EVERY, KEEP_PAST_DAYS, MAX_PUSH_PER_RUN, NTFY_MAX_DELAY_DAYS, STORES, TZ
 from .http import Blocked, get
-from .sources import manual, patterns, rss, shopify
+from .sources import gnews, manual, patterns, rss, shopify
 
 DATA = Path(__file__).resolve().parent.parent / "data"
 RANK = {"pattern": 0, "rss": 1, "shopify": 2, "manual": 3}
@@ -211,8 +211,20 @@ def run(now=None, dry_run=False):
         except Exception as e:
             status[f["name"]] = dict(ok=False, msg=f"erro: {type(e).__name__}")
 
-    # 3. lojas com catálogo público
     slot = (now.hour * 60 + now.minute) // 30
+
+    # 2b. Google Notícias, de hora a hora (nas meias-horas em que a BAPE não é lida)
+    if first_run or not state.get("gnews_ok") or slot % max(1, GNEWS_EVERY // 30) == 1:
+        items, errs = gnews.fetch(today)
+        news += items
+        cands += [rss.to_drop(i) for i in items if i.get("date")]
+        if items or not errs:
+            status["Google Notícias"] = dict(ok=True, msg="; ".join(errs)) if errs else dict(ok=True)
+        else:
+            status["Google Notícias"] = dict(ok=False, msg="; ".join(errs)[:200])
+        state["gnews_ok"] = True
+
+    # 3. lojas com catálogo público
     watch = me.get("seguir_restock", [])
     for s in STORES:
         label = f"Loja {BRANDS[s['brand']]['name']}"
@@ -269,7 +281,7 @@ def run(now=None, dry_run=False):
     drop_urls = {s["url"] for d in drops for s in d.get("sources", [])}
     news_seen = set(state.get("news_seen", []))
     for n in news:
-        if n["id"] not in news_seen and n["url"] not in drop_urls:
+        if n["id"] not in news_seen and n["url"] not in drop_urls and not n.get("quiet"):
             events.append(dict(type="news", item=n))
         news_seen.add(n["id"])
     state["news_seen"] = sorted(news_seen)[-600:]

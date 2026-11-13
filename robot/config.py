@@ -16,8 +16,8 @@ BRANDS = {
     "supreme": dict(name="Supreme", site="https://eu.supreme.com", method="FCFS", case=True,
                     match=[r"\bSupreme\b(?!\s+(?:Court|Leader|Commander|Being|Council|Allied))"]),
     "palace": dict(name="Palace", site="https://www.palaceskateboards.com", method="FCFS", case=True,
-                   match=[r"\bPalace Skateboards\b", r"\bPalace\s+[xX]\s+\w", r"\w\s+[xX]\s+Palace\b",
-                          r"\bPalace\s+(?:Spring|Summer|Autumn|Fall|Winter|Holiday|Ultimo|Drop)\b"]),
+                   match=[r"\bPalace Skateboards\b", r"(?<!Crystal )\bPalace\s+[xX]\s+\w", r"\w\s+[xX]\s+(?!Palace\s+(?:FC|Highlights)\b)Palace\b(?!\s*(?:FC|-))",
+                          r"(?<!Crystal )\bPalace\s+(?:Spring|Summer|Autumn|Fall|Winter|Holiday|Ultimo|Drop)\b"]),
     "stussy": dict(name="Stüssy", site="https://eu.stussy.com", method="FCFS", case=False,
                    match=[r"\bSt[üu]ssy\b"]),
     "corteiz": dict(name="Corteiz", site="https://www.crtz.xyz", method="FCFS", case=False,
@@ -40,6 +40,22 @@ FEEDS = [
     dict(name="Nice Kicks", url="https://www.nicekicks.com/feed/"),
 ]
 
+# Pesquisas no Google Notícias (feed RSS público): apanha os artigos de muitos sites sobre cada marca.
+# Lido de hora a hora. Estas notícias aparecem na app mas não mandam aviso (há muitos artigos repetidos);
+# as que trazem data de lançamento viram drops e esses sim avisam.
+GNEWS_URL = "https://news.google.com/rss/search?hl=en-GB&gl=GB&ceid=GB:en&q="
+GNEWS_EVERY = 60
+GNEWS = [
+    dict(brand="supreme", q='Supreme (droplist OR "drop list" OR "week" OR collection OR collaboration) when:10d'),
+    dict(brand="palace", q='"Palace Skateboards" OR "Palace x" OR "x Palace" when:14d'),
+    dict(brand="stussy", q='Stussy OR Stüssy when:14d'),
+    dict(brand="corteiz", q='Corteiz OR CRTZ when:14d'),
+    dict(brand="brokenplanet", q='"Broken Planet" when:60d'),
+    dict(brand="bape", q='BAPE OR "A Bathing Ape" when:14d'),
+    dict(brand="represent", q='"Represent" (clothing OR "Owners Club" OR collection) when:30d'),
+]
+GNEWS_KEEP_UNDATED = 4  # por marca e por ronda, para não encher as novidades com o mesmo assunto
+
 # Lojas que deixam ler o catálogo público (products.json). As outras bloqueiam robôs
 # (Supreme 403, Palace/Stüssy 429, Corteiz 401 com palavra-passe) e não as contornamos.
 # every: de quantos em quantos minutos se pode ler a loja (o robô corre de 30 em 30; a BAPE limita pedidos).
@@ -51,7 +67,9 @@ STORES = [
 # Ritmo habitual. Gera drops "previstos" até serem confirmados por notícias ou à mão.
 # Datas das temporadas são aproximadas: ajusta quando as marcas anunciarem.
 PATTERNS = [
-    dict(brand="supreme", weekday=3, time="11:00", tz="Europe/London", name="Drop semanal",
+    # Supreme: 11:00 de Nova Iorque, ao mesmo tempo no mundo todo (16:00 em Lisboa; 15:00 nas semanas em que
+    # os EUA e a Europa mudam a hora em datas diferentes).
+    dict(brand="supreme", weekday=3, time="11:00", tz="America/New_York", name="Drop semanal",
          seasons=[("2026-08-20", "2026-12-17"), ("2027-02-18", "2027-06-24")]),
     dict(brand="palace", weekday=4, time="11:00", tz="Europe/London", name="Drop semanal",
          seasons=[("2026-01-09", "2026-12-18"), ("2027-01-08", "2027-12-17")]),

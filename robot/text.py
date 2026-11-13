@@ -98,5 +98,13 @@ _PREFIX = re.compile(r"^(?:where to buy|official images of|first look at|detaile
                      r"official look at|closer look at|a closer look at)\s+(?:the\s+)?", re.I)
 
 
+# "... Launches On November 20th" / "... Release Date & Info": a data já aparece noutro sítio da app
+_SUFFIX = re.compile(r"\s+(?:(?:is\s+)?(?:reportedly\s+)?(?:launch|launches|launching|release|releases|releasing|drops|dropping|"
+                     r"arrives|returns|restocks)\b.*|(?:(?:January|February|March|April|May|June|July|August|September|October|November|"
+                     r"December)\s+)?(?:\d{4}\s+)?release date.*|[-–:]\s*(?:release|where to buy).*)$", re.I)
+
+
 def clean_title(t):
-    return _PREFIX.sub("", t).strip()[:90]
+    t = _PREFIX.sub("", t).strip()
+    short = _SUFFIX.sub("", t).strip()
+    return (short if len(short) >= 8 else t)[:90]

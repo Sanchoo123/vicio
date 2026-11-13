@@ -38,6 +38,9 @@ class Brands(unittest.TestCase):
         self.assertEqual(detect_brand("Supreme Fall/Winter 2026 Week 12 Droplist"), "supreme")
         self.assertIsNone(detect_brand("Supreme Court rules on tariffs"))
         self.assertIsNone(detect_brand("Inside Buckingham Palace"))
+        self.assertIsNone(detect_brand("Crystal Palace x Liverpool - Highlights"))
+        self.assertIsNone(detect_brand("Crystal Palace Drop Into Relegation Zone"))
+        self.assertEqual(detect_brand("Burberry x Palace"), "palace")
         self.assertEqual(detect_brand("Palace Skateboards Winter 2026 Lookbook"), "palace")
         self.assertEqual(detect_brand("Stüssy x Nike Air Force 1 Releases November 20th"), "stussy")
         self.assertEqual(detect_brand("Corteiz Drops Alcatraz Bomber"), "corteiz")
@@ -68,12 +71,33 @@ class Feed(unittest.TestCase):
         self.assertEqual(d["status"], "confirmado")
 
 
+GNEWS = b"""<?xml version="1.0"?><rss><channel>
+<item><title>Corteiz x Nike Shox R419 \xe2\x80\x9cMetallic Silver\xe2\x80\x9d Launches On November 20th - Sneaker News</title>
+<link>https://news.google.com/rss/articles/abc</link><guid>gn1</guid><pubDate>Wed, 11 Nov 2026 15:00:00 GMT</pubDate>
+<description>&lt;a href="x"&gt;Corteiz x Nike Shox R419&lt;/a&gt;</description><source url="https://sneakernews.com">Sneaker News</source></item>
+<item><title>Palace Skateboards Opens London Flagship - Culted</title><link>https://news.google.com/rss/articles/def</link>
+<guid>gn2</guid><source url="https://culted.com">Culted</source></item>
+</channel></rss>"""
+
+
+class GoogleNews(unittest.TestCase):
+    def test_parse(self):
+        a, b = rss.parse_feed(GNEWS, "Google Notícias", TODAY, gnews=True)
+        self.assertEqual((a["brand"], a["date"], a["source"]), ("corteiz", "2026-11-20", "Sneaker News"))
+        self.assertFalse(a["title"].endswith("Sneaker News"))
+        self.assertIsNone(a["image"])
+        d = rss.to_drop(a)
+        self.assertEqual((d["id"], d["name"]), ("corteiz-2026-11-20", "Corteiz x Nike Shox R419 \u201cMetallic Silver\u201d"))
+        self.assertEqual((b["brand"], b["source"], b.get("date")), ("palace", "Culted", None))
+
+
 class Patterns(unittest.TestCase):
     def test_weekly(self):
         now = datetime(2026, 11, 12, 9, 0, tzinfo=TZ)
         ex = {d["id"]: d for d in patterns.expected(now)}
         self.assertIn("supreme-2026-11-19", ex)
         self.assertEqual(ex["palace-2026-11-13"]["time"], "11:00")
+        self.assertEqual(ex["supreme-2026-11-19"]["time"], "16:00")  # 11:00 em Nova Iorque
         self.assertTrue(all(d["status"] == "previsto" for d in ex.values()))
 
 

@@ -30,12 +30,21 @@ def _image(it, *htmls):
     return None
 
 
-def parse_feed(xml_bytes, feed_name, today):
-    """Devolve itens {id, brand, title, url, image, published, source, date?, time?, date_in_title, droplist}."""
+def parse_feed(xml_bytes, feed_name, today, gnews=False):
+    """Devolve itens {id, brand, title, url, image, published, source, date?, time?, date_in_title, droplist}.
+
+    gnews=True: feed do Google Notícias, onde o título acaba em " - Site" e o site vem em <source>."""
     root = ET.fromstring(xml_bytes)
     out = []
     for it in root.iter("item"):
         title = strip_html(it.findtext("title"))
+        source = feed_name
+        if gnews:
+            site = (it.findtext("source") or "").strip()
+            if site:
+                source = site
+                if title.endswith(" - " + site):
+                    title = title[: -len(site) - 3].strip()
         link = (it.findtext("link") or "").strip()
         desc_html = it.findtext("description") or ""
         content_html = it.findtext(CONTENT) or ""
@@ -43,7 +52,7 @@ def parse_feed(xml_bytes, feed_name, today):
         brand = detect_brand(" | ".join([title] + cats))
         if not brand:
             continue
-        text = strip_html(desc_html)[:900]
+        text = "" if gnews else strip_html(desc_html)[:900]  # no Google Notícias a descrição só repete o título
         d = find_date(title, today)
         in_title = d is not None
         if not d:
@@ -57,7 +66,7 @@ def parse_feed(xml_bytes, feed_name, today):
             pass
         guid = (it.findtext("guid") or link or title).strip()
         item = dict(id=hashlib.sha1(guid.encode()).hexdigest()[:12], brand=brand, title=title, url=link,
-                    image=_image(it, desc_html, content_html), published=pub, source=feed_name,
+                    image=None if gnews else _image(it, desc_html, content_html), published=pub, source=source,
                     date_in_title=in_title, droplist=bool(DROPLIST_RE.search(title)))
         if d:
             item["date"] = d.isoformat()
