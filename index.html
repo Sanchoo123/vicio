@@ -200,7 +200,7 @@ a{color:inherit}
 /* fontes */
 .srcs{display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:8px}
 .src{display:flex; justify-content:space-between; gap:8px; border-bottom:2px dashed var(--line); padding:6px 0}
-.src .ok{color:var(--cobalt); font-weight:700}
+.src .ok{color:var(--cobalt); font-weight:700; text-align:right; min-width:0}
 .src .no{background:var(--hazard); color:var(--on-hazard); padding:0 5px; font-weight:700}
 .actions{display:flex; flex-wrap:wrap; gap:10px}
 .btn{border:3px solid var(--line); padding:12px 16px; font-family:var(--mono); font-weight:700; font-size:13px; text-transform:uppercase; letter-spacing:.06em; background:var(--card); color:var(--ink); text-decoration:none; display:inline-flex; align-items:center; gap:8px}
@@ -385,10 +385,10 @@ const OWNER = 'Sanchoo123', REPO = 'vicio';
 const API = `https://api.github.com/repos/${OWNER}/${REPO}`;
 const PAGES = `${OWNER.toLowerCase()}.github.io/${REPO}`;
 
-const COLORS = {supreme:'#d7262e', palace:'#3b7be0', stussy:'#2fa36f', corteiz:'#9a9a9a', brokenplanet:'#9d5cd6', nike:'#f08a24', bape:'#62ad3d', represent:'#c9a95c', gallerydept:'#f5a300', fivefourfive:'#1f3a5f'};
-const LOGOS = new Set(['supreme','palace','stussy','corteiz','brokenplanet','nike','bape','represent','gallerydept','fivefourfive']);
-const SHORT = {supreme:'SUPREME', palace:'PALACE', stussy:'STÜSSY', corteiz:'CRTZ', brokenplanet:'BPM', nike:'NIKE', bape:'BAPE', represent:'REP', gallerydept:'GD', fivefourfive:'545'};
-let BRANDS = {supreme:{name:'Supreme'}, palace:{name:'Palace'}, stussy:{name:'Stüssy'}, corteiz:{name:'Corteiz'}, brokenplanet:{name:'Broken Planet'}, nike:{name:'Nike'}, bape:{name:'BAPE'}, represent:{name:'Represent'}, gallerydept:{name:'Gallery Dept.'}, fivefourfive:{name:'FiveFourFive'}};
+const COLORS = {supreme:'#d7262e', palace:'#3b7be0', stussy:'#2fa36f', corteiz:'#9a9a9a', brokenplanet:'#9d5cd6', nike:'#f08a24', bape:'#62ad3d', represent:'#c9a95c', gallerydept:'#f5a300', fivefourfive:'#1f3a5f', ementa:'#1f7a4d', vigilance:'#222222'};
+const LOGOS = new Set(['supreme','palace','stussy','corteiz','brokenplanet','nike','bape','represent','gallerydept','fivefourfive','ementa','vigilance']);
+const SHORT = {supreme:'SUPREME', palace:'PALACE', stussy:'STÜSSY', corteiz:'CRTZ', brokenplanet:'BPM', nike:'NIKE', bape:'BAPE', represent:'REP', gallerydept:'GD', fivefourfive:'545', ementa:'EMENTA', vigilance:'VIGILANCE'};
+let BRANDS = {supreme:{name:'Supreme'}, palace:{name:'Palace'}, stussy:{name:'Stüssy'}, corteiz:{name:'Corteiz'}, brokenplanet:{name:'Broken Planet'}, nike:{name:'Nike'}, bape:{name:'BAPE'}, represent:{name:'Represent'}, gallerydept:{name:'Gallery Dept.'}, fivefourfive:{name:'FiveFourFive'}, ementa:{name:'Ementa'}, vigilance:{name:'Vigilance'}};
 const WD = ['DOM','SEG','TER','QUA','QUI','SEX','SÁB'];
 const MO = ['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ'];
 const MONTHS = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
@@ -656,7 +656,7 @@ function renderHist(){
 
 function renderSources(){
   const e = Object.entries(STATUS);
-  $('#srcs').innerHTML = e.length ? e.map(([k,v]) => `<div class="src"><span>${esc(k)}</span>${v.ok ? '<span class="ok">OK</span>' : `<span class="no" title="${esc(v.msg || '')}">${esc((v.msg || 'erro').replace('bloqueado ', ''))}</span>`}</div>`).join('')
+  $('#srcs').innerHTML = e.length ? e.map(([k,v]) => `<div class="src"><span>${esc(k)}</span>${v.ok ? `<span class="ok">${v.msg ? esc(v.msg) + ' · ' : ''}OK</span>` : `<span class="no" title="${esc(v.msg || '')}">${esc((v.msg || 'erro').replace('bloqueado ', ''))}</span>`}</div>`).join('')
     : '<span>Sem informação do robô ainda.</span>';
   if(UPDATED){ const t = new Date(UPDATED); $('#updated').textContent = 'Dados de ' + t.toLocaleString('pt-PT',{timeZone:'Europe/Lisbon', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'}); }
   $('#calAll').href = `webcal://${PAGES}/data/drops.ics`;

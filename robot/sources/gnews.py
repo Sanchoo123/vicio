@@ -2,7 +2,7 @@
 import re
 import urllib.parse
 
-from ..config import GNEWS, GNEWS_KEEP_UNDATED, GNEWS_URL
+from ..config import GNEWS, GNEWS_KEEP_UNDATED, GNEWS_URL, GNEWS_URL_PT
 from ..http import get
 from . import rss
 
@@ -20,7 +20,7 @@ def fetch(today):
     out, errs, seen = [], [], set()
     for g in GNEWS:
         try:
-            items = rss.parse_feed(get(GNEWS_URL + urllib.parse.quote(g["q"])), "Google Notícias", today, gnews=True)
+            items = rss.parse_feed(get((GNEWS_URL_PT if g.get("pt") else GNEWS_URL) + urllib.parse.quote(g["q"])), "Google Notícias", today, gnews=True)
         except Exception as e:  # Blocked incluído: tenta-se outra vez na ronda seguinte
             errs.append(f"{g['brand']}: {e}")
             continue

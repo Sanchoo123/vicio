@@ -4,7 +4,7 @@ from datetime import date, datetime
 from robot import ics
 from robot.config import TZ
 from robot.run import allowed, build_messages, merge, reminders
-from robot.sources import nike, patterns, rss, shopify
+from robot.sources import nike, password, patterns, rss, shopify
 from robot.text import detect_brand, find_date, find_time
 
 TODAY = date(2026, 11, 12)
@@ -51,6 +51,10 @@ class Brands(unittest.TestCase):
         self.assertEqual(detect_brand("GALLERY DEPT. Drops New Painted Flare Denim"), "gallerydept")
         self.assertEqual(detect_brand("FiveFourFive Unveils Winter Capsule"), "fivefourfive")
         self.assertIsNone(detect_brand("Air Max 545 colorway"))
+        self.assertEqual(detect_brand("Ementa SB Flourish Collection"), "ementa")
+        self.assertIsNone(detect_brand("Nova ementa de Natal no restaurante"))
+        self.assertEqual(detect_brand("Vigilance SB baggy pants"), "vigilance")
+        self.assertIsNone(detect_brand("Police increase vigilance"))
 
 
 FEED = b"""<?xml version="1.0"?><rss><channel>
@@ -120,6 +124,27 @@ class NikeSnkrs(unittest.TestCase):
         self.assertEqual(a["name"], "Dunk Low “Black” + 1 lançamento")
         self.assertEqual(a["products"][0]["url"], "https://www.nike.com/pt/launch/t/dunk")
         self.assertEqual((b["brand"], b["time"], b["method"]), ("corteiz", "10:00", "SNKRS · SORTEIO até 21/11 10:30"))
+
+
+class PasswordPage(unittest.TestCase):
+    def test_announced(self):
+        txt = "Entre na loja usando a palavra-passe: Entrar NEW DROP: 21.11.2026 JOIN THE WAITLIST HERE"
+        self.assertEqual(password.announced(txt, TODAY), (date(2026, 11, 21), None))
+        self.assertEqual(password.announced("DROP 05/12/2026 às 18h00", TODAY), (date(2026, 12, 5), "18:00"))
+        self.assertEqual(password.announced("last drop 01.03.2026", TODAY), (None, None))
+        self.assertTrue(password.is_locked('<form method="post" action="/password">'))
+
+    def test_open_event(self):
+        pages = ['<form action="/password">NEW DROP: 21.11.2026</form>', "<main>Loja</main>"]
+        password.get = lambda url: pages.pop(0).encode()
+        st, now = {}, datetime(2026, 11, 13, 10, 0, tzinfo=TZ)
+        store = dict(brand="vigilance", url="https://vigilancesb.com")
+        drop, ev, open_ = password.check(store, st, now, "Vigilance")
+        self.assertEqual((drop["id"], ev, open_), ("vigilance-2026-11-21", [], False))
+        drop, ev, open_ = password.check(store, st, now, "Vigilance")
+        self.assertEqual(([e["type"] for e in ev], open_), (["store_open"], True))
+        msgs = build_messages(ev, dict(avisos_por_marca=dict(vigilance="meus")))
+        self.assertEqual(msgs[0]["title"], "Vigilance: a loja abriu!")
 
 
 class Patterns(unittest.TestCase):

@@ -12,7 +12,7 @@ from pathlib import Path
 from . import ics, notify
 from .config import BRANDS, FEEDS, GNEWS_EVERY, NIKE_EVERY, KEEP_PAST_DAYS, MAX_PUSH_PER_RUN, NTFY_MAX_DELAY_DAYS, STORES, TZ
 from .http import Blocked, get
-from .sources import gnews, manual, nike, patterns, rss, shopify
+from .sources import gnews, manual, nike, password, patterns, rss, shopify
 
 DATA = Path(__file__).resolve().parent.parent / "data"
 RANK = {"pattern": 0, "rss": 1, "shopify": 2, "nike": 2, "manual": 3}
@@ -98,7 +98,7 @@ def allowed(me, kind, brand, going):
     lv = level(me, brand)
     if lv == "nada":
         return False
-    if kind in ("reminder", "restock") or (going and kind in ("changed", "revealed", "confirmed")):
+    if kind in ("reminder", "restock", "store_open") or (going and kind in ("changed", "revealed", "confirmed")):
         return True
     if lv == "meus":
         return False
@@ -136,6 +136,9 @@ def build_messages(events, me):
             names = ", ".join(p["name"] for p in e["products"])
             msgs.append(dict(title=f"{bn}: {e['count']} {'peça nova' if e['count'] == 1 else 'peças novas'} na loja",
                              message=names, click=e["url"], attach=e["products"][0].get("image"), tags=["fire"], priority=4))
+        elif k == "store_open":
+            msgs.append(dict(title=f"{bn}: a loja abriu!", message="A página de palavra-passe saiu. O drop deve estar a decorrer, corre!",
+                             click=e["url"], tags=["rotating_light"], priority=5))
         elif k == "restock":
             p = e["product"]
             msgs.append(dict(title=f"Restock: {p['name']}", message=f"{bn} voltou a ter stock. Corre!", click=p["url"],
@@ -246,6 +249,7 @@ def run(now=None, dry_run=False):
 
     # 3. lojas com catálogo público
     watch = me.get("seguir_restock", [])
+    retired = set(state.get("retired", []))
     for s in STORES:
         label = f"Loja {BRANDS[s['brand']]['name']}"
         if not first_run and slot % max(1, s["every"] // 30):
@@ -253,6 +257,18 @@ def run(now=None, dry_run=False):
         st = state.setdefault("stores", {}).setdefault(s["brand"], {})
         try:
             handles = [w["handle"] for w in watch if w.get("loja") == s["brand"]]
+            if s.get("password"):
+                drop, ev, open_ = password.check(s, st, now, BRANDS[s["brand"]]["name"])
+                if drop:
+                    old = st.get("announced")
+                    if old not in (None, drop["id"]) and old[-10:] >= today.isoformat():
+                        retired.add(old)  # a marca mudou a data anunciada
+                    st["announced"] = drop["id"]
+                    cands.append(drop)
+                events += ev
+                if not open_:
+                    status[label] = dict(ok=True, msg="fechada com palavra-passe" + (f" · anuncia drop a {day_txt(drop['date'])}" if drop else ""))
+                    continue
             drop, ev = shopify.check_store(s, st, handles, now)
             if drop:
                 cands.append(drop)
@@ -277,6 +293,8 @@ def run(now=None, dry_run=False):
     for d in known:
         if nike_ok and d["brand"] == "nike" and d.get("origin") == "rss":
             continue
+        if d["id"] in retired:
+            continue
         if d.get("origin") == "nike" and nike_read and d["date"] >= today.isoformat():
             continue  # lançamento futuro que saiu do calendário oficial (adiado ou cancelado)
         if d["id"] not in ids and d.get("origin") in ("rss", "shopify", "nike") and date.fromisoformat(d["date"]) >= today - timedelta(days=KEEP_PAST_DAYS):
@@ -290,7 +308,7 @@ def run(now=None, dry_run=False):
                    img=bool(d.get("image")), droplist=bool(d.get("droplist")))
         prev = seen.get(d["id"])
         if prev is None:
-            if d["origin"] in ("rss", "manual", "nike") and d["date"] >= today.isoformat():
+            if (d["origin"] in ("rss", "manual", "nike") or d.get("name") == "Novo drop") and d["date"] >= today.isoformat():
                 events.append(dict(type="new_drop", drop=d))
         elif (prev["date"], prev["time"]) != (sig["date"], sig["time"]):
             events.append(dict(type="changed", drop=d, before=f"{day_txt(prev['date'])} {prev['time'] or ''}".strip()))
@@ -309,6 +327,7 @@ def run(now=None, dry_run=False):
             events.append(dict(type="news", item=n))
         news_seen.add(n["id"])
     state["news_seen"] = sorted(news_seen)[-600:]
+    state["retired"] = sorted(retired)[-100:]
 
     # avisos
     if first_run:

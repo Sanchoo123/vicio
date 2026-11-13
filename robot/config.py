@@ -36,6 +36,11 @@ BRANDS = {
                         match=[r"\bGallery\s+Dept\b", r"\bGallery\s+Department\b"]),
     "fivefourfive": dict(name="FiveFourFive", site="https://fivefourfive.it", method="FCFS", case=False,
                          match=[r"\bFive\s?Four\s?Five\b", r"\b545\s?(?:merch|Milano)\b"]),
+    # portuguesas ("ementa" e "vigilance" são palavras comuns: só contam com SB ou numa colaboração)
+    "ementa": dict(name="Ementa", site="https://ementasb.com", method="FCFS", case=True,
+                   match=[r"\bEmenta\s+SB\b", r"\bEMENTA\s+SB\b", r"\bEmenta\s+[xX]\s+\w", r"\w\s+[xX]\s+Ementa\b"]),
+    "vigilance": dict(name="Vigilance", site="https://vigilancesb.com", method="FCFS", case=True,
+                      match=[r"\bVigilance\s+SB\b", r"\bVIGILANCE\s+SB\b", r"\bVigilance\s+[xX]\s+\w", r"\w\s+[xX]\s+Vigilance\b"]),
 }
 
 # Feeds públicos de notícias (RSS), feitos para serem lidos por programas.
@@ -57,6 +62,7 @@ NIKE_EVERY = 60
 # Lido de hora a hora. Estas notícias aparecem na app mas não mandam aviso (há muitos artigos repetidos);
 # as que trazem data de lançamento viram drops e esses sim avisam.
 GNEWS_URL = "https://news.google.com/rss/search?hl=en-GB&gl=GB&ceid=GB:en&q="
+GNEWS_URL_PT = "https://news.google.com/rss/search?hl=pt-PT&gl=PT&ceid=PT:pt-150&q="  # marcas portuguesas
 GNEWS_EVERY = 60
 GNEWS = [
     dict(brand="semana", q='"Everything Dropping at" when:7d'),  # listas semanais da Hypebeast (Supreme, Palace)
@@ -69,6 +75,8 @@ GNEWS = [
     dict(brand="represent", q='"Represent" (clothing OR "Owners Club" OR collection) when:30d'),
     dict(brand="gallerydept", q='"Gallery Dept" when:30d'),
     dict(brand="fivefourfive", q='FiveFourFive OR "545 merch" when:60d'),
+    dict(brand="ementa", q='"Ementa SB" OR "Ementa x" when:90d', pt=True),
+    dict(brand="vigilance", q='"Vigilance SB" OR "Vigilance x" when:90d', pt=True),
 ]
 GNEWS_KEEP_UNDATED = 4  # por marca e por ronda, para não encher as novidades com o mesmo assunto
 
@@ -80,6 +88,10 @@ STORES = [
     dict(brand="bape", url="https://bape.com", currency=None, every=60),
     dict(brand="gallerydept", url="https://gallerydept.com", currency="USD", every=60),
     dict(brand="fivefourfive", url="https://fivefourfive.it", currency="EUR", every=60),
+    dict(brand="ementa", url="https://ementasb.com", currency="EUR", every=60),
+    # password=True: loja fechada entre drops; lê-se a página pública (data anunciada e se abriu)
+    dict(brand="vigilance", url="https://vigilancesb.com", currency="EUR", every=30, password=True),
+    dict(brand="corteiz", url="https://www.crtz.xyz", currency="GBP", every=30, password=True),
 ]
 
 # Ritmo habitual. Gera drops "previstos" até serem confirmados por notícias ou à mão.
