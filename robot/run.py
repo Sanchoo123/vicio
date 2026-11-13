@@ -4,12 +4,13 @@ Uso:  python -m robot.run            (manda avisos se NTFY_TOPIC estiver definid
       python -m robot.run --dry-run  (só mostra o que faria)
 """
 import json
+import os
 import sys
 import traceback
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
-from . import ics, notify
+from . import ics, notify, webpush
 from .config import BRANDS, FEEDS, GNEWS_EVERY, NIKE_EVERY, KEEP_PAST_DAYS, MAX_PUSH_PER_RUN, NTFY_MAX_DELAY_DAYS, STORES, TZ
 from .http import Blocked, get
 from .sources import gnews, manual, nike, password, patterns, rss, shopify
@@ -117,6 +118,7 @@ def build_messages(events, me):
         if not allowed(me, k, brand, bool(d and d["id"] in going)):
             continue
         click = d and d.get("sources") and d["sources"][-1]["url"]
+        n0 = len(msgs)
         if k == "new_drop":
             msgs.append(dict(title=f"Novo drop: {bn} · {day_txt(d['date'])}", message=f"{d['name']}\n{when_txt(d)}",
                              click=click, attach=d.get("image"), tags=["calendar"]))
@@ -143,6 +145,8 @@ def build_messages(events, me):
             p = e["product"]
             msgs.append(dict(title=f"Restock: {p['name']}", message=f"{bn} voltou a ter stock. Corre!", click=p["url"],
                              attach=p.get("image"), tags=["rotating_light"], priority=5))
+        if d and len(msgs) > n0:
+            msgs[-1]["open"] = f"./#drop={d['id']}"  # na app, o toque abre o drop
     if len(msgs) > MAX_PUSH_PER_RUN:
         extra = len(msgs) - (MAX_PUSH_PER_RUN - 1)
         msgs = msgs[:MAX_PUSH_PER_RUN - 1] + [dict(title=f"E mais {extra} novidades", message="Abre o Vício para ver tudo.", tags=["calendar"])]
@@ -167,7 +171,8 @@ def reminders(drops, me, state, now):
             if key in done or at <= now:
                 continue
             msgs.append(dict(title=title, message=f"{d['name']} às {d['time']}{lista}", at=at.timestamp(),
-                             click=d["sources"][-1]["url"] if d.get("sources") else None, tags=["alarm_clock"], priority=prio))
+                             click=d["sources"][-1]["url"] if d.get("sources") else None, tags=["alarm_clock"], priority=prio,
+                             open=f"./#drop={d['id']}", drop=d["id"], when=f"{d['date']}|{d['time']}"))
             done.add(key)
     state["reminders"] = sorted(done)[-300:]
     return msgs
@@ -188,6 +193,60 @@ def weekly_summary(drops, me, state, now):
              + (" (previsto)" if d["status"] == "previsto" else "") for d in sel]
     n_in = sum(1 for d in sel if d["id"] in going)
     return [dict(title=f"A tua semana: {len(sel)} drops, entras em {n_in}", message="\n".join(lines), tags=["calendar"])]
+
+
+# ---------- entrega ----------
+TIMED_WINDOW_MIN = 35  # lembretes que caem antes da próxima ronda (30 min + atraso do GitHub)
+
+
+def split_queue(queue, drops, me, now):
+    """Fila de lembretes -> (mandar já, esperar nesta ronda, guardar). Corta os que deixaram de fazer sentido."""
+    going, by_id = me.get("vou_entrar", {}), {d["id"]: d for d in drops}
+    t, late, timed, keep = now.timestamp(), [], [], []
+    for m in queue:
+        d = by_id.get(m.get("drop"))
+        if m.get("drop") and (m["drop"] not in going or not d or f"{d['date']}|{d['time']}" != m.get("when")):
+            continue  # já não vais entrar, ou o drop mudou de data/hora (há lembretes novos para a hora nova)
+        if m["at"] < t - 20 * 60:
+            continue  # perdeu-se a hora (robô muito atrasado)
+        (late if m["at"] <= t else timed if m["at"] < t + TIMED_WINDOW_MIN * 60 else keep).append(m)
+    return late, timed, keep
+
+
+def inbox(msgs, now):
+    """Avisos mostrados dentro da app (data/avisos.json)."""
+    old = load("avisos.json", {}).get("avisos", [])
+    new = [dict(t=datetime.fromtimestamp(m["at"], TZ).isoformat(timespec="minutes") if m.get("at") else now.isoformat(timespec="minutes"),
+                title=m["title"], message=m.get("message", ""), open=m.get("open"), url=m.get("click")) for m in msgs]
+    return sorted(old + new, key=lambda a: a["t"], reverse=True)[:60]
+
+
+def deliver(msgs, drops, me, state, status, now, dry_run):
+    """Notificações na app Vício quando há aparelhos ligados; senão, ntfy (como antes)."""
+    subs = webpush.load_subs(me)
+    if not subs:
+        if me.get("push") and not os.environ.get("PUSH_BOX_KEY"):
+            status["Notificações na app"] = dict(ok=False, msg="faltam os segredos no GitHub")
+        sent = notify.send(msgs, dry_run=dry_run)
+        write("avisos.json", dict(avisos=inbox([m for m in msgs if not m.get("at")], now)))
+        return sent
+    now_msgs = [m for m in msgs if not m.get("at")]
+    late, timed, keep = split_queue(state.get("queue", []) + [m for m in msgs if m.get("at")], drops, me, now)
+    state["queue"] = keep
+    sent, dead = webpush.send(now_msgs + late, subs, dry_run=dry_run)
+    out = os.environ.get("TIMED_FILE")
+    if out:
+        Path(out).write_text(json.dumps(timed), encoding="utf-8")
+    for m in timed:
+        print(f"[lembrete às {datetime.fromtimestamp(m['at'], TZ):%H:%M}] {m['title']}")
+    dead_all = sorted(set(state.get("push_dead", [])) | dead)[-20:]
+    state["push_dead"] = dead_all
+    write("push.json", dict(dead=dead_all))
+    live = len(subs) - len(dead)
+    status["Notificações na app"] = (dict(ok=True, msg=f"{live} {'aparelho' if live == 1 else 'aparelhos'}") if live
+                                     else dict(ok=False, msg="volta a ativar na app"))
+    write("avisos.json", dict(avisos=inbox(now_msgs + late + timed, now)))
+    return sent
 
 
 # ---------- ronda ----------
@@ -342,7 +401,9 @@ def run(now=None, dry_run=False):
             traceback.print_exc()
             msgs = []
             status["Avisos"] = dict(ok=False, msg=f"erro: {type(e).__name__}: {e}"[:200])
-    sent = notify.send(msgs, dry_run=dry_run)
+    if os.environ.get("VICIO_TESTE") == "true":
+        msgs.append(dict(title="Aviso de teste ✓", message="As notificações da Vício estão a funcionar.", open="./", tags=["tada"]))
+    sent = deliver(msgs, drops, me, state, status, now, dry_run)
 
     # gravar
     old_news = load("news.json", {}).get("news", [])

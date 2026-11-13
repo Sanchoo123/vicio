@@ -3,7 +3,7 @@ from datetime import date, datetime
 
 from robot import ics
 from robot.config import TZ
-from robot.run import allowed, build_messages, merge, reminders
+from robot.run import allowed, build_messages, merge, reminders, split_queue
 from robot.sources import nike, password, patterns, rss, shopify
 from robot.text import detect_brand, find_date, find_time
 
@@ -207,6 +207,20 @@ class Notify(unittest.TestCase):
         n = dict(id="n1", brand="corteiz", title="Corteiz Drops Alcatraz Bomber", url="https://u", image=None)
         msgs = build_messages([dict(type="news", item=n)], self.me)
         self.assertEqual(msgs[0]["title"], "Corteiz: novidade")
+
+    def test_queue(self):
+        d = dict(id="nike-x", brand="nike", name="AJ11", date="2026-11-13", time="08:00", sources=[dict(name="s", url="u")])
+        now = datetime(2026, 11, 12, 20, 0, tzinfo=TZ)
+        q = reminders([d], self.me, {}, now)
+        self.assertEqual(q[0]["open"], "./#drop=nike-x")
+        late, timed, keep = split_queue(q, [d], self.me, now)
+        self.assertEqual((len(late), len(timed), len(keep)), (0, 0, 2))
+        at7 = datetime(2026, 11, 13, 6, 40, tzinfo=TZ)  # 1 h antes = 07:00, dentro dos próximos 35 min
+        late, timed, keep = split_queue(q, [d], self.me, at7)
+        self.assertEqual((len(late), len(timed), len(keep)), (0, 1, 1))
+        moved = dict(d, time="09:00")  # mudou de hora: os lembretes velhos caem
+        self.assertEqual(split_queue(q, [moved], self.me, at7), ([], [], []))
+        self.assertEqual(split_queue(q, [d], dict(vou_entrar={}), at7), ([], [], []))
 
     def test_cap(self):
         d = dict(id="c", brand="corteiz", name="n", date="2026-11-20", time=None, sources=[dict(name="s", url="u")])

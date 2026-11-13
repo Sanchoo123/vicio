@@ -58,6 +58,15 @@ a{color:inherit}
 .sticker{display:inline-block; border:2px solid var(--line); padding:3px 8px; transform:rotate(-2deg); font-weight:700; background:var(--card)}
 .sticker.ok{background:var(--cobalt); color:var(--on-cobalt)}
 .sticker.warn{background:var(--hazard); color:var(--on-hazard)}
+.sticker.bell{transform:rotate(2deg); cursor:pointer}
+.sticker.bell b{background:var(--hazard); color:var(--on-hazard); padding:0 5px; margin-left:4px}
+.inbox{display:flex; flex-direction:column}
+.av{display:grid; gap:3px; text-align:left; border:0; border-bottom:2px dashed var(--line); background:transparent; color:var(--ink); padding:12px 2px; font:inherit; cursor:pointer}
+.av .mono{color:var(--ink-2); font-size:11px}
+.av b{font-weight:800}
+.av span:last-child{white-space:pre-line; color:var(--ink-2)}
+.av.new b::before{content:"● "; color:var(--cobalt)}
+.push-state{font-weight:700}
 
 .banner{display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; border:2px dashed var(--line); padding:12px 14px; margin-top:-20px}
 .banner p{margin:0; flex:1; min-width:220px}
@@ -313,6 +322,7 @@ footer{border-top:4px solid var(--line); padding-top:16px; display:flex; flex-wr
       <span>Lisboa <b id="clock">--:--:--</b></span>
       <span>Na mira <b id="mineCount">0 drops</b></span>
       <button class="sticker mono" id="syncBadge" data-cfg>A carregar…</button>
+      <button class="sticker mono bell" id="bell" data-inbox>Avisos</button>
     </div>
   </header>
 
@@ -384,6 +394,10 @@ footer{border-top:4px solid var(--line); padding-top:16px; display:flex; flex-wr
 const OWNER = 'Sanchoo123', REPO = 'vicio';
 const API = `https://api.github.com/repos/${OWNER}/${REPO}`;
 const PAGES = `${OWNER.toLowerCase()}.github.io/${REPO}`;
+// notificações na app: chave pública VAPID (assinatura do robô) e chave para cifrar a subscrição
+// (o repositório é público; só o robô, com o segredo PUSH_BOX_KEY, a consegue ler)
+const VAPID_PUB = 'BIWX0TqGLgNFYM10BIFjOeTU8J8xV0rir6xDl1txVxJUxA4SNzD0jnXas1kdNo-mJsY4NkT1B-XyOerI0tjcSFA';
+const BOX_PUB = 'BAuh893_XGa9x5FWpAl3KBpF-fi6jcKEiHxBZBIn8ZFH0Z6CNNuFVA7xNs5UgTfmzKrt5F27O1fC1AehE1xeWZ0';
 
 const COLORS = {supreme:'#d7262e', palace:'#3b7be0', stussy:'#2fa36f', corteiz:'#9a9a9a', brokenplanet:'#9d5cd6', nike:'#f08a24', bape:'#62ad3d', represent:'#c9a95c', gallerydept:'#f5a300', fivefourfive:'#1f3a5f', ementa:'#1f7a4d', vigilance:'#222222'};
 const LOGOS = new Set(['supreme','palace','stussy','corteiz','brokenplanet','nike','bape','represent','gallerydept','fivefourfive','ementa','vigilance']);
@@ -449,7 +463,7 @@ function countHTML(x){
 }
 
 /* ---------- dados ---------- */
-let DROPS = [], NEWS = [], STATUS = {}, UPDATED = null;
+let DROPS = [], NEWS = [], STATUS = {}, UPDATED = null, AVISOS = [], PUSH_DEAD = [];
 const DEF_APP = () => ({interest:{}, wants:{}, results:{}, checks:{}, restock:[], onlyMine:false, brands:[],
   cfg:{budget:400, ship:15, fee:5, duty:12, fx:1.15, fxUsd:0.86, sizes:{}, uk:{...DEF_UK}}, saved:null});
 let me = lget('vicio.me', null) || {avisos_por_marca:{}, vou_entrar:{}, seguir_restock:[], app:DEF_APP()};
@@ -671,6 +685,9 @@ function renderMine(){
   const b = $('#syncBadge');
   if(token){ b.textContent = syncing ? 'A guardar…' : 'Sincronizado ✓'; b.className = 'sticker mono ok'; }
   else { b.textContent = 'Só neste telemóvel · ligar'; b.className = 'sticker mono warn'; }
+  const n2 = unread();
+  $('#bell').innerHTML = `Avisos${n2 ? `<b>${n2}</b>` : ''}`;
+  $('#bell').setAttribute('aria-label', n2 ? `Avisos: ${n2} por ver` : 'Avisos');
 }
 
 function renderAll(){ ALL = allDrops(); renderFilters(); renderHero(); renderBudget(); renderCal(); renderCards(); renderNews(); renderHist(); renderSources(); renderMine(); }
@@ -743,6 +760,7 @@ function fillSettings(){
   $('#sheetBody').innerHTML = `
     <div class="sheet-top"><span class="mono">Definições</span><button class="ghost mono" id="closeSheet">Fechar ×</button></div>
     <h2 id="sheetTitle">Definições</h2>
+    <fieldset><legend>Notificações na app</legend>${pushPanel()}</fieldset>
     <fieldset><legend>Ligar ao GitHub</legend>
       <p class="note">Sem isto as escolhas ficam só neste telemóvel e o robô não sabe a que drops te lembrar. Faz uma vez:</p>
       <ol class="steps note">
@@ -756,7 +774,7 @@ function fillSettings(){
       ${token ? '<button class="linkish mono" id="forgetTok">Desligar este telemóvel</button>' : ''}
       <p class="note">O token fica guardado só neste telemóvel e dá acesso apenas ao repositório vicio.</p>
     </fieldset>
-    <fieldset><legend>Avisos no iPhone por marca</legend>
+    <fieldset><legend>Avisos por marca</legend>
       ${Object.keys(BRANDS).map(k => `<div class="nrow"><label for="lv-${k}">${brandTag(k)}</label><select id="lv-${k}" data-level="${k}">${Object.entries(LEVELS).map(([v,l]) => `<option value="${v}" ${(lv[k] || 'drops') === v ? 'selected' : ''}>${l}</option>`).join('')}</select></div>`).join('')}
       <p class="note">Tudo: notícias, drops e peças novas na loja. Só drops: drops com data e peças novas. Só os meus: lembretes dos drops onde vais entrar.</p>
     </fieldset>
@@ -924,16 +942,104 @@ async function delManual(id){
   }
   closeSheet(); renderAll();
 }
-async function runRobot(quiet){
+async function runRobot(quiet, inputs){
   if(!token){ openSettings(); toast('Liga o GitHub primeiro.'); return; }
-  try{ await gh('/actions/workflows/robo.yml/dispatches', {method:'POST', body:JSON.stringify({ref:'main'})}); if(!quiet) toast('Robô a correr. Dados novos dentro de 1–2 min.'); setTimeout(loadData, 120000); }
+  try{ await gh('/actions/workflows/robo.yml/dispatches', {method:'POST', body:JSON.stringify(inputs ? {ref:'main', inputs} : {ref:'main'})}); if(!quiet) toast('Robô a correr. Dados novos dentro de 1–2 min.'); setTimeout(loadData, 120000); }
   catch(e){ if(!quiet) toast(e.status === 403 ? 'O token precisa de "Actions: Read and write".' : 'Não consegui pôr o robô a correr.'); }
+}
+
+/* ---------- notificações na app ---------- */
+let DEV = lget('vicio.device', null) || (() => { const id = 'iphone-' + Math.random().toString(36).slice(2, 10); lset('vicio.device', id); return id; })();
+const standaloneApp = () => window.navigator.standalone || matchMedia('(display-mode: standalone)').matches;
+const pushCapable = () => 'serviceWorker' in navigator && 'PushManager' in window && 'Notification' in window;
+const pushOnHere = () => (me.push || []).some(p => p.id === DEV) && pushCapable() && Notification.permission === 'granted' && !PUSH_DEAD.includes(DEV);
+const b64u = buf => btoa(String.fromCharCode(...new Uint8Array(buf))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+const unb64u = s => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/') + '==='.slice((s.length + 3) % 4)), c => c.charCodeAt(0));
+// cifra a subscrição para o robô (ECDH P-256 + HKDF-SHA256 + AES-GCM; o robô abre-a em robot/webpush.py)
+async function sealSub(sub){
+  const enc = new TextEncoder();
+  const pub = await crypto.subtle.importKey('raw', unb64u(BOX_PUB), {name:'ECDH', namedCurve:'P-256'}, false, []);
+  const eph = await crypto.subtle.generateKey({name:'ECDH', namedCurve:'P-256'}, true, ['deriveBits']);
+  const bits = await crypto.subtle.deriveBits({name:'ECDH', public:pub}, eph.privateKey, 256);
+  const hk = await crypto.subtle.importKey('raw', bits, 'HKDF', false, ['deriveKey']);
+  const key = await crypto.subtle.deriveKey({name:'HKDF', hash:'SHA-256', salt:enc.encode('vicio'), info:enc.encode('vicio-push-v1')}, hk, {name:'AES-GCM', length:256}, false, ['encrypt']);
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const ct = await crypto.subtle.encrypt({name:'AES-GCM', iv}, key, enc.encode(JSON.stringify(sub)));
+  return {epk: b64u(await crypto.subtle.exportKey('raw', eph.publicKey)), iv: b64u(iv), ct: b64u(ct)};
+}
+function savePushList(list){ me.push = list; app.saved = new Date().toISOString(); lset('vicio.me', me); clearTimeout(saveT); return pushMe(); }
+async function enablePush(){
+  if(!pushCapable() || !standaloneApp()){ toast('Abre a Vício pelo ícone do ecrã principal (iOS 16.4 ou mais recente).'); return; }
+  if(!token){ toast('Liga primeiro o GitHub (mais abaixo): é por lá que o robô fica a conhecer o teu iPhone.'); return; }
+  const btn = $('#pushOn'); if(btn) btn.disabled = true;
+  try{
+    const perm = await Notification.requestPermission();
+    if(perm !== 'granted'){ toast('Sem autorização. Ativa em Definições do iPhone → Notificações → Vício.'); fillSettings(); return; }
+    const reg = await navigator.serviceWorker.ready;
+    let sub = await reg.pushManager.getSubscription();
+    const wasDead = PUSH_DEAD.includes(DEV);
+    if(sub && wasDead){ await sub.unsubscribe(); sub = null; }
+    if(!sub) sub = await reg.pushManager.subscribe({userVisibleOnly:true, applicationServerKey:unb64u(VAPID_PUB)});
+    const box = await sealSub(sub.toJSON());
+    const old = DEV;
+    if(wasDead){ DEV = 'iphone-' + Math.random().toString(36).slice(2, 10); lset('vicio.device', DEV); }  // id novo: o antigo ficou marcado como morto
+    await savePushList((me.push || []).filter(p => p.id !== old && p.id !== DEV).concat({id:DEV, box, desde:todayKey()}));
+    toast('Notificações ligadas ✓ Experimenta "Enviar aviso de teste".');
+  }catch(e){ toast('Não consegui ligar as notificações.'); }
+  fillSettings();
+}
+async function disablePush(){
+  try{ const reg = await navigator.serviceWorker.ready; const sub = await reg.pushManager.getSubscription(); if(sub) await sub.unsubscribe(); }catch(e){}
+  await savePushList((me.push || []).filter(p => p.id !== DEV));
+  toast('Notificações desligadas neste iPhone'); fillSettings();
+}
+function testPush(){ runRobot(true, {teste:'true'}); toast('A enviar… chega dentro de 1–2 minutos.'); }
+function pushPanel(){
+  if(!pushCapable() || !standaloneApp())
+    return `<p class="note">Para receberes os avisos na Vício, abre-a pelo ícone no ecrã principal (iPhone com iOS 16.4 ou mais recente). No Safari não dá.</p>`;
+  if(PUSH_DEAD.includes(DEV) && (me.push || []).some(p => p.id === DEV))
+    return `<p class="note push-state">O iPhone deixou de aceitar os avisos (por exemplo, foram desligados nas definições).</p><div class="actions"><button class="btn on" id="pushOn">Voltar a ativar</button></div>`;
+  if(pushOnHere())
+    return `<p class="note push-state">Ligadas neste iPhone ✓</p><p class="note">Os avisos chegam como notificações da Vício. Enquanto houver um iPhone ligado aqui, o robô deixa de usar o ntfy.</p>
+      <div class="actions"><button class="btn" id="pushTest">Enviar aviso de teste</button><button class="linkish mono" id="pushOff">Desligar neste iPhone</button></div>`;
+  return `<p class="note">Recebe os avisos dos drops como notificações da própria Vício, com os lembretes de 1 hora e de 10 minutos à hora certa.</p>
+    <div class="actions"><button class="btn on" id="pushOn">Ativar notificações</button></div>
+    ${token ? '' : '<p class="note">Primeiro liga o GitHub (mais abaixo).</p>'}`;
+}
+
+/* ---------- avisos recebidos ---------- */
+let pendingOpen = null;
+const seenAt = () => lget('vicio.avisosVistos', '');
+const iso = t => new Date(t).toISOString();
+const pastAvisos = () => { const now = new Date().toISOString(); return AVISOS.filter(a => iso(a.t) <= now); };
+function unread(){ const s = seenAt(); return pastAvisos().filter(a => iso(a.t) > s).length; }
+function clearBadge(){ try{ if(navigator.clearAppBadge) navigator.clearAppBadge().catch(() => {}); }catch(e){} }
+function fillInbox(){
+  const s = seenAt(), list = pastAvisos();
+  const when = t => new Date(t).toLocaleString('pt-PT', {timeZone:'Europe/Lisbon', weekday:'short', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'});
+  $('#sheetBody').innerHTML = `
+    <div class="sheet-top"><span class="mono">Avisos</span><button class="ghost mono" id="closeSheet">Fechar ×</button></div>
+    <h2 id="sheetTitle">Avisos</h2>
+    ${list.length ? `<div class="inbox">${list.map(a => `<button class="av ${iso(a.t) > s ? 'new' : ''}" data-av="${esc(a.open || a.url || '')}">
+        <span class="mono">${esc(when(a.t))}</span><b>${esc(a.title)}</b>${a.message ? `<span>${esc(a.message)}</span>` : ''}</button>`).join('')}</div>`
+      : '<div class="empty mono">Ainda sem avisos. Aparecem aqui os mesmos que chegam ao telemóvel.</div>'}`;
+}
+function openInbox(){ sheetDrop = null; sheetMode = 'inbox'; fillInbox(); showSheet(); lset('vicio.avisosVistos', new Date().toISOString()); clearBadge(); renderMine(); }
+function readHash(){ const m = location.hash.match(/^#drop=(.+)$/); if(m){ pendingOpen = decodeURIComponent(m[1]); history.replaceState(null, '', location.pathname + location.search); } return !!m; }
+function openPending(){ if(pendingOpen && byId(pendingOpen)){ const id = pendingOpen; pendingOpen = null; if(modeDrop) closeMode(); openSheet(id); } }
+function goTo(u){
+  if(!u) return;
+  const m = u.match(/#drop=(.+)$/);
+  if(m){ pendingOpen = decodeURIComponent(m[1]); if(sheetMode) closeSheet(); openPending(); return; }
+  if(/^https?:\/\//.test(u) && !u.includes(PAGES)) window.open(u, '_blank', 'noopener');
 }
 
 /* ---------- carregar ---------- */
 async function getJSON(u){ try{ const r = await fetch(u + '?t=' + Date.now(), {cache:'no-store'}); return r.ok ? await r.json() : null; }catch(e){ return null; } }
 async function loadData(){
-  const [d, n, s, u] = await Promise.all(['data/drops.json','data/news.json','data/status.json','data/updated.json'].map(getJSON));
+  const [d, n, s, u, a, pd] = await Promise.all(['data/drops.json','data/news.json','data/status.json','data/updated.json','data/avisos.json','data/push.json'].map(getJSON));
+  if(a) AVISOS = a.avisos || [];
+  if(pd) PUSH_DEAD = pd.dead || [];
   if(d){ DROPS = d.drops || []; if(d.brands) Object.entries(d.brands).forEach(([k,v]) => BRANDS[k] = {...BRANDS[k], ...v}); }
   if(n) NEWS = n.news || [];
   if(s) STATUS = s.sources || {};
@@ -943,6 +1049,8 @@ async function loadData(){
   const ids = new Set(DROPS.map(x => x.id));
   pendingManual = pendingManual.filter(p => !ids.has(p.id)); lset('vicio.pendingManual', pendingManual);
   renderAll();
+  if(sheetMode === 'inbox') fillInbox();
+  openPending();
 }
 
 /* ---------- eventos ---------- */
@@ -988,6 +1096,11 @@ document.addEventListener('click', e => {
   if(t.id === 'saveTok'){ connect(); return; }
   if(t.id === 'forgetTok'){ token = ''; lset('vicio.token', ''); meSha = null; renderMine(); fillSettings(); toast('Desligado'); return; }
   if(t.id === 'runNow'){ runRobot(false); return; }
+  if(t.closest('[data-inbox]')){ openInbox(); return; }
+  const av = t.closest('[data-av]'); if(av){ goTo(av.dataset.av); return; }
+  if(t.id === 'pushOn'){ enablePush(); return; }
+  if(t.id === 'pushOff'){ disablePush(); return; }
+  if(t.id === 'pushTest'){ testPush(); return; }
   if(t.id === 'hideInstall'){ lset('vicio.hideInstall', true); $('#installBanner').hidden = true; return; }
 });
 async function connect(){
@@ -1021,7 +1134,12 @@ document.addEventListener('keydown', e => {
 $('#prev').onclick = () => { view.m--; if(view.m < 0){ view.m = 11; view.y--; } selDay = null; renderCal(); renderCards(); };
 $('#next').onclick = () => { view.m++; if(view.m > 11){ view.m = 0; view.y++; } selDay = null; renderCal(); renderCards(); };
 $('#clearDay').onclick = () => { selDay = null; renderCal(); renderCards(); };
-document.addEventListener('visibilitychange', () => { if(document.visibilityState === 'visible'){ loadData(); pullMe().then(renderAll); } });
+document.addEventListener('visibilitychange', () => { if(document.visibilityState === 'visible'){ clearBadge(); loadData(); pullMe().then(renderAll); } });
+window.addEventListener('hashchange', () => { if(readHash()) openPending(); });
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+  navigator.serviceWorker.addEventListener('message', e => { if(e.data && e.data.open) goTo(e.data.open); });
+}
 
 /* ---------- arranque ---------- */
 (function init(){
@@ -1031,6 +1149,7 @@ document.addEventListener('visibilitychange', () => { if(document.visibilityStat
   const standalone = window.navigator.standalone || matchMedia('(display-mode: standalone)').matches;
   $('#installBanner').hidden = standalone || lget('vicio.hideInstall', false);
   renderAll();
+  readHash(); openPending(); clearBadge();
   loadData(); pullMe().then(renderAll);
   const tick = () => {
     $('#clock').textContent = clockFmt.format(new Date());

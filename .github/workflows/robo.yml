@@ -3,19 +3,25 @@ name: Robô de drops
 on:
   schedule:
     - cron: "7,37 * * * *"   # de 30 em 30 minutos (o GitHub pode atrasar alguns minutos)
-  workflow_dispatch: {}       # botão "Run workflow" para correr à mão
+  workflow_dispatch:          # botão "Run workflow" (e o "Procurar agora" da app)
+    inputs:
+      teste:
+        description: "Mandar um aviso de teste para a app"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
-
-concurrency:
-  group: robo
-  cancel-in-progress: false
 
 jobs:
   correr:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    concurrency:              # uma ronda de cada vez (os lembretes, abaixo, correm à parte)
+      group: robo
+      cancel-in-progress: false
+    outputs:
+      timed: ${{ steps.robo.outputs.timed }}
     steps:
       - uses: actions/checkout@v4
 
@@ -23,13 +29,23 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Instalar o envio de notificações para a app
+        run: pip install -q pywebpush==2.5.0
+
       - name: Testes
         run: python -m unittest -q tests.test_robot
 
       - name: Correr o robô
+        id: robo
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python -m robot.run
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          PUSH_BOX_KEY: ${{ secrets.PUSH_BOX_KEY }}
+          VICIO_TESTE: ${{ inputs.teste }}
+          TIMED_FILE: ${{ runner.temp }}/timed.json
+        run: |
+          python -m robot.run
+          echo "timed=$(cat "$TIMED_FILE" 2>/dev/null || echo '[]')" >> "$GITHUB_OUTPUT"
 
       - name: Guardar dados novos
         run: |
@@ -40,3 +56,27 @@ jobs:
           git commit -m "robô: atualizar drops"
           git pull --rebase --autostash
           git push
+
+  # Lembretes de 1 h e 10 min que caem antes da próxima ronda: espera pela hora exata e manda.
+  lembretes:
+    needs: correr
+    if: needs.correr.outputs.timed != '' && needs.correr.outputs.timed != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -q pywebpush==2.5.0
+
+      - name: Mandar à hora certa
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          PUSH_BOX_KEY: ${{ secrets.PUSH_BOX_KEY }}
+          TIMED: ${{ needs.correr.outputs.timed }}
+        run: |
+          printf '%s' "$TIMED" > "$RUNNER_TEMP/timed.json"
+          python -m robot.timed "$RUNNER_TEMP/timed.json"

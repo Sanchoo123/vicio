@@ -54,7 +54,19 @@ Na fase 3 o site passa a escrever este ficheiro sozinho quando carregas em "Vou 
 - Lembretes 1 h e 10 min antes dos drops onde vais entrar
 - Resumo da semana ao domingo à noite
 
-No máximo 8 avisos por ronda; o resto junta-se num só.
+No máximo 8 avisos por ronda; o resto junta-se num só. Todos ficam também na lista **Avisos** da app.
+
+## Notificações na própria app (em vez do ntfy)
+
+A app Vício, instalada no ecrã principal do iPhone (iOS 16.4 ou mais recente), recebe as notificações diretamente.
+
+1. Segredos no GitHub (uma vez): `VAPID_PRIVATE_KEY` (assina os envios) e `PUSH_BOX_KEY` (abre a subscrição do iPhone).
+   As chaves públicas que fazem par com estes segredos estão no `index.html` (`VAPID_PUB`, `BOX_PUB`).
+2. Na app: **Definições → Notificações na app → Ativar notificações** → permitir → **Enviar aviso de teste**.
+
+A subscrição do iPhone fica em `data/me.json` (campo `push`), cifrada: o repositório é público e só o robô a consegue ler.
+Enquanto houver um iPhone ligado, o robô deixa de usar o ntfy. Os lembretes de 1 h e 10 min são mandados à hora exata
+pelo trabalho `lembretes` do workflow, que espera por eles; se a hora de um drop mudar ou deixares de entrar, o lembrete cai.
 
 ## Calendário do iPhone
 
