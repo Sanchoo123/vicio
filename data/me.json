@@ -11,8 +11,57 @@
   "bape": "drops",
   "represent": "drops"
  },
- "_exemplo_vou_entrar": {"palace-2026-11-20": {"pecas": ["Tri-Ferg Puffer", "Tri-Ferg Hood"]}},
+ "_exemplo_vou_entrar": {
+  "palace-2026-11-20": {
+   "pecas": [
+    "Tri-Ferg Puffer",
+    "Tri-Ferg Hood"
+   ]
+  }
+ },
  "vou_entrar": {},
- "_exemplo_seguir_restock": [{"loja": "represent", "handle": "initial-oversized-hoodie-black"}],
- "seguir_restock": []
+ "_exemplo_seguir_restock": [
+  {
+   "loja": "represent",
+   "handle": "initial-oversized-hoodie-black"
+  }
+ ],
+ "seguir_restock": [],
+ "app": {
+  "interest": {},
+  "wants": {},
+  "results": {},
+  "checks": {},
+  "restock": [],
+  "onlyMine": false,
+  "brands": [],
+  "cfg": {
+   "budget": 400,
+   "ship": 15,
+   "fee": 5,
+   "duty": 12,
+   "fx": 1.15,
+   "fxUsd": 0.86,
+   "sizes": {},
+   "uk": {
+    "palace": true,
+    "corteiz": true,
+    "brokenplanet": true,
+    "represent": true,
+    "gallerydept": true
+   }
+  },
+  "saved": "2026-11-13T09:43:42.181Z"
+ },
+ "push": [
+  {
+   "id": "iphone-r1m1ssdj",
+   "box": {
+    "epk": "BD-kh_N7ARX4ZZFhtI7v2kzCkNeNiW04560OWduqE3ApdvTUyrxZQXfXqvZ2U0MqqF57xAzP2FBQQ4I2lpqphqA",
+    "iv": "A5B3kKMwB8GFwKe2",
+    "ct": "wBozBhDDyMpfk55cIxtKBdxONgml6R7ZYV-AeDz2B2S_RvS9YZkitDznyQE1fkdvMeeMFHEdmspWbGtDpNKl3-qDvovRPKPDzYaNj3G8NTBiEkgAU2RslLozeWNPa8xqb0k4xEo4es3lHEDVa8Btm0VybwvMGpAF1jduHCaO9EtrvffN6sJvFHT-Ivdz0WwMiku1yehxj6vterhMKb03jWrWZSzKw500PeLF4fHiAC8NH5iTZ4nHu-_kuvKmxoXtBd7u5emolGKmC_kJOL-MVVHS2YjW5e1YXoUi41mf-OExtRJnwSQXqnJHO1R9w4mek5_9rJvXWRfoVagbAGC3jNfufBXYLBYgEWGiFWo_lSqwiraPEceyrsjPwHmvB0CRWxO0yBM8sL32LcBjHNRe-krmabarhPStHsIsqxa4QM6KJ1uZFcziu1tY4xyT9459ZDe5tRXd8KvmWBKIiE_7b0HRzQ6wZ-uJWlyEjKJVIzaa"
+   },
+   "desde": "2026-11-13"
+  }
+ ]
 }
