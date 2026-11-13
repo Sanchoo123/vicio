@@ -2,6 +2,18 @@
  "news": [
   {
    "brand": "nike",
+   "date": "2026-12-03",
+   "date_in_title": true,
+   "droplist": false,
+   "id": "00cfcd58fdff",
+   "image": "https://sneakernews.com/wp-content/uploads/2026/11/nike-air-bakin-black-iq5365-001-6.jpg",
+   "published": "2026-11-13T22:00+00:00",
+   "source": "Sneaker News",
+   "title": "Nike Air Bakin’ “Black/White” Confirmed For December 3rd Release",
+   "url": "https://sneakernews.com/2026/11/13/nike-air-bakin-black-iq5365-001/"
+  },
+  {
+   "brand": "nike",
    "date": "2026-11-14",
    "date_in_title": false,
    "droplist": false,
