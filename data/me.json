@@ -31,7 +31,13 @@
   "interest": {},
   "wants": {},
   "results": {},
-  "checks": {},
+  "checks": {
+   "palace-2026-11-13": [
+    null,
+    null,
+    false
+   ]
+  },
   "restock": [],
   "onlyMine": false,
   "brands": [],
@@ -51,7 +57,7 @@
     "gallerydept": true
    }
   },
-  "saved": "2026-11-13T09:43:42.181Z"
+  "saved": "2026-11-13T10:40:22.537Z"
  },
  "push": [
   {
