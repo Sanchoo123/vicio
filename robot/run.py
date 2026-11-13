@@ -10,12 +10,12 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from . import ics, notify
-from .config import BRANDS, FEEDS, GNEWS_EVERY, KEEP_PAST_DAYS, MAX_PUSH_PER_RUN, NTFY_MAX_DELAY_DAYS, STORES, TZ
+from .config import BRANDS, FEEDS, GNEWS_EVERY, NIKE_EVERY, KEEP_PAST_DAYS, MAX_PUSH_PER_RUN, NTFY_MAX_DELAY_DAYS, STORES, TZ
 from .http import Blocked, get
-from .sources import gnews, manual, patterns, rss, shopify
+from .sources import gnews, manual, nike, patterns, rss, shopify
 
 DATA = Path(__file__).resolve().parent.parent / "data"
-RANK = {"pattern": 0, "rss": 1, "shopify": 2, "manual": 3}
+RANK = {"pattern": 0, "rss": 1, "shopify": 2, "nike": 2, "manual": 3}
 WD = ["SEG", "TER", "QUA", "QUI", "SEX", "SÁB", "DOM"]
 MO = ["JAN", "FEV", "MAR", "ABR", "MAI", "JUN", "JUL", "AGO", "SET", "OUT", "NOV", "DEZ"]
 
@@ -225,6 +225,25 @@ def run(now=None, dry_run=False):
             status["Google Notícias"] = dict(ok=False, msg="; ".join(errs)[:200])
         state["gnews_ok"] = True
 
+    # 2c. calendário oficial SNKRS Portugal, de hora a hora
+    nike_ok, nike_read = state.get("nike_ok", False), False
+    if first_run or not nike_ok or slot % max(1, NIKE_EVERY // 30) == 0:
+        try:
+            cands += nike.fetch()
+            status["Nike SNKRS Portugal"] = dict(ok=True)
+            nike_ok = nike_read = True
+        except Blocked as e:
+            status["Nike SNKRS Portugal"] = dict(ok=False, msg=str(e))
+            nike_ok = False
+        except Exception as e:
+            status["Nike SNKRS Portugal"] = dict(ok=False, msg=f"erro: {type(e).__name__}")
+            nike_ok = False
+        state["nike_ok"] = nike_ok
+    if nike_ok:
+        # com o calendário oficial, as notícias americanas da Nike (horas dos EUA, pares que podem nem sair cá)
+        # ficam só como notícia; as colaborações com as outras marcas continuam a contar
+        cands = [c for c in cands if not (c["brand"] == "nike" and c["origin"] == "rss")]
+
     # 3. lojas com catálogo público
     watch = me.get("seguir_restock", [])
     for s in STORES:
@@ -256,7 +275,11 @@ def run(now=None, dry_run=False):
     known = load("drops.json", {}).get("drops", [])
     ids = {d["id"] for d in drops}
     for d in known:
-        if d["id"] not in ids and d.get("origin") in ("rss", "shopify") and date.fromisoformat(d["date"]) >= today - timedelta(days=KEEP_PAST_DAYS):
+        if nike_ok and d["brand"] == "nike" and d.get("origin") == "rss":
+            continue
+        if d.get("origin") == "nike" and nike_read and d["date"] >= today.isoformat():
+            continue  # lançamento futuro que saiu do calendário oficial (adiado ou cancelado)
+        if d["id"] not in ids and d.get("origin") in ("rss", "shopify", "nike") and date.fromisoformat(d["date"]) >= today - timedelta(days=KEEP_PAST_DAYS):
             drops.append(d)
     drops.sort(key=lambda d: (d["date"], d.get("time") or "99:99", d["id"]))
 
@@ -267,7 +290,7 @@ def run(now=None, dry_run=False):
                    img=bool(d.get("image")), droplist=bool(d.get("droplist")))
         prev = seen.get(d["id"])
         if prev is None:
-            if d["origin"] in ("rss", "manual") and d["date"] >= today.isoformat():
+            if d["origin"] in ("rss", "manual", "nike") and d["date"] >= today.isoformat():
                 events.append(dict(type="new_drop", drop=d))
         elif (prev["date"], prev["time"]) != (sig["date"], sig["time"]):
             events.append(dict(type="changed", drop=d, before=f"{day_txt(prev['date'])} {prev['time'] or ''}".strip()))

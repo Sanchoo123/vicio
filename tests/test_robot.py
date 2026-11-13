@@ -4,7 +4,7 @@ from datetime import date, datetime
 from robot import ics
 from robot.config import TZ
 from robot.run import allowed, build_messages, merge, reminders
-from robot.sources import patterns, rss, shopify
+from robot.sources import nike, patterns, rss, shopify
 from robot.text import detect_brand, find_date, find_time
 
 TODAY = date(2026, 11, 12)
@@ -41,6 +41,8 @@ class Brands(unittest.TestCase):
         self.assertIsNone(detect_brand("Crystal Palace x Liverpool - Highlights"))
         self.assertIsNone(detect_brand("Crystal Palace Drop Into Relegation Zone"))
         self.assertEqual(detect_brand("Burberry x Palace"), "palace")
+        self.assertEqual(detect_brand("Everything Dropping at Palace This Week"), "palace")
+        self.assertTrue(rss.DROPLIST_RE.search("Everything Dropping at Supreme This Week"))
         self.assertEqual(detect_brand("Palace Skateboards Winter 2026 Lookbook"), "palace")
         self.assertEqual(detect_brand("Stüssy x Nike Air Force 1 Releases November 20th"), "stussy")
         self.assertEqual(detect_brand("Corteiz Drops Alcatraz Bomber"), "corteiz")
@@ -89,6 +91,32 @@ class GoogleNews(unittest.TestCase):
         d = rss.to_drop(a)
         self.assertEqual((d["id"], d["name"]), ("corteiz-2026-11-20", "Corteiz x Nike Shox R419 \u201cMetallic Silver\u201d"))
         self.assertEqual((b["brand"], b["source"], b.get("date")), ("palace", "Culted", None))
+
+
+def _thread(slug, model, color, start, method="LEO", price=139.99, sku="X-001", stop=None):
+    lv = dict(method=method, startEntryDate=start)
+    if stop:
+        lv["stopEntryDate"] = stop
+    return dict(publishedContent=dict(properties=dict(title=model, seo=dict(slug=slug),
+                coverCard=dict(properties=dict(title=color, subtitle=model, squarishURL=f"https://static.nike.com/{slug}.jpg")))),
+                productInfo=[dict(merchProduct=dict(status="ACTIVE", styleColor=sku), merchPrice=dict(currentPrice=price, currency="EUR"),
+                                  launchView=lv, productContent=dict(fullTitle=model, colorDescription=color))])
+
+
+class NikeSnkrs(unittest.TestCase):
+    def test_parse(self):
+        doc = dict(objects=[
+            _thread("dunk", "Dunk Low", "Black", "2026-11-20T08:00:00.000Z", sku="A"),
+            _thread("am90", "Air Max 90", "Olive", "2026-11-20T08:00:00.000Z", sku="B"),
+            _thread("shox", "Nike Shox R419 x Corteiz", "Silver", "2026-11-21T10:00:00.000Z", method="DAN", sku="C",
+                    stop="2026-11-21T10:30:00.000Z"),
+            _thread("svc", "SNKRS Service", "", "2026-11-22T08:00:00.000Z", price=None),
+        ])
+        a, b = nike.parse(doc)
+        self.assertEqual((a["id"], a["time"], a["method"], len(a["products"])), ("nike-2026-11-20-snkrs-0800", "08:00", "SNKRS · FCFS", 2))
+        self.assertEqual(a["name"], "Dunk Low “Black” + 1 lançamento")
+        self.assertEqual(a["products"][0]["url"], "https://www.nike.com/pt/launch/t/dunk")
+        self.assertEqual((b["brand"], b["time"], b["method"]), ("corteiz", "10:00", "SNKRS · SORTEIO até 21/11 10:30"))
 
 
 class Patterns(unittest.TestCase):

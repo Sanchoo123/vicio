@@ -17,7 +17,8 @@ BRANDS = {
                     match=[r"\bSupreme\b(?!\s+(?:Court|Leader|Commander|Being|Council|Allied))"]),
     "palace": dict(name="Palace", site="https://www.palaceskateboards.com", method="FCFS", case=True,
                    match=[r"\bPalace Skateboards\b", r"(?<!Crystal )\bPalace\s+[xX]\s+\w", r"\w\s+[xX]\s+(?!Palace\s+(?:FC|Highlights)\b)Palace\b(?!\s*(?:FC|-))",
-                          r"(?<!Crystal )\bPalace\s+(?:Spring|Summer|Autumn|Fall|Winter|Holiday|Ultimo|Drop)\b"]),
+                          r"(?<!Crystal )\bPalace\s+(?:Spring|Summer|Autumn|Fall|Winter|Holiday|Ultimo|Drop)\b",
+                          r"\bDropping at Palace\b", r"\bat Palace This Week\b"]),
     "stussy": dict(name="Stüssy", site="https://eu.stussy.com", method="FCFS", case=False,
                    match=[r"\bSt[üu]ssy\b"]),
     "corteiz": dict(name="Corteiz", site="https://www.crtz.xyz", method="FCFS", case=False,
@@ -38,7 +39,15 @@ FEEDS = [
     dict(name="Hypebeast", url="https://hypebeast.com/feed"),
     dict(name="Sneaker News", url="https://sneakernews.com/category/release-dates/feed/"),
     dict(name="Nice Kicks", url="https://www.nicekicks.com/feed/"),
+    dict(name="Hypebeast Fashion", url="https://hypebeast.com/fashion/feed"),  # guarda 2 dias (o feed geral só ~6 h)
+    dict(name="Sole Retriever", url="https://www.soleretriever.com/rss.xml"),
 ]
+
+# Calendário oficial SNKRS Portugal (o mesmo que a página nike.com/pt/launch usa). Lido de hora a hora.
+NIKE_FEED = ("https://api.nike.com/product_feed/threads/v3/?count=50&filter=marketplace(PT)&filter=language(pt-PT)"
+             "&filter=upcoming(true)&filter=channelId(010794e5-35fe-4e32-aaff-cd2c74f89d61)"
+             "&filter=exclusiveAccess(true,false)&sort=effectiveStartSellDateAsc")
+NIKE_EVERY = 60
 
 # Pesquisas no Google Notícias (feed RSS público): apanha os artigos de muitos sites sobre cada marca.
 # Lido de hora a hora. Estas notícias aparecem na app mas não mandam aviso (há muitos artigos repetidos);
@@ -46,6 +55,7 @@ FEEDS = [
 GNEWS_URL = "https://news.google.com/rss/search?hl=en-GB&gl=GB&ceid=GB:en&q="
 GNEWS_EVERY = 60
 GNEWS = [
+    dict(brand="semana", q='"Everything Dropping at" when:7d'),  # listas semanais da Hypebeast (Supreme, Palace)
     dict(brand="supreme", q='Supreme (droplist OR "drop list" OR "week" OR collection OR collaboration) when:10d'),
     dict(brand="palace", q='"Palace Skateboards" OR "Palace x" OR "x Palace" when:14d'),
     dict(brand="stussy", q='Stussy OR Stüssy when:14d'),

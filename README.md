@@ -13,9 +13,9 @@ Calendário dos próximos drops de streetwear (Supreme, Palace, Stüssy, Corteiz
 |---|---|---|
 | Represent | Catálogo público da loja | Peças novas, fotos, preços, restocks |
 | BAPE | Catálogo público da loja (só 1× por hora, a loja limita pedidos) | Peças novas, fotos, preços, restocks |
-| Nike / Jordan | Sneaker News e Nice Kicks (RSS) | Datas de lançamento com foto |
-| Supreme, Palace | Ritmo habitual (Supreme quinta 16:00, Palace sexta 11:00, hora de Lisboa) + Hypebeast + Google Notícias | Drops previstos, confirmados quando sai a drop list |
-| Stüssy, Corteiz, Broken Planet | Google Notícias (de hora a hora) + Hypebeast + o que acrescentares à mão | Notícias e drops anunciados |
+| Nike / Jordan | Calendário oficial SNKRS Portugal (o de nike.com/pt/launch), de hora a hora | Hora exata em Portugal, preço em €, FCFS ou sorteio, fotos |
+| Supreme, Palace | Ritmo habitual (Supreme quinta 16:00, Palace sexta 11:00, hora de Lisboa) + listas semanais da Hypebeast ("Everything Dropping at…") + Google Notícias | Drops previstos, confirmados quando sai a lista da semana |
+| Stüssy, Corteiz, Broken Planet | Google Notícias (de hora a hora) + Hypebeast + Sole Retriever + o que acrescentares à mão | Notícias e drops anunciados |
 
 As lojas da Supreme, Palace, Stüssy, Corteiz e Broken Planet bloqueiam robôs. O robô respeita isso: identifica-se sempre como `VicioDropCalendar`, faz um pedido de cada vez e, se uma fonte recusar, tenta só na ronda seguinte. Para essas marcas, o que vires no Instagram acrescenta-se em `data/manual.json`.
 
