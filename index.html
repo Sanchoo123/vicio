@@ -944,8 +944,8 @@ async function delManual(id){
 }
 async function runRobot(quiet, inputs){
   if(!token){ openSettings(); toast('Liga o GitHub primeiro.'); return; }
-  try{ await gh('/actions/workflows/robo.yml/dispatches', {method:'POST', body:JSON.stringify(inputs ? {ref:'main', inputs} : {ref:'main'})}); if(!quiet) toast('Robô a correr. Dados novos dentro de 1–2 min.'); setTimeout(loadData, 120000); }
-  catch(e){ if(!quiet) toast(e.status === 403 ? 'O token precisa de "Actions: Read and write".' : 'Não consegui pôr o robô a correr.'); }
+  try{ await gh('/actions/workflows/robo.yml/dispatches', {method:'POST', body:JSON.stringify(inputs ? {ref:'main', inputs} : {ref:'main'})}); if(!quiet) toast('Robô a correr. Dados novos dentro de 1–2 min.'); setTimeout(loadData, 120000); return true; }
+  catch(e){ if(!quiet) toast(e.status === 403 ? 'O token precisa de "Actions: Read and write".' : `Não consegui pôr o robô a correr (erro ${e.status || 'de rede'}).`); return false; }
 }
 
 /* ---------- notificações na app ---------- */
@@ -993,7 +993,7 @@ async function disablePush(){
   await savePushList((me.push || []).filter(p => p.id !== DEV));
   toast('Notificações desligadas neste iPhone'); fillSettings();
 }
-function testPush(){ runRobot(true, {teste:'true'}); toast('A enviar… chega dentro de 1–2 minutos.'); }
+async function testPush(){ if(await runRobot(false, {teste:'true'})) toast('A enviar… chega dentro de 1–2 minutos.'); }
 function pushPanel(){
   if(!pushCapable() || !standaloneApp())
     return `<p class="note">Para receberes os avisos na Vício, abre-a pelo ícone no ecrã principal (iPhone com iOS 16.4 ou mais recente). No Safari não dá.</p>`;
