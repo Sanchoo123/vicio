@@ -22,6 +22,9 @@ def check_store(store, st, watch_handles, now):
     Na primeira leitura só guarda o que existe, sem avisar (senão seria tudo "novo").
     """
     data = get_json(f"{store['url']}/products.json?limit=250")
+    if st.get("url") != store["url"]:  # mudou a loja (ex.: BAPE global -> UE): começa do zero, sem avisar
+        st.clear()
+        st["url"] = store["url"]
     prods = data.get("products", [])
     prev_ids = set(st.get("ids", []))
     first = not prev_ids

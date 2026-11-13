@@ -28,7 +28,7 @@ BRANDS = {
     "nike": dict(name="Nike", site="https://www.nike.com/pt/launch", method="SNKRS", case=False,
                  dated_only=True,  # há demasiadas notícias da Nike: só entram as que têm data de lançamento
                  match=[r"\bNike\b", r"\bAir Jordan\b", r"\bJordan Brand\b", r"\bSNKRS\b"]),
-    "bape": dict(name="BAPE", site="https://bape.com", method="FCFS", case=False,
+    "bape": dict(name="BAPE", site="https://eu.bape.com", method="FCFS", case=False,
                  match=[r"\bBAPE\b", r"\bA BATHING APE\b"]),
     "represent": dict(name="Represent", site="https://representclo.com", method="FCFS", case=True,
                       match=[r"\bRepresent\s+(?:Clo|Owners Club|247|[xX])\b", r"\b[xX]\s+Represent\b", r"\bREPRESENT\b"]),
@@ -85,7 +85,8 @@ GNEWS_KEEP_UNDATED = 4  # por marca e por ronda, para não encher as novidades c
 # every: de quantos em quantos minutos se pode ler a loja (o robô corre de 30 em 30; a BAPE limita pedidos).
 STORES = [
     dict(brand="represent", url="https://representclo.com", currency="GBP", every=30),
-    dict(brand="bape", url="https://bape.com", currency=None, every=60),
+    # loja europeia: a global (bape.com) tem artigos que não existem na UE e o link reencaminha para cá
+    dict(brand="bape", url="https://eu.bape.com", currency="EUR", every=60),
     dict(brand="gallerydept", url="https://gallerydept.com", currency="USD", every=60),
     dict(brand="fivefourfive", url="https://fivefourfive.it", currency="EUR", every=60),
     dict(brand="ementa", url="https://ementasb.com", currency="EUR", every=60),
