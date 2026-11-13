@@ -34,19 +34,16 @@ UID:palace-2026-11-13@vicio
 DTSTAMP:20261113T000000Z
 DTSTART:20261113T110000Z
 DTEND:20261113T113000Z
-SUMMARY:Palace · Drop semanal
+SUMMARY:Palace · Drop semanal (previsto)
 DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
- www.palaceskateboards.com\nHypebeast: https://news.google.com/rss/article
- s/CBMihwFBVV95cUxQTWFxcThndm9aZmRmOVYtazJoNzNidjZ2RnJpMGtyV2hKbWREaXBaN1d
- GbnhiQnBDUXZudVRoR2hOWG82MXJHaHRuekY2SjBLaS15d3Y0TDZmRWhoZngyckxsV2V4bnZu
- Tk90Z2hFZDZnanluNlUxaFliclFzSW5xV1N5NUJvMzg?oc=5
+ www.palaceskateboards.com
 URL:https://www.palaceskateboards.com
 END:VEVENT
 BEGIN:VEVENT
 UID:represent-2026-11-13@vicio
 DTSTAMP:20261113T000000Z
-DTSTART:20261113T153700Z
-DTEND:20261113T160700Z
+DTSTART:20261113T160700Z
+DTEND:20261113T163700Z
 SUMMARY:Represent · Peças novas na loja
 DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Represent: https://r
  epresentclo.com

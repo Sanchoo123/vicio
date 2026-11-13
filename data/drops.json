@@ -199,7 +199,6 @@
   {
    "brand": "palace",
    "date": "2026-11-13",
-   "droplist": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTWFxcThndm9aZmRmOVYtazJoNzNidjZ2RnJpMGtyV2hKbWREaXBaN1dGbnhiQnBDUXZudVRoR2hOWG82MXJHaHRuekY2SjBLaS15d3Y0TDZmRWhoZngyckxsV2V4bnZuTk90Z2hFZDZnanluNlUxaFliclFzSW5xV1N5NUJvMzg?oc=5",
    "id": "palace-2026-11-13",
    "image": null,
    "method": "FCFS",
@@ -210,20 +209,16 @@
     {
      "name": "Ritmo habitual da marca",
      "url": "https://www.palaceskateboards.com"
-    },
-    {
-     "name": "Hypebeast",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTWFxcThndm9aZmRmOVYtazJoNzNidjZ2RnJpMGtyV2hKbWREaXBaN1dGbnhiQnBDUXZudVRoR2hOWG82MXJHaHRuekY2SjBLaS15d3Y0TDZmRWhoZngyckxsV2V4bnZuTk90Z2hFZDZnanluNlUxaFliclFzSW5xV1N5NUJvMzg?oc=5"
     }
    ],
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   {
    "brand": "represent",
    "date": "2026-11-13",
    "id": "represent-2026-11-13",
-   "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/a0nPiXTU4BvttTA4TVAJBsrR9TmKhzEWUasZOYtGgLI_70111f69-7c86-43a1-b31e-49b14ed5c689.jpg?v=1794583976",
+   "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Leather-Inlay-Denim-Jet-Black_MLM115420-01_Packshot_01.jpg?v=1794564554",
    "method": "FCFS",
    "name": "Peças novas na loja",
    "origin": "shopify",
@@ -231,18 +226,114 @@
     {
      "available": true,
      "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/a0nPiXTU4BvttTA4TVAJBsrR9TmKhzEWUasZOYtGgLI_70111f69-7c86-43a1-b31e-49b14ed5c689.jpg?v=1794583976",
-     "name": "Aura Sunglasses - Beige",
-     "price": 260.0,
-     "url": "https://representclo.com/products/aura-sunglasses-beige-1"
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Leather-Inlay-Denim-Jet-Black_MLM115420-01_Packshot_01.jpg?v=1794564554",
+     "name": "Represent X Sunset Oil Mini Mart Leather Inlay Denim - Jet Black",
+     "price": 2200.0,
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-leather-inlay-denim-jet-black"
     },
     {
      "available": true,
      "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0002_F7BG_6af0236a-6cd9-4c68-9307-3f7583564d75.jpg?v=1794583999",
-     "name": "Aura Sunglasses - Jet Black",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Leather-Moto-Jacket-Jet-Black_MLM115421-01_Packshot_01.jpg?v=1794564519",
+     "name": "Represent X Sunset Oil Mini Mart Leather Moto Jacket - Jet Black",
+     "price": 3000.0,
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-leather-moto-jacket-jet-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Patch-Cap-Off-White_MLM114803-26_Packshot_01.jpg?v=1794564435",
+     "name": "Represent X Sunset Oil Mini Mart Patch Cap - Off White",
+     "price": 100.0,
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-patch-cap-off-white"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Patch-Cap-Vintage-Black_MLM114803-06_Packshot_01.jpg?v=1794564404",
+     "name": "Represent X Sunset Oil Mini Mart Patch Cap - Vintage Black",
+     "price": 100.0,
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-patch-cap-vintage-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Patch-Camo-Pullover-Hoodie-Camo_MLM114801-39_Packshot_01.jpg?v=1794564381",
+     "name": "Represent X Sunset Oil Mini Mart Patch Camo Pullover Hoodie - Camo",
      "price": 260.0,
-     "url": "https://representclo.com/products/aura-sunglasses-jet-black-1"
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-patch-camo-pullover-hoodie-camo"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Patch-Pocket-T-Shirt-Flat-White_MLM114798-72_Packshot_01.jpg?v=1794564352",
+     "name": "Represent X Sunset Oil Mini Mart Patch Pocket T-Shirt - Flat White",
+     "price": 150.0,
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-patch-pocket-t-shirt-flat-white"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Patch-Henley-Crewneck-Flat-White_MLM114802-72_Packshot_01.jpg?v=1794564314",
+     "name": "Represent X Sunset Oil Mini Mart Patch Henley Crewneck - Flat White",
+     "price": 245.0,
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-patch-henley-crewneck-flat-white"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Heaton-Denim-Oil-Mart-Wash_MLM114806-07_Packshot_01.jpg?v=1794564263",
+     "name": "Represent X Sunset Oil Mini Mart Heaton Denim - Oil Mart Wash",
+     "price": 245.0,
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-heaton-denim-oil-mart-wash"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-T-Shirt-Vintage-Black_MLM114792-06_Packshot_01.jpg?v=1794564295",
+     "name": "Represent X Sunset Oil Mini Mart T-Shirt - Vintage Black",
+     "price": 150.0,
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-t-shirt-vintage-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Leather-Cap-Jet-Black_MLM114804-01_Packshot_01.jpg?v=1794564232",
+     "name": "Represent X Sunset Oil Mini Mart Leather Cap - Jet Black",
+     "price": 100.0,
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-leather-cap-jet-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Patch-Vintage-Hoodie-Vintage-Black_MLM114800-06_Packshot_01.jpg?v=1794564203",
+     "name": "Represent X Sunset Oil Mini Mart Patch Vintage Hoodie - Vintage Black",
+     "price": 280.0,
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-patch-vintage-hoodie-vintage-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Crest-Pocket-T-Shirt-Camo_MLM114799-39_Packshot_01.jpg?v=1794564126",
+     "name": "Represent X Sunset Oil Mini Mart Crest Pocket T-Shirt - Camo",
+     "price": 150.0,
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-crest-pocket-t-shirt-camo"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Double-Knee-Cut-Offs-Vintage-Black_MLM114805-06_Packshot_01.jpg?v=1794564183",
+     "name": "Represent X Sunset Oil Mini Mart Double Knee Cut Offs - Vintage Black",
+     "price": 230.0,
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-double-knee-cut-offs-vintage-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Represent-X-Sunset-Oil-Mini-Mart-Patch-Cap-Camo_MLM114803-39_Packshot_01.jpg?v=1794564140",
+     "name": "Represent X Sunset Oil Mini Mart Patch Cap - Camo",
+     "price": 100.0,
+     "url": "https://representclo.com/products/represent-x-sunset-oil-mini-mart-patch-cap-camo"
     }
    ],
    "sources": [
@@ -252,7 +343,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "15:37"
+   "time": "16:07"
   },
   {
    "brand": "nike",
