@@ -452,6 +452,49 @@
    "time": "08:16"
   },
   {
+   "brand": "fivefourfive",
+   "date": "2026-11-14",
+   "id": "fivefourfive-2026-11-14",
+   "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/SS26-EV-BOXER-RED-1.jpg?v=1778347628",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/SS26-EV-BOXER-RED-1.jpg?v=1778347628",
+     "name": "545 Cotton Boxer",
+     "price": 25.0,
+     "url": "https://fivefourfive.it/products/545-cotton-boxer-red"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/SS26-EV-BOXER-BLUE-1.jpg?v=1778347625",
+     "name": "545 Cotton Boxer",
+     "price": 25.0,
+     "url": "https://fivefourfive.it/products/545-cotton-boxer-light-blue"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/SS26-EV-BOXER-BLACK-1.jpg?v=1778347619",
+     "name": "545 Cotton Boxer",
+     "price": 25.0,
+     "url": "https://fivefourfive.it/products/545-cotton-boxer-black"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja FiveFourFive",
+     "url": "https://fivefourfive.it"
+    }
+   ],
+   "status": "confirmado",
+   "time": "12:07"
+  },
+  {
    "brand": "bape",
    "date": "2026-11-14",
    "id": "bape-2026-11-14",

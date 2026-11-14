@@ -72,6 +72,16 @@ DESCRIPTION:Air Max Dolce Leather para mulher “Black and Natural” + 2
 URL:https://www.nike.com/pt/launch?s=upcoming
 END:VEVENT
 BEGIN:VEVENT
+UID:fivefourfive-2026-11-14@vicio
+DTSTAMP:20261114T000000Z
+DTSTART:20261114T120700Z
+DTEND:20261114T123700Z
+SUMMARY:FiveFourFive · Peças novas na loja
+DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja FiveFourFive: https:
+ //fivefourfive.it
+URL:https://fivefourfive.it
+END:VEVENT
+BEGIN:VEVENT
 UID:bape-2026-11-14@vicio
 DTSTAMP:20261114T000000Z
 DTSTART;VALUE=DATE:20261114
