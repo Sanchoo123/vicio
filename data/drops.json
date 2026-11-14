@@ -411,7 +411,7 @@
    "id": "nike-2026-11-14-snkrs-0816",
    "image": "https://static.nike.com/a/images/w_1536,c_limit/4c822c66-c895-430b-96df-6f517a91537d/air-max-dolce-leather-para-mulher-black-and-natural-ir8665-001-%E2%80%93-data-de-lan%C3%A7amento.png",
    "method": "NIKE.COM",
-   "name": "Air Max Dolce Leather para mulher “Black and Natural” + 1 lançamento",
+   "name": "Air Max Dolce Leather para mulher “Black and Natural” + 2 lançamentos",
    "origin": "nike",
    "products": [
     {
@@ -431,6 +431,15 @@
      "price": 179.99,
      "sku": "IR8665-600",
      "url": "https://www.nike.com/pt/launch/t/women-s-air-max-dolce-leather-pearl-pink-and-pale-pink"
+    },
+    {
+     "color": "Multicolor/Verde Lucky/Laranja Peel/Verde Gym",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/ee74b34a-8b21-4892-bb1d-8b03c449b2e9/air%C2%A0jordan%C2%A011-green-screen-iq5700-900-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Air Jordan 11 “Green Screen”",
+     "price": 209.99,
+     "sku": "IQ5700-900",
+     "url": "https://www.nike.com/pt/launch/t/air-jordan-11-green-screen-emea"
     }
    ],
    "sources": [
