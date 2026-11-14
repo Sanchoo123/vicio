@@ -446,19 +446,96 @@
    "brand": "bape",
    "date": "2026-11-14",
    "id": "bape-2026-11-14",
-   "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F13%2Fbillie-eilish-bape-bathing-ape-collaborative-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max",
+   "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001FWM801304_PNK_B_fd8a4858-f774-477f-85e6-57afd790f1f8.jpg?v=1794415392",
    "method": "FCFS",
-   "name": "Billie Eilish Brings a Longtime Streetwear Affinity Full Circle With BAPE",
-   "origin": "rss",
-   "products": [],
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001FWM801304_PNK_B_fd8a4858-f774-477f-85e6-57afd790f1f8.jpg?v=1794415392",
+     "name": "BAPE STA #3 LADIES",
+     "price": 299.0,
+     "url": "https://eu.bape.com/products/0zxshw304912r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001HOM701004_BLK_A.jpg?v=1794414954",
+     "name": "APE HEAD CUSHION",
+     "price": 95.0,
+     "url": "https://eu.bape.com/products/0zxcum004921r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001FWM801304_PNK_B.jpg?v=1794414718",
+     "name": "BAPE STA #3 MENS",
+     "price": 299.0,
+     "url": "https://eu.bape.com/products/0zxshm304911r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001ZPM731902_ORG_A.jpg?v=1794414547",
+     "name": "BILLIE EILISH X BAPE - CAMO SHARK FULL ZIP HOODIE",
+     "price": 449.0,
+     "url": "https://eu.bape.com/products/0zxswm902151r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001ZPM731901_GRA_A.jpg?v=1794414623",
+     "name": "BILLIE EILISH X BAPE - RELAXED FIT ZIP HOODIE",
+     "price": 349.0,
+     "url": "https://eu.bape.com/products/0zxswm901151r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001CSM731903_SVR_A.jpg?v=1794414049",
+     "name": "BAPE X BILLIE EILISH - RELAXED FIT FOOTBALL SHIRT",
+     "price": 179.0,
+     "url": "https://eu.bape.com/products/0zxtem903091r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001CSM731901_BLK_A.jpg?v=1794414170",
+     "name": "BAPE X BILLIE EILISH - CAMO TEE",
+     "price": 109.0,
+     "url": "https://eu.bape.com/products/0zxtem901091r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001CSM731902_BLK_A.jpg?v=1794413911",
+     "name": "BAPE X BILLIE EILISH - TEE",
+     "price": 109.0,
+     "url": "https://eu.bape.com/products/0zxtem902091r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/002CSM731901_WHT_A.jpg?v=1794413702",
+     "name": "BAPE X BILLIE EILISH - BABY MILO TEE",
+     "price": 109.0,
+     "url": "https://eu.bape.com/products/0zxtem901101r"
+    }
+   ],
    "sources": [
     {
      "name": "Hypebeast Fashion",
      "url": "https://hypebeast.com/2026/11/billie-eilish-bape-bathing-ape-collaborative-collection-release-info"
+    },
+    {
+     "name": "Loja BAPE",
+     "url": "https://eu.bape.com"
     }
    ],
-   "status": "rumor",
-   "time": null
+   "status": "confirmado",
+   "time": "08:07"
   },
   {
    "brand": "nike",
@@ -648,7 +725,7 @@
    "id": "nike-2026-11-27-snkrs-0800",
    "image": "https://static.nike.com/a/images/w_1536,c_limit/c5f3d7ac-e6bb-49eb-837b-7c78b7a31da1/rejuven8%C2%A0run%C2%A04x4-linen-and-natural-para-mulher-iu3143-200-%E2%80%93-data-de-lan%C3%A7amento.png",
    "method": "SNKRS · FCFS",
-   "name": "Rejuven8 Run 4x4 para mulher “Linen and Natural” + 3 lançamentos",
+   "name": "Rejuven8 Run 4x4 para mulher “Linen and Natural” + 4 lançamentos",
    "origin": "nike",
    "products": [
     {
@@ -686,6 +763,42 @@
      "price": 119.99,
      "sku": "IQ0431-300",
      "url": "https://www.nike.com/pt/launch/t/nike-sb-dunk-low-pro-black-spruce-and-metallic-gold"
+    },
+    {
+     "color": "Preto/Cinzento Cement/Branco Summit/Vermelho Fire",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_960,c_limit/10b63686-f3b4-4eae-aa18-27f7e6348f39/air%C2%A0jordan%C2%A04-bred-ix8180-001-%E2%80%93-data-de-lan%C3%A7amento.png",
+     "name": "Sapatilhas Jordan 4 Retro OG \"Bred\" para criança",
+     "price": 89.99,
+     "sku": "IX4879-001",
+     "url": "https://www.nike.com/pt/launch/t/air-jordan-4-bred"
+    },
+    {
+     "color": "Preto/Cinzento Cement/Branco Summit/Vermelho Fire",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_960,c_limit/10b63686-f3b4-4eae-aa18-27f7e6348f39/air%C2%A0jordan%C2%A04-bred-ix8180-001-%E2%80%93-data-de-lan%C3%A7amento.png",
+     "name": "Sapatilhas Jordan 4 Retro OG \"Bred\" para bebé",
+     "price": 69.99,
+     "sku": "IX4880-001",
+     "url": "https://www.nike.com/pt/launch/t/air-jordan-4-bred"
+    },
+    {
+     "color": "Preto/Cinzento Cement/Branco Summit/Vermelho Fire",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_960,c_limit/10b63686-f3b4-4eae-aa18-27f7e6348f39/air%C2%A0jordan%C2%A04-bred-ix8180-001-%E2%80%93-data-de-lan%C3%A7amento.png",
+     "name": "Sapatilhas Air Jordan 4 Retro OG \"Bred\" para homem",
+     "price": 209.99,
+     "sku": "IX8180-001",
+     "url": "https://www.nike.com/pt/launch/t/air-jordan-4-bred"
+    },
+    {
+     "color": "Preto/Cinzento Cement/Branco Summit/Multicolor",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_960,c_limit/10b63686-f3b4-4eae-aa18-27f7e6348f39/air%C2%A0jordan%C2%A04-bred-ix8180-001-%E2%80%93-data-de-lan%C3%A7amento.png",
+     "name": "Sapatilhas Air Jordan 4 Retro OG \"Bred\" Júnior",
+     "price": 159.99,
+     "sku": "IX4857-001",
+     "url": "https://www.nike.com/pt/launch/t/air-jordan-4-bred"
     }
    ],
    "sources": [

@@ -74,13 +74,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bape-2026-11-14@vicio
 DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:BAPE · Billie Eilish Brings a Longtime Streetwear Affinity Full C
- ircle With BAPE (rumor)
-DESCRIPTION:Billie Eilish Brings a Longtime Streetwear Affinity Full Circl
- e With BAPE\nMétodo: FCFS\nHypebeast Fashion: https://hypebeast.com/2026
- /11/billie-eilish-bape-bathing-ape-collaborative-collection-release-info
+DTSTART:20261114T080700Z
+DTEND:20261114T083700Z
+SUMMARY:BAPE · Peças novas na loja
+DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nHypebeast Fashion: https:
+ //hypebeast.com/2026/11/billie-eilish-bape-bathing-ape-collaborative-coll
+ ection-release-info\nLoja BAPE: https://eu.bape.com
 URL:https://hypebeast.com/2026/11/billie-eilish-bape-bathing-ape-collabora
  tive-collection-release-info
 END:VEVENT
@@ -174,9 +173,9 @@ UID:nike-2026-11-27-snkrs-0800@vicio
 DTSTAMP:20261127T000000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T083000Z
-SUMMARY:Nike · Rejuven8 Run 4x4 para mulher “Linen and Natural” + 3 l
+SUMMARY:Nike · Rejuven8 Run 4x4 para mulher “Linen and Natural” + 4 l
  ançamentos
-DESCRIPTION:Rejuven8 Run 4x4 para mulher “Linen and Natural” + 3 lanç
+DESCRIPTION:Rejuven8 Run 4x4 para mulher “Linen and Natural” + 4 lanç
  amentos\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.nike.co
  m/pt/launch?s=upcoming
 URL:https://www.nike.com/pt/launch?s=upcoming
