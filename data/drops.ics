@@ -74,12 +74,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bape-2026-11-14@vicio
 DTSTAMP:20261114T000000Z
-DTSTART:20261114T080700Z
-DTEND:20261114T083700Z
-SUMMARY:BAPE · Peças novas na loja
-DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nHypebeast Fashion: https:
- //hypebeast.com/2026/11/billie-eilish-bape-bathing-ape-collaborative-coll
- ection-release-info\nLoja BAPE: https://eu.bape.com
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:BAPE · Billie Eilish Brings a Longtime Streetwear Affinity Full C
+ ircle With BAPE (rumor)
+DESCRIPTION:Billie Eilish Brings a Longtime Streetwear Affinity Full Circl
+ e With BAPE\nMétodo: FCFS\nHypebeast Fashion: https://hypebeast.com/2026
+ /11/billie-eilish-bape-bathing-ape-collaborative-collection-release-info
 URL:https://hypebeast.com/2026/11/billie-eilish-bape-bathing-ape-collabora
  tive-collection-release-info
 END:VEVENT
