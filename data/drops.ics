@@ -60,15 +60,15 @@ DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Gallery Dept.: https
 URL:https://gallerydept.com
 END:VEVENT
 BEGIN:VEVENT
-UID:nike-2026-11-14-snkrs-0800@vicio
+UID:nike-2026-11-14-snkrs-0816@vicio
 DTSTAMP:20261114T000000Z
-DTSTART:20261114T080000Z
-DTEND:20261114T083000Z
+DTSTART:20261114T081600Z
+DTEND:20261114T084600Z
 SUMMARY:Nike · Air Max Dolce Leather para mulher “Black and Natural” 
  + 1 lançamento
 DESCRIPTION:Air Max Dolce Leather para mulher “Black and Natural” + 1 
- lançamento\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.nik
- e.com/pt/launch?s=upcoming
+ lançamento\nMétodo: NIKE.COM\nNike SNKRS Portugal: https://www.nike.com
+ /pt/launch?s=upcoming
 URL:https://www.nike.com/pt/launch?s=upcoming
 END:VEVENT
 BEGIN:VEVENT

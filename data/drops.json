@@ -408,9 +408,9 @@
   {
    "brand": "nike",
    "date": "2026-11-14",
-   "id": "nike-2026-11-14-snkrs-0800",
+   "id": "nike-2026-11-14-snkrs-0816",
    "image": "https://static.nike.com/a/images/w_1536,c_limit/4c822c66-c895-430b-96df-6f517a91537d/air-max-dolce-leather-para-mulher-black-and-natural-ir8665-001-%E2%80%93-data-de-lan%C3%A7amento.png",
-   "method": "SNKRS · FCFS",
+   "method": "NIKE.COM",
    "name": "Air Max Dolce Leather para mulher “Black and Natural” + 1 lançamento",
    "origin": "nike",
    "products": [
@@ -440,7 +440,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "08:00"
+   "time": "08:16"
   },
   {
    "brand": "bape",
