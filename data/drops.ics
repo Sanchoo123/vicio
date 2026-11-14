@@ -30,19 +30,6 @@ DESCRIPTION:Nike x Union “Coleção de vestuário” + 1 lançamento\nM
 URL:https://www.nike.com/pt/launch?s=upcoming
 END:VEVENT
 BEGIN:VEVENT
-UID:palace-2026-11-13@vicio
-DTSTAMP:20261113T000000Z
-DTSTART:20261113T110000Z
-DTEND:20261113T113000Z
-SUMMARY:Palace · Drop semanal
-DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
- www.palaceskateboards.com\nHypebeast: https://news.google.com/rss/article
- s/CBMihwFBVV95cUxQTWFxcThndm9aZmRmOVYtazJoNzNidjZ2RnJpMGtyV2hKbWREaXBaN1d
- GbnhiQnBDUXZudVRoR2hOWG82MXJHaHRuekY2SjBLaS15d3Y0TDZmRWhoZngyckxsV2V4bnZu
- Tk90Z2hFZDZnanluNlUxaFliclFzSW5xV1N5NUJvMzg?oc=5
-URL:https://www.palaceskateboards.com
-END:VEVENT
-BEGIN:VEVENT
 UID:represent-2026-11-13@vicio
 DTSTAMP:20261113T000000Z
 DTSTART:20261113T160700Z
@@ -57,6 +44,16 @@ UID:gallerydept-2026-11-13@vicio
 DTSTAMP:20261113T000000Z
 DTSTART:20261113T230700Z
 DTEND:20261113T233700Z
+SUMMARY:Gallery Dept. · Peças novas na loja
+DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Gallery Dept.: https
+ ://gallerydept.com
+URL:https://gallerydept.com
+END:VEVENT
+BEGIN:VEVENT
+UID:gallerydept-2026-11-14@vicio
+DTSTAMP:20261114T000000Z
+DTSTART:20261114T000700Z
+DTEND:20261114T003700Z
 SUMMARY:Gallery Dept. · Peças novas na loja
 DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Gallery Dept.: https
  ://gallerydept.com
