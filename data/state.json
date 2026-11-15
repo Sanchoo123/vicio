@@ -15,6 +15,7 @@
   "5a69e0a45a1e",
   "62138e137474",
   "62637712dd81",
+  "68349ebf9e7c",
   "698af0b5d9f1",
   "6a8423f13273",
   "6ad4d61cd9c5",
@@ -70,6 +71,14 @@
    "img": true,
    "n": 0,
    "status": "rumor",
+   "time": null
+  },
+  "corteiz-2026-11-15": {
+   "date": "2026-11-15",
+   "droplist": false,
+   "img": false,
+   "n": 0,
+   "status": "confirmado",
    "time": null
   },
   "corteiz-2026-11-20": {
