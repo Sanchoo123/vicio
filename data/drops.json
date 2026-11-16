@@ -534,11 +534,56 @@
    "brand": "nike",
    "date": "2026-11-19",
    "id": "nike-2026-11-19-snkrs-0800",
-   "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/d79ba8b7-f6af-4293-8f60-3b911b079f63/air%C2%A0max%C2%A095%C2%A0big%C2%A0bubble%C2%A0lux-x-one-block-down-italy-black-im0704-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",
    "method": "SNKRS · FCFS",
-   "name": "Air Max 95 Big Bubble LUX x One Block Down \"Italy\" “Black” + 2 lançamentos",
+   "name": "Nike x One Block Down \"Italy\" “Coleção de vestuário” + 3 lançamentos",
    "origin": "nike",
    "products": [
+    {
+     "color": "Branco",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Gorro Nike x One Block Down para homem",
+     "price": 29.99,
+     "sku": "IO9558-100",
+     "url": "https://www.nike.com/pt/launch/t/nike-one-block-down-italy-apparel-collection"
+    },
+    {
+     "color": "Preto",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Camisola Nike x One Block Down para homem",
+     "price": 94.99,
+     "sku": "IO9469-010",
+     "url": "https://www.nike.com/pt/launch/t/nike-one-block-down-italy-apparel-collection"
+    },
+    {
+     "color": "Preto",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Calças Nike x One Block Down para homem",
+     "price": 134.99,
+     "sku": "IO9467-010",
+     "url": "https://www.nike.com/pt/launch/t/nike-one-block-down-italy-apparel-collection"
+    },
+    {
+     "color": "Preto",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Gorro Nike x One Block Down para homem",
+     "price": 29.99,
+     "sku": "IO9558-010",
+     "url": "https://www.nike.com/pt/launch/t/nike-one-block-down-italy-apparel-collection"
+    },
+    {
+     "color": "Preto",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Casaco com fecho de correr a todo o comprimento Nike x One Block Down para homem",
+     "price": 144.99,
+     "sku": "IO9464-010",
+     "url": "https://www.nike.com/pt/launch/t/nike-one-block-down-italy-apparel-collection"
+    },
     {
      "color": "Preto/Preto/Verde Gym/Preto",
      "currency": "EUR",
