@@ -2,6 +2,18 @@
  "news": [
   {
    "brand": "nike",
+   "date": "2026-11-16",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "2c4ad9d04ae9",
+   "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F15%2Fnocta-nike-air-modmax-pink-spell-IQ6711-600-official-release-date-000.jpg?w=800&cbr=1&q=90&fit=max",
+   "published": "2026-11-16T01:34+00:00",
+   "source": "Hypebeast",
+   "title": "Drake and Nike NOCTA's New Air Modmax Has an Official Release Date",
+   "url": "https://hypebeast.com/2026/11/nocta-nike-air-modmax-pink-spell-iq6711-600-official-release-date"
+  },
+  {
+   "brand": "nike",
    "date": "2026-12-03",
    "date_in_title": true,
    "droplist": false,
