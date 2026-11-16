@@ -684,7 +684,7 @@
    "id": "corteiz-2026-11-20-snkrs-0800",
    "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/07f04e81-3501-4ef8-a5db-887aae9c2a2c/shox-r419-x-corteiz-metallic-silver-and-university-red-iq9951-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
    "method": "SNKRS · FCFS",
-   "name": "Shox R419 x Corteiz “Metallic Silver and University Red”",
+   "name": "Shox R419 x Corteiz “Metallic Silver and University Red” + 1 lançamento",
    "origin": "nike",
    "products": [
     {
@@ -695,12 +695,21 @@
      "price": 189.99,
      "sku": "IQ9951-001",
      "url": "https://www.nike.com/pt/launch/t/shox-r419-corteiz-metallic-silver-and-university-red"
+    },
+    {
+     "color": "Preto/Preto/Prateado refletor",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/e460ced4-59ce-44b0-92aa-c1db3421012d/nike-x-corteiz-crossbody-bag.jpg",
+     "name": "Nike x Corteiz “Saco a tiracolo”",
+     "price": 199.99,
+     "sku": "IQ2369-010",
+     "url": "https://www.nike.com/pt/launch/t/iq2369-010-nike-corteiz-crossbody-bag-child-emea"
     }
    ],
    "sources": [
     {
      "name": "Nike SNKRS Portugal",
-     "url": "https://www.nike.com/pt/launch/t/shox-r419-corteiz-metallic-silver-and-university-red"
+     "url": "https://www.nike.com/pt/launch?s=upcoming"
     }
    ],
    "status": "confirmado",
