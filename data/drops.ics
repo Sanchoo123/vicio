@@ -148,6 +148,19 @@ DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
 URL:https://eu.supreme.com
 END:VEVENT
 BEGIN:VEVENT
+UID:corteiz-2026-11-20-snkrs-0800@vicio
+DTSTAMP:20261120T000000Z
+DTSTART:20261120T080000Z
+DTEND:20261120T083000Z
+SUMMARY:Corteiz · Shox R419 x Corteiz “Metallic Silver and University R
+ ed”
+DESCRIPTION:Shox R419 x Corteiz “Metallic Silver and University Red”\n
+ Método: SNKRS · FCFS\nNike SNKRS Portugal: https://www.nike.com/pt/laun
+ ch/t/shox-r419-corteiz-metallic-silver-and-university-red
+URL:https://www.nike.com/pt/launch/t/shox-r419-corteiz-metallic-silver-and
+ -university-red
+END:VEVENT
+BEGIN:VEVENT
 UID:nike-2026-11-20-snkrs-0800@vicio
 DTSTAMP:20261120T000000Z
 DTSTART:20261120T080000Z

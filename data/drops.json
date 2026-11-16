@@ -675,6 +675,34 @@
    "time": "16:00"
   },
   {
+   "brand": "corteiz",
+   "date": "2026-11-20",
+   "id": "corteiz-2026-11-20-snkrs-0800",
+   "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/07f04e81-3501-4ef8-a5db-887aae9c2a2c/shox-r419-x-corteiz-metallic-silver-and-university-red-iq9951-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "method": "SNKRS · FCFS",
+   "name": "Shox R419 x Corteiz “Metallic Silver and University Red”",
+   "origin": "nike",
+   "products": [
+    {
+     "color": "Prateado metalizado/Vermelho University/Preto/Prateado metalizado",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/07f04e81-3501-4ef8-a5db-887aae9c2a2c/shox-r419-x-corteiz-metallic-silver-and-university-red-iq9951-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Shox R419 x Corteiz “Metallic Silver and University Red”",
+     "price": 189.99,
+     "sku": "IQ9951-001",
+     "url": "https://www.nike.com/pt/launch/t/shox-r419-corteiz-metallic-silver-and-university-red"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch/t/shox-r419-corteiz-metallic-silver-and-university-red"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:00"
+  },
+  {
    "brand": "nike",
    "date": "2026-11-20",
    "id": "nike-2026-11-20-snkrs-0800",
