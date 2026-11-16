@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "supreme",
+   "date": "2026-11-19",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "1864286e1161",
+   "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F15%2Fsupreme-dickies-fall-2026-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max",
+   "published": "2026-11-16T11:30+00:00",
+   "source": "Hypebeast Fashion",
+   "title": "Supreme and Dickies Reunite for an Extensive Fall 2026 Collection",
+   "url": "https://hypebeast.com/2026/11/supreme-dickies-fall-2026-collection-release-info"
+  },
+  {
    "brand": "nike",
    "date": "2026-11-19",
    "date_in_title": false,

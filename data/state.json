@@ -3,6 +3,7 @@
  "news_seen": [
   "00cfcd58fdff",
   "1764ac748981",
+  "1864286e1161",
   "1cebe634448d",
   "1ee7c6ccb730",
   "2242d632622b",
@@ -277,9 +278,9 @@
   "supreme-2026-11-19": {
    "date": "2026-11-19",
    "droplist": false,
-   "img": false,
+   "img": true,
    "n": 0,
-   "status": "previsto",
+   "status": "rumor",
    "time": "16:00"
   },
   "supreme-2026-11-26": {
