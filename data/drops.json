@@ -531,6 +531,41 @@
    "time": null
   },
   {
+   "brand": "corteiz",
+   "date": "2026-11-16",
+   "id": "corteiz-2026-11-16",
+   "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/WAVESHORT_ROYAL_01.png?v=1776940425",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/WAVESHORT_ROYAL_01.png?v=1776940425",
+     "name": "WAVE SHORT [ROYAL BLUE]",
+     "price": 70.0,
+     "url": "https://www.crtz.xyz/products/wave-short-royal-blue"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/GUERILLAZCARGOPANTREFLECTIVE_DIGICAMO_01.png?v=1776948811",
+     "name": "GUERILLAZ CARGO PANT [REFLECTIVE CAMO]",
+     "price": 130.0,
+     "url": "https://www.crtz.xyz/products/guerillaz-cargo-pant-reflective-camo"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja Corteiz",
+     "url": "https://www.crtz.xyz"
+    }
+   ],
+   "status": "confirmado",
+   "time": "10:07"
+  },
+  {
    "brand": "nike",
    "date": "2026-11-19",
    "id": "nike-2026-11-19-snkrs-0800",
