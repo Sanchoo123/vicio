@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "nike",
+   "date": "2026-11-21",
+   "date_in_title": true,
+   "droplist": false,
+   "id": "f39501fe9736",
+   "image": "https://sneakernews.com/wp-content/uploads/2026/11/travis-scott-air-force-1-gta-6-collection-2.jpg",
+   "published": "2026-11-17T16:30+00:00",
+   "source": "Sneaker News",
+   "title": "Travis Scott x Nike Air Force 1 “GTA 6” Collection Dropping November 21st",
+   "url": "https://sneakernews.com/2026/11/17/travis-scott-nike-air-force-1-low-gta-6/"
+  },
+  {
    "brand": "palace",
    "date_in_title": false,
    "droplist": false,
