@@ -746,6 +746,34 @@
   },
   {
    "brand": "nike",
+   "date": "2026-11-18",
+   "id": "nike-2026-11-18-snkrs-0800",
+   "image": "https://static.nike.com/a/images/w_1536,c_limit/a3cbd8ff-e37b-42ac-a22b-3c1f217bec3d/nocta-air-modmax-pink-spell-and-amarillo-iq6711-600-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "method": "SNKRS · FCFS",
+   "name": "NOCTA Air Modmax “Pink Spell and Amarillo”",
+   "origin": "nike",
+   "products": [
+    {
+     "color": "Rosa Spell/Rosa Spell/Amarillo/Volt",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/a3cbd8ff-e37b-42ac-a22b-3c1f217bec3d/nocta-air-modmax-pink-spell-and-amarillo-iq6711-600-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "NOCTA Air Modmax “Pink Spell and Amarillo”",
+     "price": 179.99,
+     "sku": "IQ6711-600",
+     "url": "https://www.nike.com/pt/launch/t/nocta-air-modmax-pink-spell-and-amarillo"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch/t/nocta-air-modmax-pink-spell-and-amarillo"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:00"
+  },
+  {
+   "brand": "nike",
    "date": "2026-11-19",
    "id": "nike-2026-11-19-snkrs-0800",
    "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",

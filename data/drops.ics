@@ -136,6 +136,18 @@ DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Represent: https://r
 URL:https://representclo.com
 END:VEVENT
 BEGIN:VEVENT
+UID:nike-2026-11-18-snkrs-0800@vicio
+DTSTAMP:20261118T000000Z
+DTSTART:20261118T080000Z
+DTEND:20261118T083000Z
+SUMMARY:Nike · NOCTA Air Modmax “Pink Spell and Amarillo”
+DESCRIPTION:NOCTA Air Modmax “Pink Spell and Amarillo”\nMétodo: SNKRS
+  · FCFS\nNike SNKRS Portugal: https://www.nike.com/pt/launch/t/nocta-air
+ -modmax-pink-spell-and-amarillo
+URL:https://www.nike.com/pt/launch/t/nocta-air-modmax-pink-spell-and-amari
+ llo
+END:VEVENT
+BEGIN:VEVENT
 UID:nike-2026-11-19-snkrs-0800@vicio
 DTSTAMP:20261119T000000Z
 DTSTART:20261119T080000Z
