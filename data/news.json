@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "nike",
+   "date": "2026-11-21",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "9bd77535a389",
+   "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F17%2Ftravis-scott-rockstar-nike-air-force-1-low-07-gta-6-black-white-fire-pink-jj7604-001-jj7602-100-release-info-000.jpg?w=800&cbr=1&q=90&fit=max",
+   "published": "2026-11-17T07:05+00:00",
+   "source": "Hypebeast",
+   "title": "Closer Look at the Black and White Pairs of the Travis Scott x Nike Air Force 1 \"GTA 6\"",
+   "url": "https://hypebeast.com/2026/11/travis-scott-rockstar-nike-air-force-1-low-07-gta-6-black-white-fire-pink-jj7604-001-jj7602-100-release-info"
+  },
+  {
    "brand": "fivefourfive",
    "date_in_title": false,
    "droplist": false,
