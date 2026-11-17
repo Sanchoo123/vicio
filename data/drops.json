@@ -745,6 +745,105 @@
    "time": "17:21"
   },
   {
+   "brand": "bape",
+   "date": "2026-11-17",
+   "id": "bape-2026-11-17",
+   "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/0MXBGW4545XXRBWX-01.jpg?v=1794938345",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/0MXBGW4545XXRBWX-01.jpg?v=1794938345",
+     "name": "BABY MILO FAUX FUR MEDIUM CROSS BAG",
+     "price": 99.0,
+     "url": "https://eu.bape.com/products/0mxbgw4545xxr"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/0MXACW4618XXRBWX-01.jpg?v=1794938246",
+     "name": "BABY MILO CARPET",
+     "price": 65.0,
+     "url": "https://eu.bape.com/products/0mxacw4618xxr"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/0MXACW4616XXRYEX-03.jpg?v=1794938114",
+     "name": "BABY MILO WASH FACE HEADBAND",
+     "price": 35.0,
+     "url": "https://eu.bape.com/products/0mxacw4616xxr"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/0MXHOW4622XXRBWX-01.jpg?v=1794938007",
+     "name": "ALL BABY MILO STORAGE CHAIR",
+     "price": 99.0,
+     "url": "https://eu.bape.com/products/0mxhow4622xxr"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/0MXACW4595XXRBWX-01.jpg?v=1794937893",
+     "name": "BABY MILO SKIING PLUSH DOLL KEYCHAIN 15CM",
+     "price": 55.0,
+     "url": "https://eu.bape.com/products/0mxacw4595xxr"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/0MXACW4576XXRBWX-01.jpg?v=1794937790",
+     "name": "BABY MILO EARMUFFS",
+     "price": 69.0,
+     "url": "https://eu.bape.com/products/0mxacw4576xxr"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/0MXHTW4575XXRBKZ-01.jpg?v=1794937593",
+     "name": "BABY MILO REVERSIBLE BEANIE",
+     "price": 65.0,
+     "url": "https://eu.bape.com/products/0mxhtw4575xxr"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001GDM802308_GRN_A.jpg?v=1793961295",
+     "name": "ABC CAMO APE HEAD MIRROR KEYCHAIN LADIES",
+     "price": 49.0,
+     "url": "https://eu.bape.com/products/0zxacw308822r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/0MXBGW4532XXRBWX-01.jpg?v=1794937161",
+     "name": "BABY MILO FAUX FUR MINI DAYPACK",
+     "price": 89.0,
+     "url": "https://eu.bape.com/products/0mxbgw4532xxr"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/0MXBGW4525XXRBWX-01.jpg?v=1794936981",
+     "name": "MILO ALL FRIENDS MEDIUM DAYPACK",
+     "price": 135.0,
+     "url": "https://eu.bape.com/products/0mxbgw4525xxr"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja BAPE",
+     "url": "https://eu.bape.com"
+    }
+   ],
+   "status": "confirmado",
+   "time": "18:07"
+  },
+  {
    "brand": "nike",
    "date": "2026-11-18",
    "id": "nike-2026-11-18-snkrs-0800",
