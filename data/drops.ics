@@ -160,8 +160,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:represent-2026-11-18@vicio
 DTSTAMP:20261118T000000Z
-DTSTART:20261118T140700Z
-DTEND:20261118T143700Z
+DTSTART:20261118T170700Z
+DTEND:20261118T173700Z
 SUMMARY:Represent · Peças novas na loja
 DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Represent: https://r
  epresentclo.com
@@ -195,11 +195,12 @@ DTSTAMP:20261120T000000Z
 DTSTART:20261120T080000Z
 DTEND:20261120T083000Z
 SUMMARY:Corteiz · Shox R419 x Corteiz “Metallic Silver and University R
- ed” + 1 lançamento
-DESCRIPTION:Shox R419 x Corteiz “Metallic Silver and University Red” +
-  1 lançamento\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.
- nike.com/pt/launch?s=upcoming
-URL:https://www.nike.com/pt/launch?s=upcoming
+ ed”
+DESCRIPTION:Shox R419 x Corteiz “Metallic Silver and University Red”\n
+ Método: SNKRS · FCFS\nNike SNKRS Portugal: https://www.nike.com/pt/laun
+ ch/t/shox-r419-corteiz-metallic-silver-and-university-red
+URL:https://www.nike.com/pt/launch/t/shox-r419-corteiz-metallic-silver-and
+ -university-red
 END:VEVENT
 BEGIN:VEVENT
 UID:nike-2026-11-20-snkrs-0800@vicio
