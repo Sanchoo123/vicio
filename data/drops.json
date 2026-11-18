@@ -966,22 +966,18 @@
    "brand": "supreme",
    "date": "2026-11-19",
    "id": "supreme-2026-11-19",
-   "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F15%2Fsupreme-dickies-fall-2026-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max",
+   "image": null,
    "method": "FCFS",
-   "name": "Supreme and Dickies Reunite for an Extensive Fall 2026 Collection",
-   "origin": "rss",
+   "name": "Drop semanal",
+   "origin": "pattern",
    "products": [],
    "sources": [
     {
      "name": "Ritmo habitual da marca",
      "url": "https://eu.supreme.com"
-    },
-    {
-     "name": "Hypebeast Fashion",
-     "url": "https://hypebeast.com/2026/11/supreme-dickies-fall-2026-collection-release-info"
     }
    ],
-   "status": "rumor",
+   "status": "previsto",
    "time": "16:00"
   },
   {

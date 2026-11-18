@@ -3,6 +3,7 @@
  "news_seen": [
   "00cfcd58fdff",
   "0359765f88fc",
+  "03dec0ab07db",
   "1764ac748981",
   "1864286e1161",
   "1a409b276599",
@@ -47,6 +48,7 @@
   "9bd77535a389",
   "9e7ecbd5054f",
   "a02d393377ec",
+  "a41f222c479e",
   "a7c0f3055943",
   "aa30b551bdc7",
   "b56530ac9739",
@@ -316,9 +318,9 @@
   "supreme-2026-11-19": {
    "date": "2026-11-19",
    "droplist": false,
-   "img": true,
+   "img": false,
    "n": 0,
-   "status": "rumor",
+   "status": "previsto",
    "time": "16:00"
   },
   "supreme-2026-11-26": {
