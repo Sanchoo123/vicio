@@ -146,14 +146,14 @@ DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja BAPE: https://eu.bap
 URL:https://eu.bape.com
 END:VEVENT
 BEGIN:VEVENT
-UID:nike-2026-11-18-snkrs-0800@vicio
+UID:nike-2026-11-18-snkrs-0810@vicio
 DTSTAMP:20261118T000000Z
-DTSTART:20261118T080000Z
-DTEND:20261118T083000Z
+DTSTART:20261118T081000Z
+DTEND:20261118T084000Z
 SUMMARY:Nike · NOCTA Air Modmax “Pink Spell and Amarillo”
-DESCRIPTION:NOCTA Air Modmax “Pink Spell and Amarillo”\nMétodo: SNKRS
-  · FCFS\nNike SNKRS Portugal: https://www.nike.com/pt/launch/t/nocta-air
- -modmax-pink-spell-and-amarillo
+DESCRIPTION:NOCTA Air Modmax “Pink Spell and Amarillo”\nMétodo: NIKE.
+ COM\nNike SNKRS Portugal: https://www.nike.com/pt/launch/t/nocta-air-modm
+ ax-pink-spell-and-amarillo
 URL:https://www.nike.com/pt/launch/t/nocta-air-modmax-pink-spell-and-amari
  llo
 END:VEVENT

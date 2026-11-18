@@ -846,9 +846,9 @@
   {
    "brand": "nike",
    "date": "2026-11-18",
-   "id": "nike-2026-11-18-snkrs-0800",
+   "id": "nike-2026-11-18-snkrs-0810",
    "image": "https://static.nike.com/a/images/w_1536,c_limit/a3cbd8ff-e37b-42ac-a22b-3c1f217bec3d/nocta-air-modmax-pink-spell-and-amarillo-iq6711-600-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-   "method": "SNKRS · FCFS",
+   "method": "NIKE.COM",
    "name": "NOCTA Air Modmax “Pink Spell and Amarillo”",
    "origin": "nike",
    "products": [
@@ -869,7 +869,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "08:00"
+   "time": "08:10"
   },
   {
    "brand": "nike",
