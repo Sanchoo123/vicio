@@ -872,6 +872,265 @@
    "time": "08:10"
   },
   {
+   "brand": "represent",
+   "date": "2026-11-18",
+   "id": "represent-2026-11-18",
+   "image": null,
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": null,
+     "name": "Script Initial T-Shirt - Flat White",
+     "price": 101.0,
+     "url": "https://representclo.com/products/script-initial-t-shirt-flat-white-sale"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": null,
+     "name": "247 Dna Oversized T-Shirt - Flat White",
+     "price": 26.0,
+     "url": "https://representclo.com/products/247-dna-oversized-t-shirt-flat-white-sale"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0-XhZqtGCO0efg7nXqTQlt6uiVhUKAi4YozPWrXAny8_087eecac-d247-4edb-beba-94bef696b3e4.jpg?v=1794818619",
+     "name": "Doberman Trouser Chain - Silver",
+     "price": 218.0,
+     "url": "https://representclo.com/products/doberman-trouser-chain-silver-v2"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/AK4NaxJeuydNi4pNmoXXmuFI7wQUSWVy1keRWSQdGDE.jpg?v=1780655273",
+     "name": "Team 247 Oversized T-Shirt - Graphene",
+     "price": 72.0,
+     "url": "https://representclo.com/products/team-247-oversized-t-shirt-graphene"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/7QbITiSAarrDybpABKdKwrsBS_HDrJqaCdHF5JfLc50.jpg?v=1775661844",
+     "name": "Initial Waffle Shorts - Jet Black",
+     "price": 84.0,
+     "url": "https://representclo.com/products/initial-waffle-shorts-jet-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/HeyxXp7F_QSSJoUc5jg_ed3H4yi0mvpiI71siJDjsf0.jpg?v=1776779649",
+     "name": "NFL Shield x Represent Hoodie - Stained Black",
+     "price": 203.0,
+     "url": "https://representclo.com/products/nfl-shield-x-represent-hoodie-stained-black"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": null,
+     "name": "247 Team Fused Short - Ash Grey",
+     "price": 35.0,
+     "url": "https://representclo.com/products/247-team-fused-short-ash-grey-sale"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": null,
+     "name": "Mini Legacy Cherubs T-Shirt - Flat White",
+     "price": 46.0,
+     "url": "https://representclo.com/products/mini-legacy-cherubs-t-shirt-flat-white-sale"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": null,
+     "name": "Patron Of The Club Hoodie - Plum",
+     "price": 98.0,
+     "url": "https://representclo.com/products/patron-of-the-club-hoodie-plum-sale"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": null,
+     "name": "England Legacy T-Shirt - Vintage Black",
+     "price": 75.0,
+     "url": "https://representclo.com/products/england-legacy-t-shirt-vintage-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/qEOp_1c8DwKzVLKkZdpIhdhB4MzO6LL9ZZWP611PEBE_d7afa172-cdb6-49d4-87b7-2dbf0e2a490a.jpg?v=1794818224",
+     "name": "Initial Chain Bracelet - Silver",
+     "price": 140.0,
+     "url": "https://representclo.com/products/initial-chain-bracelet-silver-v2"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": null,
+     "name": "Los Angeles Store T-Shirt - Jet Black",
+     "price": 113.0,
+     "url": "https://representclo.com/products/los-angeles-store-t-shirt-jet-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": null,
+     "name": "Represent x Beach Boys Americas Band T-Shirt - Stained Black",
+     "price": 107.0,
+     "url": "https://representclo.com/products/represent-x-beach-boys-americas-band-t-shirt-stained-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": null,
+     "name": "Moccasin - Suede - Tan",
+     "price": 268.0,
+     "url": "https://representclo.com/products/moccasin-suede-tan"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/KgVXRmSMP-p0uUfjoM06qnVtdj2wUpEZ7Z6E6uVqyxQ_1a00be21-adb7-42d0-bb50-001f55504c5b.jpg?v=1794817749",
+     "name": "Doberman Necklace - Silver",
+     "price": 206.0,
+     "url": "https://representclo.com/products/doberman-necklace-silver-v2"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": null,
+     "name": "Represent Owners Club Script Cap - Slate",
+     "price": 45.0,
+     "url": "https://representclo.com/products/represent-owners-club-script-cap-slate"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": null,
+     "name": "Westside Tshirt - Smoked Teal",
+     "price": 132.0,
+     "url": "https://representclo.com/products/westside-tshirt-smoked-teal-sale"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": null,
+     "name": "Flannels Legacy Banner Zip Through Hoodie - Flat White",
+     "price": 168.0,
+     "url": "https://representclo.com/products/flannels-legacy-banner-zip-through-hoodie-flat-white-sale"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": null,
+     "name": "England Legacy Hoodie - Aged Khaki",
+     "price": 172.0,
+     "url": "https://representclo.com/products/england-legacy-hoodie-aged-khaki"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/8RQaWxvkaEWIYGSasbYoNzkD0MAYiH7HXTDLUvn61R8_5986f3e9-b552-4e8b-93c2-b99424e10189.jpg?v=1794818278",
+     "name": "Doberman Bracelet - Silver",
+     "price": 143.0,
+     "url": "https://representclo.com/products/doberman-bracelet-silver-v2"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/hcY4u24qXuWenDPE3YJzATMvPVWzPEmmpKxP4MIRmtc.jpg?v=1780655539",
+     "name": "Team 247 Oversized T-Shirt - Fern",
+     "price": 72.0,
+     "url": "https://representclo.com/products/team-247-oversized-t-shirt-fern"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": null,
+     "name": "Intial Sneaker Nubuck - Mocha",
+     "price": 145.0,
+     "url": "https://representclo.com/products/intial-sneaker-nubuck-mocha-sale"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/247new_0001_Layer4_6b03e92c-32a0-40c7-a0a6-68a10402a170.jpg?v=1794856186",
+     "name": "247 Pant - Olive",
+     "price": 83.0,
+     "url": "https://representclo.com/products/247-pant-olive-sale"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/a8RPXRcGejIYdrgcLFSEL-HF5Rv-t9LUf8kuZ0QGr8_cfa1389a-d67d-4f04-802a-1619329c5554.jpg?v=1794817814",
+     "name": "Doberman Pendant Necklace - Silver",
+     "price": 120.0,
+     "url": "https://representclo.com/products/doberman-pendant-necklace-silver-v2"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/T7zPZqoVHbVSQvSn7at0jW0a__3pIn5Z0J7ftoJFeeU_03fb4908-9bae-4302-badb-65a26faf6fd2.jpg?v=1794817907",
+     "name": "Initial Chain Necklace - Silver",
+     "price": 152.0,
+     "url": "https://representclo.com/products/initial-chain-necklace-silver-v2"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": null,
+     "name": "Los Angeles Store T-Shirt - Flat White",
+     "price": 113.0,
+     "url": "https://representclo.com/products/los-angeles-store-t-shirt-flat-white"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": null,
+     "name": "Represent x Beach Boys Script Hoodie - Blue Tie Dye",
+     "price": 220.0,
+     "url": "https://representclo.com/products/represent-x-beach-boys-script-hoodie-blue-tie-dye"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/nSX9reKBHV9rbbitAgMwDI7MzqWwWNPXrQy7230bwc8.jpg?v=1788968149",
+     "name": "247 Ghost Half Tight - Ombre",
+     "price": 100.0,
+     "url": "https://representclo.com/products/247-ghost-half-tight-ombre"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/NeaGqqeFVFFAzu6e0azoi7-y8e3wDdoyvvmfKYYY_8w.jpg?v=1779811994",
+     "name": "California Striped Henley Sweater - Jet Black Grey Marl",
+     "price": 184.0,
+     "url": "https://representclo.com/products/california-striped-henley-sweater-jet-black-grey-marl"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": null,
+     "name": "Mini Represent Owners Club T-Shirt - Dusty Mauve",
+     "price": 35.0,
+     "url": "https://representclo.com/products/mini-represent-owners-club-t-shirt-dusty-mauve-sale"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja Represent",
+     "url": "https://representclo.com"
+    }
+   ],
+   "status": "confirmado",
+   "time": "13:37"
+  },
+  {
    "brand": "nike",
    "date": "2026-11-19",
    "id": "nike-2026-11-19-snkrs-0800",
@@ -1087,13 +1346,13 @@
    "id": "corteiz-2026-11-20",
    "image": null,
    "method": "FCFS",
-   "name": "Nike Shox R4 x Corteiz “Metallic Silver”",
+   "name": "Corteiz x Nike Shox R419 Metallic Silver",
    "origin": "rss",
    "products": [],
    "sources": [
     {
-     "name": "JustFreshKicks",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VMGxPdUdVN0V3M3lOZGs3R3l4RV9leTQzSml5ZEVPYnpUQXgybUdvSzdFMmpxbTBGU2xMc25KYUs4VUFMTEtOckk1aFNjMjB6enlOWWZwNVFvN2ZrRWVQWVdkUmp4UmJmUE8wbEU5REloZw?oc=5"
+     "name": "KicksUnderCost",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVmZ5THZ6V0RRWWkxSDBMbzg2bGtuWlFDZG1JQVFqaVNvU2FvTGlMMTdnTUlxQlhaMFFUeHpwT195aGp5OG95aDhnZmdrWVNJd1NSY3NPb0JTUXRHZFYzTS1CbVFCOXRNY2ZqRlVOSVhoQkZfUGQxWDY4RVJ1WWUzMnlVVWU?oc=5"
     }
    ],
    "status": "confirmado",
