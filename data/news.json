@@ -3,6 +3,18 @@
   {
    "brand": "nike",
    "date": "2026-11-21",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "2b5d00858172",
+   "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F17%2Ftravis-scott-gta-6-nike-air-force-1-low-apparel-collaboration-teaser-official-images-release-info-000.jpg?w=800&cbr=1&q=90&fit=max",
+   "published": "2026-11-18T07:10+00:00",
+   "source": "Hypebeast Fashion",
+   "title": "Official Images of Collaborative Travis Scott and 'GTA 6'Nike Air Force 1 Low Plus Apparel Merch Leaked",
+   "url": "https://hypebeast.com/2026/11/travis-scott-gta-6-nike-air-force-1-low-apparel-collaboration-teaser-official-images-release-info"
+  },
+  {
+   "brand": "nike",
+   "date": "2026-11-21",
    "date_in_title": true,
    "droplist": false,
    "id": "f39501fe9736",
@@ -351,7 +363,7 @@
    "droplist": false,
    "id": "d81ffc21c5f9",
    "image": null,
-   "published": "2026-11-09T17:00+00:00",
+   "published": "2026-11-09T08:00+00:00",
    "quiet": true,
    "source": "Sneaker News",
    "title": "Corteiz x Nike Shox R419 “Silver Surfer” Launches November 15th",
