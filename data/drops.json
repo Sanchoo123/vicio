@@ -875,7 +875,7 @@
    "brand": "represent",
    "date": "2026-11-18",
    "id": "represent-2026-11-18",
-   "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Al5bx3ZZY9mfF_liK4ynXlr6ZDsq6KRGkOzAQzrPN50.jpg?v=1750272001",
+   "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/ZXfb2TLdeSaspn6OJUiix2XtH9yGUTBaBnzxTRszTLk.jpg?v=1756922187",
    "method": "FCFS",
    "name": "Peças novas na loja",
    "origin": "shopify",
@@ -883,18 +883,34 @@
     {
      "available": false,
      "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Al5bx3ZZY9mfF_liK4ynXlr6ZDsq6KRGkOzAQzrPN50.jpg?v=1750272001",
-     "name": "Initial Mesh Shorts - Army Green",
-     "price": 43.0,
-     "url": "https://representclo.com/products/initial-mesh-shorts-army-green"
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/ZXfb2TLdeSaspn6OJUiix2XtH9yGUTBaBnzxTRszTLk.jpg?v=1756922187",
+     "name": "Stamped Sweater - Vintage Grey",
+     "price": 123.0,
+     "url": "https://representclo.com/products/stamped-sweater-vintage-grey"
     },
     {
      "available": false,
      "currency": "GBP",
-     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/O_FDIiad0BA6e150rMyiyABSE0hJkaiBfHnB2Ye0eL8.jpg?v=1750854569",
-     "name": "Initial Boxy Zip Through Hoodie - Vintage Red",
-     "price": 75.0,
-     "url": "https://representclo.com/products/initial-boxy-zip-through-hoodie-vintage-red"
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/wkLrSbWhcLCF6EejFbKjgR8E26nUfeKLmurDWDS-MIQ.jpg?v=1759414614",
+     "name": "Reversible Fade Out Sweater - Cloud",
+     "price": 155.0,
+     "url": "https://representclo.com/products/reversible-fade-out-sweater-cloud"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/GFX5toaw1cUEmYEvq7OgRSJ05B4oEjMDQ4brdxQ07FE.jpg?v=1756922187",
+     "name": "Washed Cotton Shirt - Jet Black",
+     "price": 133.0,
+     "url": "https://representclo.com/products/washed-cotton-shirt-jet-black"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/PA5r4VgTQTq4uyuns8k_O_tSMv4M-_IiuDAHadb_WLk_fc58f665-5e69-4878-ad5e-7edbecb6b970.jpg?v=1750863501",
+     "name": "Represent X Iron Maiden Anniversary Zip Through Hoodie - Stained Black",
+     "price": 131.0,
+     "url": "https://representclo.com/products/represent-x-iron-maiden-anniversary-zip-through-hoodie-stained-black"
     }
    ],
    "sources": [
@@ -904,7 +920,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "17:07"
+   "time": "18:37"
   },
   {
    "brand": "nike",

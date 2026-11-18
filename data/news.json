@@ -1,6 +1,40 @@
 {
  "news": [
   {
+   "brand": "bape",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "7e7359753728",
+   "image": "https://images.soleretriever.com/blog/43e76cab2f659bc6f07f1f1d0ddaf2ad270791d6-1240x760.png",
+   "published": "2026-11-18T18:00+00:00",
+   "source": "Sole Retriever",
+   "title": "Stars and Triangles: Palace Brings Back Classic BAPE Looks for Collab Capsule",
+   "url": "https://www.soleretriever.com/news/articles/palace-x-bape-release-date-november-2026"
+  },
+  {
+   "brand": "bape",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "2cee894df4ed",
+   "image": null,
+   "published": "2026-11-18T18:00+00:00",
+   "quiet": true,
+   "source": "Sole Retriever",
+   "title": "Stars and Triangles: Palace Brings Back Classic BAPE Looks for Collab Capsule",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWFhodExGcGRBcFMtSndZalFaa2laUVVWSjJyLTl5X0VGSDhkZ20ta1BJRlJ6WHJxbnNDU1NCdjdNV3FsQXBWSk9XdTM0RFNfdGZYMkV3YU96dEd5Vmg1RHNqSk1faTNfVVJXS19RY3VWYm9JRmFXandRSWdLVUlnYkdRYjdqSHNtUHQtQw?oc=5"
+  },
+  {
+   "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "7c1f7929bd9a",
+   "image": "https://images.soleretriever.com/blog/46b05c3ecc2ef11e33d3fafd0f37b672138758ef-1240x760.png",
+   "published": "2026-11-18T17:30+00:00",
+   "source": "Sole Retriever",
+   "title": "The Latest Supreme x Dickies Collab is ready for Winter Skate Sessions",
+   "url": "https://www.soleretriever.com/news/articles/supreme-dickies-fall-2026-release-date-november-2026"
+  },
+  {
    "brand": "nike",
    "date": "2026-11-21",
    "date_in_title": false,
@@ -923,41 +957,6 @@
    "source": "London On The Inside",
    "title": "Burberry Is Launching A Collection With Palace Skateboards",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYnJqaTZZcmFFS0JjZ09nRXhZQlllb25iWXNlX2pmTlp6VkZSd1JQTjA5NkhyWGVXRlNzb3dieG13djZvMWhrRzJvTU0yNW1oU1FPSDJEaFRVYWFaVlpQSGRPVk9keGdGaldtREhiTm1HSlNRVVQ1eHAyM0xkLXllNG91U2ktTGgtcW1pX1VvdG0?oc=5"
-  },
-  {
-   "brand": "supreme",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "2242d632622b",
-   "image": "https://www.nicekicks.com/files/2026/10/imgi_38_866590109_18645556018024764_9165763201282690259_n.jpeg",
-   "published": "2026-10-26T20:19+00:00",
-   "source": "Nice Kicks",
-   "title": "Supreme x Nike Air Force 1 Low “Urban Camo” October 2026 Release Date & Info",
-   "url": "https://www.nicekicks.com/supreme-nike-air-force-1-low-urban-camo-cu9225-901/"
-  },
-  {
-   "brand": "gallerydept",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "9846ff113861",
-   "image": null,
-   "published": "2026-10-24T02:37+01:00",
-   "quiet": true,
-   "source": "SNKRDUNK",
-   "title": "GALLERY DEPT. Gym Cut Off Hoodie \"Heather Grey\"",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdkhhcjhHRlBIYXd4dkdaTWhFeVQyR0k5dTBrV2ZlTVBadHRDZGtiMGlaNjlCVkp0dHQxOWhFem82aWwycjV6MVFpZk4zTVp5VWQ0cTYyaDg0Z05YZ2tLcEJjbVZ2a2tQVFZ1VUdiaml0QU9IZS1USWljb1pRNTh3a2FBLVJpYWNRaFh1RGpaYTYwcm1sbTgtRk9vLVREMnBwN1E?oc=5"
-  },
-  {
-   "brand": "nike",
-   "date": "2026-12-03",
-   "date_in_title": true,
-   "droplist": false,
-   "id": "d6ed8c38d560",
-   "image": "https://sneakernews.com/wp-content/uploads/2026/07/nike-air-bakin-black-white-IQ5365-001-2.jpg",
-   "published": "2026-07-06T16:00+01:00",
-   "source": "Sneaker News",
-   "title": "The Nike Air Bakin SP “Black/White” Releases December 3rd",
-   "url": "https://sneakernews.com/2026/07/06/nike-air-bakin-black-white-iq5365-001/"
   }
  ]
 }
