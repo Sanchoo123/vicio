@@ -1,6 +1,19 @@
 {
  "news": [
   {
+   "brand": "palace",
+   "date": "2026-11-20",
+   "date_in_title": true,
+   "droplist": false,
+   "id": "c960946409c6",
+   "image": null,
+   "published": "2026-11-18T20:51+00:00",
+   "quiet": true,
+   "source": "The Hype Magazine",
+   "title": "Palace x BAPE Winter 2026 Collection Launches Nov. 20",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0NwSmNQaTBkOExYN3oybFNwelNwNjlDTjkxM3hMbi1LNnpsSVp6T0tSX3BtWVVYWlQ4ZTlQNW1oWFBCMVd4WVFDVmVjRXZhVW56cFkzNVJQMkpIWE51M1d6eDRKbjYyUHZjN1djRk9qZ0VTb1c1Tnc2Ui0xb1VHNmlYbnpHT1E0SnB5dU1JSTViQmFFbnRjaDV2OGc?oc=5"
+  },
+  {
    "brand": "bape",
    "date_in_title": false,
    "droplist": false,
@@ -945,18 +958,6 @@
    "source": "Hero Magazine",
    "title": "ICYMI: Palace x Burberry, festive Miu Miu and Gucci’s new store concept",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc2FSTDdIVW1qMGhXTjNEdjNFMkxBcVUzRHpJRzRnTV9Qc0JVNFFnT3ZxNjZ3RGlLOGkzZVBSV285VGVLV3FMNkxMUy1WNWFmSDZFOE5EZ0kzUWNuNFhtb3daY25EQ1dlSFNPWjZZUFU2TnZITUwxWW5CYlBZR2NFNjFKY1V0aENBSzJlVWR5V0N5VmlsQ2VXRGlMTXcxei1iSFk3WGRwdkhrakR6UWc?oc=5"
-  },
-  {
-   "brand": "palace",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "ff28ff208d9c",
-   "image": null,
-   "published": "2026-10-31T07:00+00:00",
-   "quiet": true,
-   "source": "JustFreshKicks",
-   "title": "Palace x Burberry Collection Released November 5 in London",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yeEJuOXQ0Y19mcTdWUXRpV0p0Um1NTk5fSnFrbktzSVhlZEpOS3huRmdudVVDOGJQNG1pampwMklodHFwVUZUMkp0S2kxRmduQjBtamtHMzNyZ0F0Q1Zxbkl0N0E1NGs?oc=5"
   }
  ]
 }
