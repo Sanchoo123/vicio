@@ -997,6 +997,233 @@
    "time": "08:19"
   },
   {
+   "brand": "represent",
+   "date": "2026-11-19",
+   "id": "represent-2026-11-19",
+   "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/CBwHxZecg_wOyb9lvYLnLdOGlIg79uWDwQwCO9rtN8E.jpg?v=1787645815",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/CBwHxZecg_wOyb9lvYLnLdOGlIg79uWDwQwCO9rtN8E.jpg?v=1787645815",
+     "name": "Represent X Guns N' Roses Cross T-Shirt - Stained Black",
+     "price": 132.0,
+     "url": "https://representclo.com/products/represent-x-guns-n-roses-cross-t-shirt-stained-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/PackshotsforJacob12.jpg?v=1783677491",
+     "name": "Hand Drawn Horses T-Shirt - Aged Black",
+     "price": 75.0,
+     "url": "https://representclo.com/products/hand-drawn-horses-t-shirt-aged-black"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/CyyXr6cCOVKbnUbPvXdcgI6gj6tveQi2zSSfZFG0ugU.jpg?v=1780655316",
+     "name": "Team 247 Oversized Tank - Graphene",
+     "price": 68.0,
+     "url": "https://representclo.com/products/team-247-oversized-tank-graphene"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/3iBds9iEfWuB8Gr7fUbiWelXL4-1LIXxJ_iM3fMB59U.jpg?v=1780655105",
+     "name": "247 DNA Mesh Short - Graphene",
+     "price": 72.0,
+     "url": "https://representclo.com/products/247-dna-mesh-short-graphene"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/pgyRG-UWWxb8pyJIUH6fXDqy_WVQ4JTXZl3Hj1J3t0Q.jpg?v=1780655206",
+     "name": "247 DNA Mesh T-Shirt - Graphene",
+     "price": 60.0,
+     "url": "https://representclo.com/products/247-dna-mesh-t-shirt-graphene"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/1o3JCgOgql7VoyTVDjQX7DO_9GrlB4zwM_ptEo1ZCko.jpg?v=1774450577",
+     "name": "Storm Torn - Cream",
+     "price": 173.0,
+     "url": "https://representclo.com/products/storm-torn-cream"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0027_HIGHRES_0001s_0001_Layer5.jpg?v=1779351045",
+     "name": "247 Torch Boxy Long Sleeve T-Shirt - Bleach Wash",
+     "price": 77.0,
+     "url": "https://representclo.com/products/247-torch-boxy-long-sleeve-t-shirt-bleach-wash"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/ZZ6kKZIMMsp8VwGZKGFoiSl0V_y2osO4kriSNft4atc.jpg?v=1779351044",
+     "name": "247 Torch Boxy T-Shirt - Bleach Wash",
+     "price": 70.0,
+     "url": "https://representclo.com/products/247-torch-boxy-t-shirt-bleach-wash"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/3V-BI6WxBsEDoYcWHtrSRw_5Df2-CL0Il7lR3T_I8Xo.jpg?v=1764338777",
+     "name": "Winter Mule Nylon - Taupe",
+     "price": 172.0,
+     "url": "https://representclo.com/products/winter-mule-nylon-taupe"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/Vi_vvfTgIzBNsnxxtrU2SRwdGEQzxpoxTWXYIou4X9I.jpg?v=1761143129",
+     "name": "Represent Owners Club Sweater - Faded Black",
+     "price": 96.0,
+     "url": "https://representclo.com/products/fw25-represent-owners-club-sweater-faded-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/M601ThqoszOJGpGSPu2uknNEQpWLQLbYSXdDziLQ6GA.jpg?v=1779351039",
+     "name": "247 Straight Leg Jogger - Jet Black",
+     "price": 50.0,
+     "url": "https://representclo.com/products/247-straight-leg-jogger-jet-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/rz_0E0hJqRoj8KZi3X4bbH3H919nQY8k3TZU2ucAsBM.jpg?v=1756922187",
+     "name": "R2S Split Denim - Soot",
+     "price": 118.0,
+     "url": "https://representclo.com/products/r2s-split-denim-soot"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/ITCAJsQdpXxFQw4U099LC50YLvJe89QxPBY8cHtq12U.jpg?v=1752680184",
+     "name": "Represent X Guns N' Roses Tour T-Shirt - Stained Black",
+     "price": 66.0,
+     "url": "https://representclo.com/products/represent-x-guns-n-roses-tour-t-shirt-stained-black"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/3WuOQVDJFW_UmT2fWO28iORV_-JzHIVcp-63w53zojA.jpg?v=1747231707",
+     "name": "Piped Track Short - Jet Black",
+     "price": 68.0,
+     "url": "https://representclo.com/products/piped-track-short-jet-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0109_Graphics_0000s_0007_PhotoFilter2.jpg?v=1742403992",
+     "name": "Crest T-Shirt - Flat White",
+     "price": 58.0,
+     "url": "https://representclo.com/products/crest-t-shirt-flat-white"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0113_Graphics_0000s_0003_Layer43.jpg?v=1742403989",
+     "name": "Crest T-Shirt - Vintage Black",
+     "price": 83.0,
+     "url": "https://representclo.com/products/crest-t-shirt-vintage-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/0015_SHIRTSss25_0000s_0002_F7BG.jpg?v=1742403990",
+     "name": "Short Sleeve Cotton Overshirt - Washed Black",
+     "price": 77.0,
+     "url": "https://representclo.com/products/short-sleeve-cotton-overshirt-washed-black"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/kxyeedwZTHzzoP84N0UTAxzm65Necc4BWXH5eHP1N_I.jpg?v=1779350958",
+     "name": "Team 247 Oversized T-Shirt - Cream",
+     "price": 30.0,
+     "url": "https://representclo.com/products/team-247-oversized-t-shirt-cream"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/bwapex_0003_Layer9.jpg?v=1732187775",
+     "name": "Apex - Black Vintage White",
+     "price": 160.0,
+     "url": "https://representclo.com/products/apex-black-vintage-white-bf"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/swR_UHlWMoLmecmRPJQA_2t_cdGCcxq7mejs-8uU-BQ.jpg?v=1732031056",
+     "name": "Represent Owners Club Script Hoodie - Dusty Blue",
+     "price": 80.0,
+     "url": "https://representclo.com/products/represent-owners-club-script-hoodie-dusty-blue"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/pRaxGIokGBRMTrXSXLLLmeIH4QRl_mnUoMT2VnlN6A8.jpg?v=1732031067",
+     "name": "Represent Owners Club Script Sweater - Slate",
+     "price": 105.0,
+     "url": "https://representclo.com/products/represent-owners-club-script-sweater-slate"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/o-XK38jY4uRs_5KKC81jOHm1alIPl8AAyAOv6MIRVHY.jpg?v=1779350956",
+     "name": "247 Compound T-Shirt - Black",
+     "price": 17.0,
+     "url": "https://representclo.com/products/247-compound-t-shirt-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/OCSCRIPTPINKHOODIEBACK.jpg?v=1732031061",
+     "name": "Represent Owners Club Script Hoodie - Pink",
+     "price": 90.0,
+     "url": "https://representclo.com/products/represent-owners-club-script-hoodie-pink"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/2_03493a6c-de63-4a54-905b-5afb0f9e1ce8.jpg?v=1732031081",
+     "name": "Represent Owners Club Script Hoodie - Black",
+     "price": 40.0,
+     "url": "https://representclo.com/products/represent-owners-club-script-hoodie-black"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/pY39PptUDTs8eIHJpIkanR7FEcGi7Cl669iiF28RRy0.jpg?v=1693388669",
+     "name": "R2 Straight Leg Denim - Blue Cream",
+     "price": 215.0,
+     "url": "https://representclo.com/products/r2-straight-leg-denim-blue-cream"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/files/socks.jpg?v=1685627534",
+     "name": "Represent Owners Club Socks - Flat White Black",
+     "price": 16.0,
+     "url": "https://representclo.com/products/represent-owners-club-socks-flat-white-black"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja Represent",
+     "url": "https://representclo.com"
+    }
+   ],
+   "status": "confirmado",
+   "time": "15:37"
+  },
+  {
    "brand": "supreme",
    "date": "2026-11-19",
    "id": "supreme-2026-11-19",
@@ -1094,16 +1321,20 @@
    "id": "palace-2026-11-20",
    "image": null,
    "method": "FCFS",
-   "name": "Drop semanal",
-   "origin": "pattern",
+   "name": "Palace x BAPE Winter 2026 Collection",
+   "origin": "rss",
    "products": [],
    "sources": [
     {
      "name": "Ritmo habitual da marca",
      "url": "https://www.palaceskateboards.com"
+    },
+    {
+     "name": "The Hype Magazine",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0NwSmNQaTBkOExYN3oybFNwelNwNjlDTjkxM3hMbi1LNnpsSVp6T0tSX3BtWVVYWlQ4ZTlQNW1oWFBCMVd4WVFDVmVjRXZhVW56cFkzNVJQMkpIWE51M1d6eDRKbjYyUHZjN1djRk9qZ0VTb1c1Tnc2Ui0xb1VHNmlYbnpHT1E0SnB5dU1JSTViQmFFbnRjaDV2OGc?oc=5"
     }
    ],
-   "status": "previsto",
+   "status": "confirmado",
    "time": "11:00"
   },
   {
