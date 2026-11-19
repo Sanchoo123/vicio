@@ -917,9 +917,9 @@
   {
    "brand": "nike",
    "date": "2026-11-19",
-   "id": "nike-2026-11-19-snkrs-0800",
+   "id": "nike-2026-11-19-snkrs-0819",
    "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-   "method": "SNKRS · FCFS",
+   "method": "NIKE.COM",
    "name": "Nike x One Block Down \"Italy\" “Coleção de vestuário” + 3 lançamentos",
    "origin": "nike",
    "products": [
@@ -948,15 +948,6 @@
      "name": "Calças Nike x One Block Down para homem",
      "price": 134.99,
      "sku": "IO9467-010",
-     "url": "https://www.nike.com/pt/launch/t/nike-one-block-down-italy-apparel-collection"
-    },
-    {
-     "color": "Preto",
-     "currency": "EUR",
-     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-     "name": "Gorro Nike x One Block Down para homem",
-     "price": 29.99,
-     "sku": "IO9558-010",
      "url": "https://www.nike.com/pt/launch/t/nike-one-block-down-italy-apparel-collection"
     },
     {
@@ -1003,7 +994,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "08:00"
+   "time": "08:19"
   },
   {
    "brand": "supreme",
@@ -1103,20 +1094,16 @@
    "id": "palace-2026-11-20",
    "image": null,
    "method": "FCFS",
-   "name": "Palace x BAPE Winter 2026 Collection",
-   "origin": "rss",
+   "name": "Drop semanal",
+   "origin": "pattern",
    "products": [],
    "sources": [
     {
      "name": "Ritmo habitual da marca",
      "url": "https://www.palaceskateboards.com"
-    },
-    {
-     "name": "The Hype Magazine",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0NwSmNQaTBkOExYN3oybFNwelNwNjlDTjkxM3hMbi1LNnpsSVp6T0tSX3BtWVVYWlQ4ZTlQNW1oWFBCMVd4WVFDVmVjRXZhVW56cFkzNVJQMkpIWE51M1d6eDRKbjYyUHZjN1djRk9qZ0VTb1c1Tnc2Ui0xb1VHNmlYbnpHT1E0SnB5dU1JSTViQmFFbnRjaDV2OGc?oc=5"
     }
    ],
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   {
@@ -1281,6 +1268,34 @@
    ],
    "status": "previsto",
    "time": "11:00"
+  },
+  {
+   "brand": "nike",
+   "date": "2026-12-03",
+   "id": "nike-2026-12-03-snkrs-0800",
+   "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/56960ed2-fef4-4848-899e-8ddbada84dbf/air-bakin-high-sp-varsity-royal-and-black-iq5365-400-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "method": "SNKRS · FCFS",
+   "name": "Air Bakin High SP “Varsity Royal and Black”",
+   "origin": "nike",
+   "products": [
+    {
+     "color": "Varsity Royal/Preto/Prateado metalizado/Branco",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/56960ed2-fef4-4848-899e-8ddbada84dbf/air-bakin-high-sp-varsity-royal-and-black-iq5365-400-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Air Bakin High SP “Varsity Royal and Black”",
+     "price": 159.99,
+     "sku": "IQ5365-400",
+     "url": "https://www.nike.com/pt/launch/t/air-bakin-high-sp-varsity-royal-and-black"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch/t/air-bakin-high-sp-varsity-royal-and-black"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:00"
   },
   {
    "brand": "supreme",

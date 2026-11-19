@@ -245,6 +245,14 @@
    "status": "confirmado",
    "time": "08:00"
   },
+  "nike-2026-11-19-snkrs-0819": {
+   "date": "2026-11-19",
+   "droplist": false,
+   "img": true,
+   "n": 7,
+   "status": "confirmado",
+   "time": "08:19"
+  },
   "nike-2026-11-20-snkrs-0800": {
    "date": "2026-11-20",
    "droplist": false,
@@ -269,6 +277,14 @@
    "status": "confirmado",
    "time": null
   },
+  "nike-2026-12-03-snkrs-0800": {
+   "date": "2026-12-03",
+   "droplist": false,
+   "img": true,
+   "n": 1,
+   "status": "confirmado",
+   "time": "08:00"
+  },
   "nike-2026-12-05-nike-air-foamposite-one-mummy": {
    "date": "2026-12-05",
    "droplist": false,
@@ -290,7 +306,7 @@
    "droplist": false,
    "img": false,
    "n": 0,
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   "palace-2026-11-27": {
