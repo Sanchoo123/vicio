@@ -290,7 +290,7 @@
    "droplist": false,
    "img": false,
    "n": 0,
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   "palace-2026-11-27": {
@@ -359,6 +359,14 @@
   },
   "supreme-2026-12-03": {
    "date": "2026-12-03",
+   "droplist": false,
+   "img": false,
+   "n": 0,
+   "status": "previsto",
+   "time": "16:00"
+  },
+  "supreme-2026-12-10": {
+   "date": "2026-12-10",
    "droplist": false,
    "img": false,
    "n": 0,
@@ -906,7 +914,7 @@
     9180641525890,
     9180641656962
    ],
-   "locked": false,
+   "locked": true,
    "url": "https://www.crtz.xyz",
    "watch": {}
   },
