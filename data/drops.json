@@ -1313,20 +1313,16 @@
    "id": "palace-2026-11-20",
    "image": null,
    "method": "FCFS",
-   "name": "Palace x BAPE Winter 2026 Collection",
-   "origin": "rss",
+   "name": "Drop semanal",
+   "origin": "pattern",
    "products": [],
    "sources": [
     {
      "name": "Ritmo habitual da marca",
      "url": "https://www.palaceskateboards.com"
-    },
-    {
-     "name": "The Hype Magazine",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0NwSmNQaTBkOExYN3oybFNwelNwNjlDTjkxM3hMbi1LNnpsSVp6T0tSX3BtWVVYWlQ4ZTlQNW1oWFBCMVd4WVFDVmVjRXZhVW56cFkzNVJQMkpIWE51M1d6eDRKbjYyUHZjN1djRk9qZ0VTb1c1Tnc2Ui0xb1VHNmlYbnpHT1E0SnB5dU1JSTViQmFFbnRjaDV2OGc?oc=5"
     }
    ],
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   {
@@ -1867,7 +1863,7 @@
    "id": "nike-2026-11-27-snkrs-0800",
    "image": "https://static.nike.com/a/images/w_1536,c_limit/c5f3d7ac-e6bb-49eb-837b-7c78b7a31da1/rejuven8%C2%A0run%C2%A04x4-linen-and-natural-para-mulher-iu3143-200-%E2%80%93-data-de-lan%C3%A7amento.png",
    "method": "SNKRS · FCFS",
-   "name": "Rejuven8 Run 4x4 para mulher “Linen and Natural” + 4 lançamentos",
+   "name": "Rejuven8 Run 4x4 para mulher “Linen and Natural” + 3 lançamentos",
    "origin": "nike",
    "products": [
     {
@@ -1896,15 +1892,6 @@
      "price": 189.99,
      "sku": "IO6262-600",
      "url": "https://www.nike.com/pt/launch/t/kobe-9-em-low-protro-laser-crimson-and-obsidian"
-    },
-    {
-     "color": "Preto Spruce/Preto/Bright Ceramic/Dourado metalizado",
-     "currency": "EUR",
-     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/7c0d8867-20c1-45d7-8db0-65ede993bca7/nike-sb-dunk-low-pro-black-spruce-and-metallic-gold-iq0431-300-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-     "name": "Nike SB Dunk Low Pro “Black Spruce and Metallic Gold”",
-     "price": 119.99,
-     "sku": "IQ0431-300",
-     "url": "https://www.nike.com/pt/launch/t/nike-sb-dunk-low-pro-black-spruce-and-metallic-gold"
     },
     {
      "color": "Preto/Cinzento Cement/Branco Summit/Vermelho Fire",
@@ -1969,6 +1956,34 @@
    ],
    "status": "previsto",
    "time": "11:00"
+  },
+  {
+   "brand": "nike",
+   "date": "2026-12-02",
+   "id": "nike-2026-12-02-snkrs-0800",
+   "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/7c0d8867-20c1-45d7-8db0-65ede993bca7/nike-sb-dunk-low-pro-black-spruce-and-metallic-gold-iq0431-300-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "method": "SNKRS · FCFS",
+   "name": "Nike SB Dunk Low Pro “Black Spruce and Metallic Gold”",
+   "origin": "nike",
+   "products": [
+    {
+     "color": "Preto Spruce/Preto/Bright Ceramic/Dourado metalizado",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/7c0d8867-20c1-45d7-8db0-65ede993bca7/nike-sb-dunk-low-pro-black-spruce-and-metallic-gold-iq0431-300-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Nike SB Dunk Low Pro “Black Spruce and Metallic Gold”",
+     "price": 119.99,
+     "sku": "IQ0431-300",
+     "url": "https://www.nike.com/pt/launch/t/nike-sb-dunk-low-pro-black-spruce-and-metallic-gold"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch/t/nike-sb-dunk-low-pro-black-spruce-and-metallic-gold"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:00"
   },
   {
    "brand": "nike",

@@ -317,7 +317,15 @@
    "date": "2026-11-27",
    "droplist": false,
    "img": true,
-   "n": 8,
+   "n": 7,
+   "status": "confirmado",
+   "time": "08:00"
+  },
+  "nike-2026-12-02-snkrs-0800": {
+   "date": "2026-12-02",
+   "droplist": false,
+   "img": true,
+   "n": 1,
    "status": "confirmado",
    "time": "08:00"
   },
@@ -358,7 +366,7 @@
    "droplist": false,
    "img": false,
    "n": 0,
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   "palace-2026-11-27": {
@@ -1803,6 +1811,7 @@
    "ids": [
     6791047250129,
     6791057375441,
+    7024106537169,
     7026198806737,
     7179816272081,
     7256812617937,
