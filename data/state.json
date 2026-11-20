@@ -156,6 +156,14 @@
    "status": "confirmado",
    "time": "08:00"
   },
+  "corteiz-2026-11-20-snkrs-0840": {
+   "date": "2026-11-20",
+   "droplist": false,
+   "img": true,
+   "n": 1,
+   "status": "confirmado",
+   "time": "08:40"
+  },
   "fivefourfive-2026-11-14": {
    "date": "2026-11-14",
    "droplist": false,
@@ -268,6 +276,22 @@
    "status": "confirmado",
    "time": "08:00"
   },
+  "nike-2026-11-20-snkrs-0840": {
+   "date": "2026-11-20",
+   "droplist": false,
+   "img": true,
+   "n": 1,
+   "status": "confirmado",
+   "time": "08:40"
+  },
+  "nike-2026-11-20-snkrs-0906": {
+   "date": "2026-11-20",
+   "droplist": false,
+   "img": true,
+   "n": 2,
+   "status": "confirmado",
+   "time": "09:06"
+  },
   "nike-2026-11-27-snkrs-0800": {
    "date": "2026-11-27",
    "droplist": false,
@@ -313,7 +337,7 @@
    "droplist": false,
    "img": false,
    "n": 0,
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   "palace-2026-11-27": {

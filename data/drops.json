@@ -1217,9 +1217,9 @@
   {
    "brand": "corteiz",
    "date": "2026-11-20",
-   "id": "corteiz-2026-11-20-snkrs-0800",
+   "id": "corteiz-2026-11-20-snkrs-0840",
    "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/07f04e81-3501-4ef8-a5db-887aae9c2a2c/shox-r419-x-corteiz-metallic-silver-and-university-red-iq9951-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-   "method": "SNKRS · FCFS",
+   "method": "NIKE.COM",
    "name": "Shox R419 x Corteiz “Metallic Silver and University Red”",
    "origin": "nike",
    "products": [
@@ -1240,15 +1240,43 @@
     }
    ],
    "status": "confirmado",
-   "time": "08:00"
+   "time": "08:40"
   },
   {
    "brand": "nike",
    "date": "2026-11-20",
-   "id": "nike-2026-11-20-snkrs-0800",
+   "id": "nike-2026-11-20-snkrs-0840",
+   "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/51d13e22-cf2b-43a6-9486-7a3b6bbd8422/air-force-1-01-college-grey-and-pink-glaze-iv6999-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "method": "NIKE.COM",
+   "name": "Air Force 1 '01 “College Grey and Pink Glaze”",
+   "origin": "nike",
+   "products": [
+    {
+     "color": "Cinzento College/Rosa Glaze/Cinzento College",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/51d13e22-cf2b-43a6-9486-7a3b6bbd8422/air-force-1-01-college-grey-and-pink-glaze-iv6999-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Air Force 1 '01 “College Grey and Pink Glaze”",
+     "price": 139.99,
+     "sku": "IV6999-001",
+     "url": "https://www.nike.com/pt/launch/t/air-force-1-01-college-grey-and-pink-glaze-1"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch/t/air-force-1-01-college-grey-and-pink-glaze-1"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:40"
+  },
+  {
+   "brand": "nike",
+   "date": "2026-11-20",
+   "id": "nike-2026-11-20-snkrs-0906",
    "image": "https://static.nike.com/a/images/w_1536,c_limit/f008d9ce-8b14-4c02-b4e6-ab8ddf1783bf/air%C2%A0max%C2%A0goadome%C2%A0low-x-carhartt-wip-black-and-twilight-marsh-iw6306-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-   "method": "SNKRS · FCFS",
-   "name": "Air Max Goadome Low x Carhartt WIP “Black and Twilight Marsh” + 2 lançamentos",
+   "method": "NIKE.COM",
+   "name": "Air Max Goadome Low x Carhartt WIP “Black and Twilight Marsh” + 1 lançamento",
    "origin": "nike",
    "products": [
     {
@@ -1259,15 +1287,6 @@
      "price": 189.99,
      "sku": "IW6306-001",
      "url": "https://www.nike.com/pt/launch/t/air-max-goadome-low-carhartt-wip-black-and-twilight-marsh"
-    },
-    {
-     "color": "Cinzento College/Rosa Glaze/Cinzento College",
-     "currency": "EUR",
-     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/51d13e22-cf2b-43a6-9486-7a3b6bbd8422/air-force-1-01-college-grey-and-pink-glaze-iv6999-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-     "name": "Air Force 1 '01 “College Grey and Pink Glaze”",
-     "price": 139.99,
-     "sku": "IV6999-001",
-     "url": "https://www.nike.com/pt/launch/t/air-force-1-01-college-grey-and-pink-glaze-1"
     },
     {
      "color": "Light British Tan/Twilight Marsh/Preto/Metallic Ochre",
@@ -1286,7 +1305,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "08:00"
+   "time": "09:06"
   },
   {
    "brand": "palace",
@@ -1294,20 +1313,16 @@
    "id": "palace-2026-11-20",
    "image": null,
    "method": "FCFS",
-   "name": "Palace x BAPE Winter 2026 Collection",
-   "origin": "rss",
+   "name": "Drop semanal",
+   "origin": "pattern",
    "products": [],
    "sources": [
     {
      "name": "Ritmo habitual da marca",
      "url": "https://www.palaceskateboards.com"
-    },
-    {
-     "name": "The Hype Magazine",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0NwSmNQaTBkOExYN3oybFNwelNwNjlDTjkxM3hMbi1LNnpsSVp6T0tSX3BtWVVYWlQ4ZTlQNW1oWFBCMVd4WVFDVmVjRXZhVW56cFkzNVJQMkpIWE51M1d6eDRKbjYyUHZjN1djRk9qZ0VTb1c1Tnc2Ui0xb1VHNmlYbnpHT1E0SnB5dU1JSTViQmFFbnRjaDV2OGc?oc=5"
     }
    ],
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   {
