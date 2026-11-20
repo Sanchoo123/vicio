@@ -250,7 +250,7 @@
    "date": "2026-11-19",
    "droplist": false,
    "img": true,
-   "n": 7,
+   "n": 6,
    "status": "confirmado",
    "time": "08:19"
   },
@@ -307,7 +307,7 @@
    "droplist": false,
    "img": false,
    "n": 0,
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   "palace-2026-11-27": {

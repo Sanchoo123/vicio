@@ -918,46 +918,37 @@
    "brand": "nike",
    "date": "2026-11-19",
    "id": "nike-2026-11-19-snkrs-0819",
-   "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "image": "https://static.nike.com/a/images/w_1536,c_limit/9d78dd62-fd85-4df7-a0f4-d0a810e67c93/nike-air-max-95-lux-italy-one-block-down.jpg",
    "method": "NIKE.COM",
-   "name": "Nike x One Block Down \"Italy\" “Coleção de vestuário” + 3 lançamentos",
+   "name": "One Block Down “Nike Air Max 95 LUX \"Italy\"” + 3 lançamentos",
    "origin": "nike",
    "products": [
     {
-     "color": "Branco",
-     "currency": "EUR",
-     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-     "name": "Gorro Nike x One Block Down para homem",
-     "price": 29.99,
-     "sku": "IO9558-100",
-     "url": "https://www.nike.com/pt/launch/t/nike-one-block-down-italy-apparel-collection"
-    },
-    {
      "color": "Preto",
      "currency": "EUR",
-     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/9d78dd62-fd85-4df7-a0f4-d0a810e67c93/nike-air-max-95-lux-italy-one-block-down.jpg",
      "name": "Camisola Nike x One Block Down para homem",
      "price": 94.99,
      "sku": "IO9469-010",
-     "url": "https://www.nike.com/pt/launch/t/nike-one-block-down-italy-apparel-collection"
+     "url": "https://www.nike.com/pt/launch/t/nike-air-max-95-lux-italy-one-block-down"
     },
     {
      "color": "Preto",
      "currency": "EUR",
-     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/9d78dd62-fd85-4df7-a0f4-d0a810e67c93/nike-air-max-95-lux-italy-one-block-down.jpg",
      "name": "Calças Nike x One Block Down para homem",
      "price": 134.99,
      "sku": "IO9467-010",
-     "url": "https://www.nike.com/pt/launch/t/nike-one-block-down-italy-apparel-collection"
+     "url": "https://www.nike.com/pt/launch/t/nike-air-max-95-lux-italy-one-block-down"
     },
     {
      "color": "Preto",
      "currency": "EUR",
-     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/035bbc6e-b1c8-48cd-929d-340a47b2173e/cole%C3%A7%C3%A3o-de-vestu%C3%A1rio-nike-x-one-block-down-italy-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/9d78dd62-fd85-4df7-a0f4-d0a810e67c93/nike-air-max-95-lux-italy-one-block-down.jpg",
      "name": "Casaco com fecho de correr a todo o comprimento Nike x One Block Down para homem",
      "price": 144.99,
      "sku": "IO9464-010",
-     "url": "https://www.nike.com/pt/launch/t/nike-one-block-down-italy-apparel-collection"
+     "url": "https://www.nike.com/pt/launch/t/nike-air-max-95-lux-italy-one-block-down"
     },
     {
      "color": "Preto/Preto/Verde Gym/Preto",
@@ -1303,20 +1294,16 @@
    "id": "palace-2026-11-20",
    "image": null,
    "method": "FCFS",
-   "name": "Palace x BAPE Winter 2026 Collection",
-   "origin": "rss",
+   "name": "Drop semanal",
+   "origin": "pattern",
    "products": [],
    "sources": [
     {
      "name": "Ritmo habitual da marca",
      "url": "https://www.palaceskateboards.com"
-    },
-    {
-     "name": "The Hype Magazine",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0NwSmNQaTBkOExYN3oybFNwelNwNjlDTjkxM3hMbi1LNnpsSVp6T0tSX3BtWVVYWlQ4ZTlQNW1oWFBCMVd4WVFDVmVjRXZhVW56cFkzNVJQMkpIWE51M1d6eDRKbjYyUHZjN1djRk9qZ0VTb1c1Tnc2Ui0xb1VHNmlYbnpHT1E0SnB5dU1JSTViQmFFbnRjaDV2OGc?oc=5"
     }
    ],
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   {
