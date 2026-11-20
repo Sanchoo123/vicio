@@ -1224,24 +1224,6 @@
    "time": "15:37"
   },
   {
-   "brand": "supreme",
-   "date": "2026-11-19",
-   "id": "supreme-2026-11-19",
-   "image": null,
-   "method": "FCFS",
-   "name": "Drop semanal",
-   "origin": "pattern",
-   "products": [],
-   "sources": [
-    {
-     "name": "Ritmo habitual da marca",
-     "url": "https://eu.supreme.com"
-    }
-   ],
-   "status": "previsto",
-   "time": "16:00"
-  },
-  {
    "brand": "corteiz",
    "date": "2026-11-20",
    "id": "corteiz-2026-11-20-snkrs-0800",
@@ -1577,6 +1559,24 @@
    ],
    "status": "previsto",
    "time": "16:00"
+  },
+  {
+   "brand": "palace",
+   "date": "2026-12-11",
+   "id": "palace-2026-12-11",
+   "image": null,
+   "method": "FCFS",
+   "name": "Drop semanal",
+   "origin": "pattern",
+   "products": [],
+   "sources": [
+    {
+     "name": "Ritmo habitual da marca",
+     "url": "https://www.palaceskateboards.com"
+    }
+   ],
+   "status": "previsto",
+   "time": "11:00"
   }
  ]
 }

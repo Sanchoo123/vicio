@@ -190,16 +190,6 @@ DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Represent: https://r
 URL:https://representclo.com
 END:VEVENT
 BEGIN:VEVENT
-UID:supreme-2026-11-19@vicio
-DTSTAMP:20261119T000000Z
-DTSTART:20261119T160000Z
-DTEND:20261119T163000Z
-SUMMARY:Supreme · Drop semanal (previsto)
-DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
- eu.supreme.com
-URL:https://eu.supreme.com
-END:VEVENT
-BEGIN:VEVENT
 UID:corteiz-2026-11-20-snkrs-0800@vicio
 DTSTAMP:20261120T000000Z
 DTSTART:20261120T080000Z
@@ -333,5 +323,15 @@ SUMMARY:Supreme · Drop semanal (previsto)
 DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
  eu.supreme.com
 URL:https://eu.supreme.com
+END:VEVENT
+BEGIN:VEVENT
+UID:palace-2026-12-11@vicio
+DTSTAMP:20261211T000000Z
+DTSTART:20261211T110000Z
+DTEND:20261211T113000Z
+SUMMARY:Palace · Drop semanal (previsto)
+DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
+ www.palaceskateboards.com
+URL:https://www.palaceskateboards.com
 END:VEVENT
 END:VCALENDAR
