@@ -1313,21 +1313,495 @@
    "id": "palace-2026-11-20",
    "image": null,
    "method": "FCFS",
-   "name": "Palace x BAPE Winter 2026 Collection",
-   "origin": "rss",
+   "name": "Drop semanal",
+   "origin": "pattern",
    "products": [],
    "sources": [
     {
      "name": "Ritmo habitual da marca",
      "url": "https://www.palaceskateboards.com"
+    }
+   ],
+   "status": "previsto",
+   "time": "11:00"
+  },
+  {
+   "brand": "bape",
+   "date": "2026-11-20",
+   "id": "bape-2026-11-20",
+   "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001ZPM731911_GRN_A_3.jpg?v=1795168992",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001ZPM731911_GRN_A_3.jpg?v=1795168992",
+     "name": "BAPE X PALACE PALACE CAMO FULL ZIP HOODIE",
+     "price": 429.0,
+     "url": "https://eu.bape.com/products/0zxswm911151r"
     },
     {
-     "name": "The Hype Magazine",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0NwSmNQaTBkOExYN3oybFNwelNwNjlDTjkxM3hMbi1LNnpsSVp6T0tSX3BtWVVYWlQ4ZTlQNW1oWFBCMVd4WVFDVmVjRXZhVW56cFkzNVJQMkpIWE51M1d6eDRKbjYyUHZjN1djRk9qZ0VTb1c1Tnc2Ui0xb1VHNmlYbnpHT1E0SnB5dU1JSTViQmFFbnRjaDV2OGc?oc=5"
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001ZPM731910_BLK_A_4.jpg?v=1795168527",
+     "name": "BAPE X PALACE SHARK FULL ZIP HOODIE",
+     "price": 429.0,
+     "url": "https://eu.bape.com/products/0zxswm910151r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001TEM731905_BLK_A_2.jpg?v=1795001115",
+     "name": "BAPE X PALACE MONOGRAM RELAXED FIT TEE",
+     "price": 99.0,
+     "url": "https://eu.bape.com/products/0zxtemx90510r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001CSM731909_BLK_B.jpg?v=1795000926",
+     "name": "BAPE X PALACE PALACE CAMO MULTI LOGO RELAXED FIT JERSEY",
+     "price": 155.0,
+     "url": "https://eu.bape.com/products/0zxtem909091r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001TEM731906_SAX_A.jpg?v=1795000717",
+     "name": "BAPE X PALACE RELAXED FIT TEE",
+     "price": 99.0,
+     "url": "https://eu.bape.com/products/0zxtem906101r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/002TEM731905_PNK_A.jpg?v=1795000563",
+     "name": "BAPE X PALACE BABY MILO RELAXED FIT TEE",
+     "price": 99.0,
+     "url": "https://eu.bape.com/products/0zxtem905101r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001PPM731902_BLK_A.jpg?v=1795000212",
+     "name": "BAPE X PALACE PULLOVER HOODIE",
+     "price": 285.0,
+     "url": "https://eu.bape.com/products/0zxswmx90214r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001PPM731903_GRN_A.jpg?v=1795000092",
+     "name": "BAPE X PALACE PALACE CAMO PULLOVER HOODIE",
+     "price": 339.0,
+     "url": "https://eu.bape.com/products/0zxswm903141r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/002SWM731903_BLK_A_2.jpg?v=1794999778",
+     "name": "BAPE X PALACE BABY MILO CREWNECK SWEATSHIRT",
+     "price": 259.0,
+     "url": "https://eu.bape.com/products/0zxswm903131r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001LJM731909_LIG_A.jpg?v=1794999454",
+     "name": "BAPE X PALACE STA RELAXED FIT DENIM JACKET #2",
+     "price": 429.0,
+     "url": "https://eu.bape.com/products/0zxljm915401r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001LJM731909_ING_A_5.jpg?v=1794999365",
+     "name": "BAPE X PALACE STA RELAXED FIT DENIM JACKET #1",
+     "price": 429.0,
+     "url": "https://eu.bape.com/products/0zxljm909401r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001DPM731902_LIG_A_6.jpg?v=1794999009",
+     "name": "BAPE X PALACE STA RELAXED FIT DENIM PANTS #2",
+     "price": 395.0,
+     "url": "https://eu.bape.com/products/0zxjnm905501r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001DPM731902_ING_A_6.jpg?v=1794998876",
+     "name": "BAPE X PALACE STA RELAXED FIT DENIM PANTS #1",
+     "price": 395.0,
+     "url": "https://eu.bape.com/products/0zxjnm902501r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001HTM731901_GRN_A_5.jpg?v=1794997614",
+     "name": "BAPE X PALACE PALACE CAMO EARMUFF HAT",
+     "price": 125.0,
+     "url": "https://eu.bape.com/products/0zxhtm901811r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001CPM731902_BLK_A_3.jpg?v=1794997506",
+     "name": "BAPE X PALACE TRUCKER CAP",
+     "price": 95.0,
+     "url": "https://eu.bape.com/products/0zxcpmx90280r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001CPM731903_GRN_A_2.jpg?v=1794997392",
+     "name": "BAPE X PALACE PALACE CAMO TRUCKER CAP",
+     "price": 125.0,
+     "url": "https://eu.bape.com/products/0zxcpm903801r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/002CPM731902_GRN_A_2.jpg?v=1794997288",
+     "name": "BAPE X PALACE PALACE CAMO BABY MILO CAP",
+     "price": 95.0,
+     "url": "https://eu.bape.com/products/0zxcpm90280xr"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/002CPM731901_BLK_A.jpg?v=1794996951",
+     "name": "BAPE X PALACE BABY MILO CAP",
+     "price": 75.0,
+     "url": "https://eu.bape.com/products/0zxcpm90180xr"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001GDM731904_GRN_A.jpg?v=1794996838",
+     "name": "BAPE X PALACE PALACE CAMO EARMUFFS",
+     "price": 89.0,
+     "url": "https://eu.bape.com/products/0zxacm904821r"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001GDM731905_GRN_A.jpg?v=1794996635",
+     "name": "BAPE X PALACE PALACE CAMO SKATEBOARD",
+     "price": 88.0,
+     "url": "https://eu.bape.com/products/0zxacm905821r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001DNM731904_GRN_A_2.jpg?v=1794996181",
+     "name": "BAPE X PALACE CAMO SHARK HOODIE DOWN JACKET #2",
+     "price": 789.0,
+     "url": "https://eu.bape.com/products/0zxdnm904441r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001DNM731903_MUL_A_2.jpg?v=1794995882",
+     "name": "BAPE X PALACE CAMO SHARK HOODIE DOWN JACKET #1",
+     "price": 789.0,
+     "url": "https://eu.bape.com/products/0zxdnmx90344r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/002HJM731901_NVY_A.jpg?v=1794995666",
+     "name": "BAPE X PALACE BABY MILO RELAXED FITVARSITY JACKET",
+     "price": 1159.0,
+     "url": "https://eu.bape.com/products/0zxjkm90141xr"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001LJM731908_BLK_A.jpg?v=1794995365",
+     "name": "BAPE X PALACE CAMO RELAXED FIT RAIN JACKET #2",
+     "price": 429.0,
+     "url": "https://eu.bape.com/products/0zxljm908401r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001LJM731907_GRN_A_3.jpg?v=1794995001",
+     "name": "BAPE X PALACE CAMO RELAXED FIT RAIN JACKET #1",
+     "price": 505.0,
+     "url": "https://eu.bape.com/products/0zxljmx90740r"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja BAPE",
+     "url": "https://eu.bape.com"
     }
    ],
    "status": "confirmado",
-   "time": "11:00"
+   "time": "11:07"
+  },
+  {
+   "brand": "fivefourfive",
+   "date": "2026-11-20",
+   "id": "fivefourfive-2026-11-20",
+   "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/AFH-CARGO-PANTS-NAVY-1.png?v=1771339411",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/AFH-CARGO-PANTS-NAVY-1.png?v=1771339411",
+     "name": "545 Formal Cargo Pants",
+     "price": 100.0,
+     "url": "https://fivefourfive.it/products/545-formal-cargo-pants-navy"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EV.-DENIM-01-BLUE-1.jpg?v=1778442989",
+     "name": "545 Denim 01 Distressed Regular",
+     "price": 115.0,
+     "url": "https://fivefourfive.it/products/545-dont-miss-it-washed-blue-denim"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EV.-DENIM-01-SAND-1.jpg?v=1778442928",
+     "name": "545 Denim 01 Distressed Regular",
+     "price": 115.0,
+     "url": "https://fivefourfive.it/products/545-dont-miss-it-earth-sand-denim"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EV.-DENIM-01-BLACK-1.jpg?v=1778441947",
+     "name": "545 Denim 01 Distressed Regular",
+     "price": 115.0,
+     "url": "https://fivefourfive.it/products/545-dont-miss-it-midnight-black-denim"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/capnero_fd4996d0-8312-4797-bb9f-7255fadede3b.png?v=1759606493",
+     "name": "545 Team Logo Fitted Hat",
+     "price": 25.0,
+     "url": "https://fivefourfive.it/products/545-new-understandings-fitted-cap"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EV.-DENIM-01-TORTORA-1.jpg?v=1778442146",
+     "name": "545 Denim 01 Distressed Regular",
+     "price": 115.0,
+     "url": "https://fivefourfive.it/products/545-everyday-denim-01-distressed-washed-tortora"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/0002_Prove_0001s_0003_blue.png?v=1759606726",
+     "name": "545 Everyday 6-Panel Hat",
+     "price": 25.0,
+     "url": "https://fivefourfive.it/products/545-everyday-6-panel-hat-washed-light-blue"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/capverde_ee425c55-bc51-4ff0-99e1-3c15cac13cec.png?v=1759606663",
+     "name": "545 Team Logo Fitted Hat",
+     "price": 25.0,
+     "url": "https://fivefourfive.it/products/545-fivefourfive-team-fitted-hat-bottle-green"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/cappanna_b2cbd557-c9c0-43f7-9fc3-4d7ef52e6a03.png?v=1759606658",
+     "name": "545 Team Logo Fitted Hat",
+     "price": 25.0,
+     "url": "https://fivefourfive.it/products/545-fivefourfive-team-fitted-hat-ivory-white"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EVS-CAMICIA-SUPER-L-LIGHT-BLUE-1.jpg?v=1778513056",
+     "name": "545 Ultralight Oversized Striped Shirt",
+     "price": 90.0,
+     "url": "https://fivefourfive.it/products/545-ultralight-striped-logo-shirt-light-blue-1"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EVS-SHORTS-CARP-BLACK-1_b5cc3bbd-4fc5-4a08-be07-03c5628b0a52.jpg?v=1778512511",
+     "name": "545 Linen Carpenter Shorts",
+     "price": 60.0,
+     "url": "https://fivefourfive.it/products/545-light-linen-carpenter-shorts-ash-black-1"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/RAW.jpg?v=1778521272",
+     "name": "545 Lightweight Raw Denim Bowling Shirt",
+     "price": 55.0,
+     "url": "https://fivefourfive.it/products/545-lightweight-raw-denim-bowling-shirt"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/260412_545_STILL_ECOM20862_0049_Riempimentogenerativo11.jpg?v=1778515840",
+     "name": "545 Lightweight Raw Denim 02",
+     "price": 70.0,
+     "url": "https://fivefourfive.it/products/545-lightweight-raw-denim-02"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EVS_Sept_polo_beige_9e85a97c-ecb8-48b5-a822-fcd62370dc73.png?v=1759606952",
+     "name": "545 Everyday Polo Jumper",
+     "price": 115.0,
+     "url": "https://fivefourfive.it/products/545-everyday-polo-jumper-beige"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EVS_Sept_0001s_0026_cardigan-cream_0b0ec77f-d225-425d-b065-9085899ac3c7.png?v=1759606923",
+     "name": "545 Everyday Cardigan",
+     "price": 120.0,
+     "url": "https://fivefourfive.it/products/545-everyday-cardigan-light-sand"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/VM25-JORTS-IVORY-1_64a80324-e76e-4ee6-8a51-3fe5c6de9b6e.jpg?v=1778513277",
+     "name": "545 Denim 02 Shorts",
+     "price": 65.0,
+     "url": "https://fivefourfive.it/products/straw-ivory"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/VM25-JORTS-RAW-1_95514dae-2195-4786-9a00-5a524300bbd0.jpg?v=1778513222",
+     "name": "545 Denim 02 Shorts",
+     "price": 65.0,
+     "url": "https://fivefourfive.it/products/545-denim-02-shorts-raw-blue"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/VM25-POLO-IVORY-1_c70fa7d0-bf3f-43c0-bd37-80f0c953ce27.jpg?v=1782141065",
+     "name": "545 Bouclè Polo Shirt",
+     "price": 75.0,
+     "url": "https://fivefourfive.it/products/545-boucle-polo-shirt-ivory-white"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/VM25-POLO-LIGHT-BLUE-1.jpg?v=1782114463",
+     "name": "545 Bouclè Polo Shirt",
+     "price": 75.0,
+     "url": "https://fivefourfive.it/products/545-boucle-polo-shirt-light-blue"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/VM25-POLO-NAVY-1.jpg?v=1782114330",
+     "name": "545 Bouclè Polo Shirt",
+     "price": 75.0,
+     "url": "https://fivefourfive.it/products/545-boucle-polo-shirt-dark-navy"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EVS-CAMICIA-SUPER-L-NAVY-1.jpg?v=1778513114",
+     "name": "545 Ultralight Oversized Striped Shirt",
+     "price": 90.0,
+     "url": "https://fivefourfive.it/products/545-ultralight-striped-logo-shirt-navy"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EVS_Sept_0002s_0005__0003_cap-bord-ford_4616b620-e26e-4d8c-8361-edc979e162bc.png?v=1759607051",
+     "name": "545 “Five” Corduroy",
+     "price": 25.0,
+     "url": "https://fivefourfive.it/products/545-five-corduroy-burgundy"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EVS_Sept_0002s_0004__0004_cap-blue-ford_cb4b217f-1874-4593-8d21-fcda0bfb0105.png?v=1759607048",
+     "name": "545 “Five” Corduroy",
+     "price": 25.0,
+     "url": "https://fivefourfive.it/products/545-five-corduroy-navy"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EVS_Sept_0002s_0003__0006_cap-black-ford_c274338b-5b3d-4af5-ab0f-bb2298a3b408.png?v=1759607044",
+     "name": "545 “Five” Corduroy",
+     "price": 25.0,
+     "url": "https://fivefourfive.it/products/545-five-corduroy-black"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EVS_Sept_0001s_0025_cardigan-green_055fe970-8f36-4386-ac9e-370d0fe8206e.png?v=1759606973",
+     "name": "545 Everyday Cardigan",
+     "price": 120.0,
+     "url": "https://fivefourfive.it/products/545-everyday-cardigan-forest-green"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EVD_0003s_0009_Livello-5-copia-7.png?v=1761762943",
+     "name": "545 Automobili Club Sketch Tee",
+     "price": 40.0,
+     "url": "https://fivefourfive.it/products/545-automobili-club-sketch-tee-washed-black"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/OCT_0000s_flannel-grey.png?v=1760956972",
+     "name": "545 Pearl Check Shirt",
+     "price": 70.0,
+     "url": "https://fivefourfive.it/products/545-pearl-check-shirt-grey"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/OCT_0000s_0000_flannel-yellow.png?v=1760956844",
+     "name": "545 Pearl Check Shirt",
+     "price": 70.0,
+     "url": "https://fivefourfive.it/products/545-pearl-check-shirt-sand"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/EVS_Sept_0002s_0001__0000_cap-orange-script_3e95efcb-b729-4d1f-befb-2b7ff9e53d48.png?v=1759607062",
+     "name": "545 “Five” 6-Pan Cap",
+     "price": 25.0,
+     "url": "https://fivefourfive.it/products/545-five-6-pan-cap-infrared"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0577/2515/7538/files/DEC_0000s_0003s_0001_Grey-coat.png?v=1765114447",
+     "name": "545 Premium Wool Coat",
+     "price": 225.0,
+     "url": "https://fivefourfive.it/products/545-premium-wool-coat-melange-grey"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja FiveFourFive",
+     "url": "https://fivefourfive.it"
+    }
+   ],
+   "status": "confirmado",
+   "time": "11:07"
   },
   {
    "brand": "corteiz",
