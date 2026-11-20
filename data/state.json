@@ -332,7 +332,7 @@
    "date": "2026-12-03",
    "droplist": false,
    "img": true,
-   "n": 1,
+   "n": 2,
    "status": "confirmado",
    "time": "08:00"
   },
@@ -357,7 +357,7 @@
    "droplist": false,
    "img": false,
    "n": 0,
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   "palace-2026-11-27": {

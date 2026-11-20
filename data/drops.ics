@@ -231,13 +231,9 @@ UID:palace-2026-11-20@vicio
 DTSTAMP:20261120T000000Z
 DTSTART:20261120T110000Z
 DTEND:20261120T113000Z
-SUMMARY:Palace · Palace x BAPE Winter 2026 Collection
-DESCRIPTION:Palace x BAPE Winter 2026 Collection\nMétodo: FCFS\nRitmo hab
- itual da marca: https://www.palaceskateboards.com\nThe Hype Magazine: htt
- ps://news.google.com/rss/articles/CBMinAFBVV95cUxOT0NwSmNQaTBkOExYN3oybFN
- welNwNjlDTjkxM3hMbi1LNnpsSVp6T0tSX3BtWVVYWlQ4ZTlQNW1oWFBCMVd4WVFDVmVjRXZh
- VW56cFkzNVJQMkpIWE51M1d6eDRKbjYyUHZjN1djRk9qZ0VTb1c1Tnc2Ui0xb1VHNmlYbnpHT
- 1E0SnB5dU1JSTViQmFFbnRjaDV2OGc?oc=5
+SUMMARY:Palace · Drop semanal (previsto)
+DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
+ www.palaceskateboards.com
 URL:https://www.palaceskateboards.com
 END:VEVENT
 BEGIN:VEVENT
@@ -323,12 +319,12 @@ UID:nike-2026-12-03-snkrs-0800@vicio
 DTSTAMP:20261203T000000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T083000Z
-SUMMARY:Nike · Air Bakin High SP “Varsity Royal and Black”
-DESCRIPTION:Air Bakin High SP “Varsity Royal and Black”\nMétodo: SNKR
- S · FCFS\nNike SNKRS Portugal: https://www.nike.com/pt/launch/t/air-baki
- n-high-sp-varsity-royal-and-black
-URL:https://www.nike.com/pt/launch/t/air-bakin-high-sp-varsity-royal-and-b
- lack
+SUMMARY:Nike · Air Bakin High SP “Varsity Royal and Black” + 1 lança
+ mento
+DESCRIPTION:Air Bakin High SP “Varsity Royal and Black” + 1 lançament
+ o\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.nike.com/pt/l
+ aunch?s=upcoming
+URL:https://www.nike.com/pt/launch?s=upcoming
 END:VEVENT
 BEGIN:VEVENT
 UID:supreme-2026-12-03@vicio
