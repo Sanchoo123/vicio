@@ -1313,20 +1313,16 @@
    "id": "palace-2026-11-20",
    "image": null,
    "method": "FCFS",
-   "name": "Palace x BAPE Winter 2026 Collection",
-   "origin": "rss",
+   "name": "Drop semanal",
+   "origin": "pattern",
    "products": [],
    "sources": [
     {
      "name": "Ritmo habitual da marca",
      "url": "https://www.palaceskateboards.com"
-    },
-    {
-     "name": "The Hype Magazine",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0NwSmNQaTBkOExYN3oybFNwelNwNjlDTjkxM3hMbi1LNnpsSVp6T0tSX3BtWVVYWlQ4ZTlQNW1oWFBCMVd4WVFDVmVjRXZhVW56cFkzNVJQMkpIWE51M1d6eDRKbjYyUHZjN1djRk9qZ0VTb1c1Tnc2Ui0xb1VHNmlYbnpHT1E0SnB5dU1JSTViQmFFbnRjaDV2OGc?oc=5"
     }
    ],
-   "status": "confirmado",
+   "status": "previsto",
    "time": "11:00"
   },
   {
