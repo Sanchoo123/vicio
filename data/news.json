@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "a4d7f394c549",
+   "image": null,
+   "published": "2026-11-19T13:30+00:00",
+   "quiet": true,
+   "source": "Hypebeast",
+   "title": "8 Drops You Don't Want to Miss This Week Supreme",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWE1uLWM2b3dmeThjYmt1cUdBUUVvZTVNalEtVXZVX1o3U3dLNDZTTU5Gb2NGWXh1MzdtTDRHZFlyM1RXX2NlaVRlX2N6cjN1SkVYQjhmLXNGSXBHalVLbzFrclRuWjh4eEpIOXlXN2Q5a3B0aVNlOUh6Q2d6YVhvVHYtdDZCR2tlQkxtSE5wLWt5MUlKWFowOHF1SEk5WVlzSGt3?oc=5"
+  },
+  {
    "brand": "nike",
    "date": "2026-11-19",
    "date_in_title": false,
@@ -180,6 +192,18 @@
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT3I1enFMMU9MeFhjai1QeVFxU09taDhzQkplcGNrNHN6QkFYZ0k2WTFlZ3lYZktLa3FJMFloWmhtdm5PU0t3d3FQUm40dFpjeFAxbHNQSFNxbHRoUVRxc0NqT2NwS0JCNEt1UkVqdFBtOHlhT2ZlbEhnLXRhWXRkQlFEd0lucnFEMlAya2ZDU2VBVnlObU52SGRB?oc=5"
   },
   {
+   "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "89273e2d11c5",
+   "image": null,
+   "published": "2026-11-16T15:30+00:00",
+   "quiet": true,
+   "source": "Culted",
+   "title": "Supreme and Dickies reunite to rework classic workwear staples",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSEJ1bmlLa0VCU3hWU3lIMDB3STBINURsU094TnlLRDZhMjVyRXptYXV6NVM2SXk3c3hLTC1vTWVSeVF6amQwb3ltNGN5bW9SbFgwNVJMR2xXcHpab1dlc0NjQjhpbUpDMFJyTGUyVXFNTXJYbjBSUHYtU3o1TFRxZERnNldUbkpfZTZtNGVCcmQzbkRh?oc=5"
+  },
+  {
    "brand": "bape",
    "date_in_title": false,
    "droplist": false,
@@ -201,6 +225,18 @@
    "source": "Hypebeast Fashion",
    "title": "Palace Skateboards x BAPE Winter 2026 Is Built on a Brand-New Camo",
    "url": "https://hypebeast.com/2026/11/palace-skateboards-a-bathing-ape-bape-winter-2026-collaboration-collection-release-info"
+  },
+  {
+   "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "5f231b2b7995",
+   "image": null,
+   "published": "2026-11-16T11:59+00:00",
+   "quiet": true,
+   "source": "PAUSE Online",
+   "title": "Supreme and Dickies Get Down to Work for Fall 2026",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVFRaMHRjOWM2bkpQbDhEUkVQSllCQWkzRFI4bmFGVV9ROFRXdnBSMXZSMnpsM1A1cV9XMDFIajlSQnpPbU81Q2RmYkhDX2dnWEFVY3J5eVRqcTFFMExMby1JS3ZuVnRyR2tQSEZMSHZ6VmFST0RXSFVOY2J0aHlaV3gxanhYLVFTSHc?oc=5"
   },
   {
    "brand": "supreme",
@@ -368,6 +404,18 @@
    "source": "Sneaker News",
    "title": "Where To Buy The Nike Air Bakin “Varsity Royal”",
    "url": "https://sneakernews.com/2026/11/11/nike-air-bakin-royal-store-list/"
+  },
+  {
+   "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "f18f20378a29",
+   "image": null,
+   "published": "2026-11-11T16:58+00:00",
+   "quiet": true,
+   "source": "Collater.al Magazine",
+   "title": "Supreme and Elliott Smith: how to monetize authenticity",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYmhacEs1OVg5dFFfZC1GSFNzdTVTc3JONk5mdlNsLVZOUVRhVmtpaENkY3FOTzlscDFZaEo4Zko3anduYTRTY2xoVXNLUFlkQXNEVGdwWUE4V3A0NWhMSkV5U0ZlWG9sVnJVclV2NUVOZlVKLVJVU3Iyc3FIa2RGbQ?oc=5"
   },
   {
    "brand": "nike",
@@ -910,54 +958,6 @@
    "source": "saywhomedia.com",
    "title": "Palace x Burberry: The Street is Yours",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5rVGstUE5fSjY0dFNTUDBrVHVtUjBYcUV2TDVTWGJ1WGM4TTA2UmU5VmZ2YjdfNi04RVByZG5PZG41Z0dWRW9FS1ltOUl4aGQxMmx2ZFd2cWVya18yc3Q2R1FTYU02VnBhd0hrVU1vTVlwd3RWWUI3RHpTbw?oc=5"
-  },
-  {
-   "brand": "bape",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "f58cd012573d",
-   "image": null,
-   "published": "2026-11-03T08:00+00:00",
-   "quiet": true,
-   "source": "Hypebeast",
-   "title": "BAPE and adidas Enlist Jalen Williams for Y2K Hoops Collection Headlined by the Crazy Energy+",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUENITXoxOXNUM2ZhMGtUbURFSE91OUwwM1d5dDRnRHYyWXZidngtWXRLRUpKeW85c1pmOVd5TldyNnNmUUlwYXp0cWkyVC1iZXJBUnpRUGFmOTFWMUJ6NEw5MDRPR05tY1gwZ1dsVFY3bThWNFdKMjJoZ3huRUdnTDJGR1JHZTRyMi1vRzdYMHAzMXUwdWtvdThQQ2R5NU9vS2pzZmtUc3Y0dTdTUzJqZmJfcjQyM0MtWHhfQUpoRQ?oc=5"
-  },
-  {
-   "brand": "stussy",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "9e7ecbd5054f",
-   "image": null,
-   "published": "2026-11-03T08:00+00:00",
-   "quiet": true,
-   "source": "nss magazine",
-   "title": "The new Stüssy x Birkenstock Boston Clogs",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZGt2Y1E5Qk9GN3Jxa1VOQk14T2ZXMFl2VHlMQ19XeXF6dnBZRi1RY3k2SGdCYkpsc2NHekpYVjJpWTU5Qkc3cTVRSDk3Nnk2ckgyLTI1elF5ZnhlcjlKblVVdHRQbnNYa0E0clYtN2FaLUdtMmF5a0otVGdncXdyWXNn?oc=5"
-  },
-  {
-   "brand": "palace",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "9a5273b29512",
-   "image": null,
-   "published": "2026-11-03T08:00+00:00",
-   "quiet": true,
-   "source": "nss magazine",
-   "title": "The new Palace x THE NORTH FACE PURPLE LABEL capsule collection",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRkotbnlPemZZZUo2c2RZX0lKdnpVSDdNSm1rWEZxZXFMdlhKNTU0STFZUmstbU96TENYWklHbDQtclo0bHU1UnBZX3QwUlhNbGxCWTZYWUdfaDd0SElKdXBvQ2Z6RnM1S2Riam9FVXB4dzhGZ2lsWXkzTTBnLUt3eUhR?oc=5"
-  },
-  {
-   "brand": "stussy",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "5cf9d2e0893f",
-   "image": null,
-   "published": "2026-11-03T08:00+00:00",
-   "quiet": true,
-   "source": "nss magazine",
-   "title": "The new Matthew M. Williams x Stüssy capsule collection",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SM19YYTJSbEpYemRhT3ZSX1dFenNfYWU0YzAzSkl6enJyMi1BelNXM2JRak93bmNlUnBSc1hvYzRUUGN1Q0QtLUFyaGpLalZLbElxak9qcE9mQlVOd2FuY25qWEJ3MmVIZmxRN3l2QzdBUDRwWWc?oc=5"
   }
  ]
 }
