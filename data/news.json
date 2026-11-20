@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "nike",
+   "date": "2026-11-21",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "1825a7ed8351",
+   "image": "https://sneakernews.com/wp-content/uploads/2026/11/air-jordan-3-not-nice-store-list-1.jpg",
+   "published": "2026-11-20T23:00+00:00",
+   "source": "Sneaker News",
+   "title": "Where To Buy The Air Jordan 3 “Not Nice”",
+   "url": "https://sneakernews.com/2026/11/20/air-jordan-3-not-nice-store-list/"
+  },
+  {
    "brand": "supreme",
    "date_in_title": false,
    "droplist": false,
@@ -946,18 +958,6 @@
    "source": "FAD Magazine",
    "title": "Palace Skateboards opens new London flagship at 8 Poland Street",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSkp5ampTVlpFTzBCY1dpTE9KTWxCZzZiRmRaMjl1N1lpTzdLcWF4WEVPNWxVYVNlS2VmQ3NBbVBjeXdtTk1vWGpFZm9XLUVBd2VnSkkwMWdpczRMTkppaWxhbG1KOXB2UU95Z09PVWN0aVo5MjFaeHRxRWoybDF0bG1Icm00Rk1wZHptQQ?oc=5"
-  },
-  {
-   "brand": "stussy",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "62637712dd81",
-   "image": null,
-   "published": "2026-11-04T02:26+00:00",
-   "quiet": true,
-   "source": "finally offline",
-   "title": "Stussy Holiday 2026 Delivery Two November 6",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdC0ycDhBdERZeDY2RjZOMVpSQ0pyYjNHLWFBRGtVMmhkaGtqdHpUeUMzeUptVTNic2hoOXotQ3hpbzZpZHNBOXVzVFRpazV2LTAtbm1jSVNMUDV2bDVKRFQ3U3RSX0ZLbnFrTnJXVVVzS3ZrNU5xZUZBUkRRZGp3MHZySzhieWUtcHdqcUYxT2g4Z28?oc=5"
   }
  ]
 }
