@@ -1822,34 +1822,6 @@
    "time": null
   },
   {
-   "brand": "nike",
-   "date": "2026-11-21",
-   "id": "nike-2026-11-21-snkrs-0800",
-   "image": "https://static.nike.com/a/images/w_1536,c_limit/d7c21776-4a25-49ae-9d7c-557f816f5354/nike%C2%A0cactus%C2%A0jack%C2%A0af1-x-gta%C2%A0vi-nike%C2%A0cactus%C2%A0jack%C2%A0gta%C2%A0vi-jj7602-100-%E2%80%93-data-de-lan%C3%A7amento.png",
-   "method": "SNKRS · FCFS",
-   "name": "NIKE CACTUS JACK AF1 GTA VI “NIKE CACTUS JACK X GTA VI”",
-   "origin": "nike",
-   "products": [
-    {
-     "color": "Branco/Branco/Rosa Fire/Branco",
-     "currency": "EUR",
-     "image": "https://static.nike.com/a/images/w_1536,c_limit/d7c21776-4a25-49ae-9d7c-557f816f5354/nike%C2%A0cactus%C2%A0jack%C2%A0af1-x-gta%C2%A0vi-nike%C2%A0cactus%C2%A0jack%C2%A0gta%C2%A0vi-jj7602-100-%E2%80%93-data-de-lan%C3%A7amento.png",
-     "name": "NIKE CACTUS JACK AF1 GTA VI “NIKE CACTUS JACK X GTA VI”",
-     "price": 139.99,
-     "sku": "JJ7602-100",
-     "url": "https://www.nike.com/pt/launch/t/nike-cactus-jack-af1-gta-vi-nike-cactus-jack-gta-vi"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Nike SNKRS Portugal",
-     "url": "https://www.nike.com/pt/launch/t/nike-cactus-jack-af1-gta-vi-nike-cactus-jack-gta-vi"
-    }
-   ],
-   "status": "confirmado",
-   "time": "08:00"
-  },
-  {
    "brand": "bape",
    "date": "2026-11-21",
    "id": "bape-2026-11-21",
@@ -2180,6 +2152,61 @@
    ],
    "status": "previsto",
    "time": "11:00"
+  },
+  {
+   "brand": "nike",
+   "date": "2026-12-12",
+   "id": "nike-2026-12-12-snkrs-0800",
+   "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/0d69b7d3-9698-496b-b7d1-6d10c2547b7f/air%C2%A0jordan%C2%A011%C2%A0retro%C2%A0og-space-jam-black-and-varsity-royal-ct8012-900-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "method": "SNKRS · FCFS",
+   "name": "Air Jordan 11 Retro OG \"Space Jam\" “Black and Varsity Royal”",
+   "origin": "nike",
+   "products": [
+    {
+     "color": "Multicolor/Branco/Preto/Varsity Royal",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/0d69b7d3-9698-496b-b7d1-6d10c2547b7f/air%C2%A0jordan%C2%A011%C2%A0retro%C2%A0og-space-jam-black-and-varsity-royal-ct8012-900-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Sapatilhas Air Jordan 11 Retro para criança",
+     "price": 99.99,
+     "sku": "378039-900",
+     "url": "https://www.nike.com/pt/launch/t/air-jordan-11-retro-og-space-jam-black-and-varsity-royal"
+    },
+    {
+     "color": "Multicolor/Branco/Preto/Varsity Royal",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/0d69b7d3-9698-496b-b7d1-6d10c2547b7f/air%C2%A0jordan%C2%A011%C2%A0retro%C2%A0og-space-jam-black-and-varsity-royal-ct8012-900-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Sapatilhas Air Jordan 11 Retro \"Gamma\" para crianças",
+     "price": 184.99,
+     "sku": "378038-900",
+     "url": "https://www.nike.com/pt/launch/t/air-jordan-11-retro-og-space-jam-black-and-varsity-royal"
+    },
+    {
+     "color": "Multicolor/Branco/Preto/Multicolor",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/0d69b7d3-9698-496b-b7d1-6d10c2547b7f/air%C2%A0jordan%C2%A011%C2%A0retro%C2%A0og-space-jam-black-and-varsity-royal-ct8012-900-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Sapatilhas Air Jordan 11 Retro para bebé",
+     "price": 79.99,
+     "sku": "378040-900",
+     "url": "https://www.nike.com/pt/launch/t/air-jordan-11-retro-og-space-jam-black-and-varsity-royal"
+    },
+    {
+     "color": "Multicolor/Branco/Preto/Varsity Royal",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/0d69b7d3-9698-496b-b7d1-6d10c2547b7f/air%C2%A0jordan%C2%A011%C2%A0retro%C2%A0og-space-jam-black-and-varsity-royal-ct8012-900-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Sapatilhas Air Jordan 11 Retro para homem",
+     "price": 209.99,
+     "sku": "CT8012-900",
+     "url": "https://www.nike.com/pt/launch/t/air-jordan-11-retro-og-space-jam-black-and-varsity-royal"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch/t/air-jordan-11-retro-og-space-jam-black-and-varsity-royal"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:00"
   }
  ]
 }

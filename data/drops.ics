@@ -277,19 +277,6 @@ URL:https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0NwSmNQaTBkOExYN
  YbnpHT1E0SnB5dU1JSTViQmFFbnRjaDV2OGc?oc=5
 END:VEVENT
 BEGIN:VEVENT
-UID:nike-2026-11-21-snkrs-0800@vicio
-DTSTAMP:20261121T000000Z
-DTSTART:20261121T080000Z
-DTEND:20261121T083000Z
-SUMMARY:Nike · NIKE CACTUS JACK AF1 GTA VI “NIKE CACTUS JACK X GTA VI
- ”
-DESCRIPTION:NIKE CACTUS JACK AF1 GTA VI “NIKE CACTUS JACK X GTA VI”\nM
- étodo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.nike.com/pt/launc
- h/t/nike-cactus-jack-af1-gta-vi-nike-cactus-jack-gta-vi
-URL:https://www.nike.com/pt/launch/t/nike-cactus-jack-af1-gta-vi-nike-cact
- us-jack-gta-vi
-END:VEVENT
-BEGIN:VEVENT
 UID:bape-2026-11-21@vicio
 DTSTAMP:20261121T000000Z
 DTSTART:20261121T080700Z
@@ -404,5 +391,18 @@ SUMMARY:Palace · Drop semanal (previsto)
 DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
  www.palaceskateboards.com
 URL:https://www.palaceskateboards.com
+END:VEVENT
+BEGIN:VEVENT
+UID:nike-2026-12-12-snkrs-0800@vicio
+DTSTAMP:20261212T000000Z
+DTSTART:20261212T080000Z
+DTEND:20261212T083000Z
+SUMMARY:Nike · Air Jordan 11 Retro OG "Space Jam" “Black and Varsity Ro
+ yal”
+DESCRIPTION:Air Jordan 11 Retro OG "Space Jam" “Black and Varsity Royal
+ ”\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.nike.com/pt
+ /launch/t/air-jordan-11-retro-og-space-jam-black-and-varsity-royal
+URL:https://www.nike.com/pt/launch/t/air-jordan-11-retro-og-space-jam-blac
+ k-and-varsity-royal
 END:VEVENT
 END:VCALENDAR
