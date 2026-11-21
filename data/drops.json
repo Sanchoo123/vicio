@@ -1822,6 +1822,102 @@
    "time": null
   },
   {
+   "brand": "nike",
+   "date": "2026-11-21",
+   "id": "nike-2026-11-21-snkrs-0800",
+   "image": "https://static.nike.com/a/images/w_1536,c_limit/d7c21776-4a25-49ae-9d7c-557f816f5354/nike%C2%A0cactus%C2%A0jack%C2%A0af1-x-gta%C2%A0vi-nike%C2%A0cactus%C2%A0jack%C2%A0gta%C2%A0vi-jj7602-100-%E2%80%93-data-de-lan%C3%A7amento.png",
+   "method": "SNKRS · FCFS",
+   "name": "NIKE CACTUS JACK AF1 GTA VI “NIKE CACTUS JACK X GTA VI” + 1 lançamento",
+   "origin": "nike",
+   "products": [
+    {
+     "color": "Branco/Branco/Rosa Fire/Branco",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/d7c21776-4a25-49ae-9d7c-557f816f5354/nike%C2%A0cactus%C2%A0jack%C2%A0af1-x-gta%C2%A0vi-nike%C2%A0cactus%C2%A0jack%C2%A0gta%C2%A0vi-jj7602-100-%E2%80%93-data-de-lan%C3%A7amento.png",
+     "name": "NIKE CACTUS JACK AF1 GTA VI “NIKE CACTUS JACK X GTA VI”",
+     "price": 139.99,
+     "sku": "JJ7602-100",
+     "url": "https://www.nike.com/pt/launch/t/nike-cactus-jack-af1-gta-vi-nike-cactus-jack-gta-vi"
+    },
+    {
+     "color": "Preto/Preto/Rosa Fire/Preto",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/7929b4f2-3100-48f5-b919-372ab1fa45e7/nike%C2%A0cactus%C2%A0jack%C2%A0af1-x-gta%C2%A0vi-nike%C2%A0cactus%C2%A0jack%C2%A0gta%C2%A0vi-jj7604-001-%E2%80%93-data-de-lan%C3%A7amento.png",
+     "name": "NIKE CACTUS JACK AF1 GTA VI “NIKE CACTUS JACK X GTA VI”",
+     "price": 139.99,
+     "sku": "JJ7604-001",
+     "url": "https://www.nike.com/pt/launch/t/nike-cactus-jack-af1-gta-vi-nike-cactus-jack-gta-vi-2"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch?s=upcoming"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:00"
+  },
+  {
+   "brand": "bape",
+   "date": "2026-11-21",
+   "id": "bape-2026-11-21",
+   "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001ZPM801011_BLK_A.jpg?v=1794999660",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001ZPM801011_BLK_A.jpg?v=1794999660",
+     "name": "SHARK FULL ZIP HOODIE",
+     "price": 339.0,
+     "url": "https://eu.bape.com/products/0zxswm011151r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001DPM801002_ING_A.jpg?v=1794998197",
+     "name": "BAPE 13 OZ DENIM PANTS",
+     "price": 339.0,
+     "url": "https://eu.bape.com/products/0zxjnm002501r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/002GDM803003_BRW_A_2.jpg?v=1795001308",
+     "name": "BABY MILO PLUSH DOLL EARMUFFS KIDS",
+     "price": 45.0,
+     "url": "https://eu.bape.com/products/0zxack003823r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/002TEM801012_BLK_A_3.jpg?v=1795001243",
+     "name": "FLOCKY MILO ON BAPE TEE",
+     "price": 95.0,
+     "url": "https://eu.bape.com/products/0zxtemx01210r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001DNM801305_GRN_A.jpg?v=1794996399",
+     "name": "1ST CAMO SNOWBOARD DOWN JACKET",
+     "price": 785.0,
+     "url": "https://eu.bape.com/products/0zxdnm305441r"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja BAPE",
+     "url": "https://eu.bape.com"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:07"
+  },
+  {
    "brand": "vigilance",
    "date": "2026-11-21",
    "id": "vigilance-2026-11-21",
