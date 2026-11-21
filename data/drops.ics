@@ -282,11 +282,12 @@ DTSTAMP:20261121T000000Z
 DTSTART:20261121T080000Z
 DTEND:20261121T083000Z
 SUMMARY:Nike · NIKE CACTUS JACK AF1 GTA VI “NIKE CACTUS JACK X GTA VI
- ” + 1 lançamento
-DESCRIPTION:NIKE CACTUS JACK AF1 GTA VI “NIKE CACTUS JACK X GTA VI” + 
- 1 lançamento\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.n
- ike.com/pt/launch?s=upcoming
-URL:https://www.nike.com/pt/launch?s=upcoming
+ ”
+DESCRIPTION:NIKE CACTUS JACK AF1 GTA VI “NIKE CACTUS JACK X GTA VI”\nM
+ étodo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.nike.com/pt/launc
+ h/t/nike-cactus-jack-af1-gta-vi-nike-cactus-jack-gta-vi
+URL:https://www.nike.com/pt/launch/t/nike-cactus-jack-af1-gta-vi-nike-cact
+ us-jack-gta-vi
 END:VEVENT
 BEGIN:VEVENT
 UID:bape-2026-11-21@vicio

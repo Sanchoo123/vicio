@@ -1827,7 +1827,7 @@
    "id": "nike-2026-11-21-snkrs-0800",
    "image": "https://static.nike.com/a/images/w_1536,c_limit/d7c21776-4a25-49ae-9d7c-557f816f5354/nike%C2%A0cactus%C2%A0jack%C2%A0af1-x-gta%C2%A0vi-nike%C2%A0cactus%C2%A0jack%C2%A0gta%C2%A0vi-jj7602-100-%E2%80%93-data-de-lan%C3%A7amento.png",
    "method": "SNKRS · FCFS",
-   "name": "NIKE CACTUS JACK AF1 GTA VI “NIKE CACTUS JACK X GTA VI” + 1 lançamento",
+   "name": "NIKE CACTUS JACK AF1 GTA VI “NIKE CACTUS JACK X GTA VI”",
    "origin": "nike",
    "products": [
     {
@@ -1838,21 +1838,12 @@
      "price": 139.99,
      "sku": "JJ7602-100",
      "url": "https://www.nike.com/pt/launch/t/nike-cactus-jack-af1-gta-vi-nike-cactus-jack-gta-vi"
-    },
-    {
-     "color": "Preto/Preto/Rosa Fire/Preto",
-     "currency": "EUR",
-     "image": "https://static.nike.com/a/images/w_1536,c_limit/7929b4f2-3100-48f5-b919-372ab1fa45e7/nike%C2%A0cactus%C2%A0jack%C2%A0af1-x-gta%C2%A0vi-nike%C2%A0cactus%C2%A0jack%C2%A0gta%C2%A0vi-jj7604-001-%E2%80%93-data-de-lan%C3%A7amento.png",
-     "name": "NIKE CACTUS JACK AF1 GTA VI “NIKE CACTUS JACK X GTA VI”",
-     "price": 139.99,
-     "sku": "JJ7604-001",
-     "url": "https://www.nike.com/pt/launch/t/nike-cactus-jack-af1-gta-vi-nike-cactus-jack-gta-vi-2"
     }
    ],
    "sources": [
     {
      "name": "Nike SNKRS Portugal",
-     "url": "https://www.nike.com/pt/launch?s=upcoming"
+     "url": "https://www.nike.com/pt/launch/t/nike-cactus-jack-af1-gta-vi-nike-cactus-jack-gta-vi"
     }
    ],
    "status": "confirmado",
