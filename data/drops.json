@@ -2157,11 +2157,20 @@
    "brand": "nike",
    "date": "2026-12-12",
    "id": "nike-2026-12-12-snkrs-0800",
-   "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/0d69b7d3-9698-496b-b7d1-6d10c2547b7f/air%C2%A0jordan%C2%A011%C2%A0retro%C2%A0og-space-jam-black-and-varsity-royal-ct8012-900-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "image": "https://static.nike.com/a/images/w_1536,c_limit/6c391554-f2b1-4003-82ce-059fb95143e5/behind-the-design-air%C2%A0jordan%C2%A011%C2%A0retro%C2%A0og-space-jam.jpg",
    "method": "SNKRS · FCFS",
-   "name": "Air Jordan 11 Retro OG \"Space Jam\" “Black and Varsity Royal”",
+   "name": "Behind the Design “Air Jordan 11 Retro OG \"Space Jam\"” + 1 lançamento",
    "origin": "nike",
    "products": [
+    {
+     "color": "Multicolor/Branco/Preto/Varsity Royal",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/6c391554-f2b1-4003-82ce-059fb95143e5/behind-the-design-air%C2%A0jordan%C2%A011%C2%A0retro%C2%A0og-space-jam.jpg",
+     "name": "Behind the Design “Air Jordan 11 Retro OG \"Space Jam\"”",
+     "price": 209.99,
+     "sku": "CT8012-900",
+     "url": "https://www.nike.com/pt/launch/t/behind-the-design-air-jordan-11-retro-og-space-jam"
+    },
     {
      "color": "Multicolor/Branco/Preto/Varsity Royal",
      "currency": "EUR",
@@ -2188,21 +2197,12 @@
      "price": 79.99,
      "sku": "378040-900",
      "url": "https://www.nike.com/pt/launch/t/air-jordan-11-retro-og-space-jam-black-and-varsity-royal"
-    },
-    {
-     "color": "Multicolor/Branco/Preto/Varsity Royal",
-     "currency": "EUR",
-     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/0d69b7d3-9698-496b-b7d1-6d10c2547b7f/air%C2%A0jordan%C2%A011%C2%A0retro%C2%A0og-space-jam-black-and-varsity-royal-ct8012-900-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-     "name": "Sapatilhas Air Jordan 11 Retro para homem",
-     "price": 209.99,
-     "sku": "CT8012-900",
-     "url": "https://www.nike.com/pt/launch/t/air-jordan-11-retro-og-space-jam-black-and-varsity-royal"
     }
    ],
    "sources": [
     {
      "name": "Nike SNKRS Portugal",
-     "url": "https://www.nike.com/pt/launch/t/air-jordan-11-retro-og-space-jam-black-and-varsity-royal"
+     "url": "https://www.nike.com/pt/launch?s=upcoming"
     }
    ],
    "status": "confirmado",

@@ -397,12 +397,11 @@ UID:nike-2026-12-12-snkrs-0800@vicio
 DTSTAMP:20261212T000000Z
 DTSTART:20261212T080000Z
 DTEND:20261212T083000Z
-SUMMARY:Nike · Air Jordan 11 Retro OG "Space Jam" “Black and Varsity Ro
- yal”
-DESCRIPTION:Air Jordan 11 Retro OG "Space Jam" “Black and Varsity Royal
- ”\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.nike.com/pt
- /launch/t/air-jordan-11-retro-og-space-jam-black-and-varsity-royal
-URL:https://www.nike.com/pt/launch/t/air-jordan-11-retro-og-space-jam-blac
- k-and-varsity-royal
+SUMMARY:Nike · Behind the Design “Air Jordan 11 Retro OG "Space Jam"”
+  + 1 lançamento
+DESCRIPTION:Behind the Design “Air Jordan 11 Retro OG "Space Jam"” + 1
+  lançamento\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.ni
+ ke.com/pt/launch?s=upcoming
+URL:https://www.nike.com/pt/launch?s=upcoming
 END:VEVENT
 END:VCALENDAR
