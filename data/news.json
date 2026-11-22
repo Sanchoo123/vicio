@@ -62,8 +62,7 @@
   },
   {
    "brand": "palace",
-   "date": "2026-11-20",
-   "date_in_title": true,
+   "date_in_title": false,
    "droplist": false,
    "id": "c960946409c6",
    "image": null,
