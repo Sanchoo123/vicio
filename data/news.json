@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "palace",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "b490c97af242",
+   "image": null,
+   "published": "2026-11-23T05:02+00:00",
+   "quiet": true,
+   "source": "Character Media",
+   "title": "Palace x BAPE Is Here, and a Giant Baby Milo Stole a Skateboard",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcUVXdGRZckx4d0owZzhnMXlvb3NsTjlQRjc2aF9SVzF3ZExDVld0SG9aclRsRHdCQVVQVlJrOUxuekV6YmxSaDhzVzlfMVNCYUJiNEs4RXkybmw1VVF3X2tjV0VjbzItd3JLRG9rOFRGMEJjVWxtVVN5dFBIRURvd19URlZSN0hkTHU2N0QxZkwxaFdS?oc=5"
+  },
+  {
    "brand": "bape",
    "date_in_title": false,
    "droplist": false,
@@ -944,18 +956,6 @@
    "source": "PAUSE Online",
    "title": "Supreme and Vaquera Join Forces for Fall 2026 Collab",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaHJFOHg3VHlCbHpXanNyc2xVSlZBamdXVzhoYWVRenRrU2NZcW4ySWZoX0VsbU9ZZmdIdXpjMGxLeERfZzF3bUxvZ2hTRm5UQTQ1M3NacExwQlM1c2wtdkhrWmtMWVN3VS1IbHBKQm1xdjI4R1VsdDkzV1NVMGxudEVEcW56MFh0QkJBNl9uaE43LWtYTk5rTw?oc=5"
-  },
-  {
-   "brand": "palace",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "a41f222c479e",
-   "image": null,
-   "published": "2026-11-04T10:45+00:00",
-   "quiet": true,
-   "source": "Culted",
-   "title": "Take a look inside Palace Skateboards' new London flagship store",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM3JnVWZsQ1lzbUtwanFSdURGSk5zX05LOV9BREduMndjTi1Ocm9ZejhIcFQ5aXJRbjB1aUJxVl9NZV90eFc3VGE1Y2t3TXNVcnZraTNFbUh2LXdLcTQ5QVdnMHhGa0hjUi1DVU0tNlJOTHZxeEszUXdBRGhjdHU0ZFpLa2t6Y3EySzNWeW5fNVlWMEx3WlE?oc=5"
   }
  ]
 }
