@@ -297,6 +297,16 @@ DESCRIPTION:Novo drop\nMétodo: FCFS\nPágina da loja Vigilance: https://v
 URL:https://vigilancesb.com
 END:VEVENT
 BEGIN:VEVENT
+UID:vigilance-2026-11-23@vicio
+DTSTAMP:20261123T000000Z
+DTSTART:20261123T215900Z
+DTEND:20261123T222900Z
+SUMMARY:Vigilance · Peças novas na loja
+DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Vigilance: https://v
+ igilancesb.com
+URL:https://vigilancesb.com
+END:VEVENT
+BEGIN:VEVENT
 UID:supreme-2026-11-26@vicio
 DTSTAMP:20261126T000000Z
 DTSTART:20261126T160000Z
@@ -327,6 +337,21 @@ SUMMARY:Palace · Drop semanal (previsto)
 DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
  www.palaceskateboards.com
 URL:https://www.palaceskateboards.com
+END:VEVENT
+BEGIN:VEVENT
+UID:supreme-2026-11-27@vicio
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Supreme · Supreme x The North Face “Bones” Collection
+DESCRIPTION:Supreme x The North Face “Bones” Collection\nMétodo: FCFS
+ \nSneaker Bar Detroit: https://news.google.com/rss/articles/CBMiekFVX3lxT
+ E9HMFBaakxVODU2Vzd2dlJsV2t6SjV3S01tbXU1cWhpU3h4QlJfRkpIdjJkLVJFLU1ydW0wSV
+ VPUU1qQWg1UVlHVUlIVVYtMUVtVjdNTFZfLS1zbkNmSDk2NTFoME1oX3BhSVNyY193LUhRREt
+ HMHlRalRn?oc=5
+URL:https://news.google.com/rss/articles/CBMiekFVX3lxTE9HMFBaakxVODU2Vzd2d
+ lJsV2t6SjV3S01tbXU1cWhpU3h4QlJfRkpIdjJkLVJFLU1ydW0wSVVPUU1qQWg1UVlHVUlIVV
+ YtMUVtVjdNTFZfLS1zbkNmSDk2NTFoME1oX3BhSVNyY193LUhRREtHMHlRalRn?oc=5
 END:VEVENT
 BEGIN:VEVENT
 UID:nike-2026-12-02-snkrs-0800@vicio

@@ -1899,6 +1899,121 @@
    "time": null
   },
   {
+   "brand": "vigilance",
+   "date": "2026-11-23",
+   "id": "vigilance-2026-11-23",
+   "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/GANGABLACK.jpg?v=1737562448",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/GANGABLACK.jpg?v=1737562448",
+     "name": "BLACK STAR T-SHIRT",
+     "price": 40.0,
+     "url": "https://vigilancesb.com/products/black-star-t-shirt-1"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/front.jpg?v=1737562483",
+     "name": "WHITE STAR T-SHIRT",
+     "price": 40.0,
+     "url": "https://vigilancesb.com/products/black-star-t-shirt"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/SemTitulo-3.jpg?v=1746580575",
+     "name": "\"FORGED BY VIGI\" T-SHIRT",
+     "price": 40.0,
+     "url": "https://vigilancesb.com/products/forged-by-vigi-t-shirt"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/SemTitulo-1_c92f2187-6e7c-4724-ae28-b2b0590f6aa6.jpg?v=1760640071",
+     "name": "VIGILANCE FRAME CAMO TEE",
+     "price": 40.0,
+     "url": "https://vigilancesb.com/products/vigilance-camo-tee"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/CAMO_ZIPUP-copia.jpg?v=1793118884",
+     "name": "VIGILANCE CAMO ZIP-UP HOODIE",
+     "price": 105.0,
+     "url": "https://vigilancesb.com/products/vigilance-camo-zip-up-hoodie"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/longsleeve1.jpg?v=1777743373",
+     "name": "LOBOTOMIA LONGSLEEVE",
+     "price": 50.0,
+     "url": "https://vigilancesb.com/products/vigilance-camo-longsleeve-copia-1"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/SemTitulo-8.png?v=1774893821",
+     "name": "10K POP UP EXCLUSIVE TEE",
+     "price": 35.0,
+     "url": "https://vigilancesb.com/products/10k-pop-up-exclusive-tee"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/SemTitulo-6.png?v=1774893608",
+     "name": "VIGILANCE WHITE CAMOUFLAGE TEE",
+     "price": 35.0,
+     "url": "https://vigilancesb.com/products/vigilance-frame-camo-tee-copia"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/TEEBRANCA1.jpg?v=1779023022",
+     "name": "VIGI X QUEIMA 26 WHITE TEE",
+     "price": 35.0,
+     "url": "https://vigilancesb.com/products/vigi-x-queima-26-white-tee"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/TEEPRETA1.jpg?v=1779023021",
+     "name": "VIGI X QUEIMA 26 BLACK TEE",
+     "price": 35.0,
+     "url": "https://vigilancesb.com/products/vigi-x-queima-26-black-tee"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/PURPLEZIP-UP-copia.jpg?v=1793117143",
+     "name": "VIGILANCE PURPLE ZIP-UP HOODIE",
+     "price": 95.0,
+     "url": "https://vigilancesb.com/products/vigilance-purple-zip-up-hoodie-1"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/RED_ZIPUP-copia.jpg?v=1793117189",
+     "name": "VIGILANCE RED ZIP-UP HOODIE",
+     "price": 95.0,
+     "url": "https://vigilancesb.com/products/vigilance-red-zip-up-hoodie-1"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja Vigilance",
+     "url": "https://vigilancesb.com"
+    }
+   ],
+   "status": "confirmado",
+   "time": "21:59"
+  },
+  {
    "brand": "supreme",
    "date": "2026-11-26",
    "id": "supreme-2026-11-26",
@@ -2015,6 +2130,24 @@
    ],
    "status": "previsto",
    "time": "11:00"
+  },
+  {
+   "brand": "supreme",
+   "date": "2026-11-27",
+   "id": "supreme-2026-11-27",
+   "image": null,
+   "method": "FCFS",
+   "name": "Supreme x The North Face “Bones” Collection",
+   "origin": "rss",
+   "products": [],
+   "sources": [
+    {
+     "name": "Sneaker Bar Detroit",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9HMFBaakxVODU2Vzd2dlJsV2t6SjV3S01tbXU1cWhpU3h4QlJfRkpIdjJkLVJFLU1ydW0wSVVPUU1qQWg1UVlHVUlIVVYtMUVtVjdNTFZfLS1zbkNmSDk2NTFoME1oX3BhSVNyY193LUhRREtHMHlRalRn?oc=5"
+    }
+   ],
+   "status": "confirmado",
+   "time": null
   },
   {
    "brand": "nike",
