@@ -60,6 +60,18 @@
    "url": "https://hypebeast.com/2026/11/supreme-the-north-face-fall-2026-bones-collection-release-info"
   },
   {
+   "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "6e1ed34956d8",
+   "image": null,
+   "published": "2026-11-23T11:30+00:00",
+   "quiet": true,
+   "source": "Hypebeast",
+   "title": "Supreme and The North Face Unveil Fall 2026 Bones Collection",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ0lvLXlLMmVwTzkzU0N5dmhkbmVad3dVTEdMbERvaFA5VzJJV3FCeWd4amgtOUwtSUFScjdCVnE3dWFKck1vWExDNDdTOHRnQjZvOHdSZ2JJeUxKRmJKRW5velVQX1Vmb09CZEVrandhQkpzeXFwQS1lTHlRUnREdmFXLUk2aGJMWFI4Z1lITGNLeU85cUhv?oc=5"
+  },
+  {
    "brand": "nike",
    "date": "2026-12-01",
    "date_in_title": false,
@@ -105,6 +117,18 @@
    "source": "Hypebeast Fashion",
    "title": "BAPE STORE® PARIS Opens on Rue Saint-Honoré With an Exclusive Capsule Collection",
    "url": "https://hypebeast.com/2026/11/bape-flagship-store-rue-saint-honore-paris-opening-info"
+  },
+  {
+   "brand": "bape",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "ad1c75fc8848",
+   "image": null,
+   "published": "2026-11-21T05:48+00:00",
+   "quiet": true,
+   "source": "SNKRDUNK",
+   "title": "PALACE x A BATHING APE Ape Head T-Shirt \"White\"",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iNTlFOUg1amx0UXFSMGJkejNac0pBdHNIdk1aeVlzWmgxbGgyeTZ0MUpvcXd5aXdZTWJmdElVb3ZmVWdPMlNidkV6NnRyTjhXa2Ntbw?oc=5"
   },
   {
    "brand": "nike",
@@ -931,30 +955,6 @@
    "source": "SNKRDUNK",
    "title": "COMME des GARCONS CDG x Stussy Cap \"Black\"",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96WW9ySFJFeTNpWHE5YUwxTE1maWVPUlNQVklFdC1IQzFzck94bnhCMGNIa3ktYlV2Q0NTbHRDbjdNbUpOcHpnZUUxYzNRSklIOE40Ug?oc=5"
-  },
-  {
-   "brand": "stussy",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "1a409b276599",
-   "image": null,
-   "published": "2026-11-06T08:00+00:00",
-   "quiet": true,
-   "source": "SNKRDUNK",
-   "title": "COMME des GARCONS CDG x Stussy Zip Up Hoodie \"Gray\"",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9sbzV2RFZhYzhFcERLNmV6YTBuOUZwMzhnekNXaU0zclJ0NTdmbVplN05JVlRPZ21qYS1kd1YxZ00wMm9pYlJUQnZ0U2luT1VWWXdOTw?oc=5"
-  },
-  {
-   "brand": "stussy",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "c8b0f1fabe46",
-   "image": null,
-   "published": "2026-11-06T08:00+00:00",
-   "quiet": true,
-   "source": "SNKRDUNK",
-   "title": "COMME des GARCONS CDG x Stussy Long Sleeve T-Shirt \"Black\"",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzTW1tcU1idXFaNG5uNHp6WHFKMjkxRjlURlNBZWlYYXVhdmxSUXhYc3IzSWZoR21yUDBnUkhuTVB1Mzczd0JFaUhQZm9DX0pNRnc1MQ?oc=5"
   }
  ]
 }
