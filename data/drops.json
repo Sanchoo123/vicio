@@ -2014,6 +2014,65 @@
    "time": "21:59"
   },
   {
+   "brand": "ementa",
+   "date": "2026-11-23",
+   "id": "ementa-2026-11-23",
+   "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/EMENTA_MAIKA_TSHIRT_WHITE_BACK.webp?v=1785509450",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/EMENTA_MAIKA_TSHIRT_WHITE_BACK.webp?v=1785509450",
+     "name": "Maika Velvet T-shirt",
+     "price": 65.0,
+     "url": "https://ementasb.com/products/maika-velvet-t-shirt"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/EMENTA_IKONFLOWER_HOODIE_BLACK_BACK.webp?v=1794485633",
+     "name": "Ikon Flower Hoodie",
+     "price": 120.0,
+     "url": "https://ementasb.com/products/ikon-flower-hoodie-1"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/EMENTA_253UHO11_LION_DARKGRAY_WASHED_HODDIE_BACK_3fcac5e8-4a12-44c0-b0a9-b6b2c7444c7d.webp?v=1785498555",
+     "name": "Lion Washed Hoodie",
+     "price": 125.0,
+     "url": "https://ementasb.com/products/lion-washed-hoodie"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/EMENTA_LION_HODDIE_OFFWHITE_GREEN_back_c3cead5c-f1cc-4b45-be9c-8db3e0a65877.webp?v=1785497885",
+     "name": "Lion Hoodie",
+     "price": 115.0,
+     "url": "https://ementasb.com/products/lion-hoodie"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/DiogoShoot_81_0e40d594-4293-46f2-9e2e-990c3ecf6b26.webp?v=1785497178",
+     "name": "Explore Hoodie",
+     "price": 130.0,
+     "url": "https://ementasb.com/products/explore-hoodie"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja Ementa",
+     "url": "https://ementasb.com"
+    }
+   ],
+   "status": "confirmado",
+   "time": "22:07"
+  },
+  {
    "brand": "supreme",
    "date": "2026-11-26",
    "id": "supreme-2026-11-26",
@@ -2061,7 +2120,7 @@
     {
      "color": "Carmesim Laser/Obsidian/Prateado",
      "currency": "EUR",
-     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/f5ff9d49-ba55-440b-830f-08a08ad9cbf4/kobe%C2%A09%C2%A0em%C2%A0low%C2%A0protro-laser-crimson-and-obsidian-io6262-600-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/55b24ed6-e1cd-4d54-8158-9e2a40fce04a/kobe%C2%A09%C2%A0em%C2%A0low%C2%A0protro-laser-crimson-and-obsidian-io6262-600-%E2%80%93-data-de-lan%C3%A7amento.jpg",
      "name": "Kobe 9 EM Low Protro “Laser Crimson and Obsidian”",
      "price": 189.99,
      "sku": "IO6262-600",
