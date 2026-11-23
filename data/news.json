@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "nike",
+   "date": "2026-12-01",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "3277bf99f498",
+   "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F22%2Fchevy-nike-book-2-light-chocolate-io9841-200-release-info-000.jpg?w=800&cbr=1&q=90&fit=max",
+   "published": "2026-11-23T07:23+00:00",
+   "source": "Hypebeast",
+   "title": "Chevy x Nike Book 2 \"Light Chocolate\" IO9841-200 Release Info",
+   "url": "https://hypebeast.com/2026/11/chevy-nike-book-2-light-chocolate-io9841-200-release-info"
+  },
+  {
    "brand": "palace",
    "date_in_title": false,
    "droplist": false,
@@ -944,18 +956,6 @@
    "source": "stupidDOPE",
    "title": "Palace Skateboards Poland Street Flagship Turns Its Archive Into Architecture",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU05yTHR5V2phREJRNU8yb2Rnc3RwTThSRk9qUlU1TkhGcmFIdGVLUFRab2otUDgwMmg1VnZrdFZRdHB2YjdncjVQT0x4U21kbThoenhHTFhGSTZwbzRsQWktNjZuT3lqbEY1YU5mZ1JENDNoWF9lTzgwSXhuQ0IzaWktUkQyTnpxZTVxTVN4eWtxeVQwbG95ckNsWVRROHNYS0tWTTVwNWduM0pFRVE?oc=5"
-  },
-  {
-   "brand": "supreme",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "5a69e0a45a1e",
-   "image": null,
-   "published": "2026-11-04T13:28+00:00",
-   "quiet": true,
-   "source": "PAUSE Online",
-   "title": "Supreme and Vaquera Join Forces for Fall 2026 Collab",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaHJFOHg3VHlCbHpXanNyc2xVSlZBamdXVzhoYWVRenRrU2NZcW4ySWZoX0VsbU9ZZmdIdXpjMGxLeERfZzF3bUxvZ2hTRm5UQTQ1M3NacExwQlM1c2wtdkhrWmtMWVN3VS1IbHBKQm1xdjI4R1VsdDkzV1NVMGxudEVEcW56MFh0QkJBNl9uaE43LWtYTk5rTw?oc=5"
   }
  ]
 }
