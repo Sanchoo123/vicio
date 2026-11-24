@@ -2335,7 +2335,7 @@
    "brand": "ementa",
    "date": "2026-11-24",
    "id": "ementa-2026-11-24",
-   "image": null,
+   "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/Ementa_Mbf_Corduroy_Puffer_Jacket_off_white_350c6a42-c459-49fa-8205-54053d24963e.png?v=1795532642",
    "method": "FCFS",
    "name": "Peças novas na loja",
    "origin": "shopify",
@@ -2343,26 +2343,18 @@
     {
      "available": false,
      "currency": "EUR",
-     "image": null,
-     "name": "Ikon Kit Denim Jacket",
-     "price": 75.0,
-     "url": "https://ementasb.com/products/ikon-kit-denim-jacket"
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/Ementa_Mbf_Corduroy_Puffer_Jacket_off_white_350c6a42-c459-49fa-8205-54053d24963e.png?v=1795532642",
+     "name": "MBF Corduroy Puffer Jacket",
+     "price": 50.0,
+     "url": "https://ementasb.com/products/mbf-corduroy-puffer-jacket"
     },
     {
      "available": true,
      "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/ementa_Dots_Canvas_Cap_burgundy.png?v=1747128194",
-     "name": "Dots Canvas Cap",
-     "price": 40.0,
-     "url": "https://ementasb.com/products/dots-canvas-cap-burgundy"
-    },
-    {
-     "available": true,
-     "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/52.webp?v=1772537201",
-     "name": "Buraca Signature Corduroy Cap",
-     "price": 45.0,
-     "url": "https://ementasb.com/products/buraca-signature-corduroy-cap-mustard"
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/magoado-twill-elastic-pants-off-white-front_33f172dc-96fe-4cc3-9c9b-a38fc2e79049.webp?v=1784804060",
+     "name": "Magoado Twill Elastic Pants",
+     "price": 90.0,
+     "url": "https://ementasb.com/products/magoado-twill-elastic-pants"
     }
    ],
    "sources": [
@@ -2372,7 +2364,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "13:07"
+   "time": "15:07"
   },
   {
    "brand": "supreme",
