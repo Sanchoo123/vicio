@@ -45,7 +45,8 @@
    "ok": true
   },
   "Sneaker News": {
-   "ok": true
+   "msg": "erro: HTTPError",
+   "ok": false
   },
   "Sole Retriever": {
    "ok": true
