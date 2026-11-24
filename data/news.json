@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "palace",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "fa2a5a78c702",
+   "image": null,
+   "published": "2026-11-24T04:21+00:00",
+   "quiet": true,
+   "source": "House of Heat°",
+   "title": "Palace Skateboards Unveils Holiday 2026 Collection",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LZTMzMnpYUnFRclpYSEd3d3U1Rjd4dTNyN0FlNkhfWlhzdmZja28wc2xOTlB6UEdKMGJ5SXQxMHVNNmw5X2dnNWhMeWhmSXQ2VmVKRi1ZNF8xT1pDRF84Rm1Zb2lmdFRXUXpPaVMzRHJIUmNlZzdGa3NwbDI?oc=5"
+  },
+  {
    "brand": "supreme",
    "date_in_title": false,
    "droplist": false,
@@ -943,18 +955,6 @@
    "source": "SNKRDUNK",
    "title": "COMME des GARCONS CDG x Stussy Coach Jacket \"Black\"",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EZi1RWTU3Z1g5NVNTejFqazJIajRGdENBVUVFX3V4eHhNb0pjRTVwYzRLSmlRdnJmSHQ0alRPRXUtRnpGRWgzb3FQVXBZMWJrVnlzcA?oc=5"
-  },
-  {
-   "brand": "stussy",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "7db1e3d82ef2",
-   "image": null,
-   "published": "2026-11-06T08:00+00:00",
-   "quiet": true,
-   "source": "finally offline",
-   "title": "Stüssy CDG Shibuya Parco Release November 7",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbXpsSkdrZ1ZSbXhzeGl2X1NPNjFNbTRaY1EtWldZOExjSzBVZS1kbFZObTVyd1V2R2tlb284YlNzSXdpWm8xa204ODA1LW9HcTBCemJBNmtHelhGQURfbFpnckhOX2NRTG5kT2xmbVEyel91aVlreUZmOXNkYzBIM0tYdjBJLWNQOThVbXVJYzE3azBXTmc?oc=5"
   }
  ]
 }
