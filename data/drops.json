@@ -2344,17 +2344,25 @@
      "available": false,
      "currency": "EUR",
      "image": null,
-     "name": "Ghost I Ikon Corduroy Backpack",
-     "price": 60.0,
-     "url": "https://ementasb.com/products/ghost-i-ikon-corduroy-backpack"
+     "name": "Ikon Kit Denim Jacket",
+     "price": 75.0,
+     "url": "https://ementasb.com/products/ikon-kit-denim-jacket"
     },
     {
      "available": true,
      "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/9_b91f09ed-18b5-43f5-9d6d-a93e00d2e442.webp?v=1789726539",
-     "name": "Ghost Ikon Napa Backpack",
-     "price": 65.0,
-     "url": "https://ementasb.com/products/ghost-ikon-napa-backpack"
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/ementa_Dots_Canvas_Cap_burgundy.png?v=1747128194",
+     "name": "Dots Canvas Cap",
+     "price": 40.0,
+     "url": "https://ementasb.com/products/dots-canvas-cap-burgundy"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/52.webp?v=1772537201",
+     "name": "Buraca Signature Corduroy Cap",
+     "price": 45.0,
+     "url": "https://ementasb.com/products/buraca-signature-corduroy-cap-mustard"
     }
    ],
    "sources": [
@@ -2364,7 +2372,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "12:07"
+   "time": "13:07"
   },
   {
    "brand": "supreme",
