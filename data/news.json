@@ -1,6 +1,17 @@
 {
  "news": [
   {
+   "brand": "bape",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "e92f1d2ab519",
+   "image": null,
+   "published": "2026-11-24T06:37+00:00",
+   "source": "Hypebeast Fashion",
+   "title": "BAPE® Re-Imagines Its Icons for Winter 2026",
+   "url": "https://hypebeast.com/2026/11/bape-re-imagines-its-icons-for-winter-2026"
+  },
+  {
    "brand": "palace",
    "date_in_title": false,
    "droplist": false,
@@ -943,18 +954,6 @@
    "source": "SNKRDUNK",
    "title": "COMME des GARCONS CDG x Stussy Hoodie \"Black\"",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5RzFFaXRhdmwyYXgtR0ZPRDU1QWVTZlVyMU40eUdrNTByemdEZ0FPaVo3dHVpRERxSzRPNExuSUR4b2JnOVBkSTFsbkxhR0E0YnFEYw?oc=5"
-  },
-  {
-   "brand": "stussy",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "e392fc5e8f2a",
-   "image": null,
-   "published": "2026-11-06T08:00+00:00",
-   "quiet": true,
-   "source": "SNKRDUNK",
-   "title": "COMME des GARCONS CDG x Stussy Coach Jacket \"Black\"",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EZi1RWTU3Z1g5NVNTejFqazJIajRGdENBVUVFX3V4eHhNb0pjRTVwYzRLSmlRdnJmSHQ0alRPRXUtRnpGRWgzb3FQVXBZMWJrVnlzcA?oc=5"
   }
  ]
 }
