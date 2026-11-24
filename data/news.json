@@ -2,6 +2,18 @@
  "news": [
   {
    "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "196ec70c38c8",
+   "image": null,
+   "published": "2026-11-24T00:41+00:00",
+   "quiet": true,
+   "source": "House of Heat°",
+   "title": "Supreme x The North Face Fall 2026 Collection Releases on Black Friday",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb0kyNDNnbmZvdzVQU3Q3MUF4aE8zRnktck9tNHFra3NqbmNGWk1IaXlrVGU2cDE1bzFMTGpOdlNMOFpHbzZROWFoNjQyZWQzR0NCRW0ycHY4QXFMbzhXaF8xTjA3T0s5OTdFZEJlTU51T09HdURNdjlEUDVyY283c3RB?oc=5"
+  },
+  {
+   "brand": "supreme",
    "date": "2026-11-27",
    "date_in_title": true,
    "droplist": false,
@@ -943,18 +955,6 @@
    "source": "finally offline",
    "title": "Stüssy CDG Shibuya Parco Release November 7",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbXpsSkdrZ1ZSbXhzeGl2X1NPNjFNbTRaY1EtWldZOExjSzBVZS1kbFZObTVyd1V2R2tlb284YlNzSXdpWm8xa204ODA1LW9HcTBCemJBNmtHelhGQURfbFpnckhOX2NRTG5kT2xmbVEyel91aVlreUZmOXNkYzBIM0tYdjBJLWNQOThVbXVJYzE3azBXTmc?oc=5"
-  },
-  {
-   "brand": "stussy",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "61ab5bd6ecc6",
-   "image": null,
-   "published": "2026-11-06T08:00+00:00",
-   "quiet": true,
-   "source": "SNKRDUNK",
-   "title": "COMME des GARCONS CDG x Stussy Cap \"Black\"",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96WW9ySFJFeTNpWHE5YUwxTE1maWVPUlNQVklFdC1IQzFzck94bnhCMGNIa3ktYlV2Q0NTbHRDbjdNbUpOcHpnZUUxYzNRSklIOE40Ug?oc=5"
   }
  ]
 }
