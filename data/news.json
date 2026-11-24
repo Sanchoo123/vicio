@@ -549,18 +549,6 @@
   },
   {
    "brand": "supreme",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "4be007f4dbfc",
-   "image": null,
-   "published": "2026-11-16T11:35+00:00",
-   "quiet": true,
-   "source": "Hypebeast",
-   "title": "Supreme and Dickies Reunite for an Extensive Fall 2026 Collection",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUW14UmlqZnVJemt0eTNvTzRHU1h6cHBYcmtBSFA4Z2JqMUphX0tjSnhUblV6RkVyWWNubjlnQmhaUlhPS0VQbXpmLWZ4S196Wl9QVnhMTXNRRUM3SmdGeVNObkVraTJ5SEVRcHJsQXN3YXdKdUdxTzROd0kwZUR6cEtvVC1mdw?oc=5"
-  },
-  {
-   "brand": "supreme",
    "date": "2026-11-19",
    "date_in_title": false,
    "droplist": false,
@@ -582,6 +570,18 @@
    "source": "Hypebeast Fashion",
    "title": "Nike and One Block Down Elevate an Icon With the Air Max 95 Lux “Italy”",
    "url": "https://hypebeast.com/2026/11/one-block-down-nike-air-max-95-lux-italy-release-info"
+  },
+  {
+   "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "4be007f4dbfc",
+   "image": null,
+   "published": "2026-11-16T08:00+00:00",
+   "quiet": true,
+   "source": "Hypebeast",
+   "title": "Supreme and Dickies Reunite for an Extensive Fall 2026 Collection",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUW14UmlqZnVJemt0eTNvTzRHU1h6cHBYcmtBSFA4Z2JqMUphX0tjSnhUblV6RkVyWWNubjlnQmhaUlhPS0VQbXpmLWZ4S196Wl9QVnhMTXNRRUM3SmdGeVNObkVraTJ5SEVRcHJsQXN3YXdKdUdxTzROd0kwZUR6cEtvVC1mdw?oc=5"
   },
   {
    "brand": "palace",
