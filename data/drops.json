@@ -2332,6 +2332,41 @@
    "time": "10:07"
   },
   {
+   "brand": "ementa",
+   "date": "2026-11-24",
+   "id": "ementa-2026-11-24",
+   "image": null,
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": null,
+     "name": "Ghost I Ikon Corduroy Backpack",
+     "price": 60.0,
+     "url": "https://ementasb.com/products/ghost-i-ikon-corduroy-backpack"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/9_b91f09ed-18b5-43f5-9d6d-a93e00d2e442.webp?v=1789726539",
+     "name": "Ghost Ikon Napa Backpack",
+     "price": 65.0,
+     "url": "https://ementasb.com/products/ghost-ikon-napa-backpack"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja Ementa",
+     "url": "https://ementasb.com"
+    }
+   ],
+   "status": "confirmado",
+   "time": "12:07"
+  },
+  {
    "brand": "supreme",
    "date": "2026-11-26",
    "id": "supreme-2026-11-26",
