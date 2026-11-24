@@ -27,6 +27,7 @@
   "3277bf99f498",
   "32cfaddbc359",
   "33583835f740",
+  "38f84b3481dd",
   "3a1718fe1f7a",
   "3fe377a0e23c",
   "4095223d609c",
@@ -166,6 +167,14 @@
    "n": 5,
    "status": "confirmado",
    "time": "08:07"
+  },
+  "bape-2026-11-27": {
+   "date": "2026-11-27",
+   "droplist": false,
+   "img": false,
+   "n": 0,
+   "status": "confirmado",
+   "time": null
   },
   "corteiz-2026-11-15": {
    "date": "2026-11-15",

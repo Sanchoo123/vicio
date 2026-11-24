@@ -2509,6 +2509,24 @@
    "time": "11:00"
   },
   {
+   "brand": "bape",
+   "date": "2026-11-27",
+   "id": "bape-2026-11-27",
+   "image": null,
+   "method": "FCFS",
+   "name": "BAPE US Launches Exclusive Snakeskin Collection on Nov. 27",
+   "origin": "rss",
+   "products": [],
+   "sources": [
+    {
+     "name": "House of Heat°",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zT0puNnRmTXhIUE5GYlI4WUZmWTkwRGg4QktyLXFoR3p4T2VRVG90ZkN3bTR2ME5CT1kxUUVNRGY2ZFNoWWwyQTZ2d3VScjFreGY0d3VOUHd3Vk1WQkZ4ZDVjZkRXU0swQjZiMzZ2MGVWMHc?oc=5"
+    }
+   ],
+   "status": "confirmado",
+   "time": null
+  },
+  {
    "brand": "supreme",
    "date": "2026-11-27",
    "id": "supreme-2026-11-27",

@@ -1,6 +1,19 @@
 {
  "news": [
   {
+   "brand": "bape",
+   "date": "2026-11-27",
+   "date_in_title": true,
+   "droplist": false,
+   "id": "38f84b3481dd",
+   "image": null,
+   "published": "2026-11-24T18:13+00:00",
+   "quiet": true,
+   "source": "House of Heat°",
+   "title": "BAPE US Launches Exclusive Snakeskin Collection on Nov. 27",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zT0puNnRmTXhIUE5GYlI4WUZmWTkwRGg4QktyLXFoR3p4T2VRVG90ZkN3bTR2ME5CT1kxUUVNRGY2ZFNoWWwyQTZ2d3VScjFreGY0d3VOUHd3Vk1WQkZ4ZDVjZkRXU0swQjZiMzZ2MGVWMHc?oc=5"
+  },
+  {
    "brand": "palace",
    "date_in_title": false,
    "droplist": false,
@@ -941,18 +954,6 @@
    "source": "KicksUnderCost",
    "title": "Corteiz x Nike Shox R419 Metallic Silver Releases November 20",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVmZ5THZ6V0RRWWkxSDBMbzg2bGtuWlFDZG1JQVFqaVNvU2FvTGlMMTdnTUlxQlhaMFFUeHpwT195aGp5OG95aDhnZmdrWVNJd1NSY3NPb0JTUXRHZFYzTS1CbVFCOXRNY2ZqRlVOSVhoQkZfUGQxWDY4RVJ1WWUzMnlVVWU?oc=5"
-  },
-  {
-   "brand": "bape",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "1764ac748981",
-   "image": null,
-   "published": "2026-11-07T08:00+00:00",
-   "quiet": true,
-   "source": "House of Heat°",
-   "title": "Where to Buy: BAPE®︎ x adidas Holiday 2026 Collection (Nov. 7)",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5XdjJlWDJ1M1pUZjBXR3p5d3hLd3hsTFlYSld6Mm0tcFNBdW8wVXRqeTdZTUJTYXFLSjQ5X2FSSzRmZWFYczFqeUhJMFNsWTUwOFRRU2JmTEM5bEdDZFdTQ0RBb3NNTklqSkxYMEJPU29YRVU?oc=5"
   }
  ]
 }
