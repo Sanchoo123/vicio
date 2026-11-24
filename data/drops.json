@@ -2335,7 +2335,7 @@
    "brand": "ementa",
    "date": "2026-11-24",
    "id": "ementa-2026-11-24",
-   "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/Ementa_Mbf_Corduroy_Puffer_Jacket_off_white_350c6a42-c459-49fa-8205-54053d24963e.png?v=1795532642",
+   "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/CopiadeCOCKTAIL-HODDIE-BLACK-BACK.png?v=1795535452",
    "method": "FCFS",
    "name": "Peças novas na loja",
    "origin": "shopify",
@@ -2343,18 +2343,42 @@
     {
      "available": false,
      "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/Ementa_Mbf_Corduroy_Puffer_Jacket_off_white_350c6a42-c459-49fa-8205-54053d24963e.png?v=1795532642",
-     "name": "MBF Corduroy Puffer Jacket",
-     "price": 50.0,
-     "url": "https://ementasb.com/products/mbf-corduroy-puffer-jacket"
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/CopiadeCOCKTAIL-HODDIE-BLACK-BACK.png?v=1795535452",
+     "name": "COCKTAIL HOODIE",
+     "price": 100.0,
+     "url": "https://ementasb.com/products/cocktail-hoodie-1"
     },
     {
      "available": true,
      "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/magoado-twill-elastic-pants-off-white-front_33f172dc-96fe-4cc3-9c9b-a38fc2e79049.webp?v=1784804060",
-     "name": "Magoado Twill Elastic Pants",
-     "price": 90.0,
-     "url": "https://ementasb.com/products/magoado-twill-elastic-pants"
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/CALCAS7.webp?v=1774624790",
+     "name": "Canudo Jeans",
+     "price": 100.0,
+     "url": "https://ementasb.com/products/canudo-jeans-light-blue-washed"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/Ementa_MBF_LS_Black_Back_a5e33147-8e92-4be8-894e-02f116de9f55.webp?v=1795533764",
+     "name": "MBF Long Sleeve",
+     "price": 75.0,
+     "url": "https://ementasb.com/products/mbf-long-sleeve"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/milaya-jacket-black-front.png?v=1795533446",
+     "name": "MILAYA JACKET",
+     "price": 80.0,
+     "url": "https://ementasb.com/products/milaya-jacket"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/Ementa_blue_fur_jacket_45ca9b33-5620-467f-a587-aab76611a79e.png?v=1795532982",
+     "name": "Poncha Jacket",
+     "price": 75.0,
+     "url": "https://ementasb.com/products/poncha-jacket"
     }
    ],
    "sources": [
@@ -2364,7 +2388,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "15:07"
+   "time": "16:07"
   },
   {
    "brand": "supreme",
