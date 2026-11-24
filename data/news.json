@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "196ec70c38c8",
+   "image": null,
+   "published": "2026-11-24T06:41+00:00",
+   "quiet": true,
+   "source": "House of Heat°",
+   "title": "Supreme x The North Face Fall 2026 Collection Releases on Black Friday",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb0kyNDNnbmZvdzVQU3Q3MUF4aE8zRnktck9tNHFra3NqbmNGWk1IaXlrVGU2cDE1bzFMTGpOdlNMOFpHbzZROWFoNjQyZWQzR0NCRW0ycHY4QXFMbzhXaF8xTjA3T0s5OTdFZEJlTU51T09HdURNdjlEUDVyY283c3RB?oc=5"
+  },
+  {
    "brand": "bape",
    "date_in_title": false,
    "droplist": false,
@@ -22,18 +34,6 @@
    "source": "House of Heat°",
    "title": "Palace Skateboards Unveils Holiday 2026 Collection",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LZTMzMnpYUnFRclpYSEd3d3U1Rjd4dTNyN0FlNkhfWlhzdmZja28wc2xOTlB6UEdKMGJ5SXQxMHVNNmw5X2dnNWhMeWhmSXQ2VmVKRi1ZNF8xT1pDRF84Rm1Zb2lmdFRXUXpPaVMzRHJIUmNlZzdGa3NwbDI?oc=5"
-  },
-  {
-   "brand": "supreme",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "196ec70c38c8",
-   "image": null,
-   "published": "2026-11-24T00:40+00:00",
-   "quiet": true,
-   "source": "House of Heat°",
-   "title": "Supreme x The North Face Fall 2026 Collection Releases on Black Friday",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb0kyNDNnbmZvdzVQU3Q3MUF4aE8zRnktck9tNHFra3NqbmNGWk1IaXlrVGU2cDE1bzFMTGpOdlNMOFpHbzZROWFoNjQyZWQzR0NCRW0ycHY4QXFMbzhXaF8xTjA3T0s5OTdFZEJlTU51T09HdURNdjlEUDVyY283c3RB?oc=5"
   },
   {
    "brand": "supreme",
@@ -540,7 +540,7 @@
    "droplist": false,
    "id": "cb035aa6c47a",
    "image": null,
-   "published": "2026-11-14T22:56+00:00",
+   "published": "2026-11-14T08:00+00:00",
    "quiet": true,
    "source": "Yahoo",
    "title": "Corteiz Air Max 95 ‘Gutta Green’: Resale Price Check",
