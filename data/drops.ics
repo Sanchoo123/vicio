@@ -408,6 +408,18 @@ DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
 URL:https://eu.supreme.com
 END:VEVENT
 BEGIN:VEVENT
+UID:nike-2026-12-04-snkrs-0800@vicio
+DTSTAMP:20261204T000000Z
+DTSTART:20261204T080000Z
+DTEND:20261204T083000Z
+SUMMARY:Nike · Air Max 95 Big Bubble “Sport Green and Safety Orange”
+DESCRIPTION:Air Max 95 Big Bubble “Sport Green and Safety Orange”\nMé
+ todo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.nike.com/pt/launch/
+ t/air-max-95-big-bubble-sport-green-and-safety-orange-2
+URL:https://www.nike.com/pt/launch/t/air-max-95-big-bubble-sport-green-and
+ -safety-orange-2
+END:VEVENT
+BEGIN:VEVENT
 UID:palace-2026-12-04@vicio
 DTSTAMP:20261204T000000Z
 DTSTART:20261204T110000Z

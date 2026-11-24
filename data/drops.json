@@ -2551,6 +2551,34 @@
    "time": "16:00"
   },
   {
+   "brand": "nike",
+   "date": "2026-12-04",
+   "id": "nike-2026-12-04-snkrs-0800",
+   "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/a02abc51-e743-4808-ba6c-01580ac9fe00/air%C2%A0max%C2%A095%C2%A0big%C2%A0bubble-sport-green-and-safety-orange-ir1944-102-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+   "method": "SNKRS · FCFS",
+   "name": "Air Max 95 Big Bubble “Sport Green and Safety Orange”",
+   "origin": "nike",
+   "products": [
+    {
+     "color": "Sail/Laranja Total/Verde Sport/Prateado metalizado",
+     "currency": "EUR",
+     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/a02abc51-e743-4808-ba6c-01580ac9fe00/air%C2%A0max%C2%A095%C2%A0big%C2%A0bubble-sport-green-and-safety-orange-ir1944-102-%E2%80%93-data-de-lan%C3%A7amento.jpg",
+     "name": "Air Max 95 Big Bubble “Sport Green and Safety Orange”",
+     "price": 189.99,
+     "sku": "IR1944-102",
+     "url": "https://www.nike.com/pt/launch/t/air-max-95-big-bubble-sport-green-and-safety-orange-2"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nike SNKRS Portugal",
+     "url": "https://www.nike.com/pt/launch/t/air-max-95-big-bubble-sport-green-and-safety-orange-2"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:00"
+  },
+  {
    "brand": "palace",
    "date": "2026-12-04",
    "id": "palace-2026-12-04",
