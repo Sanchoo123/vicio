@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "d9d6b3a11f12",
+   "image": null,
+   "published": "2026-11-24T20:26+00:00",
+   "quiet": true,
+   "source": "Stanisland Magazine",
+   "title": "Supreme x The North Face Cannot Undo Their Latest Collaboration",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE91MlJzSG5DWHRpN1o4WW01OHpFaDBEM3c2MmNKeF9ORzJWRlQ4TmY2M2RvX2dUanJMZ18xaFduWmxQWnJKZVpNNUpGc1dNZ283RVl3NEdHbElsRS1tRS1ESkZCQkJJVmd0N013NlhHajM0UQ?oc=5"
+  },
+  {
    "brand": "bape",
    "date": "2026-11-27",
    "date_in_title": true,
@@ -941,18 +953,6 @@
    "source": "KicksUnderCost",
    "title": "Palace x Burberry Collection Releases November 5",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWFZBTVdXWHA2WUgwOVNocDRjT3Bsc05vdWJtT1ZmR2txVVFxOFJ5MDZDN25MY2xwTUFzNVBjOFNobEJqN3RtQms2Njk2YlV5XzRnOUpVQUdIVFVFQ3R5MHVldWprMF9HZ01DZ2hMa1FjYmo1R1ZrRkxQU1dWazhPdjJ5d2pESjA?oc=5"
-  },
-  {
-   "brand": "stussy",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "d97b7e7a9a26",
-   "image": null,
-   "published": "2026-11-08T08:12+00:00",
-   "quiet": true,
-   "source": "auroradesio.it",
-   "title": "Nike Benassi Jdi Slider Flip Flops - 25 Konsep Terkini Sandal Nike Benassi Stussy",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxTFk1VkdJLTBfMy0tbmRTZldtdmR6VFg1eF9jcUlSZWs4WWJiYnBkMFljTWFwUFREeGxxYXVHRUVkWkJ4dEVRcWhzcF9idk9qdVJr?oc=5"
   }
  ]
 }
