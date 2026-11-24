@@ -1,18 +1,6 @@
 {
  "news": [
   {
-   "brand": "supreme",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "196ec70c38c8",
-   "image": null,
-   "published": "2026-11-24T06:41+00:00",
-   "quiet": true,
-   "source": "House of Heat°",
-   "title": "Supreme x The North Face Fall 2026 Collection Releases on Black Friday",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb0kyNDNnbmZvdzVQU3Q3MUF4aE8zRnktck9tNHFra3NqbmNGWk1IaXlrVGU2cDE1bzFMTGpOdlNMOFpHbzZROWFoNjQyZWQzR0NCRW0ycHY4QXFMbzhXaF8xTjA3T0s5OTdFZEJlTU51T09HdURNdjlEUDVyY283c3RB?oc=5"
-  },
-  {
    "brand": "bape",
    "date_in_title": false,
    "droplist": false,
@@ -34,6 +22,18 @@
    "source": "House of Heat°",
    "title": "Palace Skateboards Unveils Holiday 2026 Collection",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LZTMzMnpYUnFRclpYSEd3d3U1Rjd4dTNyN0FlNkhfWlhzdmZja28wc2xOTlB6UEdKMGJ5SXQxMHVNNmw5X2dnNWhMeWhmSXQ2VmVKRi1ZNF8xT1pDRF84Rm1Zb2lmdFRXUXpPaVMzRHJIUmNlZzdGa3NwbDI?oc=5"
+  },
+  {
+   "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "196ec70c38c8",
+   "image": null,
+   "published": "2026-11-24T00:41+00:00",
+   "quiet": true,
+   "source": "House of Heat°",
+   "title": "Supreme x The North Face Fall 2026 Collection Releases on Black Friday",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb0kyNDNnbmZvdzVQU3Q3MUF4aE8zRnktck9tNHFra3NqbmNGWk1IaXlrVGU2cDE1bzFMTGpOdlNMOFpHbzZROWFoNjQyZWQzR0NCRW0ycHY4QXFMbzhXaF8xTjA3T0s5OTdFZEJlTU51T09HdURNdjlEUDVyY283c3RB?oc=5"
   },
   {
    "brand": "supreme",
@@ -188,6 +188,18 @@
    "source": "The Hype Magazine",
    "title": "Palace x BAPE Winter 2026 Collection Launches Nov. 20",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0NwSmNQaTBkOExYN3oybFNwelNwNjlDTjkxM3hMbi1LNnpsSVp6T0tSX3BtWVVYWlQ4ZTlQNW1oWFBCMVd4WVFDVmVjRXZhVW56cFkzNVJQMkpIWE51M1d6eDRKbjYyUHZjN1djRk9qZ0VTb1c1Tnc2Ui0xb1VHNmlYbnpHT1E0SnB5dU1JSTViQmFFbnRjaDV2OGc?oc=5"
+  },
+  {
+   "brand": "corteiz",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "bf6d684cc160",
+   "image": null,
+   "published": "2026-11-20T08:00+00:00",
+   "quiet": true,
+   "source": "Nice Kicks",
+   "title": "Corteiz x Nike Shox R419 “Silver Surfer”",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbnF5RUs5SUdSY2dnVHpOTV9LdzNmOGpncHVDbmZaZWZoUmpxZDdWaDdtbEFDYVZGMlF1SjRTOXJzMkVTSTlUT2JlTkgzb3NTbWM3eks4R0NxakExbFVnY1VvaEtWRmROa3RBX3BUM2tvd0lrcExxMmVxX25JWlE2WllrMG9tWGM?oc=5"
   },
   {
    "brand": "supreme",
@@ -540,11 +552,23 @@
    "droplist": false,
    "id": "cb035aa6c47a",
    "image": null,
-   "published": "2026-11-14T08:00+00:00",
+   "published": "2026-11-14T22:56+00:00",
    "quiet": true,
    "source": "Yahoo",
    "title": "Corteiz Air Max 95 ‘Gutta Green’: Resale Price Check",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPM1lONmxKQXE4X3YxLVdCTW5hT2RTZjBOVDlRNlB3dWRHS3J0Z0ZjdnI1LW5OU1ZJM3lBUWpIc0txd19HdGFObFJtNHdxYUEtWjI1WmNVRVdGbnZVVGV3VVZ5cVl3VVBvcnMxQTRWX0xGWHpFYTI3UkUzcm55OEF0VHUwVlpadThHWE5rejRTQkg?oc=5"
+  },
+  {
+   "brand": "corteiz",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "ad52e1103441",
+   "image": null,
+   "published": "2026-11-14T08:00+00:00",
+   "quiet": true,
+   "source": "Men's Journal",
+   "title": "More Than Three Years After Corteiz’s ‘Gutta Green’ Air Max 95 Dropped, One Number Tells You Where Its Resale Market Stands",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZmsxSnluQkdqVmptbVU4dURLdDUwRGVYQnBmbExFZkFiN0s2SWZZMTlwenFfOXJ1LWcxdHN5RjlUcHQ5V1p1N0dWdks3R0tXei0yNVRQMUJYemY0UFN1TldEdk1QSW40TXBEUzBRWFZNbno4MnV1dzNERzZkM1NNQzd3VWppeHJidm90U3NXbUtMdklpYUxOeA?oc=5"
   },
   {
    "brand": "supreme",
@@ -628,18 +652,6 @@
    "source": "Hypebeast Fashion",
    "title": "Billie Eilish Brings a Longtime Streetwear Affinity Full Circle With BAPE",
    "url": "https://hypebeast.com/2026/11/billie-eilish-bape-bathing-ape-collaborative-collection-release-info"
-  },
-  {
-   "brand": "corteiz",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "bf6d684cc160",
-   "image": null,
-   "published": "2026-11-12T16:52+00:00",
-   "quiet": true,
-   "source": "Nice Kicks",
-   "title": "Corteiz x Nike Shox R419 “Silver Surfer”",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbnF5RUs5SUdSY2dnVHpOTV9LdzNmOGpncHVDbmZaZWZoUmpxZDdWaDdtbEFDYVZGMlF1SjRTOXJzMkVTSTlUT2JlTkgzb3NTbWM3eks4R0NxakExbFVnY1VvaEtWRmROa3RBX3BUM2tvd0lrcExxMmVxX25JWlE2WllrMG9tWGM?oc=5"
   },
   {
    "brand": "supreme",
@@ -942,18 +954,6 @@
    "source": "Hypebae",
    "title": "Vaquera and Supreme Just Dropped a Punk-Inspired Collaboration",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYnJsYjNqZHpGYl91VjFzMUlhZ3llSWJrdk5zUG9QdXVqbkZmS25sVFloTXlLbzJHMFR2a1NUcHRVVTZQaWV5WWxrYVd2S0Rocm5XV0xqSmFVTnY3aElWczFLamJqUzdxNDBYazFQdHJSMWQ2Q21nc0Rsb09MekdFOFFfbkRQaTc3Rm1MSWJNV0R2R0k4WlZUSFNBcVU1cVZnSnhCVllBQjlFZjYzTzBlR2pYZw?oc=5"
-  },
-  {
-   "brand": "stussy",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "f6957d93f34a",
-   "image": null,
-   "published": "2026-11-06T08:00+00:00",
-   "quiet": true,
-   "source": "SNKRDUNK",
-   "title": "COMME des GARCONS CDG x Stussy Hoodie \"Black\"",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5RzFFaXRhdmwyYXgtR0ZPRDU1QWVTZlVyMU40eUdrNTByemdEZ0FPaVo3dHVpRERxSzRPNExuSUR4b2JnOVBkSTFsbkxhR0E0YnFEYw?oc=5"
   }
  ]
 }
