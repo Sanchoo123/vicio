@@ -317,6 +317,16 @@ DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Ementa: https://emen
 URL:https://ementasb.com
 END:VEVENT
 BEGIN:VEVENT
+UID:represent-2026-11-24@vicio
+DTSTAMP:20261124T000000Z
+DTSTART:20261124T100700Z
+DTEND:20261124T103700Z
+SUMMARY:Represent · Peças novas na loja
+DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Represent: https://r
+ epresentclo.com
+URL:https://representclo.com
+END:VEVENT
+BEGIN:VEVENT
 UID:supreme-2026-11-26@vicio
 DTSTAMP:20261126T000000Z
 DTSTART:20261126T160000Z
