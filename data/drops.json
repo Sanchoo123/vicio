@@ -2335,7 +2335,7 @@
    "brand": "ementa",
    "date": "2026-11-24",
    "id": "ementa-2026-11-24",
-   "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/CopiadeCOCKTAIL-HODDIE-BLACK-BACK.png?v=1795535452",
+   "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/ementa_cocktail_cotton_black_t-shirt_back_3de48ea1-624a-4155-875e-104459e6870e.webp?v=1795538856",
    "method": "FCFS",
    "name": "Peças novas na loja",
    "origin": "shopify",
@@ -2343,42 +2343,42 @@
     {
      "available": false,
      "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/CopiadeCOCKTAIL-HODDIE-BLACK-BACK.png?v=1795535452",
-     "name": "COCKTAIL HOODIE",
-     "price": 100.0,
-     "url": "https://ementasb.com/products/cocktail-hoodie-1"
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/ementa_cocktail_cotton_black_t-shirt_back_3de48ea1-624a-4155-875e-104459e6870e.webp?v=1795538856",
+     "name": "COCKTAIL T-SHIRT",
+     "price": 60.0,
+     "url": "https://ementasb.com/products/cocktail-t-shirt-1"
     },
     {
      "available": true,
      "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/CALCAS7.webp?v=1774624790",
-     "name": "Canudo Jeans",
-     "price": 100.0,
-     "url": "https://ementasb.com/products/canudo-jeans-light-blue-washed"
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/T-SHIRTWHITEARKTOSBACK.webp?v=1771608093",
+     "name": "Arktos T-Shirt",
+     "price": 60.0,
+     "url": "https://ementasb.com/products/arktos-t-shirt-white"
     },
     {
      "available": false,
      "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/Ementa_MBF_LS_Black_Back_a5e33147-8e92-4be8-894e-02f116de9f55.webp?v=1795533764",
-     "name": "MBF Long Sleeve",
-     "price": 75.0,
-     "url": "https://ementasb.com/products/mbf-long-sleeve"
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/FLOWERFRONTNAVY_0a8443a6-465c-46f9-8624-9bf1eacef8b5.webp?v=1787330360",
+     "name": "Flower Corduroy Tote Bag",
+     "price": 65.0,
+     "url": "https://ementasb.com/products/flower-corduroy-tote-bag"
     },
     {
      "available": false,
      "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/milaya-jacket-black-front.png?v=1795533446",
-     "name": "MILAYA JACKET",
-     "price": 80.0,
-     "url": "https://ementasb.com/products/milaya-jacket"
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/EMENTA_241UTB0006001_CAKE_CORD_WHITE_FRONT_8587f7c6-66a5-4f21-abe1-c16c79864e58.webp?v=1787217167",
+     "name": "Cake Corduroy Tote Bag",
+     "price": 65.0,
+     "url": "https://ementasb.com/products/cake-corduroy-tote-bag"
     },
     {
      "available": false,
      "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/Ementa_blue_fur_jacket_45ca9b33-5620-467f-a587-aab76611a79e.png?v=1795532982",
-     "name": "Poncha Jacket",
-     "price": 75.0,
-     "url": "https://ementasb.com/products/poncha-jacket"
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/241UTB0004001-FRONT_22fc864b-ad01-455e-be6a-7f047f20898f.png?v=1787587376",
+     "name": "Tucanos Corduroy Tote Bag",
+     "price": 65.0,
+     "url": "https://ementasb.com/products/tucanos-corduroy-tote-bag"
     }
    ],
    "sources": [
@@ -2388,7 +2388,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "16:07"
+   "time": "17:07"
   },
   {
    "brand": "supreme",
