@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "palace",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "a28b962f5671",
+   "image": null,
+   "published": "2026-11-24T10:15+00:00",
+   "quiet": true,
+   "source": "Culted",
+   "title": "Palace Skateboards is getting playful with its Holiday 2026 collection",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdUpYU0pWb0tnTzRaVFhaZVVQV2xDVUdzN01WQnotTk1zSUV4elN0eFNsdGFpNEx5b3hlam5UVll2VWgzTzRuQlpkZ2FsWmtfMXJkRTlyWWptVUFvT3BVYjd6bXpRSGtadDV0MHJCSFhqLVg4RDZ3RzhlREs3bUhHYUhJWFJRMHY5YUJWeTRYSmpMUWg1SDRHSVFKX2t3c0U?oc=5"
+  },
+  {
    "brand": "bape",
    "date_in_title": false,
    "droplist": false,
@@ -564,7 +576,7 @@
    "droplist": false,
    "id": "cb035aa6c47a",
    "image": null,
-   "published": "2026-11-14T08:00+00:00",
+   "published": "2026-11-14T22:56+00:00",
    "quiet": true,
    "source": "Yahoo",
    "title": "Corteiz Air Max 95 ‘Gutta Green’: Resale Price Check",
@@ -941,19 +953,6 @@
    "source": "House of Heat°",
    "title": "Where to Buy: BAPE®︎ x adidas Holiday 2026 Collection (Nov. 7)",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5XdjJlWDJ1M1pUZjBXR3p5d3hLd3hsTFlYSld6Mm0tcFNBdW8wVXRqeTdZTUJTYXFLSjQ5X2FSSzRmZWFYczFqeUhJMFNsWTUwOFRRU2JmTEM5bEdDZFdTQ0RBb3NNTklqSkxYMEJPU29YRVU?oc=5"
-  },
-  {
-   "brand": "corteiz",
-   "date": "2026-11-20",
-   "date_in_title": true,
-   "droplist": false,
-   "id": "68349ebf9e7c",
-   "image": null,
-   "published": "2026-11-07T01:29+00:00",
-   "quiet": true,
-   "source": "Sneaker Bar Detroit",
-   "title": "Corteiz x Nike Shox R419 “Metallic Silver” Releases November 20th",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT2lvZW9RRnlBY3dqRmFXQjduZExWSDBEdUw5WVJ2UkRoOHdYV2ZXVWdLeDhaOVplUjl4Q1V0ODVuY3ZkcWdzRmNNQ2stNVZhczV3alFWX0Yzck51ZXAxaGRDN21BYlY4X3B4LVlfLWFXTFA2UGo5WjhxNm03ZTVBeUc4R29hb28?oc=5"
   }
  ]
 }
