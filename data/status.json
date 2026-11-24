@@ -4,7 +4,8 @@
    "ok": true
   },
   "Google Notícias": {
-   "ok": true
+   "msg": "semana: HTTP Error 503: Service Unavailable; supreme: HTTP Error 503: Service Unavailable; palace: HTTP Error 503: Service Unavailable; stussy: HTTP Error 503: Service Unavailable; corteiz: HTTP Error",
+   "ok": false
   },
   "Hypebeast": {
    "ok": true
