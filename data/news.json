@@ -1,6 +1,30 @@
 {
  "news": [
   {
+   "brand": "corteiz",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "37ea281f841c",
+   "image": null,
+   "published": "2026-11-25T19:31+00:00",
+   "quiet": true,
+   "source": "VERSUS - The Future of Football",
+   "title": "Clint Teases Corteiz is Coming to EA Sports FC 27",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeUNLSWRkWDVudHpQZ2E1YTluMUVSc2VYQnBaS002Tk5WUzZNaGE0dFRlempZV0VaTXZKRkJoQjNzZXNneVhsMzU0WEpmQU1jNU9uTDlZWUtuRnNLOEFoeVBEWGNqNHpGdTJZSVdpY1BaYlVRLWF1c0ttc2N6STF2cDhXTnN0NUhiUmNRRzd3?oc=5"
+  },
+  {
+   "brand": "stussy",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "4514ec291d5c",
+   "image": null,
+   "published": "2026-11-25T18:50+00:00",
+   "quiet": true,
+   "source": "Electronic Groove",
+   "title": "Chris Stussy and KETTAMA collab on ‘Don’t Play Around’",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLW1Da2l3ZF9FM3FUXy1EY3VQTzFLZlo5NXNTMW05Tnk2WlpudUFkbE12VUxfNC01NzVKRDNONXVjY2Y5S1Bsbk80MlBKVWNtbDZQNjRDTWhWNFN2R0JFbnJMVWRxbzRoemtnTzdTSGx6OVA0ZDFGSU04bUFZNXN6aXFGNlFySzlZ?oc=5"
+  },
+  {
    "brand": "supreme",
    "date_in_title": false,
    "droplist": false,
@@ -410,7 +434,7 @@
    "droplist": false,
    "id": "0359765f88fc",
    "image": null,
-   "published": "2026-11-17T09:09+00:00",
+   "published": "2026-11-17T08:00+00:00",
    "quiet": true,
    "source": "PAUSE Online",
    "title": "Palace x BAPE Are Finally Teaming Up for Their First-Ever Collab",
@@ -929,30 +953,6 @@
    "source": "Stereogum",
    "title": "Supreme Announces Elliott Smith Collection",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSTUzREZZSmJGaFltSTIyLVFkNG5TSWpaVDdKdXlYR1BSQy1EQnNHS3JUY0hYRFBELXVoaGFyYlNKZnI3dTFZSzRlUk80b1lZd0lMblNrMmh0NjFuaEEtcG1KajR0OWpiWXNIVzNaT015aUVaTV9IZGZTV0d4VllUNktxcw?oc=5"
-  },
-  {
-   "brand": "supreme",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "d9b2c474ae5d",
-   "image": null,
-   "published": "2026-11-09T08:00+00:00",
-   "quiet": true,
-   "source": "Hypebeast",
-   "title": "Supreme x Elliott Smith Fall 2026 Collaboration Collection",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV0VFMFNkU2FsTmY3bm9KdlpOdHhNQkhSZkQtQ2xobU54ckppMElPdzAxblBlNmdqNGlrUnVWbXFGank5di14YS13QzV0LXlTV0RzWlgtcFlBa3BsNjIyajN3dmRUQnlmOHNqTEUxbG92dHZzcFVwZl8yREl0SlFQMHNJZGczdGlOU3ZoREl3?oc=5"
-  },
-  {
-   "brand": "palace",
-   "date_in_title": false,
-   "droplist": true,
-   "id": "88f0551a247e",
-   "image": null,
-   "published": "2026-11-09T08:00+00:00",
-   "quiet": true,
-   "source": "Hypebeast",
-   "title": "Everything Dropping at Palace This Week",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTWFxcThndm9aZmRmOVYtazJoNzNidjZ2RnJpMGtyV2hKbWREaXBaN1dGbnhiQnBDUXZudVRoR2hOWG82MXJHaHRuekY2SjBLaS15d3Y0TDZmRWhoZngyckxsV2V4bnZuTk90Z2hFZDZnanluNlUxaFliclFzSW5xV1N5NUJvMzg?oc=5"
   }
  ]
 }
