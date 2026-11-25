@@ -172,12 +172,10 @@ UID:nike-2026-11-19-snkrs-0819@vicio
 DTSTAMP:20261119T000000Z
 DTSTART:20261119T081900Z
 DTEND:20261119T084900Z
-SUMMARY:Nike · One Block Down “Nike Air Max 95 LUX "Italy"” + 3 lanç
- amentos
-DESCRIPTION:One Block Down “Nike Air Max 95 LUX "Italy"” + 3 lançamen
- tos\nMétodo: NIKE.COM\nNike SNKRS Portugal: https://www.nike.com/pt/laun
- ch?s=upcoming
-URL:https://www.nike.com/pt/launch?s=upcoming
+SUMMARY:Nike · SNKRS Service
+DESCRIPTION:SNKRS Service\nMétodo: NIKE.COM\nNike SNKRS Portugal: https:/
+ /www.nike.com/pt/launch/t/ep-42-snkrs-service
+URL:https://www.nike.com/pt/launch/t/ep-42-snkrs-service
 END:VEVENT
 BEGIN:VEVENT
 UID:represent-2026-11-19@vicio

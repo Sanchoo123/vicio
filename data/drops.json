@@ -918,70 +918,25 @@
    "brand": "nike",
    "date": "2026-11-19",
    "id": "nike-2026-11-19-snkrs-0819",
-   "image": "https://static.nike.com/a/images/w_1536,c_limit/9d78dd62-fd85-4df7-a0f4-d0a810e67c93/nike-air-max-95-lux-italy-one-block-down.jpg",
+   "image": "https://static.nike.com/a/images/w_1536,c_limit/a6f85c33-44e3-4607-b6ca-52ab745d706e/snkrs-service.jpg",
    "method": "NIKE.COM",
-   "name": "One Block Down “Nike Air Max 95 LUX \"Italy\"” + 3 lançamentos",
+   "name": "SNKRS Service",
    "origin": "nike",
    "products": [
     {
-     "color": "Preto",
-     "currency": "EUR",
-     "image": "https://static.nike.com/a/images/w_1536,c_limit/9d78dd62-fd85-4df7-a0f4-d0a810e67c93/nike-air-max-95-lux-italy-one-block-down.jpg",
-     "name": "Camisola Nike x One Block Down para homem",
-     "price": 94.99,
-     "sku": "IO9469-010",
-     "url": "https://www.nike.com/pt/launch/t/nike-air-max-95-lux-italy-one-block-down"
-    },
-    {
-     "color": "Preto",
-     "currency": "EUR",
-     "image": "https://static.nike.com/a/images/w_1536,c_limit/9d78dd62-fd85-4df7-a0f4-d0a810e67c93/nike-air-max-95-lux-italy-one-block-down.jpg",
-     "name": "Calças Nike x One Block Down para homem",
-     "price": 134.99,
-     "sku": "IO9467-010",
-     "url": "https://www.nike.com/pt/launch/t/nike-air-max-95-lux-italy-one-block-down"
-    },
-    {
-     "color": "Preto",
-     "currency": "EUR",
-     "image": "https://static.nike.com/a/images/w_1536,c_limit/9d78dd62-fd85-4df7-a0f4-d0a810e67c93/nike-air-max-95-lux-italy-one-block-down.jpg",
-     "name": "Casaco com fecho de correr a todo o comprimento Nike x One Block Down para homem",
-     "price": 144.99,
-     "sku": "IO9464-010",
-     "url": "https://www.nike.com/pt/launch/t/nike-air-max-95-lux-italy-one-block-down"
-    },
-    {
      "color": "Preto/Preto/Verde Gym/Preto",
      "currency": "EUR",
-     "image": "https://static.nike.com/a/images/w_1536,c_limit/5c7ac5d9-7085-4635-9a8e-c7827a15960f/air%C2%A0max%C2%A095%C2%A0big%C2%A0bubble%C2%A0lux-x-one-block-down-italy-black-im0704-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-     "name": "Air Max 95 Big Bubble LUX x One Block Down \"Italy\" “Black”",
+     "image": "https://static.nike.com/a/images/w_1536,c_limit/a6f85c33-44e3-4607-b6ca-52ab745d706e/snkrs-service.jpg",
+     "name": "Sapatilhas Nike Air Max 95 Big Bubble Lux para homem",
      "price": 199.99,
      "sku": "IM0704-001",
-     "url": "https://www.nike.com/pt/launch/t/air-max-95-big-bubble-lux-one-block-down-italy-black"
-    },
-    {
-     "color": "Sundial/Multicolor",
-     "currency": "EUR",
-     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/e3590e4a-c882-409d-925f-829ace652052/nike-tiempo-maestro-elite-x-kids-of-immigrants-metallic-pewter-and-amarillo-iv3429-700-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-     "name": "Nike Tiempo Maestro Elite x Kids Of Immigrants “Metallic Pewter and Amarillo”",
-     "price": 269.99,
-     "sku": "IV3429-700",
-     "url": "https://www.nike.com/pt/launch/t/nike-tiempo-maestro-elite-kids-of-immigrants-metallic-pewter-and-amarillo"
-    },
-    {
-     "color": "Amarillo/Multicolor",
-     "currency": "EUR",
-     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/024d8bd9-8b33-452c-beb4-725d122657be/nike-tiempo-streetgato-x-kids-of-immigrants-black-and-team-orange-iv3430-700-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-     "name": "Nike Tiempo Streetgato x Kids of Immigrants “Black and Team Orange”",
-     "price": 99.99,
-     "sku": "IV3430-700",
-     "url": "https://www.nike.com/pt/launch/t/nike-tiempo-streetgato-x-kids-of-immigrants-1"
+     "url": "https://www.nike.com/pt/launch/t/ep-42-snkrs-service"
     }
    ],
    "sources": [
     {
      "name": "Nike SNKRS Portugal",
-     "url": "https://www.nike.com/pt/launch?s=upcoming"
+     "url": "https://www.nike.com/pt/launch/t/ep-42-snkrs-service"
     }
    ],
    "status": "confirmado",
