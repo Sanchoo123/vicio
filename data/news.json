@@ -124,24 +124,24 @@
    "brand": "supreme",
    "date_in_title": false,
    "droplist": false,
+   "id": "6e1ed34956d8",
+   "image": null,
+   "published": "2026-11-23T11:36+00:00",
+   "quiet": true,
+   "source": "Hypebeast",
+   "title": "Supreme and The North Face Unveil Fall 2026 Bones Collection",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ0lvLXlLMmVwTzkzU0N5dmhkbmVad3dVTEdMbERvaFA5VzJJV3FCeWd4amgtOUwtSUFScjdCVnE3dWFKck1vWExDNDdTOHRnQjZvOHdSZ2JJeUxKRmJKRW5velVQX1Vmb09CZEVrandhQkpzeXFwQS1lTHlRUnREdmFXLUk2aGJMWFI4Z1lITGNLeU85cUhv?oc=5"
+  },
+  {
+   "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
    "id": "8ce3e1566189",
    "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F23%2Fsupreme-the-north-face-fall-2026-bones-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max",
    "published": "2026-11-23T11:30+00:00",
    "source": "Hypebeast Fashion",
    "title": "Supreme and The North Face Unveil Fall 2026 Bones Collection",
    "url": "https://hypebeast.com/2026/11/supreme-the-north-face-fall-2026-bones-collection-release-info"
-  },
-  {
-   "brand": "supreme",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "6e1ed34956d8",
-   "image": null,
-   "published": "2026-11-23T11:30+00:00",
-   "quiet": true,
-   "source": "Hypebeast",
-   "title": "Supreme and The North Face Unveil Fall 2026 Bones Collection",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ0lvLXlLMmVwTzkzU0N5dmhkbmVad3dVTEdMbERvaFA5VzJJV3FCeWd4amgtOUwtSUFScjdCVnE3dWFKck1vWExDNDdTOHRnQjZvOHdSZ2JJeUxKRmJKRW5velVQX1Vmb09CZEVrandhQkpzeXFwQS1lTHlRUnREdmFXLUk2aGJMWFI4Z1lITGNLeU85cUhv?oc=5"
   },
   {
    "brand": "nike",
@@ -225,6 +225,18 @@
    "source": "SNKRDUNK",
    "title": "PALACE x A BATHING APE Ape Head T-Shirt \"White\"",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iNTlFOUg1amx0UXFSMGJkejNac0pBdHNIdk1aeVlzWmgxbGgyeTZ0MUpvcXd5aXdZTWJmdElVb3ZmVWdPMlNidkV6NnRyTjhXa2Ntbw?oc=5"
+  },
+  {
+   "brand": "bape",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "7d99dce0e72a",
+   "image": null,
+   "published": "2026-11-21T01:36+00:00",
+   "quiet": true,
+   "source": "SNKRDUNK",
+   "title": "PALACE x A BATHING APE Classic Down Jacket \"Brown\"",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00RlFGV0E2NnI4emk5VGhqNHp4UUdxSzFQS2VpWGRmNlZ4a0RrLXlfeW5wTzRiV0ZPNDd3Tml1TkF3UHd6VlNDa2ppMlN3cGZsZG5pOQ?oc=5"
   },
   {
    "brand": "nike",
@@ -941,18 +953,6 @@
    "source": "Pitchfork",
    "title": "A Supreme Elliott Smith Collection? What the Hell, Sure",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTE1FX2FfOGh5eTQ2eGZmUVVzVHZtR09RUGhZSzRCck9mQ19jZWI2ZWlCVkVTbkt0WFEtWXFoVHM0RlJtcmVJSnNwTVYxTW90V2xJaHlMWlhuWTBSM3kyZVhMWldHNzZINVJCVExoWVVuWTk5SnFMMzcwVkRPTXBEZzJocDh5b1lrTXc?oc=5"
-  },
-  {
-   "brand": "palace",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "0e2005631b40",
-   "image": null,
-   "published": "2026-11-09T00:14+00:00",
-   "quiet": true,
-   "source": "KicksUnderCost",
-   "title": "Palace x Burberry Collection Releases November 5",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWFZBTVdXWHA2WUgwOVNocDRjT3Bsc05vdWJtT1ZmR2txVVFxOFJ5MDZDN25MY2xwTUFzNVBjOFNobEJqN3RtQms2Njk2YlV5XzRnOUpVQUdIVFVFQ3R5MHVldWprMF9HZ01DZ2hMa1FjYmo1R1ZrRkxQU1dWazhPdjJ5d2pESjA?oc=5"
   }
  ]
 }
