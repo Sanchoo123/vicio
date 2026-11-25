@@ -2605,6 +2605,57 @@
    "time": "11:07"
   },
   {
+   "brand": "bape",
+   "date": "2026-11-25",
+   "id": "bape-2026-11-25",
+   "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001HTM801006_BLK_A.jpg?v=1794414895",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001HTM801006_BLK_A.jpg?v=1794414895",
+     "name": "COLOR CAMO OVER PRINT KNIT CAP",
+     "price": 89.0,
+     "url": "https://eu.bape.com/products/0zxhtm006811r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001GLM701333_BLK_A.jpg?v=1795629028",
+     "name": "SUNGLASSES #21",
+     "price": 203.0,
+     "url": "https://eu.bape.com/products/0zxsxbs13006r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001ZPM701008_BLK_A_2.jpg?v=1793961550",
+     "name": "TIGER FULL ZIP HOODIE",
+     "price": 429.0,
+     "url": "https://eu.bape.com/products/0zxswm008151r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001HTM802303_BLK_A.jpg?v=1794414822",
+     "name": "MULTI LOGO CRYSTAL STONE BEANIE",
+     "price": 95.0,
+     "url": "https://eu.bape.com/products/0zxhtw303812r"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja BAPE",
+     "url": "https://eu.bape.com"
+    }
+   ],
+   "status": "confirmado",
+   "time": "18:07"
+  },
+  {
    "brand": "supreme",
    "date": "2026-11-26",
    "id": "supreme-2026-11-26",

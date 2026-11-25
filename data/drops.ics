@@ -345,6 +345,16 @@ DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Represent: https://r
 URL:https://representclo.com
 END:VEVENT
 BEGIN:VEVENT
+UID:bape-2026-11-25@vicio
+DTSTAMP:20261125T000000Z
+DTSTART:20261125T180700Z
+DTEND:20261125T183700Z
+SUMMARY:BAPE · Peças novas na loja
+DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja BAPE: https://eu.bap
+ e.com
+URL:https://eu.bape.com
+END:VEVENT
+BEGIN:VEVENT
 UID:supreme-2026-11-26@vicio
 DTSTAMP:20261126T000000Z
 DTSTART:20261126T160000Z
