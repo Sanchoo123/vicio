@@ -2656,6 +2656,49 @@
    "time": "18:07"
   },
   {
+   "brand": "ementa",
+   "date": "2026-11-26",
+   "id": "ementa-2026-11-26",
+   "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/TruckerCap.webp?v=1772541709",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/TruckerCap.webp?v=1772541709",
+     "name": "Trucker Cap",
+     "price": 40.0,
+     "url": "https://ementasb.com/products/trucker-cap-white-navy"
+    },
+    {
+     "available": false,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/52_ff3bfc1d-80ad-4860-9912-0ca7fa8b5fb6.webp?v=1795694261",
+     "name": "Buraca Signature Corduroy Cap",
+     "price": 31.5,
+     "url": "https://ementasb.com/products/buraca-signature-corduroy-cap"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/white.webp?v=1795693436",
+     "name": "Dory Signature Corduroy Duffel Bag",
+     "price": 52.0,
+     "url": "https://ementasb.com/products/dory-signature-corduroy-duffel-bag"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja Ementa",
+     "url": "https://ementasb.com"
+    }
+   ],
+   "status": "confirmado",
+   "time": "12:07"
+  },
+  {
    "brand": "supreme",
    "date": "2026-11-26",
    "id": "supreme-2026-11-26",

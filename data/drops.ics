@@ -355,6 +355,16 @@ DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja BAPE: https://eu.bap
 URL:https://eu.bape.com
 END:VEVENT
 BEGIN:VEVENT
+UID:ementa-2026-11-26@vicio
+DTSTAMP:20261126T000000Z
+DTSTART:20261126T120700Z
+DTEND:20261126T123700Z
+SUMMARY:Ementa · Peças novas na loja
+DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Ementa: https://emen
+ tasb.com
+URL:https://ementasb.com
+END:VEVENT
+BEGIN:VEVENT
 UID:supreme-2026-11-26@vicio
 DTSTAMP:20261126T000000Z
 DTSTART:20261126T160000Z
