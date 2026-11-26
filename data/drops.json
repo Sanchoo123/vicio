@@ -2659,34 +2659,34 @@
    "brand": "ementa",
    "date": "2026-11-26",
    "id": "ementa-2026-11-26",
-   "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/TruckerCap.webp?v=1772541709",
+   "image": null,
    "method": "FCFS",
    "name": "Peças novas na loja",
    "origin": "shopify",
    "products": [
     {
+     "available": false,
+     "currency": "EUR",
+     "image": null,
+     "name": "SIGNATURE WOOL CAP",
+     "price": 50.0,
+     "url": "https://ementasb.com/products/signature-wool-cap-1"
+    },
+    {
      "available": true,
      "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/TruckerCap.webp?v=1772541709",
-     "name": "Trucker Cap",
-     "price": 40.0,
-     "url": "https://ementasb.com/products/trucker-cap-white-navy"
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/ementa_E-Book_Cap_camel_1592dc86-5a30-4652-ba1b-6d1d764586ec.png?v=1795695046",
+     "name": "EBOOK CAP",
+     "price": 28.0,
+     "url": "https://ementasb.com/products/ebook-cap"
     },
     {
      "available": false,
      "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/52_ff3bfc1d-80ad-4860-9912-0ca7fa8b5fb6.webp?v=1795694261",
-     "name": "Buraca Signature Corduroy Cap",
-     "price": 31.5,
-     "url": "https://ementasb.com/products/buraca-signature-corduroy-cap"
-    },
-    {
-     "available": true,
-     "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/white.webp?v=1795693436",
-     "name": "Dory Signature Corduroy Duffel Bag",
-     "price": 52.0,
-     "url": "https://ementasb.com/products/dory-signature-corduroy-duffel-bag"
+     "image": "https://cdn.shopify.com/s/files/1/1628/6085/files/ementa_Dots_Canvas_Cap_burgundy_8721807f-ddaf-437f-83c0-950038f74e6a.png?v=1795694866",
+     "name": "DOTS CANVAS CAP",
+     "price": 28.0,
+     "url": "https://ementasb.com/products/dots-canvas-cap"
     }
    ],
    "sources": [
@@ -2696,7 +2696,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "12:07"
+   "time": "12:13"
   },
   {
    "brand": "supreme",
