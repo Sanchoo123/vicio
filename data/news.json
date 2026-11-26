@@ -160,6 +160,18 @@
    "brand": "supreme",
    "date_in_title": false,
    "droplist": false,
+   "id": "547b03f67ffd",
+   "image": null,
+   "published": "2026-11-23T11:56+00:00",
+   "quiet": true,
+   "source": "PAUSE Online",
+   "title": "The North Face x Supreme Get Ready for Winter",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVlNvNlhhdllaWDl4R3BVd24xT3llMks1NENGNVRDWFFGZjFocENSV2FHSG53bDJlTHh2Rk1xb1p1V0JRVXFtbTdER3E5b09KX09lN1NIMUh6TWJPREpjSHdNNjVIalBwTm80R2llbzdiSDhmeWJhc3hTbU50ODVIOFVhTQ?oc=5"
+  },
+  {
+   "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
    "id": "6e1ed34956d8",
    "image": null,
    "published": "2026-11-23T11:36+00:00",
@@ -940,19 +952,6 @@
    "source": "Time Out Worldwide",
    "title": "Corteiz is making Tokyo part of its world",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVmhSejdzR3NKN1R1OFc4QkZhWnhTLS1DYTdyazc1MHNRdW00Qm1qVk1yWHlEaUtuck1BaGFHZWNBeDY5QURLVFNCZnJ6ODhObHptangyTDB2ZU01MlBFcFpteWRmMXZ1R2ROLTQtT2c5V2hZcklOM2RaTHR6eFNRam9MNzNzRTFCR3hJ?oc=5"
-  },
-  {
-   "brand": "corteiz",
-   "date": "2026-11-20",
-   "date_in_title": true,
-   "droplist": false,
-   "id": "15b316a4f942",
-   "image": null,
-   "published": "2026-11-09T08:00+00:00",
-   "quiet": true,
-   "source": "JustFreshKicks",
-   "title": "Nike Shox R4 x Corteiz “Metallic Silver” Reportedly Releases November 20",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VMGxPdUdVN0V3M3lOZGs3R3l4RV9leTQzSml5ZEVPYnpUQXgybUdvSzdFMmpxbTBGU2xMc25KYUs4VUFMTEtOckk1aFNjMjB6enlOWWZwNVFvN2ZrRWVQWVdkUmp4UmJmUE8wbEU5REloZw?oc=5"
   }
  ]
 }
