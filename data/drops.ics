@@ -504,4 +504,14 @@ DESCRIPTION:Behind the Design “Air Jordan 11 Retro OG "Space Jam"” + 1
  ke.com/pt/launch?s=upcoming
 URL:https://www.nike.com/pt/launch?s=upcoming
 END:VEVENT
+BEGIN:VEVENT
+UID:supreme-2026-12-17@vicio
+DTSTAMP:20261217T000000Z
+DTSTART:20261217T160000Z
+DTEND:20261217T163000Z
+SUMMARY:Supreme · Drop semanal (previsto)
+DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
+ eu.supreme.com
+URL:https://eu.supreme.com
+END:VEVENT
 END:VCALENDAR

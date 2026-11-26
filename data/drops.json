@@ -3028,6 +3028,24 @@
    ],
    "status": "confirmado",
    "time": "08:00"
+  },
+  {
+   "brand": "supreme",
+   "date": "2026-12-17",
+   "id": "supreme-2026-12-17",
+   "image": null,
+   "method": "FCFS",
+   "name": "Drop semanal",
+   "origin": "pattern",
+   "products": [],
+   "sources": [
+    {
+     "name": "Ritmo habitual da marca",
+     "url": "https://eu.supreme.com"
+    }
+   ],
+   "status": "previsto",
+   "time": "16:00"
   }
  ]
 }
