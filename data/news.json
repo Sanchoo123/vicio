@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "palace",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "997c65c5700d",
+   "image": null,
+   "published": "2026-11-26T08:57+00:00",
+   "quiet": true,
+   "source": "The Sole Supplier",
+   "title": "Upcoming Releases from New Balance, Palace x Burberry, Skepta’s New Album and More on Our Radar",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM01fZXNUT2JFSGZMZVRqSzFQZGwxTXllcHdzaHFuYklydWpGZFZFUXhTU0VtMHlfcl90T2RGN2N1aldrLU5xMllxU2gxeWZJTVRhOTdIbVk1UlJDNDdNcVUyajZNdndCd0Z5X3llbndDcy03a3dfSk5jRG9YMzFlU1B0aU5HMXBfWVRkTHlCT1lUYXUxQmsxeUlNUjdVVTNjLUpUd3RNbw?oc=5"
+  },
+  {
    "brand": "corteiz",
    "date_in_title": false,
    "droplist": false,
@@ -940,18 +952,6 @@
    "source": "Sneaker News",
    "title": "Corteiz x Nike Shox R419 “Silver Surfer” Launches November 15th",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVDVlc1NfRkQ1elFWRTFjWEFZZmoxZGNBdjJzRUhEcTZ2M3dxdmZ1NGhlaGg5VFZMY2I0cGNnM3ItSExZV1FrX0RSV1dIVjVFVlV3QVJlTXRkZER4UDc1aU40cm9ON0JjSG8tM3dKVWlxN2pYd3N6QUdZLXcwTGVqQ3E0c0ZBOXFnd2g4c0FB0gGOAUFVX3lxTE5UNWVzU19GRDV6UVZFMWNYQVlmajFkY0F2MnNFSERxNnYzd3F2ZnU0aGVoaDlUVkxjYjRwY2czci1ITFlXUWtfRFJXV0hWNUVWVXdBUmVNdGRkRHhQNzVpTjRyb043QmNIby0zd0pVaXE3alh3c3pBR1ktdzBMZWpDcTRzRkE5cWd3aDhzQUE?oc=5"
-  },
-  {
-   "brand": "corteiz",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "e9344b20b569",
-   "image": null,
-   "published": "2026-11-10T08:00+00:00",
-   "quiet": true,
-   "source": "Time Out Worldwide",
-   "title": "Corteiz is making Tokyo part of its world",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVmhSejdzR3NKN1R1OFc4QkZhWnhTLS1DYTdyazc1MHNRdW00Qm1qVk1yWHlEaUtuck1BaGFHZWNBeDY5QURLVFNCZnJ6ODhObHptangyTDB2ZU01MlBFcFpteWRmMXZ1R2ROLTQtT2c5V2hZcklOM2RaTHR6eFNRam9MNzNzRTFCR3hJ?oc=5"
   }
  ]
 }
