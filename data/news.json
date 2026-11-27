@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "supreme",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "196ec70c38c8",
+   "image": null,
+   "published": "2026-11-27T06:59+00:00",
+   "quiet": true,
+   "source": "House of Heat°",
+   "title": "Supreme x The North Face Fall 2026 Collection Releases on Black Friday",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb0kyNDNnbmZvdzVQU3Q3MUF4aE8zRnktck9tNHFra3NqbmNGWk1IaXlrVGU2cDE1bzFMTGpOdlNMOFpHbzZROWFoNjQyZWQzR0NCRW0ycHY4QXFMbzhXaF8xTjA3T0s5OTdFZEJlTU51T09HdURNdjlEUDVyY283c3RB?oc=5"
+  },
+  {
    "brand": "bape",
    "date": "2026-11-28",
    "date_in_title": false,
@@ -158,18 +170,6 @@
   },
   {
    "brand": "supreme",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "196ec70c38c8",
-   "image": null,
-   "published": "2026-11-24T00:41+00:00",
-   "quiet": true,
-   "source": "House of Heat°",
-   "title": "Supreme x The North Face Fall 2026 Collection Releases on Black Friday",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb0kyNDNnbmZvdzVQU3Q3MUF4aE8zRnktck9tNHFra3NqbmNGWk1IaXlrVGU2cDE1bzFMTGpOdlNMOFpHbzZROWFoNjQyZWQzR0NCRW0ycHY4QXFMbzhXaF8xTjA3T0s5OTdFZEJlTU51T09HdURNdjlEUDVyY283c3RB?oc=5"
-  },
-  {
-   "brand": "supreme",
    "date": "2026-11-27",
    "date_in_title": true,
    "droplist": false,
@@ -250,6 +250,18 @@
    "source": "Hypebeast Fashion",
    "title": "Supreme and The North Face Unveil Fall 2026 Bones Collection",
    "url": "https://hypebeast.com/2026/11/supreme-the-north-face-fall-2026-bones-collection-release-info"
+  },
+  {
+   "brand": "bape",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "44de463acf17",
+   "image": null,
+   "published": "2026-11-23T10:15+00:00",
+   "quiet": true,
+   "source": "PAUSE Online",
+   "title": "BAPE Opens New Paris Store Feat. City-Exclusive Drop",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaXZjb2U3VXZLQUhzUEtFZEgtbHRfU1pubWVIUUJLMjNSNVN0cnB2VWw4QlZaTldRNTQxZWZ2S2RENmIwbTdnWmlDTVh4THpuNmhHRjVmMGI1TThrUEFHd1Q3M1JKRWNxS3pqTl9haEhKbVlYeE9zRUZXa2xzMS1wZUJoLURablRfbzNZ?oc=5"
   },
   {
    "brand": "nike",
@@ -645,18 +657,6 @@
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DajhPTjVGZTVTVFRibDYyZjdjMVFYSW83WnBfdVc1TDY3Wm5hdHVSZFc5bGtQSnB5S1YzdkdkQjYxeHl0UXJlanNnaXRJdDM1TE56YzRpMm9XNjgwZFJJ?oc=5"
   },
   {
-   "brand": "bape",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "03dec0ab07db",
-   "image": null,
-   "published": "2026-11-16T15:49+00:00",
-   "quiet": true,
-   "source": "Hypebae",
-   "title": "Billie Eilish and BAPE Drop Their First-Ever Collaboration",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT3I1enFMMU9MeFhjai1QeVFxU09taDhzQkplcGNrNHN6QkFYZ0k2WTFlZ3lYZktLa3FJMFloWmhtdm5PU0t3d3FQUm40dFpjeFAxbHNQSFNxbHRoUVRxc0NqT2NwS0JCNEt1UkVqdFBtOHlhT2ZlbEhnLXRhWXRkQlFEd0lucnFEMlAya2ZDU2VBVnlObU52SGRB?oc=5"
-  },
-  {
    "brand": "supreme",
    "date_in_title": false,
    "droplist": false,
@@ -714,6 +714,18 @@
    "source": "Hypebeast Fashion",
    "title": "Nike and One Block Down Elevate an Icon With the Air Max 95 Lux “Italy”",
    "url": "https://hypebeast.com/2026/11/one-block-down-nike-air-max-95-lux-italy-release-info"
+  },
+  {
+   "brand": "bape",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "03dec0ab07db",
+   "image": null,
+   "published": "2026-11-16T08:00+00:00",
+   "quiet": true,
+   "source": "Hypebae",
+   "title": "Billie Eilish and BAPE Drop Their First-Ever Collaboration",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT3I1enFMMU9MeFhjai1QeVFxU09taDhzQkplcGNrNHN6QkFYZ0k2WTFlZ3lYZktLa3FJMFloWmhtdm5PU0t3d3FQUm40dFpjeFAxbHNQSFNxbHRoUVRxc0NqT2NwS0JCNEt1UkVqdFBtOHlhT2ZlbEhnLXRhWXRkQlFEd0lucnFEMlAya2ZDU2VBVnlObU52SGRB?oc=5"
   },
   {
    "brand": "supreme",
@@ -941,17 +953,6 @@
    "source": "Hypebeast",
    "title": "8 Drops You Don’t Want to Miss This Week Supreme",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeHdrSGpaTzNSenFsOGcyV0FnelVEYmlhczNMSDNmXzlMVVRNMG1TVlJQNGtkNFo4eUEzNG9ZZWVSeWM3TmtQby1vaXVzTmRFZ3huLVh1ektISzVCTXJIYVVBd2UzQU9GalZ5X3VKMHNKSFhEWmRVUHZ1eHF0TGs3VUlCLWlqeDlBYXJPUFRrVXhxVnljUDQ1WWhFR2RfUklOLTItUlRVZnZLUQ?oc=5"
-  },
-  {
-   "brand": "supreme",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "cb5601910186",
-   "image": "https://images.soleretriever.com/blog/81c5fd371e8a86293449563ec979493c6380d4e7-1240x760.png",
-   "published": "2026-11-10T16:30+00:00",
-   "source": "Sole Retriever",
-   "title": "Supreme and Timberland Bring Bandana Paisley to the Field Boot",
-   "url": "https://www.soleretriever.com/news/articles/supreme-timberland-field-boot-pack-release-date-november-2026"
   }
  ]
 }
