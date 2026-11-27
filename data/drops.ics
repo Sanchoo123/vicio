@@ -365,15 +365,15 @@ DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Ementa: https://emen
 URL:https://ementasb.com
 END:VEVENT
 BEGIN:VEVENT
-UID:nike-2026-11-27-snkrs-0800@vicio
+UID:nike-2026-11-27-snkrs-0836@vicio
 DTSTAMP:20261127T000000Z
-DTSTART:20261127T080000Z
-DTEND:20261127T083000Z
+DTSTART:20261127T083600Z
+DTEND:20261127T090600Z
 SUMMARY:Nike · Rejuven8 Run 4x4 para mulher “Linen and Natural” + 3 l
  ançamentos
 DESCRIPTION:Rejuven8 Run 4x4 para mulher “Linen and Natural” + 3 lanç
- amentos\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https://www.nike.co
- m/pt/launch?s=upcoming
+ amentos\nMétodo: NIKE.COM\nNike SNKRS Portugal: https://www.nike.com/pt/
+ launch?s=upcoming
 URL:https://www.nike.com/pt/launch?s=upcoming
 END:VEVENT
 BEGIN:VEVENT
