@@ -2699,24 +2699,6 @@
    "time": "12:13"
   },
   {
-   "brand": "supreme",
-   "date": "2026-11-26",
-   "id": "supreme-2026-11-26",
-   "image": null,
-   "method": "FCFS",
-   "name": "Drop semanal",
-   "origin": "pattern",
-   "products": [],
-   "sources": [
-    {
-     "name": "Ritmo habitual da marca",
-     "url": "https://eu.supreme.com"
-    }
-   ],
-   "status": "previsto",
-   "time": "16:00"
-  },
-  {
    "brand": "nike",
    "date": "2026-11-27",
    "id": "nike-2026-11-27-snkrs-0800",
@@ -3089,6 +3071,24 @@
    ],
    "status": "previsto",
    "time": "16:00"
+  },
+  {
+   "brand": "palace",
+   "date": "2026-12-18",
+   "id": "palace-2026-12-18",
+   "image": null,
+   "method": "FCFS",
+   "name": "Drop semanal",
+   "origin": "pattern",
+   "products": [],
+   "sources": [
+    {
+     "name": "Ritmo habitual da marca",
+     "url": "https://www.palaceskateboards.com"
+    }
+   ],
+   "status": "previsto",
+   "time": "11:00"
   }
  ]
 }
