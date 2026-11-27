@@ -2987,7 +2987,7 @@
    "id": "nike-2026-12-05-snkrs-0800",
    "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/0f84c72d-bb9b-4b29-8aab-5c2f0ed66f52/air-jordan-5-retro-og-x-solefly-anthracite-and-aurora-green-iu0734-001-%E2%80%93-data-de-lan%C3%A7amento.jpg",
    "method": "SNKRS · FCFS",
-   "name": "Air Jordan 5 Retro OG x SoleFly “Anthracite and Aurora Green” + 1 lançamento",
+   "name": "Air Jordan 5 Retro OG x SoleFly “Anthracite and Aurora Green”",
    "origin": "nike",
    "products": [
     {
@@ -2998,21 +2998,12 @@
      "price": 224.99,
      "sku": "IU0734-001",
      "url": "https://www.nike.com/pt/launch/t/air-jordan-5-retro-og-solefly-anthracite-and-aurora-green"
-    },
-    {
-     "color": "Soft Pearl/Castanho Mink/Castanho Orewood claro/Pomegranate",
-     "currency": "EUR",
-     "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit/cf9a2029-bbed-4ca1-a6c5-fd299c34817a/air-jordan-3-middle-east-soft-pearl-and-mink-brown-ix6986-047-%E2%80%93-data-de-lan%C3%A7amento.jpg",
-     "name": "Air Jordan 3 \"Middle East\" “Soft Pearl and Mink Brown”",
-     "price": 229.99,
-     "sku": "IX6986-047",
-     "url": "https://www.nike.com/pt/launch/t/air-jordan-3-middle-east-soft-pearl-and-mink-brown"
     }
    ],
    "sources": [
     {
      "name": "Nike SNKRS Portugal",
-     "url": "https://www.nike.com/pt/launch?s=upcoming"
+     "url": "https://www.nike.com/pt/launch/t/air-jordan-5-retro-og-solefly-anthracite-and-aurora-green"
     }
    ],
    "status": "confirmado",
