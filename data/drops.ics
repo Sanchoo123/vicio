@@ -417,6 +417,19 @@ URL:https://news.google.com/rss/articles/CBMiekFVX3lxTE9HMFBaakxVODU2Vzd2d
  YtMUVtVjdNTFZfLS1zbkNmSDk2NTFoME1oX3BhSVNyY193LUhRREtHMHlRalRn?oc=5
 END:VEVENT
 BEGIN:VEVENT
+UID:bape-2026-11-28@vicio
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:BAPE · BAPE STA's 25th Anniversary China Exclusive Goes Black Wit
+ h Crackled Silver (rumor)
+DESCRIPTION:BAPE STA's 25th Anniversary China Exclusive Goes Black With Cr
+ ackled Silver\nMétodo: FCFS\nHypebeast: https://hypebeast.com/2026/11/a-
+ bathing-ape-bape-sta-25th-anniversary-china-exclusives-release-info
+URL:https://hypebeast.com/2026/11/a-bathing-ape-bape-sta-25th-anniversary-
+ china-exclusives-release-info
+END:VEVENT
+BEGIN:VEVENT
 UID:nike-2026-12-02-snkrs-0800@vicio
 DTSTAMP:20261202T000000Z
 DTSTART:20261202T080000Z

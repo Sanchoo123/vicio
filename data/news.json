@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "bape",
+   "date": "2026-11-28",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "46c12d6a1351",
+   "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F26%2Fa-bathing-ape-bape-sta-25th-anniversary-china-exclusives-release-info-000.jpg?w=800&cbr=1&q=90&fit=max",
+   "published": "2026-11-27T05:55+00:00",
+   "source": "Hypebeast",
+   "title": "BAPE STA's 25th Anniversary China Exclusive Goes Black With Crackled Silver",
+   "url": "https://hypebeast.com/2026/11/a-bathing-ape-bape-sta-25th-anniversary-china-exclusives-release-info"
+  },
+  {
    "brand": "gallerydept",
    "date_in_title": false,
    "droplist": false,
@@ -940,18 +952,6 @@
    "source": "Sole Retriever",
    "title": "Supreme and Timberland Bring Bandana Paisley to the Field Boot",
    "url": "https://www.soleretriever.com/news/articles/supreme-timberland-field-boot-pack-release-date-november-2026"
-  },
-  {
-   "brand": "corteiz",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "a02d393377ec",
-   "image": null,
-   "published": "2026-11-10T09:24+00:00",
-   "quiet": true,
-   "source": "The Sole Supplier",
-   "title": "Clint 419 on Building Corteiz, Self-Belief & Success",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeDYxb01oUWxuT2tKSGpJY0hvMkhlSEdDUHVGTjRQMkxVb2pocm9uZkc3U1VvMEEzblotamxPYm54Smw1NGE0Nk9jYk9FWmNEY3JPMkUteHB3cmg1aXE5RGxMRFNCZDFGQ0tZZ1F6VEJ4YVN3cmlSb1I0THB3WTNWenlobTE5UDRXSmlnZ1hCcHNMWkVSWmt4ZFQ0ZzR1Z24xQ2VV?oc=5"
   }
  ]
 }

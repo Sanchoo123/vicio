@@ -36,6 +36,7 @@
   "4095223d609c",
   "4514ec291d5c",
   "45706869ef30",
+  "46c12d6a1351",
   "4926e4e5d4b4",
   "4be007f4dbfc",
   "501a02705b43",
@@ -195,6 +196,14 @@
    "img": false,
    "n": 0,
    "status": "confirmado",
+   "time": null
+  },
+  "bape-2026-11-28": {
+   "date": "2026-11-28",
+   "droplist": false,
+   "img": true,
+   "n": 0,
+   "status": "rumor",
    "time": null
   },
   "corteiz-2026-11-15": {

@@ -2835,6 +2835,24 @@
    "time": null
   },
   {
+   "brand": "bape",
+   "date": "2026-11-28",
+   "id": "bape-2026-11-28",
+   "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F26%2Fa-bathing-ape-bape-sta-25th-anniversary-china-exclusives-release-info-000.jpg?w=800&cbr=1&q=90&fit=max",
+   "method": "FCFS",
+   "name": "BAPE STA's 25th Anniversary China Exclusive Goes Black With Crackled Silver",
+   "origin": "rss",
+   "products": [],
+   "sources": [
+    {
+     "name": "Hypebeast",
+     "url": "https://hypebeast.com/2026/11/a-bathing-ape-bape-sta-25th-anniversary-china-exclusives-release-info"
+    }
+   ],
+   "status": "rumor",
+   "time": null
+  },
+  {
    "brand": "nike",
    "date": "2026-12-02",
    "id": "nike-2026-12-02-snkrs-0800",
