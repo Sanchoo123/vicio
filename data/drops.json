@@ -2799,6 +2799,265 @@
    "time": "11:00"
   },
   {
+   "brand": "corteiz",
+   "date": "2026-11-27",
+   "id": "corteiz-2026-11-27",
+   "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/ITALIATRACKPANT_CREAM_01.png?v=1756984938",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/ITALIATRACKPANT_CREAM_01.png?v=1756984938",
+     "name": "ITALIA TRACK PANT [CREAM]",
+     "price": 60.0,
+     "url": "https://www.crtz.xyz/products/italia-track-pant"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/2LAYERSHUKUJACKET_DESERTCAMO_01.png?v=1756984805",
+     "name": "DUAL-LAYER LITEWORK JACKET [DESERT CAMO]",
+     "price": 105.0,
+     "url": "https://www.crtz.xyz/products/dual-layer-litework-jacket-desert-camo"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/GUERILLAZTHERMALLSTEE_CAMO_01.png?v=1756984920",
+     "name": "GUERILLAZ THERMAL LS TEE [WOODLAND CAMO]",
+     "price": 27.0,
+     "url": "https://www.crtz.xyz/products/guerillaz-thermal-ls-tee-woodland-camo"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/GUERILLAZTHERMALLSTEE_BLACK_01.png?v=1756984922",
+     "name": "GUERILLAZ THERMAL LS TEE [BLACK]",
+     "price": 27.0,
+     "url": "https://www.crtz.xyz/products/guerillaz-thermal-ls-tee-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/GUERILLAZTHERMALLSTEE_CREAM_01.png?v=1756984924",
+     "name": "GUERILLAZ THERMAL LS TEE [CREAM]",
+     "price": 27.0,
+     "url": "https://www.crtz.xyz/products/guerillaz-thermal-ls-tee-cream"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/3PackTank_Black_02.png?v=1756985235",
+     "name": "HMP CLASSIC TANK TOP [3PK] [BLACK]",
+     "price": 24.0,
+     "url": "https://www.crtz.xyz/products/hmp-classic-tank-top-3pk-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/3PackTank_White_02.png?v=1756985237",
+     "name": "HMP CLASSIC TANK TOP [3PK] [WHITE]",
+     "price": 24.0,
+     "url": "https://www.crtz.xyz/products/hmp-classic-tank-top-3pk-white"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/teesbfcover.png?v=1795717796",
+     "name": "MYSTERY TEE",
+     "price": 20.0,
+     "url": "https://www.crtz.xyz/products/lotto-t-shirts"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/MensContrastVest_Black_01.png?v=1756985862",
+     "name": "MENS CONTRAST ALLSTARZ TANK TOP [BLACK]",
+     "price": 9.0,
+     "url": "https://www.crtz.xyz/products/mens-allstarz-contrast-vest-black-white"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/Short_BlackYellow_01.png?v=1756985820",
+     "name": "SPRING SHORTS [BLACK & YELLOW]",
+     "price": 48.0,
+     "url": "https://www.crtz.xyz/products/spring-shorts-blk-ylw"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/products/image_151389fc-cd12-4b18-8a11-a4dc2ea87eab.png?v=1678659631",
+     "name": "FLEECE GLOVES [STONE]",
+     "price": 20.0,
+     "url": "https://www.crtz.xyz/products/m-mblack-leathers-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/CargoJacket_Olive_01.png?v=1756985723",
+     "name": "STORM JACKET [KHAKI]",
+     "price": 90.0,
+     "url": "https://www.crtz.xyz/products/storm-jacket-khaki"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/Jacket_Vanilla_01.png?v=1756985694",
+     "name": "ALLSTARZ VVS VELOUR JACKET [VANILLA]",
+     "price": 70.0,
+     "url": "https://www.crtz.xyz/products/allstarz-vvs-velour-jacket-vanilla"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/Pant_Cream_01.png?v=1756985693",
+     "name": "ALLSTARZ VVS VELOUR BOTTOMS [VANILLA]",
+     "price": 65.0,
+     "url": "https://www.crtz.xyz/products/allstarz-vvs-velour-bottoms-vanilla"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/JungleJacket_Orange_01.png?v=1756985692",
+     "name": "GUTTA WATERPROOF JACKET [BURNT ORANGE]",
+     "price": 90.0,
+     "url": "https://www.crtz.xyz/products/gutta-waterproof-jacket-burnt-orange"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/Joggers_Blue_01.png?v=1756985686",
+     "name": "GASOLINA BOTTOMS [ROYAL BLUE]",
+     "price": 55.0,
+     "url": "https://www.crtz.xyz/products/gasolina-bottoms-royal-blue"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/Joggers_Black_01_75708f6f-6c00-4e6d-9914-a56831b7d931.png?v=1756985686",
+     "name": "SUPERIOR V2 BOTTOMS [BLACK]",
+     "price": 55.0,
+     "url": "https://www.crtz.xyz/products/superior-v2-bottoms-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/Jacket_Olive_01.png?v=1756985671",
+     "name": "GUTTA WATERPROOF JACKET [GREEN]",
+     "price": 90.0,
+     "url": "https://www.crtz.xyz/products/gutter-suit-jacket-green"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/JungleSuitPants_Orange_01_36a5fd06-265a-4ae2-9913-b469cf114807.png?v=1756985652",
+     "name": "GUTTA WATERPROOF BOTTOMS [BURNT ORANGE]",
+     "price": 75.0,
+     "url": "https://www.crtz.xyz/products/gutta-waterproof-bottoms-burnt-orange"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/DenimC-StarJacket_02.png?v=1756985643",
+     "name": "C-STAR DENIM TRUCKER JACKET [WASHED BLUE]",
+     "price": 98.0,
+     "url": "https://www.crtz.xyz/products/c-star-denim-trucker-jacket"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/CRTZ_RugbyShirt_Green_01.png?v=1756985605",
+     "name": "RUGBY SHIRT [FOREST GREEN]",
+     "price": 50.0,
+     "url": "https://www.crtz.xyz/products/rugby-shirt-forest-green"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/230405_SHGRIFFITHS_CORTEIZ_PRODUCT27_04.png?v=1684839812",
+     "name": "BOX TRUCKER [BLACK]",
+     "price": 21.0,
+     "url": "https://www.crtz.xyz/products/box-trucker-black"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/CRTZ_FootballJersey_Multi_01.png?v=1756985596",
+     "name": "STELLATIONS FOOTBALL JERSEY [BLACK]",
+     "price": 50.0,
+     "url": "https://www.crtz.xyz/products/stellations-football-jersey-black"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/DenimShort_White_02.png?v=1756985574",
+     "name": "C-STAR DENIM SHORTS [NATURAL]",
+     "price": 60.0,
+     "url": "https://www.crtz.xyz/products/c-star-denim-jorts-natural"
+    },
+    {
+     "available": false,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/A598F431-C819-4C22-872A-A0ADBFCEADB9.png?v=1756985542",
+     "name": "VVS VELOUR BOTTOMS [BLACK]",
+     "price": 65.0,
+     "url": "https://www.crtz.xyz/products/vvs-velour-bottoms-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/NJetC83Q.png?v=1756985539",
+     "name": "DEALA KNIT TEE [BURGUNDY]",
+     "price": 35.0,
+     "url": "https://www.crtz.xyz/products/copy-of-s-s-racer-half-zip-cream"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/sK5sJPZQ.png?v=1756985538",
+     "name": "DEALA KNIT TEE [BLACK]",
+     "price": 35.0,
+     "url": "https://www.crtz.xyz/products/copy-of-deala-knit-tee-forest-green"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/CRTZ_RTWBomber_Black_02.png?v=1756985528",
+     "name": "OLDE ENGLISH QUILTED BOMBER JACKET [BLACK]",
+     "price": 90.0,
+     "url": "https://www.crtz.xyz/products/olde-english-quilted-bomber-jacket-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/C22290F9-6FA7-4501-9738-BA92A4F1B5A1.png?v=1756985513",
+     "name": "ALCATRAZ PATTERN DENIM JEANS [KHAKI]",
+     "price": 65.0,
+     "url": "https://www.crtz.xyz/products/alcatraz-pattern-denim-jeans-khaki"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/LSJersey_Green_01.png?v=1756985504",
+     "name": "BOCA SENIOR LONG SLEEVE [FOREST GREEN]",
+     "price": 50.0,
+     "url": "https://www.crtz.xyz/products/boca-senior-long-sleeve-forest-green"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja Corteiz",
+     "url": "https://www.crtz.xyz"
+    }
+   ],
+   "status": "confirmado",
+   "time": "19:07"
+  },
+  {
    "brand": "bape",
    "date": "2026-11-27",
    "id": "bape-2026-11-27",

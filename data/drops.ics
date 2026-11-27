@@ -387,6 +387,16 @@ DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
 URL:https://www.palaceskateboards.com
 END:VEVENT
 BEGIN:VEVENT
+UID:corteiz-2026-11-27@vicio
+DTSTAMP:20261127T000000Z
+DTSTART:20261127T190700Z
+DTEND:20261127T193700Z
+SUMMARY:Corteiz · Peças novas na loja
+DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Corteiz: https://www
+ .crtz.xyz
+URL:https://www.crtz.xyz
+END:VEVENT
+BEGIN:VEVENT
 UID:bape-2026-11-27@vicio
 DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
