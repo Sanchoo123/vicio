@@ -471,6 +471,14 @@
    "status": "rumor",
    "time": null
   },
+  "nike-2026-12-05-snkrs-0800": {
+   "date": "2026-12-05",
+   "droplist": false,
+   "img": true,
+   "n": 2,
+   "status": "confirmado",
+   "time": "08:00"
+  },
   "nike-2026-12-12-snkrs-0800": {
    "date": "2026-12-12",
    "droplist": false,

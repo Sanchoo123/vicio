@@ -486,6 +486,18 @@ DESCRIPTION:Drop semanal\nMétodo: FCFS\nRitmo habitual da marca: https://
 URL:https://www.palaceskateboards.com
 END:VEVENT
 BEGIN:VEVENT
+UID:nike-2026-12-05-snkrs-0800@vicio
+DTSTAMP:20261205T000000Z
+DTSTART:20261205T080000Z
+DTEND:20261205T083000Z
+SUMMARY:Nike · Air Jordan 5 Retro OG x SoleFly “Anthracite and Aurora G
+ reen” + 1 lançamento
+DESCRIPTION:Air Jordan 5 Retro OG x SoleFly “Anthracite and Aurora Green
+ ” + 1 lançamento\nMétodo: SNKRS · FCFS\nNike SNKRS Portugal: https:/
+ /www.nike.com/pt/launch?s=upcoming
+URL:https://www.nike.com/pt/launch?s=upcoming
+END:VEVENT
+BEGIN:VEVENT
 UID:supreme-2026-12-10@vicio
 DTSTAMP:20261210T000000Z
 DTSTART:20261210T160000Z
