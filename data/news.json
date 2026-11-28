@@ -1,6 +1,18 @@
 {
  "news": [
   {
+   "brand": "nike",
+   "date": "2026-12-03",
+   "date_in_title": false,
+   "droplist": false,
+   "id": "fb1c2ef3273a",
+   "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F27%2Fnike-undercover-gyakusou-collab-release-info-000.jpg?w=800&cbr=1&q=90&fit=max",
+   "published": "2026-11-28T06:00+00:00",
+   "source": "Hypebeast Fashion",
+   "title": "Jun Takahashi’s UNDERCOVER and Nike Return With a Minimalist GYAKUSOU Capsule",
+   "url": "https://hypebeast.com/2026/11/nike-undercover-gyakusou-collab-release-info"
+  },
+  {
    "brand": "supreme",
    "date_in_title": false,
    "droplist": false,
@@ -941,18 +953,6 @@
    "source": "House of Heat°",
    "title": "Paisley Takes Over Supreme’s Latest Timberland Collaboration",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaFhySTU0WDRMOW90WlhmdUxrWnU2WkIyZjhjYjNwcE1fM1hsTW9wbS1kZ2lQTF9sdjZsUnJIVHlqNFZ5aFotcTRnYndIRUtZUml0ZktpXzlOd2t2LWFxTFRrZkl5c1ktWGJzbW5rUTRpSE03OHlPQUpGTVRHZFFGZXpobVpIcFg0YmFfbjFPbmY?oc=5"
-  },
-  {
-   "brand": "nike",
-   "date": "2026-11-12",
-   "date_in_title": false,
-   "droplist": false,
-   "id": "aa30b551bdc7",
-   "image": "https://sneakernews.com/wp-content/uploads/2026/11/nike-air-bakin-royal-store-list-2.jpg",
-   "published": "2026-11-11T23:00+00:00",
-   "source": "Sneaker News",
-   "title": "Where To Buy The Nike Air Bakin “Varsity Royal”",
-   "url": "https://sneakernews.com/2026/11/11/nike-air-bakin-royal-store-list/"
   }
  ]
 }
