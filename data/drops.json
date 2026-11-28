@@ -3167,6 +3167,265 @@
    "time": "08:07"
   },
   {
+   "brand": "corteiz",
+   "date": "2026-11-28",
+   "id": "corteiz-2026-11-28",
+   "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/RTWKNITHOODIE_OLIVE_01.png?v=1771859024",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/RTWKNITHOODIE_OLIVE_01.png?v=1771859024",
+     "name": "HUEY KNIT HOODIE [OLIVE]",
+     "price": 104.0,
+     "url": "https://www.crtz.xyz/products/huey-knit-hoodie-olive"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/HMPMILANONYLONHOODIE_BLACK_01.png?v=1763986099",
+     "name": "HMP MILANO NYLON HOODIE [BLACK]",
+     "price": 98.0,
+     "url": "https://www.crtz.xyz/products/hmp-milano-nylon-hoodie"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/STAR_RAGLAN_WAFFLE_THERMAL_YELLOW_1.png?v=1761865041",
+     "name": "STAR RAGLAN WAFFLE THERMAL [YELLOW]",
+     "price": 52.5,
+     "url": "https://www.crtz.xyz/products/star-raglan-ls-yellow"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/SKETLSTop_01.png?v=1758648308",
+     "name": "SKET RAGLAN LS [NAVY]",
+     "price": 45.0,
+     "url": "https://www.crtz.xyz/products/sket-raglan-ls-navy"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/STRIPEDFOOTBALLTOP_RED_01_c1cd7eea-909c-4b09-a8fe-33bc5f5412c0.png?v=1757504322",
+     "name": "STRIPED KNIT JERSEY [RED]",
+     "price": 70.0,
+     "url": "https://www.crtz.xyz/products/striped-knit-jersey-red"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/CROCHETAPPLIQUEKNITCREW_BLACK_02.png?v=1763644143",
+     "name": "CROCHET APPLIQUE KNIT CREW [TRIPLE BLACK]",
+     "price": 91.0,
+     "url": "https://www.crtz.xyz/products/crochet-applique-knit-crew-triple-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/DRAGONRAGLANLS_ORANGE-RED_01.png?v=1756984821",
+     "name": "DRAGON RAGLAN LS [ORANGE]",
+     "price": 45.0,
+     "url": "https://www.crtz.xyz/products/dragon-raglan-ls-orange"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/SERIESAKNITJERSEY_BLUE_01.png?v=1756984826",
+     "name": "SERIE A KNIT JERSEY [BLUE]",
+     "price": 50.0,
+     "url": "https://www.crtz.xyz/products/serie-a-knit-jersey-blue"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/SERIESAKNITJERSEY_WHITE_01.png?v=1756984828",
+     "name": "SERIE A KNIT JERSEY [WHITE]",
+     "price": 50.0,
+     "url": "https://www.crtz.xyz/products/serie-a-knit-jersey-1"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/SERIESAKNITJERSEY_YELLOW_01.png?v=1756984829",
+     "name": "SERIE A KNIT JERSEY [YELLOW]",
+     "price": 50.0,
+     "url": "https://www.crtz.xyz/products/serie-a-knit-jersey"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/ISLANDPIPEDPOLOSHORT_GREY_01.png?v=1756984839",
+     "name": "ISLAND PIQUE SHORT [GREY]",
+     "price": 51.0,
+     "url": "https://www.crtz.xyz/products/island-pique-short-grey"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/SHIELDFLEECESWEATSHORT_HEATHERGREY_01.png?v=1756984860",
+     "name": "ROYALE CREST SWEATSHORT [HEATHER GREY]",
+     "price": 56.0,
+     "url": "https://www.crtz.xyz/products/royale-crest-sweatshort-heather-grey"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/ALCSWEATSHORT_CAMO_01.png?v=1756984864",
+     "name": "ISLAND PUFF PRINT SWEATSHORT [ARCTIC CAMO]",
+     "price": 49.0,
+     "url": "https://www.crtz.xyz/products/island-sweatshort-arctic-camo"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/ISLANDSWEATSHORT_BABYBLUE_01.png?v=1756984875",
+     "name": "ISLAND PUFF PRINT SWEATSHORT [BABY BLUE]",
+     "price": 49.0,
+     "url": "https://www.crtz.xyz/products/island-puff-print-sweatshort-baby-blue"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/ISLANDSWEATSHORT_GREEN_01.png?v=1756984887",
+     "name": "ISLAND PUFF PRINT SWEATSHORT [GREEN]",
+     "price": 49.0,
+     "url": "https://www.crtz.xyz/products/island-puff-print-sweatshort-green"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/SHIELDFLEECEOPENHEMPANT_CREAM_01.png?v=1756984894",
+     "name": "ROYALE CREST OPEN HEM SWEATPANT [CREAM]",
+     "price": 77.0,
+     "url": "https://www.crtz.xyz/products/royale-crest-open-hem-sweatpant-cream"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/SHIELDFLEECEQUARTERZIP_CREAM_01.png?v=1756984895",
+     "name": "ROYALE CREST QUARTER ZIP [CREAM]",
+     "price": 72.0,
+     "url": "https://www.crtz.xyz/products/royale-crest-quarter-zip-cream"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/OpenMeshPanelJersey_YellowBlack_01.png?v=1756984899",
+     "name": "OPEN MESH PANEL JERSEY [YELLOW/BLACK]",
+     "price": 56.0,
+     "url": "https://www.crtz.xyz/products/open-mesh-panel-jersey-yellow-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/OpenMeshPanelJersey_BabyBlueWhite_01.png?v=1756984901",
+     "name": "OPEN MESH PANEL JERSEY [BABY BLUE/WHITE]",
+     "price": 56.0,
+     "url": "https://www.crtz.xyz/products/open-mesh-panel-jersey-baby-blue-white"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/WOOSHMESHLSJERSEY_BLUE_01.png?v=1756984907",
+     "name": "WOOSH MESH LS JERSEY [ROYAL BLUE]",
+     "price": 50.0,
+     "url": "https://www.crtz.xyz/products/woosh-mesh-ls-jersey-royal-blue"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/LIONOPENHEMSWEATPANT_LIGHTHEATHER_01.png?v=1756984930",
+     "name": "LION OPEN HEM SWEATPANT [LIGHT HEATHER]",
+     "price": 69.0,
+     "url": "https://www.crtz.xyz/products/lion-open-hem-sweatpant-light-heather"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/LIONBOXYHOODIE_LIGHTHEATHER_01.png?v=1756984930",
+     "name": "LION BOXY ZIP HOODIE [LIGHT HEATHER]",
+     "price": 84.0,
+     "url": "https://www.crtz.xyz/products/lion-boxy-zip-hoodie-1"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/WOOSHOPENHEMSWEATPANTS_BLACK_01.png?v=1756984932",
+     "name": "WOOSH OPEN HEM SWEATPANT [BLACK]",
+     "price": 66.0,
+     "url": "https://www.crtz.xyz/products/woosh-open-hem-sweatpants"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/WOOSHHOODIE_BLACK_02.png?v=1764767642",
+     "name": "WOOSH HOODIE [BLACK]",
+     "price": 72.0,
+     "url": "https://www.crtz.xyz/products/woosh-hoodie-black"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/LionBoxyZipHoodie_Black_01_1.png?v=1756984965",
+     "name": "LION BOXY ZIP HOODIE [BLACK]",
+     "price": 84.0,
+     "url": "https://www.crtz.xyz/products/lion-boxy-zip-hoodie"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/SnakeWoolVarsityJacket_Black_02.png?v=1756984965",
+     "name": "CASENTINO WOOL VARSITY JACKET [BLACK]",
+     "price": 190.0,
+     "url": "https://www.crtz.xyz/products/snake-wool-varsity"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/V2VelourTrackPant_Grey_01_39e137c7-a8cf-4f84-90da-a71bf92d5891.png?v=1756984992",
+     "name": "VVS UPTOWN VELOUR TRACK PANT [GREY]",
+     "price": 65.0,
+     "url": "https://www.crtz.xyz/products/vvs-uptown-track-pant-grey-updated-baggy-fit"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/CRTZBaseballHat_GreenWhite_01.png?v=1726672160",
+     "name": "CRTZ CUBS SNAPBACK [GREEN]",
+     "price": 17.5,
+     "url": "https://www.crtz.xyz/products/crtz-cubs-snapback-green"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/MohairFuzzyCollarSweater_BlackGrey_01.png?v=1756985042",
+     "name": "MOHAIR FUZZY COLLAR SWEATER [BLACK & GREY]",
+     "price": 65.0,
+     "url": "https://www.crtz.xyz/products/mohair-fuzzy-collar-sweater-black-grey"
+    },
+    {
+     "available": true,
+     "currency": "GBP",
+     "image": "https://cdn.shopify.com/s/files/1/0001/8192/7990/files/KnitZipUp_BlackGrey_01_b6539cc4-edd1-4dc6-a0a6-bd9c56cc3ce4.png?v=1756985042",
+     "name": "VVS KNIT ZIP UP [BLACK & GREY]",
+     "price": 60.0,
+     "url": "https://www.crtz.xyz/products/vvs-knit-zip-up-black-grey"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja Corteiz",
+     "url": "https://www.crtz.xyz"
+    }
+   ],
+   "status": "confirmado",
+   "time": "13:37"
+  },
+  {
    "brand": "nike",
    "date": "2026-12-02",
    "id": "nike-2026-12-02-snkrs-0800",
