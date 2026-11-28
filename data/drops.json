@@ -3079,19 +3079,92 @@
    "brand": "bape",
    "date": "2026-11-28",
    "id": "bape-2026-11-28",
-   "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F26%2Fa-bathing-ape-bape-sta-25th-anniversary-china-exclusives-release-info-000.jpg?w=800&cbr=1&q=90&fit=max",
+   "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001LJM801309_GRN_A_2.jpg?v=1795526428",
    "method": "FCFS",
-   "name": "BAPE STA's 25th Anniversary China Exclusive Goes Black With Crackled Silver",
-   "origin": "rss",
-   "products": [],
-   "sources": [
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
     {
-     "name": "Hypebeast",
-     "url": "https://hypebeast.com/2026/11/a-bathing-ape-bape-sta-25th-anniversary-china-exclusives-release-info"
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001LJM801309_GRN_A_2.jpg?v=1795526428",
+     "name": "1ST CAMO TRACK JACKET",
+     "price": 419.0,
+     "url": "https://eu.bape.com/products/0zxljm309401r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001LJM801318_GRN_A.jpg?v=1795526593",
+     "name": "1ST CAMO SHERPA JACKET",
+     "price": 409.0,
+     "url": "https://eu.bape.com/products/0zxljm318401r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001TEM801012_BK0_A_4.jpg?v=1795623011",
+     "name": "1ST CAMO COLLEGE TEE",
+     "price": 95.0,
+     "url": "https://eu.bape.com/products/0zxtem012101r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001LJM701010_BLK_A_2.jpg?v=1795528461",
+     "name": "SHARK FUR HOODIE JACKET",
+     "price": 539.0,
+     "url": "https://eu.bape.com/products/0zxljm010401r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001ZPM801006_GRN_A_3.jpg?v=1795528302",
+     "name": "1ST CAMO THERMAL ONE POINT WAFFLE ZIP UP HOODIE",
+     "price": 339.0,
+     "url": "https://eu.bape.com/products/0zxswm006151r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001HTM701005_BLK_A.jpg?v=1795528765",
+     "name": "APE HEAD REVERSIBLE KNIT BALACLAVA",
+     "price": 85.0,
+     "url": "https://eu.bape.com/products/0zxacmx00581r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/001LJM701011_GRN_A_3.jpg?v=1795528605",
+     "name": "1ST CAMO SHARK BOA HOODIE JACKET",
+     "price": 519.0,
+     "url": "https://eu.bape.com/products/0zxljm011401r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/Bape4446x1.jpg?v=1795534638",
+     "name": "EU BAPE STA #1 MENS",
+     "price": 299.0,
+     "url": "https://eu.bape.com/products/0zxshmx30991r"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0691/3110/8577/files/Bape4446x1_c8ea5724-12a5-4f2d-b637-426e0ab1deaa.jpg?v=1795535397",
+     "name": "EU BAPE STA #1 LADIES",
+     "price": 299.0,
+     "url": "https://eu.bape.com/products/0zxshwx30991r"
     }
    ],
-   "status": "rumor",
-   "time": null
+   "sources": [
+    {
+     "name": "Loja BAPE",
+     "url": "https://eu.bape.com"
+    }
+   ],
+   "status": "confirmado",
+   "time": "08:07"
   },
   {
    "brand": "nike",
