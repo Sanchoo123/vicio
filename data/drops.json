@@ -3429,7 +3429,7 @@
    "brand": "vigilance",
    "date": "2026-11-28",
    "id": "vigilance-2026-11-28",
-   "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/Bluewind6.jpg?v=1795874429",
+   "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/windpurplwfinal.jpg?v=1795874671",
    "method": "FCFS",
    "name": "Peças novas na loja",
    "origin": "shopify",
@@ -3437,18 +3437,18 @@
     {
      "available": true,
      "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/Bluewind6.jpg?v=1795874429",
-     "name": "VIGILANCE ROYAL BLUE TECH WINDBREAKER",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/windpurplwfinal.jpg?v=1795874671",
+     "name": "VIGILANCE LAVENDER TECH WINDBREAKER",
      "price": 70.0,
-     "url": "https://vigilancesb.com/products/vigilance-royal-blue-tech-windbreaker"
+     "url": "https://vigilancesb.com/products/vigilance-purple-tech-windbreaker"
     },
     {
      "available": true,
      "currency": "EUR",
-     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/greenwind3.png?v=1795874528",
-     "name": "VIGILANCE GREEN TECH WINDBREAKER",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/camelwind22.jpg?v=1795874874",
+     "name": "VIGILANCE SAND TECH WINDBREAKER",
      "price": 70.0,
-     "url": "https://vigilancesb.com/products/vigilance-green-tech-windbreaker"
+     "url": "https://vigilancesb.com/products/vigilance-camel-tech-windbreaker"
     }
    ],
    "sources": [
@@ -3458,7 +3458,7 @@
     }
    ],
    "status": "confirmado",
-   "time": "14:07"
+   "time": "14:37"
   },
   {
    "brand": "nike",
