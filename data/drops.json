@@ -2781,24 +2781,6 @@
    "time": "08:36"
   },
   {
-   "brand": "palace",
-   "date": "2026-11-27",
-   "id": "palace-2026-11-27",
-   "image": null,
-   "method": "FCFS",
-   "name": "Drop semanal",
-   "origin": "pattern",
-   "products": [],
-   "sources": [
-    {
-     "name": "Ritmo habitual da marca",
-     "url": "https://www.palaceskateboards.com"
-    }
-   ],
-   "status": "previsto",
-   "time": "11:00"
-  },
-  {
    "brand": "corteiz",
    "date": "2026-11-27",
    "id": "corteiz-2026-11-27",
