@@ -3426,6 +3426,41 @@
    "time": "13:37"
   },
   {
+   "brand": "vigilance",
+   "date": "2026-11-28",
+   "id": "vigilance-2026-11-28",
+   "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/Bluewind6.jpg?v=1795874429",
+   "method": "FCFS",
+   "name": "Peças novas na loja",
+   "origin": "shopify",
+   "products": [
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/Bluewind6.jpg?v=1795874429",
+     "name": "VIGILANCE ROYAL BLUE TECH WINDBREAKER",
+     "price": 70.0,
+     "url": "https://vigilancesb.com/products/vigilance-royal-blue-tech-windbreaker"
+    },
+    {
+     "available": true,
+     "currency": "EUR",
+     "image": "https://cdn.shopify.com/s/files/1/0686/4283/2652/files/greenwind3.png?v=1795874528",
+     "name": "VIGILANCE GREEN TECH WINDBREAKER",
+     "price": 70.0,
+     "url": "https://vigilancesb.com/products/vigilance-green-tech-windbreaker"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Loja Vigilance",
+     "url": "https://vigilancesb.com"
+    }
+   ],
+   "status": "confirmado",
+   "time": "14:07"
+  },
+  {
    "brand": "nike",
    "date": "2026-12-02",
    "id": "nike-2026-12-02-snkrs-0800",

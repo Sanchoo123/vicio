@@ -437,6 +437,16 @@ DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Corteiz: https://www
 URL:https://www.crtz.xyz
 END:VEVENT
 BEGIN:VEVENT
+UID:vigilance-2026-11-28@vicio
+DTSTAMP:20261128T000000Z
+DTSTART:20261128T140700Z
+DTEND:20261128T143700Z
+SUMMARY:Vigilance · Peças novas na loja
+DESCRIPTION:Peças novas na loja\nMétodo: FCFS\nLoja Vigilance: https://v
+ igilancesb.com
+URL:https://vigilancesb.com
+END:VEVENT
+BEGIN:VEVENT
 UID:nike-2026-12-02-snkrs-0800@vicio
 DTSTAMP:20261202T000000Z
 DTSTART:20261202T080000Z

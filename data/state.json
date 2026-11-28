@@ -679,6 +679,14 @@
    "n": 12,
    "status": "confirmado",
    "time": "21:59"
+  },
+  "vigilance-2026-11-28": {
+   "date": "2026-11-28",
+   "droplist": false,
+   "img": true,
+   "n": 2,
+   "status": "confirmado",
+   "time": "14:07"
   }
  },
  "stores": {
@@ -3163,7 +3171,9 @@
     16626928812300,
     16626940150028,
     16627316228364,
-    16627491963148
+    16627491963148,
+    16633753075980,
+    16633773687052
    ],
    "locked": false,
    "url": "https://vigilancesb.com",
